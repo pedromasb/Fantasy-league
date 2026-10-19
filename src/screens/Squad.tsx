@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Ledger } from '../components/Ledger'
 import { PlayerRow } from '../components/PlayerRow'
 import { Empty, Section, Segmented, ScoreRing } from '../components/ui'
 import { bestLineup, marketInsights, squadMembers, summarize, teamValueOf, type SquadMember } from '../lib/analysis'
@@ -197,8 +198,13 @@ export function Squad() {
             ))}
         </div>
       </Section>
+      {(state.ledger ?? []).length > 0 && (
+        <Section title="💶 Operaciones" sub="Tu histórico de compras, ventas y cláusulas">
+          <Ledger />
+        </Section>
+      )}
       {members.some((m) => m.value === undefined) && (
-        <p className="footnote">Algunos jugadores no tienen valor todavía: aparecerá cuando salgan en el mercado o si pegas el texto de la pestaña "Squad".</p>
+        <p className="footnote">Algunos jugadores aún no tienen valor: aparecerá cuando me pases la pestaña Squad.</p>
       )}
     </div>
   )

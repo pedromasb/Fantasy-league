@@ -79,6 +79,20 @@ export interface PendingBid {
   note?: string
 }
 
+export interface LedgerItem {
+  date: string
+  kind: 'compra' | 'venta' | 'clausula' | 'expirado'
+  /** Set when the player is tracked in `players`. */
+  playerId?: string
+  playerName: string
+  amount?: number
+  /** Manager or LALIGA on the other side of the deal. */
+  counterpart?: string
+  /** Clause changes: old and new clause. */
+  from?: number
+  to?: number
+}
+
 export interface SquadSnapshot {
   date: string
   formation?: string
@@ -122,8 +136,13 @@ export interface AppState {
   squads: Record<string, SquadSnapshot>
   /** playerId -> purchase price */
   purchases: Record<string, number>
+  /** Available balance after pending bids (what the game shows in red/green). */
   budget?: number
   budgetDate?: string
+  /** Cash before pending bids. */
+  cash?: number
+  /** Purchases, sales and clause changes from the Historical tab. */
+  ledger?: LedgerItem[]
   /** Bids placed in the market that have not resolved yet. */
   bids?: PendingBid[]
   /** date (YYYY-MM-DD) -> daily report */

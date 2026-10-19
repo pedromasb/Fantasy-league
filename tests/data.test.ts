@@ -22,6 +22,8 @@ describe('public/data/fantasy.json', () => {
         ...(r.lineup?.ids ?? []),
       ]),
       ...Object.keys(state.purchases),
+      ...(state.bids ?? []).map((b) => b.playerId),
+      ...(state.ledger ?? []).map((l) => l.playerId).filter((x): x is string => !!x),
     ]
     expect(refs.filter((id) => !ids.has(id))).toEqual([])
   })

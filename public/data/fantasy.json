@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-19T23:30:00+02:00",
+ "updated": "2026-10-20T00:30:00+02:00",
  "players": {
   "luis-castro": {
    "id": "luis-castro",
@@ -966,6 +966,149 @@
    ],
    "id": "galdin",
    "statsUpdated": "2026-10-19"
+  },
+  "jose-alberto": {
+   "name": "José Alberto",
+   "pos": "COA",
+   "team": "Racing de Santander",
+   "fullName": "José Alberto López",
+   "news": [
+    {
+     "date": "2026-10-20",
+     "text": "Entrenador del recién ascendido Racing, con contrato hasta 2028. Las noticias de esta temporada son confusas: algunas lo sitúan líder tras la jornada 9 y otras hablan de malestar en El Sardinero.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "El Gol Digital",
+     "url": "https://www.elgoldigital.com/futbol/racing-de-santander/jose-alberto-asegura-que-liderar-la-jornada-nueve-no-garantiza-exito/"
+    },
+    {
+     "title": "El Gol Digital",
+     "url": "https://www.elgoldigital.com/futbol/racing-de-santander/jose-alberto-ignora-el-ascenso-y-el-sardinero-pide-su-despido/"
+    }
+   ],
+   "id": "jose-alberto",
+   "statsUpdated": "2026-10-20"
+  },
+  "mikel-rodriguez": {
+   "name": "Mikel Rodríguez",
+   "pos": "MID",
+   "team": "Alavés",
+   "fullName": "Mikel Rodríguez",
+   "news": [
+    {
+     "date": "2026-09-25",
+     "text": "Rotura del ligamento cruzado anterior de la rodilla derecha en un entrenamiento; operado. Baja para toda la temporada.",
+     "tone": "bad"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jornada Perfecta",
+     "url": "https://www.jornadaperfecta.com/blog/mikel-rodriguez-lesion-rodilla-alaves/"
+    },
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/noticias/37744/el-alaves-encaja-un-golpe-inesperado-con-mikel-rodriguez"
+    }
+   ],
+   "id": "mikel-rodriguez",
+   "statsUpdated": "2026-10-20"
+  },
+  "nunez": {
+   "name": "Nuñez",
+   "pos": "DEF",
+   "team": "Espanyol",
+   "fullName": "Unai Núñez",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 5,
+     "starts": 5,
+     "minutes": 423
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-08-07",
+     "text": "Cedido por el Celta al Espanyol con opción de compra de 3 M€. Central titular desde la jornada 1.",
+     "tone": "good"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/noticias/37103/unai-nunez-es-nuevo-jugador-del-rcd-espanyol-se-puede-considerar-una-oportunidad-fantasy"
+    },
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/es-GB/jugador/nunez-2"
+    },
+    {
+     "title": "FutbolFantasy",
+     "url": "https://www.futbolfantasy.com/jugadores/unai-nunez"
+    }
+   ],
+   "id": "nunez",
+   "statsUpdated": "2026-10-20"
+  },
+  "pablo-garcia": {
+   "name": "Pablo García",
+   "pos": "STR",
+   "team": "Racing de Santander",
+   "fullName": "Pablo García",
+   "stats": [
+    {
+     "season": "2026-27",
+     "goals": 2
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-09-01",
+     "text": "Fichado del Betis por unos 5,5 M€ (50% de sus derechos) hasta 2030. Extremo o punta con gol. El recuento de goles varía según la fuente.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FutbolFantasy",
+     "url": "https://www.futbolfantasy.com/laliga/noticias/150370-pablo-garcia-es-oficialmente-nuevo-jugador-del-racing"
+    },
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/noticias/37693/el-racing-convierte-una-cesion-frustrada-con-el-arsenal-en-el-fichaje-de-pablo-garcia"
+    }
+   ],
+   "id": "pablo-garcia",
+   "statsUpdated": "2026-10-20"
+  },
+  "ugrinic": {
+   "name": "Ugrinic",
+   "pos": "MID",
+   "team": "Valencia",
+   "fullName": "Filip Ugrinic",
+   "news": [
+    {
+     "date": "2026-10-20",
+     "text": "Fuentes contradictorias sobre si es titular esta temporada: la ficha de LaLiga no muestra minutos y Comuniate lo da como titular en sus últimas 5 apariciones.",
+     "tone": "warn"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/jugadores/3895/ugrinic"
+    },
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/jugador/filip-ugrinic"
+    }
+   ],
+   "id": "ugrinic",
+   "statsUpdated": "2026-10-20"
   }
  },
  "markets": {
@@ -1057,6 +1200,136 @@
     "points": 34,
     "status": "unknown",
     "bids": 0
+   }
+  ],
+  "2026-10-20": [
+   {
+    "playerId": "jose-alberto",
+    "value": 589218,
+    "price": 588351,
+    "points": 14,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "luis-castro",
+    "value": 610894,
+    "price": 610931,
+    "points": 13,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "cardoso",
+    "value": 582507,
+    "price": 581361,
+    "points": 0,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "sadiq",
+    "value": 1329976,
+    "price": 1359974,
+    "points": 12,
+    "status": "injured",
+    "bids": 0
+   },
+   {
+    "playerId": "matteo-prati",
+    "value": 1314821,
+    "price": 1338261,
+    "points": 13,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "gorrotxa",
+    "value": 1312635,
+    "price": 1331678,
+    "points": 12,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "larrubia",
+    "value": 14414773,
+    "price": 14608414,
+    "points": 29,
+    "status": "available",
+    "bids": 1
+   },
+   {
+    "playerId": "cheikh-thiam",
+    "value": 594556,
+    "price": 593912,
+    "points": 0,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "beitia",
+    "value": 559839,
+    "price": 557748,
+    "points": 2,
+    "status": "injured",
+    "bids": 0
+   },
+   {
+    "playerId": "youssef",
+    "value": 733478,
+    "price": 738622,
+    "points": 17,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "raba",
+    "value": 797116,
+    "price": 798889,
+    "points": 12,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "el-hilali",
+    "value": 17453853,
+    "price": 17740475,
+    "points": 34,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "mikel-rodriguez",
+    "value": 980890,
+    "price": 996343,
+    "points": 17,
+    "status": "injured",
+    "bids": 0
+   },
+   {
+    "playerId": "nunez",
+    "value": 5769696,
+    "price": 5916634,
+    "points": 23,
+    "status": "available",
+    "bids": 1
+   },
+   {
+    "playerId": "pablo-garcia",
+    "value": 6359978,
+    "price": 9999999,
+    "points": 26,
+    "status": "available",
+    "bids": 1
+   },
+   {
+    "playerId": "ugrinic",
+    "value": 2138969,
+    "price": 3333333,
+    "points": 24,
+    "status": "available",
+    "bids": 1
    }
   ]
  },
@@ -1327,7 +1600,12 @@
    ]
   }
  },
- "purchases": {},
+ "purchases": {
+  "ferran-jutgla": 15471646,
+  "bernardo-silva": 36000000,
+  "saliba": 12500000,
+  "cepeda": 2750001
+ },
  "reports": {
   "2026-10-19": {
    "date": "2026-10-19",
@@ -1571,14 +1849,456 @@
     ],
     "note": "Once para la jornada 10 si ganas a Larrubia. Si no, 4-4-2 con Youssef o Militão en lugar de Bartra."
    }
+  },
+  "2026-10-20": {
+   "date": "2026-10-20",
+   "title": "Arregla el saldo antes del viernes y deja de pagar sobreprecios",
+   "summary": "Tu saldo real es de -12.384.630 € (2,22 M€ en caja menos los 14,61 M€ de la puja por Larrubia). Si la ganas y no vendes, empiezas la jornada 10 sin puntuar. Vende a Bartra a LALIGA (21,4 M€), más Luiz Felipe y Nico Serrano: te quedarás en unos +10,4 M€. Tu histórico muestra el gran problema: has comprado a otros mánagers muy por encima del valor. Bernardo, Saliba y Jutglà valen hoy 23,4 M€ menos de lo que pagaste por ellos.",
+   "sections": [
+    {
+     "title": "Plan para hoy",
+     "icon": "🚨",
+     "items": [
+      {
+       "text": "Vende a Bartra a LALIGA (unos 21,4 M€). Es imprescindible para empezar la jornada en positivo.",
+       "playerId": "bartra"
+      },
+      {
+       "text": "Vende a Luiz Felipe (lesionado) y a Nico Serrano (sin minutos): +1,4 M€ más.",
+       "playerId": "nico-serrano"
+      },
+      {
+       "text": "Ficha a Youssef (hasta 800 K€) y a Raba (hasta 850 K€) a LALIGA, casi a su valor.",
+       "playerId": "youssef"
+      },
+      {
+       "text": "Resultado: saldo de unos +8,8 M€ tras Larrubia. Usa una parte en subir la cláusula de Koski, que ahora es igual a su valor.",
+       "playerId": "koski"
+      }
+     ]
+    },
+    {
+     "title": "Plan agresivo (más puntos por jornada)",
+     "icon": "⚡",
+     "items": [
+      {
+       "text": "Vende también a Bernardo Silva (23,8 M€, 2,67 de media) y ficha a El Hilali (17,74 M€, 34 pts). Ganas puntos por jornada y te quedan unos +15 M€.",
+       "playerId": "el-hilali"
+      },
+      {
+       "text": "Riesgo: El Hilali ya vio una roja y su valor también baja. No lo recomiendo si prefieres un perfil conservador.",
+       "playerId": "el-hilali"
+      },
+      {
+       "text": "Otra opción para la defensa: Núñez, central titular del Espanyol (23 pts). Su precio es casi su valor; puja hasta 6,2 M€.",
+       "playerId": "nunez"
+      }
+     ]
+    },
+    {
+     "title": "Lecciones de tu histórico",
+     "icon": "📒",
+     "items": [
+      {
+       "text": "Bernardo: comprado a 36 M€, vale 23,8 M€ (-34%).",
+       "playerId": "bernardo-silva"
+      },
+      {
+       "text": "Saliba: comprado a 12,5 M€, vale 5,6 M€ (-55%).",
+       "playerId": "saliba"
+      },
+      {
+       "text": "Jutglà: comprado a 15,5 M€, vale 11,4 M€ (-26%).",
+       "playerId": "ferran-jutgla"
+      },
+      {
+       "text": "Regla a partir de hoy: compra a LALIGA o a mánagers con como mucho un 5-10% sobre el valor. Pablo García (+57%) y Ugrinic (+56%) son exactamente el error que hay que evitar.",
+       "playerId": "pablo-garcia"
+      },
+      {
+       "text": "Lo has hecho bien al vender a LALIGA cerca del valor (Ángel Pérez por 36 M€) y al comprar a Cepeda a 2,75 M€.",
+       "playerId": "cepeda"
+      }
+     ]
+    },
+    {
+     "title": "Mercado de hoy",
+     "icon": "📉",
+     "items": [
+      {
+       "text": "Esta noche casi todo el mercado ha perdido entre un 1 y un 2% de valor (Larrubia -1,3%, El Hilali -1,6%, Sadiq -2,2%). No es buen momento para pagar sobreprecios."
+      },
+      {
+       "text": "Evita: Mikel Rodríguez (cruzado roto), Sadiq (lesionado), Pablo García y Ugrinic (sobreprecio), y Cardoso, Cheikh Thiam y Beitia (no juegan)."
+      },
+      {
+       "text": "Los entrenadores José Alberto y Luís Castro no mejoran a Sánchez Flores (19 pts).",
+       "playerId": "jose-alberto"
+      }
+     ]
+    },
+    {
+     "title": "Para mañana",
+     "icon": "📸",
+     "items": [
+      {
+       "text": "La pestaña Squad: así veré cómo se mueve el valor de tus jugadores (sobre todo Bernardo) y decidiremos si venderlo."
+      },
+      {
+       "text": "Si ganas a Larrubia, el once será 3-5-2. Si no, 4-4-2 con Youssef."
+      }
+     ]
+    }
+   ],
+   "players": {
+    "el-hilali": {
+     "verdict": "vigilar",
+     "text": "Su valor ha bajado un 1,6% esta noche (17,45 M€). Solo entra en juego en el plan agresivo: vender a Bernardo y fichar a El Hilali para sumar más puntos por jornada (34 pts frente a 24).",
+     "maxBid": 17740475,
+     "confidence": "media"
+    },
+    "larrubia": {
+     "verdict": "pujar",
+     "text": "Tu puja (14.608.414 €) se resuelve hoy al cierre del mercado. Ojo: esta noche su valor ha bajado a 14,41 M€, así que pagarías un 1,3% por encima de su valor. Sigue mereciendo la pena por puntos (29 pts, titular), pero no la subas.",
+     "maxBid": 14608414,
+     "confidence": "media"
+    },
+    "youssef": {
+     "verdict": "fichar",
+     "text": "Sigue siendo la mejor rentabilidad del mercado (17 pts por 739 K€). Su valor apenas se mueve (-0,7%). Fíchalo como recambio de Bartra cuando lo vendas.",
+     "maxBid": 800000,
+     "confidence": "media"
+    },
+    "raba": {
+     "verdict": "fichar",
+     "text": "Su valor se mantiene estable (797 K€). Cambio directo por Nico Serrano: te cuesta unos 216 K€ netos.",
+     "maxBid": 850000,
+     "confidence": "media"
+    },
+    "luis-castro": {
+     "verdict": "vigilar",
+     "text": "Sánchez Flores ya te da 19 pts. Luís Castro (13 pts, 611 K€) no mejora a tu entrenador. Solo como especulación barata si sobra saldo.",
+     "confidence": "media"
+    },
+    "matteo-prati": {
+     "verdict": "vigilar",
+     "text": "13 pts por 1,34 M€. Está cedido en el Racing y pelea por un sitio en el doble pivote. Esperaría a que se asiente como titular.",
+     "confidence": "baja"
+    },
+    "gorrotxa": {
+     "verdict": "evitar",
+     "text": "Es suplente en la Real Sociedad: 1 titularidad y 131 minutos en 5 partidos. Sus 12 pts no compensan el precio.",
+     "confidence": "media"
+    },
+    "sadiq": {
+     "verdict": "evitar",
+     "text": "Lesionado de los isquiotibiales desde finales de agosto, con una baja estimada de 8 a 10 semanas. No lo compraría antes de verlo entrenar con el grupo. Si su precio sigue cayendo, puede ser una apuesta para noviembre.",
+     "confidence": "media"
+    },
+    "cheikh-thiam": {
+     "verdict": "evitar",
+     "text": "Todavía no ha jugado en LaLiga: 0 minutos y 0 puntos.",
+     "confidence": "alta"
+    },
+    "cardoso": {
+     "verdict": "evitar",
+     "text": "Fuera de los planes del Sevilla, que busca su salida. No va a puntuar.",
+     "confidence": "alta"
+    },
+    "beitia": {
+     "verdict": "evitar",
+     "text": "Lesionado y con solo 2 pts.",
+     "confidence": "alta"
+    },
+    "unai-simon": {
+     "verdict": "alinear",
+     "text": "Tu jugador con mejor media (6,78) y 11 pts en la última jornada. Indiscutible. Su cláusula (49 M€) está un 30% por encima de su valor: bien protegido.",
+     "confidence": "alta"
+    },
+    "mojica": {
+     "verdict": "alinear",
+     "text": "3,22 de media y fijo en el Getafe. Juega esta noche contra el Rayo (jornada 9). Titular en tu once.",
+     "confidence": "media"
+    },
+    "koski": {
+     "verdict": "alinear",
+     "text": "Tu mejor defensa (6,22 de media) y capitán. Juega en casa contra el recién ascendido Málaga. Ojo: su cláusula (38,2 M€) es igual a su valor, así que cualquier rival puede llevárselo pagándola. Súbela en cuanto tengas saldo positivo.",
+     "confidence": "alta"
+    },
+    "sergio-gomez": {
+     "verdict": "alinear",
+     "text": "Media modesta (2,89), pero juega siempre. Con Bartra vendido es tu tercer defensa. Es el siguiente a mejorar cuando haya dinero.",
+     "confidence": "media"
+    },
+    "bartra": {
+     "verdict": "vender",
+     "text": "Es la venta clave. Vale 21,4 M€ pero lleva 2 pts en sus últimas 4 jornadas (5, 0, 2, 0, 0), tras el susto en el isquiotibial. Venderlo devuelve tu saldo a positivo, paga la puja por Larrubia y saca dinero de un jugador caro que puntúa poco.",
+     "confidence": "alta"
+    },
+    "ibanez": {
+     "verdict": "alinear",
+     "text": "5,33 de media y forma al alza (4, 6, 4, 7). Juega en casa contra el Málaga. Su cláusula está solo un 19% por encima de su valor: súbela cuando puedas.",
+     "confidence": "alta"
+    },
+    "unai-lopez": {
+     "verdict": "alinear",
+     "text": "5,33 de media y muy regular (4, 4, 4, 5). Lleva 3 asistencias. Fijo.",
+     "confidence": "alta"
+    },
+    "bernardo-silva": {
+     "verdict": "mantener",
+     "text": "Lo pagaste a 36 M€ y hoy vale 23,8 M€ (-12,2 M€). Lo que ya ha perdido no cuenta para decidir: la pregunta es si su valor seguirá bajando. Con 2,67 de media, es caro para lo que puntúa. Pásame mañana la pestaña Squad y, si sigue cayendo, véndelo. En el plan agresivo lo vendes ya y fichas a El Hilali.",
+     "confidence": "media"
+    },
+    "saliba": {
+     "verdict": "mantener",
+     "text": "Lo pagaste a 12,5 M€ y vale 5,6 M€. Venderlo ahora no arregla nada: puntúa una media de 3,17 por jornada, que por 5,6 M€ está bien. Mantener.",
+     "confidence": "media"
+    },
+    "ferran-jutgla": {
+     "verdict": "alinear",
+     "text": "Lo pagaste a 15,5 M€ y vale 11,4 M€, pero es tu mejor delantero (4,78 de media). Titular.",
+     "confidence": "alta"
+    },
+    "cepeda": {
+     "verdict": "alinear",
+     "text": "Lo compraste anoche a LALIGA por 2,75 M€ y vale 2,55 M€. Es la forma correcta de comprar, cerca de su valor. Media de 4,00: titular y buen activo para especular.",
+     "confidence": "alta"
+    },
+    "sanchez-flores": {
+     "verdict": "alinear",
+     "text": "Tu entrenador (19 pts). El Alavés recibe al Málaga el viernes, una buena jornada para sumar.",
+     "confidence": "media"
+    },
+    "militao": {
+     "verdict": "mantener",
+     "text": "Apuesta especulativa: vuelve de una lesión larga y solo ha jugado 1 jornada. Si recupera el puesto en el Real Madrid, su valor (5,6 M€) puede subir mucho. Véndelo solo si tras vender a Bartra sigues en negativo.",
+     "confidence": "baja"
+    },
+    "nico-serrano": {
+     "verdict": "vender",
+     "text": "0,4 de media y sin minutos en el Athletic. Véndelo y ficha a Raba con ese dinero.",
+     "confidence": "alta"
+    },
+    "luiz-felipe": {
+     "verdict": "vender",
+     "text": "Lesionado de larga duración. Solo ocupa plaza: vender (821 K€).",
+     "confidence": "alta"
+    },
+    "galdin": {
+     "verdict": "mantener",
+     "text": "No juega en el Levante, pero es un portero suplente barato por si Unai Simón falla. Mantener mientras no necesites la plaza.",
+     "confidence": "media"
+    },
+    "jose-alberto": {
+     "verdict": "evitar",
+     "text": "Entrenador barato (589 K€, 14 pts), pero Sánchez Flores ya te da 19 pts. No necesitas otro entrenador.",
+     "confidence": "media"
+    },
+    "mikel-rodriguez": {
+     "verdict": "evitar",
+     "text": "Se rompió el cruzado y está fuera toda la temporada. No va a puntuar.",
+     "confidence": "alta"
+    },
+    "nunez": {
+     "verdict": "vigilar",
+     "text": "Central titular en el Espanyol (5 de 5) con 23 pts. Lo vende un mánager casi a su valor (+2,5%) y ya tiene una puja. Es buena opción para reforzar la defensa si, tras arreglar el saldo, te sobran unos 6 M€. Puja máxima: 6,2 M€.",
+     "maxBid": 6200000,
+     "confidence": "media"
+    },
+    "pablo-garcia": {
+     "verdict": "evitar",
+     "text": "Puntúa bien (26 pts), pero lo venden a 10 M€ cuando vale 6,36 M€: un 57% más caro. Lo perderías nada más ficharlo. Si vuelve al mercado de LALIGA a su valor, entonces sí.",
+     "confidence": "alta"
+    },
+    "ugrinic": {
+     "verdict": "evitar",
+     "text": "24 pts y vale 2,14 M€, pero lo venden a 3,33 M€ (+56%). Pagar ese sobreprecio es lo que te ha hecho perder dinero con Bernardo y Saliba. No hay que repetirlo.",
+     "confidence": "alta"
+    }
+   },
+   "lineup": {
+    "formation": "3-5-2",
+    "ids": [
+     "unai-simon",
+     "koski",
+     "mojica",
+     "sergio-gomez",
+     "ibanez",
+     "unai-lopez",
+     "larrubia",
+     "saliba",
+     "bernardo-silva",
+     "ferran-jutgla",
+     "cepeda",
+     "sanchez-flores"
+    ],
+    "note": "Jornada 10 si ganas a Larrubia (capitán: Koski). Si no: 4-4-2 con Youssef en lugar de Bartra."
+   }
   }
  },
  "bids": [
   {
    "playerId": "larrubia",
-   "amount": 14609000,
+   "amount": 14608414,
    "date": "2026-10-19",
-   "note": "pujaste por encima de otro mánager"
+   "note": "se resuelve al cierre del mercado (hoy ~21:35)"
+  }
+ ],
+ "cash": 2223784,
+ "budget": -12384630,
+ "budgetDate": "2026-10-20",
+ "ledger": [
+  {
+   "date": "2026-09-23",
+   "kind": "venta",
+   "playerName": "Peio Canales",
+   "amount": 6432711,
+   "counterpart": "LALIGA"
+  },
+  {
+   "date": "2026-09-23",
+   "kind": "clausula",
+   "playerId": "koski",
+   "playerName": "Koski",
+   "from": 20758315,
+   "to": 28758315
+  },
+  {
+   "date": "2026-09-25",
+   "kind": "expirado",
+   "playerId": "sanchez-flores",
+   "playerName": "Sánchez Flores"
+  },
+  {
+   "date": "2026-10-07",
+   "kind": "venta",
+   "playerName": "Agoumé",
+   "amount": 16711458,
+   "counterpart": "Yorch Fergusson"
+  },
+  {
+   "date": "2026-10-07",
+   "kind": "compra",
+   "playerId": "ferran-jutgla",
+   "playerName": "Ferran Jutglà",
+   "amount": 15471646,
+   "counterpart": "Arepas CF"
+  },
+  {
+   "date": "2026-10-07",
+   "kind": "clausula",
+   "playerName": "T. Morente",
+   "from": 3100001,
+   "to": 10660006
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "expirado",
+   "playerName": "F. Bernal"
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "expirado",
+   "playerId": "mojica",
+   "playerName": "Mojica"
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "expirado",
+   "playerName": "Isaac"
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "expirado",
+   "playerId": "ibanez",
+   "playerName": "Ibáñez"
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "venta",
+   "playerName": "Ángel Pérez",
+   "amount": 36041882,
+   "counterpart": "LALIGA"
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "compra",
+   "playerId": "bernardo-silva",
+   "playerName": "Bernardo Silva",
+   "amount": 36000000,
+   "counterpart": "Arepas CF"
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "venta",
+   "playerName": "F. Bernal",
+   "amount": 9283429,
+   "counterpart": "LALIGA"
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "venta",
+   "playerName": "Isaac",
+   "amount": 3120559,
+   "counterpart": "LALIGA"
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "compra",
+   "playerId": "saliba",
+   "playerName": "Saliba",
+   "amount": 12500000,
+   "counterpart": "LuckyChorris13"
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "clausula",
+   "playerId": "ibanez",
+   "playerName": "Ibáñez",
+   "from": 18592048,
+   "to": 22592048
+  },
+  {
+   "date": "2026-10-15",
+   "kind": "expirado",
+   "playerId": "unai-lopez",
+   "playerName": "Unai López"
+  },
+  {
+   "date": "2026-10-15",
+   "kind": "expirado",
+   "playerId": "sergio-gomez",
+   "playerName": "Sergio Gómez"
+  },
+  {
+   "date": "2026-10-15",
+   "kind": "expirado",
+   "playerId": "mojica",
+   "playerName": "Mojica"
+  },
+  {
+   "date": "2026-10-18",
+   "kind": "clausula",
+   "playerId": "militao",
+   "playerName": "E. Militão",
+   "from": 12951133,
+   "to": 15151133
+  },
+  {
+   "date": "2026-10-19",
+   "kind": "compra",
+   "playerId": "cepeda",
+   "playerName": "Cepeda",
+   "amount": 2750001,
+   "counterpart": "LALIGA"
+  },
+  {
+   "date": "2026-10-19",
+   "kind": "venta",
+   "playerName": "T. Morente",
+   "amount": 4607556,
+   "counterpart": "LALIGA"
   }
  ]
 }

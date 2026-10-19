@@ -21,7 +21,9 @@ export function Home() {
   const marketDate = Object.keys(state.markets).sort().pop()
   const market = useMemo(() => (marketDate ? marketInsights(state, marketDate) : []), [state, marketDate])
   const owned = new Set(members.map((m) => m.player.id))
-  const best = market.find((m) => !owned.has(m.player.id))
+  // Prefer the top-scored player I recommend buying; fall back to the best score.
+  const buyable = (id: string) => ['fichar', 'pujar'].includes(latestRec(state, id)?.verdict ?? '')
+  const best = market.find((m) => !owned.has(m.player.id) && buyable(m.player.id)) ?? market.find((m) => !owned.has(m.player.id))
 
   const teamSeries = useMemo(
     () =>
@@ -103,7 +105,13 @@ export function Home() {
             <div className="kpi">
               <span>Saldo</span>
               <b className={state.budget !== undefined && state.budget < 0 ? 'neg' : ''}>{money(state.budget)}</b>
-              <small>{state.budget === undefined ? 'pásamelo en el chat' : state.budgetDate ? `a ${prettyDate(state.budgetDate)}` : 'disponible'}</small>
+              <small>
+                {state.budget === undefined
+                  ? 'pásamelo en el chat'
+                  : state.cash !== undefined && state.cash !== state.budget
+                    ? `caja ${money(state.cash)} menos pujas`
+                    : state.budgetDate ? `a ${prettyDate(state.budgetDate)}` : 'disponible'}
+              </small>
             </div>
             <button className="kpi" onClick={() => go('squad')}>
               <span>Puntos plantilla</span>
@@ -124,7 +132,7 @@ export function Home() {
 
           {best && (
             <button className="spotlight card" onClick={() => openPlayer(best.player.id)}>
-              <div className="spot-label"><IconSpark width={16} height={16} /> Mejor nota del mercado</div>
+              <div className="spot-label"><IconSpark width={16} height={16} /> {buyable(best.player.id) ? 'Fichaje recomendado' : 'Mejor nota del mercado'}</div>
               <div className="row gap between">
                 <div>
                   <h3>{best.player.name}</h3>

@@ -4,7 +4,7 @@ import type { Tag } from '../lib/analysis'
 import { initials, pct, POS_LABEL, STATUS_LABEL } from '../lib/format'
 
 export function PosBadge({ pos }: { pos: Pos }) {
-  return <span className={`pos pos-${pos}`}>{POS_LABEL[pos]}</span>
+  return <span className={`posb pos-${pos}`}>{POS_LABEL[pos]}</span>
 }
 
 export function Avatar({ name, pos, size = 44, status }: { name: string; pos: Pos; size?: number; status?: Status }) {
