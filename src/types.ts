@@ -50,6 +50,10 @@ export interface MarketEntry {
   points: number
   status: Status
   bids: number
+  /** Fantasy points per matchday played. */
+  average?: number
+  /** Last five matchdays, oldest first; null = did not play. */
+  recent?: (number | null)[]
 }
 
 export interface SquadSlot {
@@ -59,6 +63,20 @@ export interface SquadSlot {
   value?: number
   points?: number
   status?: Status
+  average?: number
+  recent?: (number | null)[]
+  /** Release clause; rivals can buy the player by paying it. */
+  clause?: number
+  /** Days left before the clause can be paid (recent signings). */
+  clauseLockDays?: number
+  captain?: boolean
+}
+
+export interface PendingBid {
+  playerId: string
+  amount: number
+  date: string
+  note?: string
 }
 
 export interface SquadSnapshot {
@@ -106,6 +124,8 @@ export interface AppState {
   purchases: Record<string, number>
   budget?: number
   budgetDate?: string
+  /** Bids placed in the market that have not resolved yet. */
+  bids?: PendingBid[]
   /** date (YYYY-MM-DD) -> daily report */
   reports: Record<string, Report>
 }

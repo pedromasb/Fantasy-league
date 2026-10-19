@@ -56,15 +56,12 @@ export function ScoreRing({ score, size = 44 }: { score: number; size?: number }
   )
 }
 
-export function Tags({ tags, max = 3 }: { tags: Tag[]; max?: number }) {
+export function Tags({ tags, max = 3, inline }: { tags: Tag[]; max?: number; inline?: boolean }) {
   if (!tags.length) return null
-  return (
-    <div className="tags">
-      {tags.slice(0, max).map((t) => (
-        <span key={t.label} className={`tag tone-${t.tone}`}>{t.label}</span>
-      ))}
-    </div>
-  )
+  const items = tags.slice(0, max).map((t) => (
+    <span key={t.label} className={`tag tone-${t.tone}`}>{t.label}</span>
+  ))
+  return inline ? <>{items}</> : <div className="tags">{items}</div>
 }
 
 export function Section({ title, action, children, sub }: { title: string; sub?: string; action?: ReactNode; children: ReactNode }) {
@@ -116,5 +113,18 @@ export function Segmented<T extends string>({ options, value, onChange }: { opti
         </button>
       ))}
     </div>
+  )
+}
+
+/** Last matchdays as small coloured chips, oldest first. */
+export function Form({ recent, small }: { recent?: (number | null)[]; small?: boolean }) {
+  if (!recent?.length) return null
+  const tone = (n: number | null) => (n === null ? 'none' : n < 0 ? 'neg' : n >= 8 ? 'top' : n >= 5 ? 'good' : n >= 2 ? 'mid' : 'low')
+  return (
+    <span className={`form ${small ? 'sm' : ''}`}>
+      {recent.map((n, i) => (
+        <i key={i} className={`f-${tone(n)}`}>{n === null ? '–' : n}</i>
+      ))}
+    </span>
   )
 }

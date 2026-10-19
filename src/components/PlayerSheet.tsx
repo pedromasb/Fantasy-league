@@ -5,7 +5,7 @@ import { money, num, POS_NAME, prettyDate, signedMoney } from '../lib/format'
 import type { SeasonStats } from '../types'
 import { LineChart } from './Charts'
 import { IconClose } from './Icons'
-import { Avatar, Delta, PosBadge, StatusPill } from './ui'
+import { Avatar, Delta, Form, PosBadge, StatusPill } from './ui'
 import { VerdictBadge } from './Verdict'
 
 const STAT_FIELDS: [keyof SeasonStats, string][] = [
@@ -106,9 +106,37 @@ export function PlayerSheet({ id, onClose }: { id: string; onClose: () => void }
         <div className="stat-grid">
           <div className="stat"><span>Valor</span><b>{money(sum.value)}</b><Delta value={sum.changePct} small /></div>
           <div className="stat"><span>Puntos Fantasy</span><b>{sum.points ?? '—'}</b><small className="muted">temporada</small></div>
+          <div className="stat"><span>Media</span><b>{num(sum.average, 2)}</b><small className="muted">pts por jornada</small></div>
           <div className="stat"><span>Pts / M€</span><b>{num(sum.ppm)}</b><small className="muted">rentabilidad</small></div>
-          <div className="stat"><span>Tendencia</span><b><Delta value={sum.trend} /></b><small className="muted">media diaria</small></div>
         </div>
+
+        {sum.recent && (
+          <div className="card pad row between">
+            <div className="stack">
+              <span className="card-title" style={{ margin: 0 }}>Últimas jornadas</span>
+              <span className="muted small">de más antigua a más reciente</span>
+            </div>
+            <Form recent={sum.recent} />
+          </div>
+        )}
+
+        {sum.clause !== undefined && (
+          <div className={`card pad clause ${!sum.clauseLockDays && sum.value && sum.clause <= sum.value * 1.1 ? 'exposed' : ''}`}>
+            <div className="row between">
+              <span className="card-title" style={{ margin: 0 }}>Cláusula</span>
+              <b>{money(sum.clause)}</b>
+            </div>
+            <p className="small muted">
+              {sum.clauseLockDays
+                ? `Blindado: nadie puede pagarla durante ${sum.clauseLockDays} días más.`
+                : sum.value && sum.clause <= sum.value * 1.1
+                  ? 'Su cláusula es casi igual a su valor: cualquier rival puede llevárselo pagándola. Súbela cuando tengas saldo.'
+                  : sum.value
+                    ? `Un ${Math.round((sum.clause / sum.value - 1) * 100)}% por encima de su valor.`
+                    : ''}
+            </p>
+          </div>
+        )}
 
         {player.stats && player.stats.length > 0 && (
           <div className="card pad">

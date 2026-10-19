@@ -1,10 +1,10 @@
 import { useMemo, useState } from 'react'
 import { PlayerRow } from '../components/PlayerRow'
 import { Empty, Section, Segmented, ScoreRing } from '../components/ui'
-import { bestLineup, marketInsights, squadMembers, teamValueOf, type SquadMember } from '../lib/analysis'
+import { bestLineup, marketInsights, squadMembers, summarize, teamValueOf, type SquadMember } from '../lib/analysis'
 import { money, POS_ORDER, prettyDate, signedMoney } from '../lib/format'
 import { useNav } from '../lib/nav'
-import { latestReport, latestSquad, useData } from '../lib/data'
+import { latestRec, latestReport, latestSquad, useData } from '../lib/data'
 import type { Pos } from '../types'
 
 function Pitch({ formation, members, ids }: { formation: string; members: SquadMember[]; ids: string[] }) {
@@ -27,7 +27,7 @@ function Pitch({ formation, members, ids }: { formation: string; members: SquadM
             {list.map((x) => (
               <button key={x.player.id} className="token" onClick={() => openPlayer(x.player.id)}>
                 <span className={`token-face pos-ring-${p} ${x.status !== 'available' && x.status !== 'unknown' ? `st-${x.status}` : ''}`}>
-                  {x.points ?? '–'}
+                  {x.average !== undefined ? x.average.toLocaleString('es-ES', { maximumFractionDigits: 1 }) : x.points ?? '–'}
                 </span>
                 <span className="token-name">{x.player.name}</span>
                 <span className="token-val">{money(x.value)}</span>
@@ -74,7 +74,8 @@ export function Squad() {
   const teamValue = teamValueOf(state, snap)
   const bench = members.filter((m) => !ids.includes(m.player.id))
 
-  const sell = members
+  const report = latestReport(state)
+  const autoSell = members
     .filter((m) => m.player.pos !== 'COA')
     .map((m) => {
       let risk = 0
@@ -82,15 +83,25 @@ export function Squad() {
       if (m.status === 'injured') { risk += 3; why.push('lesionado') }
       if (m.status === 'suspended') { risk += 1; why.push('sancionado') }
       if ((m.trend ?? 0) < -0.01) { risk += 2; why.push('valor a la baja') }
-      if (m.ppm !== undefined && m.ppm < 2) { risk += 1; why.push('poca rentabilidad') }
+      if (m.average !== undefined && m.average < 3) { risk += 1; why.push('media baja') }
+      if (m.average !== undefined && m.value && m.value > 10e6 && m.average < 4) { risk += 1; why.push('caro para lo que puntúa') }
+      if (m.recent && m.recent.slice(-3).every((n) => n === null || n <= 1)) { risk += 1; why.push('sin forma') }
       if (!ids.includes(m.player.id) && view === 'mine') { risk += 0.5; why.push('no es titular') }
       return { m, risk, why }
     })
     .filter((x) => x.risk >= 2)
     .sort((a, b) => b.risk - a.risk)
     .slice(0, 4)
+  // My written verdicts take precedence over the heuristic once a report exists.
+  const sell = report
+    ? members.filter((m) => latestRec(state, m.player.id)?.verdict === 'vender').map((m) => ({ m, why: [] as string[] }))
+    : autoSell
 
-  const upgrades = POS_ORDER.flatMap((p) => {
+  const exposed = members
+    .filter((m) => m.clause !== undefined && m.value && !m.clauseLockDays && m.clause <= m.value * 1.1 && m.value > 3e6)
+    .sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
+
+  const upgrades = report ? [] : POS_ORDER.flatMap((p) => {
     const mine = members.filter((m) => m.player.pos === p).sort((a, b) => (a.points ?? 0) - (b.points ?? 0))
     const weakest = mine[0]
     if (!weakest) return []
@@ -116,7 +127,14 @@ export function Squad() {
       </header>
 
       <Segmented options={[{ value: 'mine', label: `Mi once${snap.formation ? ` · ${snap.formation}` : ''}` }, { value: 'best', label: `${reportLineup ? 'Recomendado' : 'Once ideal'}${best ? ` · ${best.formation}` : ''}` }]} value={view} onChange={setView} />
-      <Pitch formation={formation} members={members} ids={ids} />
+      <Pitch
+        formation={formation}
+        ids={ids}
+        members={[
+          ...members,
+          ...ids.filter((id) => state.players[id] && !owned.has(id)).map((id) => ({ ...summarize(state, id), starter: false })),
+        ]}
+      />
       {view === 'best' && reportLineup?.note && <p className="footnote center">{reportLineup.note}</p>}
       {view === 'best' && !reportLineup && computed && <p className="footnote center">Elegido por puntos de temporada, sin lesionados ni sancionados. Total: <b>{Math.round(computed.total)} pts</b></p>}
 
@@ -138,6 +156,16 @@ export function Squad() {
                 </div>
                 <ScoreRing score={inn.score} size={40} />
               </div>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {exposed.length > 0 && (
+        <Section title="🔓 Cláusulas expuestas" sub="Cualquier rival puede llevárselos pagando casi su valor">
+          <div className="list card">
+            {exposed.map((m) => (
+              <PlayerRow key={m.player.id} p={m} tags={[{ label: `Cláusula ${money(m.clause)}`, tone: 'warn' }]} />
             ))}
           </div>
         </Section>

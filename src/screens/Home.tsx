@@ -87,6 +87,18 @@ export function Home() {
             </button>
           )}
 
+          {(state.bids ?? []).length > 0 && (
+            <div className="card pad bids">
+              <div className="card-title">Tus pujas en curso</div>
+              {(state.bids ?? []).map((b) => (
+                <button key={b.playerId} className="bid-row" onClick={() => openPlayer(b.playerId)}>
+                  <span className="grow"><b>{state.players[b.playerId]?.name}</b>{b.note && <small className="muted"> · {b.note}</small>}</span>
+                  <b className="bid-amount">{money(b.amount)}</b>
+                </button>
+              ))}
+            </div>
+          )}
+
           <div className="kpis">
             <div className="kpi">
               <span>Saldo</span>

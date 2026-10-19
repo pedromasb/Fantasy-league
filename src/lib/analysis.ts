@@ -9,6 +9,10 @@ export interface Obs {
   status?: Status
   source: 'market' | 'squad'
   bids?: number
+  average?: number
+  recent?: (number | null)[]
+  clause?: number
+  clauseLockDays?: number
 }
 
 /** Every sighting of a player, oldest first; market data wins on the same day. */
@@ -16,14 +20,20 @@ export function history(s: AppState, id: string): Obs[] {
   const byDate = new Map<string, Obs>()
   for (const [date, snap] of Object.entries(s.squads)) {
     const slot = snap.slots.find((x) => x.playerId === id)
-    if (slot) byDate.set(date, { date, value: slot.value, points: slot.points, status: slot.status, source: 'squad' })
+    if (slot)
+      byDate.set(date, {
+        date, value: slot.value, points: slot.points, status: slot.status, source: 'squad',
+        average: slot.average, recent: slot.recent, clause: slot.clause, clauseLockDays: slot.clauseLockDays,
+      })
   }
   for (const [date, entries] of Object.entries(s.markets)) {
     const e = entries.find((x) => x.playerId === id)
     if (e) {
       const prev = byDate.get(date)
-      byDate.set(date, { date, value: e.value, price: e.price, points: e.points, status: e.status, bids: e.bids, source: 'market' })
-      if (prev?.value && !e.value) byDate.get(date)!.value = prev.value
+      byDate.set(date, {
+        ...prev, date, value: e.value || prev?.value, price: e.price, points: e.points, status: e.status, bids: e.bids, source: 'market',
+        average: e.average ?? prev?.average, recent: e.recent ?? prev?.recent,
+      })
     }
   }
   return [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date))
@@ -43,6 +53,10 @@ export interface PlayerSummary {
   ppm?: number
   marketDays: number
   values: number[]
+  average?: number
+  recent?: (number | null)[]
+  clause?: number
+  clauseLockDays?: number
 }
 
 export function summarize(s: AppState, id: string, upTo?: string): PlayerSummary {
@@ -52,6 +66,9 @@ export function summarize(s: AppState, id: string, upTo?: string): PlayerSummary
   const prev = withValue[withValue.length - 2]
   const lastPts = [...h].reverse().find((o) => o.points !== undefined)
   const lastStatus = [...h].reverse().find((o) => o.status)
+  const lastAvg = [...h].reverse().find((o) => o.average !== undefined)
+  const lastRecent = [...h].reverse().find((o) => o.recent)
+  const lastClause = [...h].reverse().find((o) => o.clause !== undefined)
   const recent = withValue.slice(-8)
   let trend: number | undefined
   if (recent.length >= 2) {
@@ -72,6 +89,10 @@ export function summarize(s: AppState, id: string, upTo?: string): PlayerSummary
     ppm: value && points !== undefined ? points / Math.max(value / 1e6, 0.1) : undefined,
     marketDays: h.filter((o) => o.source === 'market').length,
     values: withValue.map((o) => o.value!),
+    average: lastAvg?.average,
+    recent: lastRecent?.recent,
+    clause: lastClause?.clause,
+    clauseLockDays: lastClause?.clauseLockDays,
   }
 }
 
@@ -156,7 +177,8 @@ export function squadMembers(s: AppState, snap = latestSquad(s)): SquadMember[] 
 }
 
 const playable = (m: PlayerSummary) => m.status !== 'injured' && m.status !== 'suspended'
-const strength = (m: PlayerSummary) => (m.points ?? 0) * (m.status === 'doubtful' ? 0.6 : 1)
+/** Expected points per matchday: Fantasy average when known, else season points. */
+const strength = (m: PlayerSummary) => (m.average ?? m.points ?? 0) * (m.status === 'doubtful' ? 0.6 : 1)
 
 /** Best XI by season points among available players, trying every legal formation. */
 export function bestLineup(members: SquadMember[]): { formation: string; ids: string[]; total: number } | undefined {

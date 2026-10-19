@@ -481,3 +481,23 @@ select { appearance: none; background-image: linear-gradient(45deg, transparent 
 .updated { text-align: center; font-size: 12px; color: var(--muted); margin: -8px 0 0; padding-bottom: calc(var(--tabbar) + env(safe-area-inset-bottom) + 24px); }
 .view .screen { padding-bottom: 24px; }
 .splash p { padding: 24px; text-align: center; }
+
+/* ---------- form, clauses, bids ---------- */
+.form { display: inline-flex; gap: 3px; }
+.form i { font-style: normal; min-width: 24px; height: 24px; padding: 0 4px; border-radius: 6px; display: grid; place-items: center; font-size: 12px; font-weight: 700; background: rgba(255, 255, 255, 0.07); color: var(--muted); }
+.form.sm i { min-width: 19px; height: 19px; font-size: 10.5px; border-radius: 5px; padding: 0 2px; }
+.form .f-top { background: rgba(62, 224, 143, 0.9); color: #04130d; }
+.form .f-good { background: rgba(62, 224, 143, 0.25); color: var(--pos); }
+.form .f-mid { background: rgba(92, 200, 255, 0.16); color: var(--accent-2); }
+.form .f-low { background: rgba(255, 255, 255, 0.07); color: #b7bfd6; }
+.form .f-neg { background: rgba(255, 107, 129, 0.2); color: var(--neg); }
+.form .f-none { background: transparent; border: 1px dashed var(--line-2); }
+
+.clause { display: flex; flex-direction: column; gap: 6px; }
+.clause b { font-size: 18px; }
+.clause.exposed { border-color: rgba(255, 196, 87, 0.45); background: rgba(255, 196, 87, 0.07); }
+
+.bids { display: flex; flex-direction: column; gap: 4px; border-color: rgba(255, 196, 87, 0.35); }
+.bid-row { display: flex; align-items: center; gap: 10px; width: 100%; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.bid-row:last-child { border-bottom: 0; }
+.bid-amount { color: var(--warn); }
