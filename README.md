@@ -1,38 +1,35 @@
 # Fantasy Asesor
 
-App personal (PWA) para analizar tu equipo de LaLiga Fantasy desde el móvil. Sin IA y sin servidor: los datos se guardan solo en tu teléfono.
+Panel personal de LaLiga Fantasy publicado en GitHub Pages. Cada día recibe por chat el pantallazo del mercado (y de la plantilla cuando cambia). Con ellos se actualizan los datos, se buscan estadísticas en internet y se escribe un informe con recomendaciones.
 
-## Cómo se usa
+## Pestañas
 
-1. Haz un pantallazo del **mercado** o de tu **alineación** en LaLiga Fantasy.
-2. Ábrelo en el Pixel y pulsa **Lens → Texto → Seleccionar todo → Copiar** (o "Copiar texto" en Recientes).
-3. En la app, pulsa **+ → Pegar → Analizar texto**, revisa y guarda.
-   Con la app instalada también puedes usar **Compartir → Fantasy Asesor** desde Lens.
+- **Inicio**: valor de equipo y su evolución, resumen del informe, mejor nota del mercado y alertas automáticas.
+- **Informe** (botón central): recomendaciones del día, más un veredicto jugador a jugador (fichar, pujar, vender, alinear…) con la puja máxima.
+- **Mercado**: jugadores del día con nota 0–100, veredicto, filtros y orden.
+- **Plantilla**: campo con tu once, once recomendado, mejoras posibles y candidatos a venta.
+- **Top**: rankings diarios (puntos, subidas, bajadas, rentabilidad y valor).
+- **Ficha de jugador**: recomendación, estadísticas por temporada, noticias, evolución del valor y fuentes.
 
-Tipos de texto que entiende:
+## Datos
 
-- **Mercado**: tarjetas con posición (COA/DEF/MID/STR), FSYP, Value, Price, estado y pujas.
-- **Alineación** (pestaña Line-up): formación, valor de equipo y los 11 titulares por línea.
-- **Squad**: la lista de la pestaña Squad, con valores y puntos de cada jugador.
-
-## Qué ofrece
-
-- **Inicio**: valor de equipo y su evolución, saldo, plusvalías, mejor oportunidad del día y consejos.
-- **Mercado**: nota de oportunidad 0–100 (puntos por millón, puntos y tendencia del valor), filtros por posición y por saldo.
-- **Plantilla**: campo con tu once, once ideal, mejoras posibles con jugadores del mercado y candidatos a venta.
-- **Top**: rankings diarios (puntos, subidas, bajadas, rentabilidad, valor) con podio.
-- **Ficha de jugador**: evolución del valor, historial, precio de compra y ganancia, fusionar nombres cortados.
+Todo está en [`public/data/fantasy.json`](public/data/fantasy.json); el formato está en [`src/types.ts`](src/types.ts).
+`npm test` comprueba que el archivo es coherente.
 
 ## Desarrollo
 
 ```bash
 npm install
-npm run dev      # servidor local
-npm test         # tests del lector de texto
+npm run dev
+npm test
 npm run build
 ```
 
-## Publicarla en tu móvil
+## Publicación
 
-El workflow `.github/workflows/deploy.yml` publica la app en GitHub Pages al hacer push a `main`.
-Activa **Settings → Pages → Source: GitHub Actions** en el repositorio, abre la URL en Chrome del Pixel y elige **Añadir a pantalla de inicio → Instalar**.
+`.github/workflows/deploy.yml` publica en GitHub Pages en cada push a `main` o a la rama de trabajo. Requisitos en GitHub:
+
+1. **Settings → Pages → Source: GitHub Actions**.
+2. Si se despliega desde una rama distinta de `main`: **Settings → Environments → github-pages → Deployment branches**, añadir esa rama.
+
+Para instalarla en el móvil: abrir la URL en Chrome → ⋮ → **Añadir a pantalla de inicio**.

@@ -1,56 +1,24 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { IconHome, IconMarket, IconPlus, IconShirt, IconTrophy } from './components/Icons'
+import { useEffect, useMemo, useState, type ReactNode } from 'react'
+import { IconHome, IconMarket, IconShirt, IconSpark, IconTrophy } from './components/Icons'
 import { PlayerSheet } from './components/PlayerSheet'
+import { DataContext, loadData } from './lib/data'
+import { prettyDate } from './lib/format'
 import { NavContext, type Nav, type Tab } from './lib/nav'
-import { loadState, persistState, StoreContext, type Store } from './lib/store'
 import { Home } from './screens/Home'
-import { Import } from './screens/Import'
 import { Market } from './screens/Market'
-import { Settings } from './screens/Settings'
+import { Report } from './screens/Report'
 import { Squad } from './screens/Squad'
 import { Top } from './screens/Top'
-import { emptyState, type AppState } from './types'
-
-/** Text shared from Lens via the PWA share target (?text=...). */
-function takeSharedText(): string | undefined {
-  const params = new URLSearchParams(location.search)
-  const shared = [params.get('title'), params.get('text')].filter(Boolean).join('\n')
-  if (shared) history.replaceState(null, '', location.pathname)
-  return shared || undefined
-}
+import type { AppState } from './types'
 
 export default function App() {
   const [state, setState] = useState<AppState | null>(null)
-  const sharedText = useRef(takeSharedText())
-  const [tab, setTab] = useState<Tab>(sharedText.current ? 'import' : 'home')
+  const [error, setError] = useState(false)
+  const [tab, setTab] = useState<Tab>('home')
   const [player, setPlayer] = useState<string | null>(null)
-  const [toastMsg, setToastMsg] = useState<string | null>(null)
 
   useEffect(() => {
-    loadState().then(setState).catch(() => setState(emptyState()))
-  }, [])
-
-  const store: Store | null = useMemo(
-    () =>
-      state && {
-        state,
-        update: (fn) =>
-          setState((s) => {
-            const next = fn(s!)
-            persistState(next)
-            return next
-          }),
-        replace: (s) => {
-          persistState(s)
-          setState(s)
-        },
-      },
-    [state],
-  )
-
-  const toast = useCallback((msg: string) => {
-    setToastMsg(msg)
-    window.setTimeout(() => setToastMsg((m) => (m === msg ? null : m)), 2600)
+    loadData().then(setState).catch(() => setError(true))
   }, [])
 
   const nav: Nav = useMemo(
@@ -61,48 +29,50 @@ export default function App() {
         window.scrollTo({ top: 0 })
       },
       openPlayer: setPlayer,
-      toast,
     }),
-    [tab, toast],
+    [tab],
   )
 
-  if (!store) return <div className="splash"><span className="splash-ball">⚽</span></div>
+  if (error)
+    return (
+      <div className="splash">
+        <p className="muted">No se pudieron cargar los datos. Revisa la conexión y recarga.</p>
+      </div>
+    )
+  if (!state) return <div className="splash"><span className="splash-ball">⚽</span></div>
+
+  const tabButton = (t: Tab, label: string, icon: ReactNode) => (
+    <button className={`tab ${tab === t ? 'on' : ''}`} onClick={() => nav.go(t)}>
+      {icon}
+      <span>{label}</span>
+    </button>
+  )
 
   return (
-    <StoreContext.Provider value={store}>
+    <DataContext.Provider value={state}>
       <NavContext.Provider value={nav}>
         <div className="bg-glow" />
         <main key={tab} className="view">
           {tab === 'home' && <Home />}
+          {tab === 'report' && <Report />}
           {tab === 'market' && <Market />}
-          {tab === 'import' && <Import initialText={sharedText.current} />}
           {tab === 'squad' && <Squad />}
           {tab === 'top' && <Top />}
-          {tab === 'settings' && <Settings />}
+          <p className="updated">Datos actualizados el {prettyDate(state.updated.slice(0, 10), true)}</p>
         </main>
 
         <nav className="tabbar">
-          <TabButton t="home" label="Inicio" icon={<IconHome />} />
-          <TabButton t="market" label="Mercado" icon={<IconMarket />} />
-          <button className={`fab ${tab === 'import' ? 'on' : ''}`} onClick={() => nav.go('import')} aria-label="Importar">
-            <IconPlus width={28} height={28} />
+          {tabButton('home', 'Inicio', <IconHome />)}
+          {tabButton('market', 'Mercado', <IconMarket />)}
+          <button className={`fab ${tab === 'report' ? 'on' : ''}`} onClick={() => nav.go('report')} aria-label="Informe">
+            <IconSpark width={26} height={26} />
           </button>
-          <TabButton t="squad" label="Plantilla" icon={<IconShirt />} />
-          <TabButton t="top" label="Top" icon={<IconTrophy />} />
+          {tabButton('squad', 'Plantilla', <IconShirt />)}
+          {tabButton('top', 'Top', <IconTrophy />)}
         </nav>
 
         {player && <PlayerSheet key={player} id={player} onClose={() => setPlayer(null)} />}
-        {toastMsg && <div className="toast">{toastMsg}</div>}
       </NavContext.Provider>
-    </StoreContext.Provider>
+    </DataContext.Provider>
   )
-
-  function TabButton({ t, label, icon }: { t: Tab; label: string; icon: React.ReactNode }) {
-    return (
-      <button className={`tab ${tab === t ? 'on' : ''}`} onClick={() => nav.go(t)}>
-        {icon}
-        <span>{label}</span>
-      </button>
-    )
-  }
 }

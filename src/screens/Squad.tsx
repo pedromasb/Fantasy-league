@@ -4,7 +4,7 @@ import { Empty, Section, Segmented, ScoreRing } from '../components/ui'
 import { bestLineup, marketInsights, squadMembers, teamValueOf, type SquadMember } from '../lib/analysis'
 import { money, POS_ORDER, prettyDate, signedMoney } from '../lib/format'
 import { useNav } from '../lib/nav'
-import { latestSquad, useStore } from '../lib/store'
+import { latestReport, latestSquad, useData } from '../lib/data'
 import type { Pos } from '../types'
 
 function Pitch({ formation, members, ids }: { formation: string; members: SquadMember[]; ids: string[] }) {
@@ -49,12 +49,13 @@ function Pitch({ formation, members, ids }: { formation: string; members: SquadM
 }
 
 export function Squad() {
-  const { state } = useStore()
-  const { go } = useNav()
+  const state = useData()
   const [view, setView] = useState<'mine' | 'best'>('mine')
   const snap = latestSquad(state)
   const members = useMemo(() => squadMembers(state), [state])
-  const best = useMemo(() => bestLineup(members), [members])
+  const reportLineup = latestReport(state)?.lineup
+  const computed = useMemo(() => bestLineup(members), [members])
+  const best = reportLineup ? { ...reportLineup, total: undefined } : computed
   const marketDate = Object.keys(state.markets).sort().pop()
   const market = useMemo(() => (marketDate ? marketInsights(state, marketDate) : []), [state, marketDate])
 
@@ -62,7 +63,7 @@ export function Squad() {
     return (
       <div className="screen">
         <header className="top"><h1>Mi plantilla</h1></header>
-        <Empty icon="👕" title="Sin plantilla" text="Haz un pantallazo de tu alineación, copia el texto y pégalo en Importar." action={<button className="btn primary" onClick={() => go('import')}>Importar alineación</button>} />
+        <Empty icon="👕" title="Sin plantilla" text="Pásame el pantallazo de tu alineación en el chat." />
       </div>
     )
 
@@ -114,9 +115,10 @@ export function Squad() {
         </div>
       </header>
 
-      <Segmented options={[{ value: 'mine', label: `Mi once${snap.formation ? ` · ${snap.formation}` : ''}` }, { value: 'best', label: `Once ideal${best ? ` · ${best.formation}` : ''}` }]} value={view} onChange={setView} />
+      <Segmented options={[{ value: 'mine', label: `Mi once${snap.formation ? ` · ${snap.formation}` : ''}` }, { value: 'best', label: `${reportLineup ? 'Recomendado' : 'Once ideal'}${best ? ` · ${best.formation}` : ''}` }]} value={view} onChange={setView} />
       <Pitch formation={formation} members={members} ids={ids} />
-      {view === 'best' && best && <p className="footnote center">Elegido por puntos de temporada, sin lesionados ni sancionados. Total: <b>{Math.round(best.total)} pts</b></p>}
+      {view === 'best' && reportLineup?.note && <p className="footnote center">{reportLineup.note}</p>}
+      {view === 'best' && !reportLineup && computed && <p className="footnote center">Elegido por puntos de temporada, sin lesionados ni sancionados. Total: <b>{Math.round(computed.total)} pts</b></p>}
 
       {upgrades.length > 0 && (
         <Section title="Mejoras posibles" sub="Cambia a tu peor jugador de cada línea por alguien del mercado">

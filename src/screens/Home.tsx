@@ -1,17 +1,19 @@
 import { useMemo } from 'react'
 import { Donut, LineChart } from '../components/Charts'
-import { IconChevron, IconGear, IconSpark } from '../components/Icons'
+import { IconChevron, IconSpark } from '../components/Icons'
 import { PlayerRow } from '../components/PlayerRow'
 import { Section, ScoreRing } from '../components/ui'
 import { dailyAdvice, marketInsights, squadMembers, teamValueOf } from '../lib/analysis'
 import { money, POS_LABEL, POS_ORDER, prettyDate, signedMoney } from '../lib/format'
 import { useNav } from '../lib/nav'
-import { latestSquad, today, useStore } from '../lib/store'
+import { latestReport, latestRec, latestSquad, today, useData } from '../lib/data'
+import { VerdictBadge } from '../components/Verdict'
 
 const POS_COLOR = { GK: 'var(--gk)', DEF: 'var(--def)', MID: 'var(--mid)', STR: 'var(--str)', COA: 'var(--coa)' }
 
 export function Home() {
-  const { state } = useStore()
+  const state = useData()
+  const report = latestReport(state)
   const { go, openPlayer } = useNav()
 
   const members = useMemo(() => squadMembers(state), [state])
@@ -50,19 +52,13 @@ export function Home() {
           <p className="eyebrow">{prettyDate(today(), true)}</p>
           <h1>Tu asesor <span className="grad">Fantasy</span></h1>
         </div>
-        <button className="icon-btn" onClick={() => go('settings')} aria-label="Ajustes"><IconGear /></button>
       </header>
 
       {empty ? (
         <div className="onboard card">
           <div className="onboard-glow" />
           <h2>Empecemos ⚽</h2>
-          <ol>
-            <li><b>Haz un pantallazo</b> del mercado de tu liga en LaLiga Fantasy.</li>
-            <li>Ábrelo y pulsa <b>Lens → Texto → Copiar</b> (o "Copiar texto" en Recientes).</li>
-            <li>Pega el texto en <b>Importar</b>. Repite con tu alineación.</li>
-          </ol>
-          <button className="btn primary wide" onClick={() => go('import')}>Importar mi primer pantallazo</button>
+          <p className="muted">Pásame en el chat los pantallazos del mercado y de tu plantilla. Yo actualizo los datos y escribo el informe del día aquí.</p>
         </div>
       ) : (
         <>
@@ -82,15 +78,24 @@ export function Home() {
             <LineChart data={teamSeries} format={money} height={120} />
           </div>
 
+          {report && (
+            <button className="report-teaser card" onClick={() => go('report')}>
+              <div className="spot-label"><IconSpark width={16} height={16} /> Informe del {prettyDate(report.date)}</div>
+              <h3>{report.title}</h3>
+              <p className="muted">{report.summary}</p>
+              <span className="link">Leer informe completo →</span>
+            </button>
+          )}
+
           <div className="kpis">
-            <button className="kpi" onClick={() => go('settings')}>
+            <div className="kpi">
               <span>Saldo</span>
               <b className={state.budget !== undefined && state.budget < 0 ? 'neg' : ''}>{money(state.budget)}</b>
-              <small>{state.budget === undefined ? 'Toca para añadir' : 'disponible'}</small>
-            </button>
+              <small>{state.budget === undefined ? 'pásamelo en el chat' : state.budgetDate ? `a ${prettyDate(state.budgetDate)}` : 'disponible'}</small>
+            </div>
             <button className="kpi" onClick={() => go('squad')}>
               <span>Puntos plantilla</span>
-              <b>{totalPoints}</b>
+              <b>{members.some((m) => m.points !== undefined) ? totalPoints : '—'}</b>
               <small>{members.length} jugadores</small>
             </button>
             <button className="kpi" onClick={() => go('market')}>
@@ -101,26 +106,29 @@ export function Home() {
             <div className="kpi">
               <span>Plusvalías</span>
               <b className={gains >= 0 ? 'pos' : 'neg'}>{hasGains ? signedMoney(gains) : '—'}</b>
-              <small>{hasGains ? 'sobre precio de compra' : 'añade precios de compra'}</small>
+              <small>{hasGains ? 'sobre precio de compra' : 'sin precios de compra'}</small>
             </div>
           </div>
 
           {best && (
             <button className="spotlight card" onClick={() => openPlayer(best.player.id)}>
-              <div className="spot-label"><IconSpark width={16} height={16} /> Mejor oportunidad de hoy</div>
+              <div className="spot-label"><IconSpark width={16} height={16} /> Mejor nota del mercado</div>
               <div className="row gap between">
                 <div>
                   <h3>{best.player.name}</h3>
                   <p className="muted">{POS_LABEL[best.player.pos]} · {money(best.entry.price)} · {best.points ?? 0} pts</p>
                 </div>
-                <ScoreRing score={best.score} size={56} />
+                <div className="stack gap-s" style={{ alignItems: 'center' }}>
+                  <ScoreRing score={best.score} size={56} />
+                  {latestRec(state, best.player.id) && <VerdictBadge verdict={latestRec(state, best.player.id)!.verdict} />}
+                </div>
               </div>
             </button>
           )}
 
-          <Section title="Consejos del día" sub="Basados en tu plantilla y el último mercado">
+          <Section title="Alertas automáticas" sub="Calculadas a partir de los datos">
             <div className="advice-list">
-              {advice.length === 0 && <p className="muted">Todo en orden. ¡Buen trabajo, míster!</p>}
+              {advice.length === 0 && <p className="muted">Sin alertas. ¡Buen trabajo, míster!</p>}
               {advice.map((a, i) => (
                 <button key={i} className={`advice tone-${a.tone}`} onClick={() => a.playerId && openPlayer(a.playerId)} disabled={!a.playerId}>
                   <span className="advice-icon">{a.icon}</span>

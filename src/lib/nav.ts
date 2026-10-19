@@ -1,12 +1,11 @@
 import { createContext, useContext } from 'react'
 
-export type Tab = 'home' | 'market' | 'import' | 'squad' | 'top' | 'settings'
+export type Tab = 'home' | 'report' | 'market' | 'squad' | 'top'
 
 export interface Nav {
   tab: Tab
   go: (t: Tab) => void
   openPlayer: (id: string) => void
-  toast: (msg: string) => void
 }
 
 export const NavContext = createContext<Nav | null>(null)

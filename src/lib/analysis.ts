@@ -1,5 +1,5 @@
 import type { AppState, MarketEntry, Player, Pos, SquadSnapshot, Status } from '../types'
-import { latestSquad } from './store'
+import { latestSquad } from './data'
 
 export interface Obs {
   date: string
@@ -197,8 +197,6 @@ export function dailyAdvice(s: AppState): Advice[] {
   const out: Advice[] = []
   const members = squadMembers(s)
   const marketDate = Object.keys(s.markets).sort().pop()
-  const market = marketDate ? marketInsights(s, marketDate) : []
-  const owned = new Set(members.map((m) => m.player.id))
 
   for (const m of members) {
     if (m.status === 'injured' && m.starter)
@@ -218,17 +216,6 @@ export function dailyAdvice(s: AppState): Advice[] {
     out.push({ tone: 'good', icon: '📈', title: `${m.player.name} se revaloriza`, text: `Sube de media un ${((m.trend ?? 0) * 100).toFixed(1)}% al día. Buen activo para mantener.`, playerId: m.player.id })
 
   const budget = s.budget
-  const buys = market.filter((x) => !owned.has(x.player.id) && x.status !== 'injured' && x.score >= 70 && (budget === undefined || x.entry.price <= budget))
-  for (const b of buys.slice(0, 3)) {
-    const weakest = members
-      .filter((m) => m.player.pos === b.player.pos)
-      .sort((x, y) => (x.points ?? 0) - (y.points ?? 0))[0]
-    const extra = weakest && (b.points ?? 0) > (weakest.points ?? 0)
-      ? ` Supera a ${weakest.player.name} (${b.points} vs ${weakest.points ?? 0} pts).`
-      : ''
-    out.push({ tone: 'good', icon: '💎', title: `Oportunidad: ${b.player.name}`, text: `Nota ${b.score}/100 en el mercado de hoy.${extra}`, playerId: b.player.id })
-  }
-
   const lineup = bestLineup(members)
   const snap = latestSquad(s)
   if (lineup && snap) {
@@ -241,14 +228,7 @@ export function dailyAdvice(s: AppState): Advice[] {
   if (budget !== undefined && budget < 0)
     out.push({ tone: 'bad', icon: '⚠️', title: 'Saldo negativo', text: 'Con saldo negativo no puntúas: vende antes del cierre de la jornada.' })
 
-  const counts = (p: Pos) => members.filter((m) => m.player.pos === p).length
-  if (members.length) {
-    if (counts('GK') < 2) out.push({ tone: 'info', icon: '🧤', title: 'Solo un portero', text: 'Un suplente barato evita quedarte sin portero si se lesiona.' })
-    if (counts('COA') === 0) out.push({ tone: 'info', icon: '📋', title: 'Sin entrenador', text: 'Añade el entrenador a tu plantilla (desde su ficha) para tenerlo controlado.' })
-  }
-
-  if (!marketDate) out.push({ tone: 'info', icon: '🛒', title: 'Sube el mercado de hoy', text: 'Pega el texto del pantallazo del mercado para detectar oportunidades.' })
-  else if (marketDate !== todayStr()) out.push({ tone: 'info', icon: '⏰', title: 'Mercado sin actualizar', text: 'El último mercado guardado no es de hoy. Súbelo para tener datos frescos.' })
+  if (marketDate && marketDate !== todayStr()) out.push({ tone: 'info', icon: '⏰', title: 'Mercado sin actualizar', text: 'El último mercado no es de hoy: pásame el pantallazo en el chat.' })
   return out
 }
 

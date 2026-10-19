@@ -431,3 +431,53 @@ select { appearance: none; background-image: linear-gradient(45deg, transparent 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ---------- report & recommendations ---------- */
+.verdict { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 3px 8px; border-radius: 7px; flex: none; }
+.verdict.big { font-size: 13px; padding: 5px 11px; border-radius: 9px; }
+.prow-name > span:nth-child(2) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+
+.summary { padding: 18px; position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 8px; border-color: rgba(94, 240, 176, 0.25); background: linear-gradient(150deg, rgba(94, 240, 176, 0.12), rgba(167, 139, 250, 0.08)); }
+.summary p { font-size: 16px; line-height: 1.55; color: #dfe5f7; position: relative; }
+.summary-glow { position: absolute; width: 200px; height: 200px; right: -90px; top: -90px; background: var(--grad); filter: blur(70px); opacity: 0.3; }
+
+.report-list { overflow: hidden; }
+.report-item { display: flex; align-items: flex-start; gap: 12px; width: 100%; padding: 13px 14px; border-bottom: 1px solid var(--line); font-size: 15px; line-height: 1.5; color: #dfe5f7; }
+.report-item:last-child { border-bottom: 0; }
+.report-item:disabled { color: #dfe5f7; }
+.report-item:not(:disabled):active { background: var(--card-hi); }
+.report-item .bullet { width: 7px; height: 7px; border-radius: 50%; background: var(--grad); margin-top: 9px; flex: none; }
+.report-item svg { margin-top: 4px; flex: none; }
+
+.report-teaser { display: flex; flex-direction: column; gap: 6px; width: 100%; padding: 16px 18px; text-align: left; border-color: rgba(92, 200, 255, 0.3); background: linear-gradient(140deg, rgba(92, 200, 255, 0.12), rgba(167, 139, 250, 0.08)); }
+.report-teaser .spot-label { color: var(--accent-2); }
+.report-teaser p { font-size: 14px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+.rec-row { display: flex; gap: 12px; align-items: flex-start; width: 100%; padding: 14px; border-bottom: 1px solid var(--line); }
+.rec-row:last-child { border-bottom: 0; }
+.rec-row:active { background: var(--card-hi); }
+.rec-text { font-size: 13.5px; line-height: 1.5; color: #c9d0e4; margin: 6px 0; }
+
+.rec { padding: 16px; display: flex; flex-direction: column; gap: 10px; border-color: rgba(94, 240, 176, 0.28); background: linear-gradient(150deg, rgba(94, 240, 176, 0.1), rgba(255, 255, 255, 0.03)); }
+.rec p { font-size: 15px; line-height: 1.55; color: #dfe5f7; }
+.hero-tags { margin-top: 6px; }
+
+.season { display: flex; flex-direction: column; gap: 8px; }
+.season + .season { padding-top: 12px; border-top: 1px solid var(--line); }
+.season-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.season-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.season-grid div { background: rgba(0, 0, 0, 0.22); border-radius: 12px; padding: 8px 6px; display: flex; flex-direction: column; align-items: center; gap: 1px; }
+.season-grid b { font-size: 18px; }
+.season-grid span { font-size: 10.5px; color: var(--muted); text-align: center; }
+
+.news { display: flex; flex-direction: column; gap: 10px; }
+.news-item { padding-left: 12px; border-left: 3px solid var(--tone, var(--accent-2)); display: flex; flex-direction: column; gap: 2px; }
+.news-item p { font-size: 14px; line-height: 1.5; }
+.tone-line-good { --tone: var(--pos); } .tone-line-bad { --tone: var(--neg); } .tone-line-warn { --tone: var(--warn); } .tone-line-info { --tone: var(--accent-2); }
+
+.sources { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; padding: 0 4px; }
+.sources a { font-size: 12.5px; color: var(--accent-2); text-decoration: none; border-bottom: 1px dotted rgba(92, 200, 255, 0.5); }
+
+.updated { text-align: center; font-size: 12px; color: var(--muted); margin: -8px 0 0; padding-bottom: calc(var(--tabbar) + env(safe-area-inset-bottom) + 24px); }
+.view .screen { padding-bottom: 24px; }
+.splash p { padding: 24px; text-align: center; }

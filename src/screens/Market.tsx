@@ -3,8 +3,7 @@ import { PlayerRow } from '../components/PlayerRow'
 import { Chips, Empty, ScoreRing, Segmented } from '../components/ui'
 import { marketInsights, type MarketInsight } from '../lib/analysis'
 import { money, num, POS_LABEL, prettyDate } from '../lib/format'
-import { useNav } from '../lib/nav'
-import { useStore } from '../lib/store'
+import { useData } from '../lib/data'
 import type { Pos } from '../types'
 
 type Sort = 'score' | 'value' | 'points' | 'ppm' | 'trend'
@@ -24,8 +23,7 @@ const sorters: Record<Sort, (a: MarketInsight, b: MarketInsight) => number> = {
 }
 
 export function Market() {
-  const { state } = useStore()
-  const { go } = useNav()
+  const state = useData()
   const dates = Object.keys(state.markets).sort().reverse()
   const [date, setDate] = useState(dates[0] ?? '')
   const [pos, setPos] = useState<Pos | 'ALL'>('ALL')
@@ -38,7 +36,7 @@ export function Market() {
     return (
       <div className="screen">
         <header className="top"><h1>Mercado</h1></header>
-        <Empty icon="🛒" title="Aún no hay mercado" text="Copia el texto del pantallazo del mercado y pégalo en Importar." action={<button className="btn primary" onClick={() => go('import')}>Importar mercado</button>} />
+        <Empty icon="🛒" title="Aún no hay mercado" text="Pásame el pantallazo del mercado en el chat y aparecerá aquí." />
       </div>
     )
 

@@ -4,7 +4,7 @@ import { Chips, Delta, Empty, Segmented } from '../components/ui'
 import { allDates, knownPlayers, type PlayerSummary } from '../lib/analysis'
 import { initials, money, num, POS_LABEL, prettyDate } from '../lib/format'
 import { useNav } from '../lib/nav'
-import { useStore } from '../lib/store'
+import { useData } from '../lib/data'
 import type { Pos } from '../types'
 
 type Board = 'points' | 'risers' | 'fallers' | 'ppm' | 'value'
@@ -17,8 +17,7 @@ const BOARDS: { value: Board; label: string; icon: string; sub: string }[] = [
 ]
 
 export function Top() {
-  const { state } = useStore()
-  const { go } = useNav()
+  const state = useData()
   const dates = allDates(state).reverse()
   const [date, setDate] = useState(dates[0] ?? '')
   const [board, setBoard] = useState<Board>('points')
@@ -30,7 +29,7 @@ export function Top() {
     return (
       <div className="screen">
         <header className="top"><h1>Top jugadores</h1></header>
-        <Empty icon="🏆" title="Sin datos" text="Los rankings se construyen con cada mercado y plantilla que importes." action={<button className="btn primary" onClick={() => go('import')}>Importar</button>} />
+        <Empty icon="🏆" title="Sin datos" text="Los rankings se construyen con cada mercado y plantilla que me pases." />
       </div>
     )
 

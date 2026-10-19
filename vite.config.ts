@@ -13,7 +13,7 @@ export default defineConfig({
       manifest: {
         name: 'Fantasy Asesor',
         short_name: 'Fantasy',
-        description: 'Tu asesor personal para LaLiga Fantasy',
+        description: 'Informe diario y estadísticas de mi equipo de LaLiga Fantasy',
         lang: 'es',
         start_url: './',
         scope: './',
@@ -27,15 +27,11 @@ export default defineConfig({
           { src: 'pwa-512x512.png', sizes: '512x512', type: 'image/png' },
           { src: 'maskable-icon-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
-        // Lets Lens "Share" send copied text straight into the app.
-        share_target: {
-          action: './',
-          method: 'GET',
-          params: { title: 'title', text: 'text' },
-        },
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
+        // Daily data must be fresh when online, cached for offline use.
+        runtimeCaching: [{ urlPattern: /\/data\/.*\.json$/, handler: 'NetworkFirst', options: { cacheName: 'data' } }],
       },
     }),
   ],

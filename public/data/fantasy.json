@@ -1,0 +1,1176 @@
+{
+ "version": 1,
+ "updated": "2026-10-19T22:00:00+02:00",
+ "players": {
+  "luis-castro": {
+   "id": "luis-castro",
+   "name": "Luís Castro",
+   "pos": "COA",
+   "team": "Levante",
+   "fullName": "Luís Castro",
+   "nationality": "Portugal",
+   "news": [
+    {
+     "date": "2025-12-20",
+     "text": "Llegó al Levante en diciembre de 2025 con el equipo colista y contrato hasta 2027; debutó ganando 0-3 en Sevilla.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Soccerway",
+     "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-oficial-luis-castro-es-el-nuevo-entrenador-del-levante/zy62xKDc"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "cardoso": {
+   "id": "cardoso",
+   "name": "Cardoso",
+   "pos": "DEF",
+   "team": "Sevilla",
+   "fullName": "Fábio Cardoso",
+   "nationality": "Portugal",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 0,
+     "minutes": 0
+    },
+    {
+     "season": "2025-26",
+     "apps": 5,
+     "minutes": 338
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-05",
+     "text": "No entra en los planes de García Plaza: apartado desde pretemporada y el club busca su salida. Solo reapareció en un amistoso por falta de centrales.",
+     "tone": "bad"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/noticias/38230/fabio-cardoso-vuelve-a-escena-debido-a-las-necesidades-del-equipo"
+    },
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/jugador/fabio-cardoso"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "sadiq": {
+   "id": "sadiq",
+   "name": "Sadiq",
+   "pos": "STR",
+   "team": "Valencia",
+   "fullName": "Umar Sadiq",
+   "nationality": "Nigeria",
+   "news": [
+    {
+     "date": "2026-08-30",
+     "text": "Lesión en los isquiotibiales en Riazor (Deportivo-Valencia). Lesión seria pero sin cirugía.",
+     "tone": "bad"
+    },
+    {
+     "date": "2026-09-05",
+     "text": "Baja estimada de 8 a 10 semanas: volvería a finales de octubre o en noviembre. El Valencia sondeó a Martial como recambio.",
+     "tone": "warn"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FutbolFantasy",
+     "url": "https://www.futbolfantasy.com/laliga/noticias/150170-sadiq-cayo-lesionado-en-riazor-y-sera-sometido-a-pruebas"
+    },
+    {
+     "title": "Fichajes.net",
+     "url": "https://www.fichajes.net/noticias/valencia-negocia-martial-20260905.html"
+    },
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/en/noticias/37611/very-bad-news-for-umar-sadiq"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "matteo-prati": {
+   "id": "matteo-prati",
+   "name": "Matteo Prati",
+   "pos": "MID",
+   "team": "Racing de Santander",
+   "fullName": "Matteo Prati",
+   "nationality": "Italia",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 4
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-08-20",
+     "text": "Cedido por el Cagliari hasta junio de 2027 con opción de compra. Llega para pelear minutos en el doble pivote del recién ascendido.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Flashscore",
+     "url": "https://www.flashscore.es/noticias/futbol-laliga-ea-sports-el-racing-hace-oficial-el-fichaje-de-matteo-prati/6708UREl/"
+    },
+    {
+     "title": "Comuniate",
+     "url": "https://webapp.comuniate.com/en/noticias/37484/matteo-prati-new-racing-de-santander-midfielder-gustavo-puertas-replacement"
+    },
+    {
+     "title": "Statsniper",
+     "url": "https://statsniper.com/ar/leagues/la-liga/player/matteo_prati_RAC/matteo-prati/"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "gorrotxa": {
+   "id": "gorrotxa",
+   "name": "Gorrotxa",
+   "pos": "MID",
+   "team": "Real Sociedad",
+   "fullName": "Jon Gorrotxategi",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 5,
+     "starts": 1,
+     "minutes": 131,
+     "goals": 0,
+     "assists": 0
+    },
+    {
+     "season": "2025-26",
+     "apps": 30,
+     "minutes": 2217
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-01",
+     "text": "Renovado hasta 2030, pero esta temporada es suplente: 1 titularidad en 5 partidos.",
+     "tone": "warn"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/jugador/jon-gorrotxategi"
+    },
+    {
+     "title": "Soccerway",
+     "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-jon-gorrotxategi-renueva-con-la-real-sociedad-hasta-2030/Q9K3WyO9"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "larrubia": {
+   "id": "larrubia",
+   "name": "Larrubia",
+   "pos": "MID",
+   "team": "Málaga",
+   "fullName": "David Larrubia",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 7,
+     "starts": 6,
+     "minutes": 574,
+     "goals": 0,
+     "assists": 0,
+     "shots": 12,
+     "extra": {
+      "Tiros a puerta": 2
+     }
+    },
+    {
+     "season": "2025-26 (Segunda)",
+     "apps": 45,
+     "goals": 12,
+     "assists": 4
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Titular en 6 de 7 partidos del recién ascendido Málaga. Aún sin goles en Primera pese a 12 tiros, tras marcar 12 en Segunda.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/es-IN/jugador/larrubia"
+    },
+    {
+     "title": "Statsniper",
+     "url": "https://statsniper.com/la-liga/player/david_larrubia_MCF/"
+    },
+    {
+     "title": "Rotowire",
+     "url": "https://www.rotowire.com/soccer/player/david-larrubia-48668"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "cheikh-thiam": {
+   "id": "cheikh-thiam",
+   "name": "Cheikh Thiam",
+   "pos": "MID",
+   "team": "Villarreal",
+   "fullName": "Cheikh Tidiane Thiam",
+   "born": "2005-11-07",
+   "nationality": "Senegal",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 0,
+     "minutes": 0
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-07-25",
+     "text": "Debutó con el primer equipo en pretemporada (gol y asistencia ante el PSV), pero no ha jugado en LaLiga.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Foot Africa",
+     "url": "https://foot-africa.com/en/news/spain-cheikh-tidiane-thiam-shines-on-his-villarreal-debut-1293652/"
+    },
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/en-ES/player/cheikh-thiam"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "beitia": {
+   "id": "beitia",
+   "name": "Beitia",
+   "pos": "DEF",
+   "team": "Real Sociedad",
+   "fullName": "Luken Beitia",
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Aparece lesionado en el mercado. Central joven, renovado hasta 2030, con poco protagonismo en el primer equipo.",
+     "tone": "bad"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FotMob",
+     "url": "https://www.fotmob.com/players/1697334/luken-beitia"
+    },
+    {
+     "title": "Soccerway",
+     "url": "https://ve.soccerway.com/jugador/beitia-luken/nLldSDip"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "youssef": {
+   "id": "youssef",
+   "name": "Youssef",
+   "pos": "DEF",
+   "team": "Alavés",
+   "fullName": "Youssef Lekhedim",
+   "nationality": "Marruecos",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 6,
+     "minutes": 148
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Lateral de 2005 con el dorsal 3. Las fuentes no coinciden en sus minutos (de 0 a 6 partidos); suma 17 puntos Fantasy.",
+     "tone": "warn"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/jugador/youssef-lekhedim"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/soccer/player/_/id/149306"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "raba": {
+   "id": "raba",
+   "name": "Raba",
+   "pos": "STR",
+   "team": "Valencia",
+   "fullName": "Dani Raba",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 2,
+     "goals": 1,
+     "shots": 3,
+     "extra": {
+      "Tiros a puerta": 1
+     }
+    },
+    {
+     "season": "2025-26",
+     "goals": 0,
+     "assists": 1,
+     "minutes": 257
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Con Sadiq lesionado, tiene más opciones de minutos en la delantera del Valencia. Datos de 2026-27 contradictorios entre fuentes.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Statsniper",
+     "url": "https://statsniper.com/leagues/la-liga/player/dani_raba_VAL/"
+    },
+    {
+     "title": "FotMob",
+     "url": "https://www.fotmob.com/es/players/784246/dani-raba"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "el-hilali": {
+   "id": "el-hilali",
+   "name": "El Hilali",
+   "pos": "DEF",
+   "team": "Espanyol",
+   "fullName": "Omar El Hilali",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 7,
+     "starts": 7,
+     "minutes": 615,
+     "goals": 0,
+     "assists": 1,
+     "shots": 0,
+     "yellow": 2,
+     "red": 1,
+     "extra": {
+      "Faltas": 19
+     }
+    },
+    {
+     "season": "2025-26",
+     "apps": 36,
+     "starts": 32,
+     "minutes": 2828,
+     "assists": 2,
+     "yellow": 9
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Titular en los 7 partidos que ha jugado. Ojo: ya lleva una roja y 2 amarillas esta temporada.",
+     "tone": "warn"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/es-CO/jugador/omar-1"
+    },
+    {
+     "title": "The Analyst",
+     "url": "https://theanalyst.com/players/1739/omar-el-hilali"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "unai-simon": {
+   "id": "unai-simon",
+   "name": "Unai Simón",
+   "pos": "GK",
+   "team": "Athletic Club",
+   "fullName": "Unai Simón",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 3,
+     "goals": 0
+    },
+    {
+     "season": "2025-26",
+     "apps": 37,
+     "extra": {
+      "Porterías a cero": 6,
+      "Goles encajados": 54,
+      "Paradas": 100
+     }
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Portero titular del Athletic. Solo una fuente secundaria da sus partidos de 2026-27 (3), así que tómalo con cautela.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rotowire",
+     "url": "https://www-sss-gov-phwww.rotowire.com/soccer/player/unai-simon-23362"
+    },
+    {
+     "title": "FootballDream",
+     "url": "https://www.footballdream.in/players/unai-simon-222375"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "mojica": {
+   "id": "mojica",
+   "name": "Mojica",
+   "pos": "DEF",
+   "team": "Getafe",
+   "fullName": "Johan Mojica",
+   "nationality": "Colombia",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 1,
+     "starts": 1,
+     "minutes": 90
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-09-07",
+     "text": "Titular y de lo mejor de la defensa del Getafe ante el Celta (jornada 4).",
+     "tone": "good"
+    },
+    {
+     "date": "2026-08-15",
+     "text": "Fichado del Mallorca tras el Mundial. Titular habitual en el lateral izquierdo de Bordalás.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ClaroSports",
+     "url": "https://www.clarosports.com/futbol/laliga/johan-mojica-destacado-getafe/"
+    },
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/noticias/37240/johan-mojica-ficha-por-el-getafe-recomendable-en-comunio"
+    },
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/en-ID/player/j-mojica"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "koski": {
+   "id": "koski",
+   "name": "Koski",
+   "pos": "DEF",
+   "team": "Alavés",
+   "fullName": "Ville Koski",
+   "born": "2002-01-27",
+   "nationality": "Finlandia",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 8,
+     "starts": 7,
+     "minutes": 639,
+     "goals": 1
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-07-15",
+     "text": "El Alavés lo compró en propiedad hasta 2031 tras su cesión. Central titular y ya ha marcado.",
+     "tone": "good"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gasteiz Hoy",
+     "url": "https://www.gasteizhoy.com/alaves-ville-koski-fichaje-verano/"
+    },
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/es-BR/jugador/ville-koski"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "sergio-gomez": {
+   "id": "sergio-gomez",
+   "name": "Sergio Gómez",
+   "pos": "DEF",
+   "team": "Real Sociedad",
+   "fullName": "Sergio Gómez",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 6,
+     "starts": 6,
+     "minutes": 522,
+     "goals": 0,
+     "assists": 0,
+     "shots": 4
+    },
+    {
+     "season": "2025-26",
+     "goals": 0,
+     "assists": 2,
+     "minutes": 2065
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Titular en todos sus partidos, pero sin goles ni asistencias todavía.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/en-US/player/sergio-gomez"
+    },
+    {
+     "title": "FotMob",
+     "url": "https://www.fotmob.com/es/players/844477"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "bartra": {
+   "id": "bartra",
+   "name": "Bartra",
+   "pos": "DEF",
+   "team": "Betis",
+   "fullName": "Marc Bartra",
+   "news": [
+    {
+     "date": "2026-09-20",
+     "text": "Se retiró a los pocos minutos ante el Deportivo con molestias en el isquiotibial izquierdo.",
+     "tone": "warn"
+    },
+    {
+     "date": "2026-09-22",
+     "text": "Las pruebas descartaron lesión; siguió un plan específico antes de volver a la normalidad.",
+     "tone": "good"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/noticias/38087/marc-bartra-cae-lesionado-en-riazor"
+    },
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/noticias/38130/bartra-recibe-el-resultado-de-las-pruebas-tiempo-estimado-de-baja"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "ibanez": {
+   "id": "ibanez",
+   "name": "Ibáñez",
+   "pos": "MID",
+   "team": "Alavés",
+   "fullName": "Pablo Ibáñez",
+   "born": "1998-09-20",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 7,
+     "starts": 7,
+     "minutes": 580,
+     "goals": 1,
+     "shots": 8,
+     "yellow": 1
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Mediocentro titular en todos sus partidos del Alavés; ya tiene un gol.",
+     "tone": "good"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/jugador/pablo-ibanez"
+    },
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/jugadores/3311/pablo-ibanez"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "unai-lopez": {
+   "id": "unai-lopez",
+   "name": "Unai López",
+   "pos": "MID",
+   "team": "Rayo Vallecano",
+   "fullName": "Unai López",
+   "born": "1995-10-30",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 8,
+     "minutes": 581,
+     "assists": 3,
+     "yellow": 2
+    },
+    {
+     "season": "2025-26",
+     "goals": 0,
+     "assists": 3,
+     "minutes": 1187
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Ya iguala con 3 asistencias las de toda la temporada pasada.",
+     "tone": "good"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/en-CO/player/unai-lopez"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "bernardo-silva": {
+   "id": "bernardo-silva",
+   "name": "Bernardo Silva",
+   "pos": "MID",
+   "team": "Real Madrid",
+   "fullName": "Bernardo Silva",
+   "nationality": "Portugal",
+   "news": [
+    {
+     "date": "2026-06-17",
+     "text": "Fichado libre del Manchester City hasta 2028. Mourinho es el entrenador del Real Madrid.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "El Debate",
+     "url": "https://www.eldebate.com/deportes/futbol/20260617/real-madrid-hace-oficial-fichaje-bernardo-silva-llega-libre-firma-dos-temporadas_429568.html"
+    },
+    {
+     "title": "Man City",
+     "url": "https://www.mancity.com/news/mens/bernardo-silva-joins-real-madrid-63917285"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "saliba": {
+   "id": "saliba",
+   "name": "Saliba",
+   "pos": "MID",
+   "team": "Villarreal",
+   "fullName": "Nathan Saliba",
+   "born": "2004-02-07",
+   "nationality": "Canadá",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 2,
+     "starts": 1,
+     "minutes": 126
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-08-25",
+     "text": "Fichado del Anderlecht por 15 M€. De momento con pocos minutos (1 titularidad).",
+     "tone": "warn"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Comuniate",
+     "url": "https://www.comuniate.com/noticias/37459/el-villarreal-cierra-el-fichaje-de-nathan-saliba-por-15-millones-asi-es-su-nueva-apuesta"
+    },
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/en-NL/player/nathan-saliba"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "ferran-jutgla": {
+   "id": "ferran-jutgla",
+   "name": "Ferran Jutglà",
+   "pos": "STR",
+   "team": "Celta",
+   "fullName": "Ferran Jutglà",
+   "stats": [
+    {
+     "season": "2026-27",
+     "apps": 7,
+     "starts": 5,
+     "minutes": 388,
+     "goals": 1,
+     "assists": 0,
+     "shots": 6
+    },
+    {
+     "season": "2025-26",
+     "goals": 7,
+     "assists": 2,
+     "minutes": 1184
+    }
+   ],
+   "news": [
+    {
+     "date": "2026-10-19",
+     "text": "Titular en 5 de 7 partidos, 1 gol. La temporada pasada hizo 7 goles en solo 1.184 minutos.",
+     "tone": "info"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LaLiga",
+     "url": "https://www.laliga.com/en-FR/player/ferran-1"
+    },
+    {
+     "title": "FotMob",
+     "url": "https://www.fotmob.com/es/players/1102732"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  },
+  "cepeda": {
+   "id": "cepeda",
+   "name": "Cepeda",
+   "pos": "STR",
+   "team": "Elche",
+   "fullName": "Lucas Cepeda",
+   "nationality": "Chile",
+   "news": [
+    {
+     "date": "2026-04-11",
+     "text": "Marcó el 1-0 al Valencia la temporada pasada. Extremo que también juega de segundo punta.",
+     "tone": "info"
+    },
+    {
+     "date": "2026-10-19",
+     "text": "No encontré estadísticas fiables de esta temporada.",
+     "tone": "warn"
+    }
+   ],
+   "sources": [
+    {
+     "title": "24horas",
+     "url": "https://www.24horas.cl/deportes/futbol-internacional/tres-puntos-clave-elche-vencio-a-valencia-con-un-golazo-de-lucas-cepeda"
+    },
+    {
+     "title": "FotMob",
+     "url": "https://www.fotmob.com/es/players/1280756/lucas-cepeda"
+    }
+   ],
+   "statsUpdated": "2026-10-19"
+  }
+ },
+ "markets": {
+  "2026-10-19": [
+   {
+    "playerId": "luis-castro",
+    "value": 610931,
+    "price": 610931,
+    "points": 13,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "cardoso",
+    "value": 581361,
+    "price": 581361,
+    "points": 0,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "sadiq",
+    "value": 1359974,
+    "price": 1359974,
+    "points": 12,
+    "status": "injured",
+    "bids": 0
+   },
+   {
+    "playerId": "matteo-prati",
+    "value": 1338261,
+    "price": 1338261,
+    "points": 13,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "gorrotxa",
+    "value": 1331678,
+    "price": 1331678,
+    "points": 12,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "larrubia",
+    "value": 14608414,
+    "price": 14608414,
+    "points": 29,
+    "status": "available",
+    "bids": 1
+   },
+   {
+    "playerId": "cheikh-thiam",
+    "value": 593912,
+    "price": 593912,
+    "points": 0,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "beitia",
+    "value": 557748,
+    "price": 557748,
+    "points": 2,
+    "status": "injured",
+    "bids": 0
+   },
+   {
+    "playerId": "youssef",
+    "value": 738622,
+    "price": 738622,
+    "points": 17,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "raba",
+    "value": 798889,
+    "price": 798889,
+    "points": 12,
+    "status": "available",
+    "bids": 0
+   },
+   {
+    "playerId": "el-hilali",
+    "value": 17740475,
+    "price": 17740475,
+    "points": 34,
+    "status": "unknown",
+    "bids": 0
+   }
+  ]
+ },
+ "squads": {
+  "2026-10-19": {
+   "date": "2026-10-19",
+   "formation": "4-4-2",
+   "teamValue": 215612863,
+   "signings": "16/26",
+   "slots": [
+    {
+     "playerId": "unai-simon",
+     "starter": true
+    },
+    {
+     "playerId": "mojica",
+     "starter": true
+    },
+    {
+     "playerId": "koski",
+     "starter": true
+    },
+    {
+     "playerId": "sergio-gomez",
+     "starter": true
+    },
+    {
+     "playerId": "bartra",
+     "starter": true
+    },
+    {
+     "playerId": "ibanez",
+     "starter": true
+    },
+    {
+     "playerId": "unai-lopez",
+     "starter": true
+    },
+    {
+     "playerId": "bernardo-silva",
+     "starter": true
+    },
+    {
+     "playerId": "saliba",
+     "starter": true
+    },
+    {
+     "playerId": "ferran-jutgla",
+     "starter": true
+    },
+    {
+     "playerId": "cepeda",
+     "starter": true
+    }
+   ]
+  }
+ },
+ "purchases": {},
+ "reports": {
+  "2026-10-19": {
+   "date": "2026-10-19",
+   "title": "Dos fichajes baratos y un objetivo grande",
+   "summary": "Tu once 4-4-2 está bien armado. El punto débil es Saliba, con pocos minutos en el Villarreal. En el mercado hay dos gangas de menos de 1 M€ que fichar ya: Youssef (defensa) y Raba (delantero). El objetivo grande es Larrubia (29 pts), o El Hilali si te sobra saldo. Me falta saber tu saldo y los valores de tus jugadores para afinar las pujas.",
+   "sections": [
+    {
+     "title": "Qué haría hoy",
+     "icon": "🎯",
+     "items": [
+      {
+       "text": "Fichar a Youssef: puja hasta 850 K€ como quinto defensa. Es la mejor rentabilidad del mercado.",
+       "playerId": "youssef"
+      },
+      {
+       "text": "Fichar a Raba: puja hasta 900 K€ como tercer delantero, aprovechando la baja de Sadiq.",
+       "playerId": "raba"
+      },
+      {
+       "text": "Si tu saldo lo permite (unos 15-16 M€, o vendiendo a Saliba), puja por Larrubia hasta 15,8 M€. Ya tiene otra puja.",
+       "playerId": "larrubia"
+      },
+      {
+       "text": "Mantén el 4-4-2 con tu once actual. Revisa a Bartra antes del cierre de la jornada.",
+       "playerId": "bartra"
+      }
+     ]
+    },
+    {
+     "title": "Tu plantilla",
+     "icon": "👕",
+     "items": [
+      {
+       "text": "Los más fiables por minutos y rendimiento: Koski, Ibáñez y Unai López (3 asistencias).",
+       "playerId": "unai-lopez"
+      },
+      {
+       "text": "Saliba es el primer candidato a venta: apenas 126 minutos en LaLiga.",
+       "playerId": "saliba"
+      },
+      {
+       "text": "Sergio Gómez juega siempre, pero aún no ha marcado ni dado una asistencia. Es el segundo defensa que cambiaría.",
+       "playerId": "sergio-gomez"
+      },
+      {
+       "text": "Solo tienes 2 delanteros y 4 defensas a la vista: un tercer delantero barato te da margen ante lesiones y sanciones."
+      }
+     ]
+    },
+    {
+     "title": "Mercado",
+     "icon": "🛒",
+     "items": [
+      {
+       "text": "El Hilali es lo que más puntúa (34 pts), pero cuesta 17,7 M€ y ya ha visto una roja. Solo si te sobra dinero.",
+       "playerId": "el-hilali"
+      },
+      {
+       "text": "Evita a Sadiq (lesionado hasta noviembre), Gorrotxa (suplente), Cardoso (fuera de planes), Cheikh Thiam (sin minutos) y Beitia (lesionado)."
+      },
+      {
+       "text": "Luís Castro (entrenador, 611 K€) es un recambio barato si tu entrenador no puntúa.",
+       "playerId": "luis-castro"
+      }
+     ]
+    },
+    {
+     "title": "Lo que necesito de ti",
+     "icon": "📸",
+     "items": [
+      {
+       "text": "Una captura de la pestaña \"Squad\", para tener el valor y los puntos de cada uno de tus jugadores."
+      },
+      {
+       "text": "Tu saldo actual, para ajustar las pujas máximas."
+      },
+      {
+       "text": "Tu entrenador, que salía tapado por el anuncio, y los suplentes si tienes."
+      },
+      {
+       "text": "Si quieres ver las plusvalías, lo que pagaste por cada jugador."
+      }
+     ]
+    }
+   ],
+   "players": {
+    "el-hilali": {
+     "verdict": "vigilar",
+     "text": "Lo que más puntúa del mercado (34 pts) y titular en sus 7 partidos con el Espanyol. Pero cuesta 17,7 M€ y solo 1,9 pts por millón. Además ya lleva una roja. Solo lo ficharía si tienes saldo de sobra y para sustituir a Bartra o a Sergio Gómez.",
+     "maxBid": 18500000,
+     "confidence": "media"
+    },
+    "larrubia": {
+     "verdict": "pujar",
+     "text": "29 pts y titular en 6 de 7 partidos del Málaga. Hizo 12 goles la temporada pasada en Segunda y aquí ya acumula 12 tiros, así que los goles deberían llegar. Sería el relevo ideal de Saliba en tu medio. Ya tiene una puja de otro mánager, así que si vas, ve fuerte.",
+     "maxBid": 15800000,
+     "confidence": "media"
+    },
+    "youssef": {
+     "verdict": "fichar",
+     "text": "17 pts por 739 K€: es la mejor rentabilidad del mercado (23 pts por millón). Las fuentes no coinciden en cuántos minutos juega, pero por ese precio es un quinto defensa casi sin riesgo.",
+     "maxBid": 850000,
+     "confidence": "baja"
+    },
+    "raba": {
+     "verdict": "fichar",
+     "text": "Delantero barato (799 K€, 12 pts). Con Sadiq lesionado hasta noviembre tiene opciones de minutos en el Valencia. Te daría un tercer delantero, que ahora mismo no tienes.",
+     "maxBid": 900000,
+     "confidence": "media"
+    },
+    "luis-castro": {
+     "verdict": "vigilar",
+     "text": "Entrenador muy barato (611 K€) con 13 pts. No sé quién es tu entrenador porque el anuncio lo tapaba en la captura. Si puntúa poco, Luís Castro es un recambio económico.",
+     "confidence": "baja"
+    },
+    "matteo-prati": {
+     "verdict": "vigilar",
+     "text": "13 pts por 1,34 M€. Está cedido en el Racing y pelea por un sitio en el doble pivote. Esperaría a que se asiente como titular.",
+     "confidence": "baja"
+    },
+    "gorrotxa": {
+     "verdict": "evitar",
+     "text": "Es suplente en la Real Sociedad: 1 titularidad y 131 minutos en 5 partidos. Sus 12 pts no compensan el precio.",
+     "confidence": "media"
+    },
+    "sadiq": {
+     "verdict": "evitar",
+     "text": "Lesionado de los isquiotibiales desde finales de agosto, con una baja estimada de 8 a 10 semanas. No lo compraría antes de verlo entrenar con el grupo. Si su precio sigue cayendo, puede ser una apuesta para noviembre.",
+     "confidence": "media"
+    },
+    "cheikh-thiam": {
+     "verdict": "evitar",
+     "text": "Todavía no ha jugado en LaLiga: 0 minutos y 0 puntos.",
+     "confidence": "alta"
+    },
+    "cardoso": {
+     "verdict": "evitar",
+     "text": "Fuera de los planes del Sevilla, que busca su salida. No va a puntuar.",
+     "confidence": "alta"
+    },
+    "beitia": {
+     "verdict": "evitar",
+     "text": "Lesionado y con solo 2 pts.",
+     "confidence": "alta"
+    },
+    "unai-simon": {
+     "verdict": "alinear",
+     "text": "Portero titular del Athletic. Alinéalo siempre que esté disponible.",
+     "confidence": "media"
+    },
+    "mojica": {
+     "verdict": "alinear",
+     "text": "Fijo en el lateral izquierdo del Getafe de Bordalás. Los equipos de Bordalás encajan poco, así que tiene opciones de portería a cero.",
+     "confidence": "media"
+    },
+    "koski": {
+     "verdict": "alinear",
+     "text": "Titular en 7 de 8 partidos y ya ha marcado. Es de tus defensas más fiables.",
+     "confidence": "alta"
+    },
+    "sergio-gomez": {
+     "verdict": "mantener",
+     "text": "Juega siempre (6 de 6 como titular) pero aún no tiene goles ni asistencias. Si fichas un defensa mejor, es el primero en salir del once.",
+     "confidence": "media"
+    },
+    "bartra": {
+     "verdict": "vigilar",
+     "text": "Tuvo un susto en el isquiotibial el 20 de septiembre; las pruebas salieron bien. Confirma que es titular antes de cada jornada: si no juega, es el primero al que cambiaría.",
+     "confidence": "media"
+    },
+    "ibanez": {
+     "verdict": "alinear",
+     "text": "Titular en los 7 partidos con el Alavés y con un gol. Sólido.",
+     "confidence": "alta"
+    },
+    "unai-lopez": {
+     "verdict": "alinear",
+     "text": "3 asistencias en 8 partidos, las mismas que en toda la temporada pasada. Está en buena forma.",
+     "confidence": "media"
+    },
+    "bernardo-silva": {
+     "verdict": "alinear",
+     "text": "Es tu jugador de más calidad, en el Real Madrid de Mourinho. Mantenlo y alinéalo siempre.",
+     "confidence": "media"
+    },
+    "saliba": {
+     "verdict": "vender",
+     "text": "Fichaje caro del Villarreal (15 M€), pero solo lleva 1 titularidad y 126 minutos. Es tu eslabón más débil en el medio. Si consigues a Larrubia, véndelo.",
+     "confidence": "media"
+    },
+    "ferran-jutgla": {
+     "verdict": "alinear",
+     "text": "Titular en 5 de 7 partidos, con 1 gol. La temporada pasada hizo 7 goles en pocos minutos.",
+     "confidence": "media"
+    },
+    "cepeda": {
+     "verdict": "vigilar",
+     "text": "No he encontrado estadísticas fiables de esta temporada. Si Raba llega y Cepeda no es titular en el Elche, Raba debería quitarle el puesto.",
+     "confidence": "baja"
+    }
+   },
+   "lineup": {
+    "formation": "4-4-2",
+    "ids": [
+     "unai-simon",
+     "mojica",
+     "koski",
+     "sergio-gomez",
+     "bartra",
+     "ibanez",
+     "unai-lopez",
+     "bernardo-silva",
+     "saliba",
+     "ferran-jutgla",
+     "cepeda"
+    ],
+    "note": "Tu once actual es el correcto. Si fichas a Larrubia, entra por Saliba."
+   }
+  }
+ }
+}

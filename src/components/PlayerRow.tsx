@@ -1,12 +1,15 @@
 import type { ReactNode } from 'react'
 import type { PlayerSummary, Tag } from '../lib/analysis'
 import { money } from '../lib/format'
+import { latestRec, useData } from '../lib/data'
 import { useNav } from '../lib/nav'
+import { VerdictBadge } from './Verdict'
 import { Sparkline } from './Charts'
 import { Avatar, Delta, PosBadge, Tags } from './ui'
 
 export function PlayerRow({ p, tags, right, sub, rank }: { p: PlayerSummary; tags?: Tag[]; right?: ReactNode; sub?: ReactNode; rank?: number }) {
   const { openPlayer } = useNav()
+  const rec = latestRec(useData(), p.player.id)
   return (
     <button className="prow" onClick={() => openPlayer(p.player.id)}>
       {rank !== undefined && <span className={`rank r${rank}`}>{rank}</span>}
@@ -15,6 +18,7 @@ export function PlayerRow({ p, tags, right, sub, rank }: { p: PlayerSummary; tag
         <div className="prow-name">
           <PosBadge pos={p.player.pos} />
           <span>{p.player.name}</span>
+          {rec && <VerdictBadge verdict={rec.verdict} />}
         </div>
         <div className="prow-sub">
           {sub ?? (
