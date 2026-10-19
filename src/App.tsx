@@ -1,122 +1,108 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { IconHome, IconMarket, IconPlus, IconShirt, IconTrophy } from './components/Icons'
+import { PlayerSheet } from './components/PlayerSheet'
+import { NavContext, type Nav, type Tab } from './lib/nav'
+import { loadState, persistState, StoreContext, type Store } from './lib/store'
+import { Home } from './screens/Home'
+import { Import } from './screens/Import'
+import { Market } from './screens/Market'
+import { Settings } from './screens/Settings'
+import { Squad } from './screens/Squad'
+import { Top } from './screens/Top'
+import { emptyState, type AppState } from './types'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+/** Text shared from Lens via the PWA share target (?text=...). */
+function takeSharedText(): string | undefined {
+  const params = new URLSearchParams(location.search)
+  const shared = [params.get('title'), params.get('text')].filter(Boolean).join('\n')
+  if (shared) history.replaceState(null, '', location.pathname)
+  return shared || undefined
 }
 
-export default App
+export default function App() {
+  const [state, setState] = useState<AppState | null>(null)
+  const sharedText = useRef(takeSharedText())
+  const [tab, setTab] = useState<Tab>(sharedText.current ? 'import' : 'home')
+  const [player, setPlayer] = useState<string | null>(null)
+  const [toastMsg, setToastMsg] = useState<string | null>(null)
+
+  useEffect(() => {
+    loadState().then(setState).catch(() => setState(emptyState()))
+  }, [])
+
+  const store: Store | null = useMemo(
+    () =>
+      state && {
+        state,
+        update: (fn) =>
+          setState((s) => {
+            const next = fn(s!)
+            persistState(next)
+            return next
+          }),
+        replace: (s) => {
+          persistState(s)
+          setState(s)
+        },
+      },
+    [state],
+  )
+
+  const toast = useCallback((msg: string) => {
+    setToastMsg(msg)
+    window.setTimeout(() => setToastMsg((m) => (m === msg ? null : m)), 2600)
+  }, [])
+
+  const nav: Nav = useMemo(
+    () => ({
+      tab,
+      go: (t) => {
+        setTab(t)
+        window.scrollTo({ top: 0 })
+      },
+      openPlayer: setPlayer,
+      toast,
+    }),
+    [tab, toast],
+  )
+
+  if (!store) return <div className="splash"><span className="splash-ball">⚽</span></div>
+
+  return (
+    <StoreContext.Provider value={store}>
+      <NavContext.Provider value={nav}>
+        <div className="bg-glow" />
+        <main key={tab} className="view">
+          {tab === 'home' && <Home />}
+          {tab === 'market' && <Market />}
+          {tab === 'import' && <Import initialText={sharedText.current} />}
+          {tab === 'squad' && <Squad />}
+          {tab === 'top' && <Top />}
+          {tab === 'settings' && <Settings />}
+        </main>
+
+        <nav className="tabbar">
+          <TabButton t="home" label="Inicio" icon={<IconHome />} />
+          <TabButton t="market" label="Mercado" icon={<IconMarket />} />
+          <button className={`fab ${tab === 'import' ? 'on' : ''}`} onClick={() => nav.go('import')} aria-label="Importar">
+            <IconPlus width={28} height={28} />
+          </button>
+          <TabButton t="squad" label="Plantilla" icon={<IconShirt />} />
+          <TabButton t="top" label="Top" icon={<IconTrophy />} />
+        </nav>
+
+        {player && <PlayerSheet key={player} id={player} onClose={() => setPlayer(null)} />}
+        {toastMsg && <div className="toast">{toastMsg}</div>}
+      </NavContext.Provider>
+    </StoreContext.Provider>
+  )
+
+  function TabButton({ t, label, icon }: { t: Tab; label: string; icon: React.ReactNode }) {
+    return (
+      <button className={`tab ${tab === t ? 'on' : ''}`} onClick={() => nav.go(t)}>
+        {icon}
+        <span>{label}</span>
+      </button>
+    )
+  }
+}

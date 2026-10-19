@@ -1,32 +1,38 @@
-# React + TypeScript + Vite
+# Fantasy Asesor
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+App personal (PWA) para analizar tu equipo de LaLiga Fantasy desde el móvil. Sin IA y sin servidor: los datos se guardan solo en tu teléfono.
 
-Currently, two official plugins are available:
+## Cómo se usa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Haz un pantallazo del **mercado** o de tu **alineación** en LaLiga Fantasy.
+2. Ábrelo en el Pixel y pulsa **Lens → Texto → Seleccionar todo → Copiar** (o "Copiar texto" en Recientes).
+3. En la app, pulsa **+ → Pegar → Analizar texto**, revisa y guarda.
+   Con la app instalada también puedes usar **Compartir → Fantasy Asesor** desde Lens.
 
-## React Compiler
+Tipos de texto que entiende:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Mercado**: tarjetas con posición (COA/DEF/MID/STR), FSYP, Value, Price, estado y pujas.
+- **Alineación** (pestaña Line-up): formación, valor de equipo y los 11 titulares por línea.
+- **Squad**: la lista de la pestaña Squad, con valores y puntos de cada jugador.
 
-## Expanding the Oxlint configuration
+## Qué ofrece
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- **Inicio**: valor de equipo y su evolución, saldo, plusvalías, mejor oportunidad del día y consejos.
+- **Mercado**: nota de oportunidad 0–100 (puntos por millón, puntos y tendencia del valor), filtros por posición y por saldo.
+- **Plantilla**: campo con tu once, once ideal, mejoras posibles con jugadores del mercado y candidatos a venta.
+- **Top**: rankings diarios (puntos, subidas, bajadas, rentabilidad, valor) con podio.
+- **Ficha de jugador**: evolución del valor, historial, precio de compra y ganancia, fusionar nombres cortados.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Desarrollo
+
+```bash
+npm install
+npm run dev      # servidor local
+npm test         # tests del lector de texto
+npm run build
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Publicarla en tu móvil
+
+El workflow `.github/workflows/deploy.yml` publica la app en GitHub Pages al hacer push a `main`.
+Activa **Settings → Pages → Source: GitHub Actions** en el repositorio, abre la URL en Chrome del Pixel y elige **Añadir a pantalla de inicio → Instalar**.
