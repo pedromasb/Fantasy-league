@@ -6,7 +6,7 @@ The user sends LaLiga Fantasy screenshots in chat (market daily, squad when it c
 2. Update `public/data/fantasy.json` (types in `src/types.ts`):
    - `markets[YYYY-MM-DD]`: one entry per market player (`price` = shown Price).
    - `squads[YYYY-MM-DD]`: only when the squad changes or a squad screenshot arrives.
-   - `players`: add new players; refresh `stats`, `news`, `sources`, `statsUpdated` with web research (WebSearch works; WebFetch is blocked in this environment). Note conflicting sources instead of guessing.
+   - `players`: add new players; refresh `stats`, `news`, `sources`, `statsUpdated` with web research: WebSearch, plus direct `curl` to futbolfantasy.com, analiticafantasy.com, comuniate.com, jornadaperfecta.com, laliga.com, site.api.espn.com and understat.com (allowed in this environment; the official api-fantasy.llt-services.com answers 502 to datacenter IPs). Note conflicting sources instead of guessing.
    - `reports[YYYY-MM-DD]`: title, summary, sections, a `players` recommendation for every market and squad player, and `lineup`.
    - `updated`: current timestamp.
    - Before recommending, read `public/data/league.json` (synced every morning by `.github/workflows/sync.yml` from futbolfantasy.com and analiticafantasy.com): every player's points per matchday, last five matchdays, season average and rank, titularity %, value today and 1-30 days ago, next rival and play probability, fixtures and team table. Use it for form, fixture difficulty and value speculation. Set `ffId` on players so the app links them to league data. Run the sync workflow (workflow_dispatch) if the data is stale.
