@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20T10:45:00+02:00",
+ "updated": "2026-10-20T12:30:00+02:00",
  "players": {
   "luis-castro": {
    "id": "luis-castro",
@@ -1881,32 +1881,28 @@
   },
   "2026-10-20": {
    "date": "2026-10-20",
-   "title": "Vende a Bartra hoy y a Bernardo cuando se resuelva Larrubia",
-   "summary": "Ya tengo los datos de toda la liga: puntos por jornada, titularidad, valor de los últimos 30 días y calendario. Cambian varias cosas. Youssef y Núñez apenas juegan, así que fuera. Bernardo y Bartra pierden valor rápido (-12% en 7 días). Plan: vende a Bartra hoy para volver a saldo positivo y, si ganas a Larrubia, vende a Bernardo mañana. Con unos 30 M€ en caja podrás fichar un titular de verdad en el próximo mercado, elegido del Top 25.",
+   "title": "Retira la puja por Larrubia y empieza la jornada en positivo",
+   "summary": "Mantienes a Bernardo y a Bartra como apuesta de revalorización. Para no empezar la jornada 10 en negativo (-12,38 M€), lo más sencillo es retirar la puja por Larrubia: te quedas con +2,2 M€ sin vender a nadie. Si prefieres a Larrubia, habría que vender a Militão, Luiz Felipe, Nico Serrano y Saliba, y quedarías en unos +0,3 M€.",
    "sections": [
     {
      "title": "Plan para hoy",
      "icon": "🚨",
      "items": [
       {
-       "text": "Vende a Bartra a LALIGA (21,4 M€): imprescindible para empezar la jornada en positivo.",
-       "playerId": "bartra"
+       "text": "Opción A (recomendada): retira la puja por Larrubia antes del cierre del mercado. Saldo: +2,2 M€.",
+       "playerId": "larrubia"
       },
       {
-       "text": "Vende a Luiz Felipe y a Nico Serrano, que no juegan: +1,4 M€.",
-       "playerId": "luiz-felipe"
+       "text": "Opción B: mantienes la puja y vendes a Militão (5,75 M€), Luiz Felipe (0,81 M€), Nico Serrano (0,58 M€) y Saliba (5,52 M€). Saldo: unos +0,3 M€.",
+       "playerId": "militao"
       },
       {
-       "text": "Ficha a Raba (hasta 850 K€): sube un 20% en la semana y te da un tercer delantero.",
-       "playerId": "raba"
-      },
-      {
-       "text": "Mañana, si has ganado a Larrubia, vende a Bernardo (23,8 M€). Te quedarás con unos 30 M€ para un fichaje top.",
-       "playerId": "bernardo-silva"
-      },
-      {
-       "text": "Con saldo positivo, sube la cláusula de Koski: vale +172% en 30 días y su cláusula es igual a su valor.",
+       "text": "Con saldo positivo, sube la cláusula de Koski: su valor ha subido un 172% en 30 días y su cláusula es igual a su valor.",
        "playerId": "koski"
+      },
+      {
+       "text": "Bernardo y Bartra se quedan: seguiré su valor a diario.",
+       "playerId": "bernardo-silva"
       }
      ]
     },
@@ -1915,19 +1911,15 @@
      "icon": "📋",
      "items": [
       {
-       "text": "Con Larrubia y sin Bernardo: 3-4-3 con Unai Simón; Koski, Mojica y Sergio Gómez; Ibáñez, Unai López, Larrubia y Saliba; Jutglà, Cepeda y Raba."
+       "text": "4-4-2: Unai Simón; Koski, Mojica, Sergio Gómez y Bartra; Ibáñez, Unai López, Saliba y Bernardo; Jutglà y Cepeda."
       },
       {
-       "text": "Si pierdes a Larrubia: no vendas a Bernardo y juega 3-5-2 con él.",
-       "playerId": "bernardo-silva"
-      },
-      {
-       "text": "Capitán: Koski (en casa contra el colista Málaga, que es 20º).",
+       "text": "Capitán: Koski, que juega en casa contra el colista Málaga.",
        "playerId": "koski"
       },
       {
-       "text": "Militão no te sirve como defensa: solo un 10% de probabilidad de jugar.",
-       "playerId": "militao"
+       "text": "Bartra tiene un 50% de probabilidad de jugar: confírmalo el viernes. No tienes recambio fiable en defensa, así que es lo primero que reforzar cuando haya saldo.",
+       "playerId": "bartra"
       }
      ]
     },
@@ -1987,9 +1979,8 @@
      "confidence": "alta"
     },
     "larrubia": {
-     "verdict": "pujar",
-     "text": "Tu puja (14.608.414 €) se resuelve hoy al cierre. Va en ascenso (7 y 5 pts en las dos últimas jornadas, 70% de titularidad), aunque su valor baja un 7% en la semana. No subas la puja.",
-     "maxBid": 14608414,
+     "verdict": "evitar",
+     "text": "Recomiendo retirar la puja: es la forma más limpia de volver a saldo positivo sin vender a Bernardo ni a Bartra. Larrubia (3,22 de media) apenas mejora a Saliba (3,17) y su valor cae un 7% en la semana. Su xG+xA (1,6 sin goles ni asistencias) indica que puede mejorar, pero no compensa quedarte sin margen.",
      "confidence": "media"
     },
     "youssef": {
@@ -2059,9 +2050,9 @@
      "confidence": "media"
     },
     "bartra": {
-     "verdict": "vender",
-     "text": "Vende ya: 50% de probabilidad de jugar, 2 pts en sus últimas 4 jornadas y su valor cae un 11,8% en 7 días. Te devuelve al saldo positivo.",
-     "confidence": "alta"
+     "verdict": "mantener",
+     "text": "Lo mantienes. Su valor cae un 11,8% en la semana y tiene un 50% de probabilidad de jugar en la jornada 10 (en Vigo). Alinéalo solo si se confirma que es titular; si no, Militão no es alternativa (10%).",
+     "confidence": "media"
     },
     "ibanez": {
      "verdict": "alinear",
@@ -2074,13 +2065,13 @@
      "confidence": "alta"
     },
     "bernardo-silva": {
-     "verdict": "vender",
-     "text": "Los datos de la liga lo confirman: 40% de titularidad, el valor cae un 12% en 7 días y la jornada 10 es el Clásico fuera de casa. Véndelo en cuanto sepas si has ganado a Larrubia: con Larrubia, su hueco en el medio queda cubierto. Cada día que lo mantienes pierde unos 0,4 M€.",
+     "verdict": "mantener",
+     "text": "Decides mantenerlo como apuesta de revalorización. Ojo: lleva 57 días bajando (-38% en 30 días), con 40% de titularidad y solo 0,14 xG + 0,23 xA en 296 minutos. Para que suba necesita minutos y puntos. Vigilaré su valor cada día y te avisaré si cambia la tendencia.",
      "confidence": "media"
     },
     "saliba": {
-     "verdict": "mantener",
-     "text": "Lo pagaste a 12,5 M€ y vale 5,6 M€. Venderlo ahora no arregla nada: puntúa una media de 3,17 por jornada, que por 5,6 M€ está bien. Mantener.",
+     "verdict": "alinear",
+     "text": "Sin Larrubia es tu cuarto medio: 3,17 de media y muy regular (2, 3, 6, 1, 2). Titular.",
      "confidence": "media"
     },
     "ferran-jutgla": {
@@ -2100,7 +2091,7 @@
     },
     "militao": {
      "verdict": "vender",
-     "text": "Solo un 10% de probabilidad de jugar la jornada 10: no sirve como cuarto defensa. Su valor sube algo (+5,5% en 7 días), así que puedes venderlo cuando necesites liquidez.",
+     "text": "Solo un 10% de probabilidad de jugar la jornada 10. Si mantienes la puja por Larrubia, es el primero que hay que vender (5,75 M€).",
      "confidence": "media"
     },
     "nico-serrano": {
@@ -2145,22 +2136,22 @@
     }
    },
    "lineup": {
-    "formation": "3-5-2",
+    "formation": "4-4-2",
     "ids": [
      "unai-simon",
      "koski",
      "mojica",
      "sergio-gomez",
+     "bartra",
      "ibanez",
      "unai-lopez",
-     "larrubia",
      "saliba",
      "bernardo-silva",
      "ferran-jutgla",
      "cepeda",
      "sanchez-flores"
     ],
-    "note": "Jornada 10 si ganas a Larrubia (capitán: Koski). Si no: 4-4-2 con Youssef en lugar de Bartra."
+    "note": "Jornada 10 sin Larrubia. Capitán: Koski. Confirma a Bartra antes del viernes 21:00."
    }
   }
  },
