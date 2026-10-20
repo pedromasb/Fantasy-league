@@ -4,6 +4,8 @@ import { latestRec, latestSquad, useData } from '../lib/data'
 import { money, num, POS_NAME, prettyDate, signedMoney } from '../lib/format'
 import type { SeasonStats } from '../types'
 import { LineChart } from './Charts'
+import { LeagueStats } from './LeagueStats'
+import { matchLeague, useLeague } from '../lib/league'
 import { IconClose } from './Icons'
 import { Avatar, Delta, Form, PosBadge, StatusPill } from './ui'
 import { VerdictBadge } from './Verdict'
@@ -55,6 +57,8 @@ export function PlayerSheet({ id, onClose }: { id: string; onClose: () => void }
   const h = useMemo(() => history(state, id), [state, id])
   const rec = latestRec(state, id)
   const owned = latestSquad(state)?.slots.some((x) => x.playerId === id) ?? false
+  const league = useLeague()
+  const lp = matchLeague(league, player)
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose()
@@ -137,6 +141,8 @@ export function PlayerSheet({ id, onClose }: { id: string; onClose: () => void }
             </p>
           </div>
         )}
+
+        {league && lp && <LeagueStats league={league} p={lp} />}
 
         {player.stats && player.stats.length > 0 && (
           <div className="card pad">

@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import { IconHome, IconMarket, IconShirt, IconSpark, IconTrophy } from './components/Icons'
+import { LeagueSheet } from './components/LeagueSheet'
 import { PlayerSheet } from './components/PlayerSheet'
 import { DataContext, loadData } from './lib/data'
 import { prettyDate } from './lib/format'
+import { LeagueContext, loadLeague, type League } from './lib/league'
 import { NavContext, type Nav, type Tab } from './lib/nav'
 import { Home } from './screens/Home'
 import { Market } from './screens/Market'
@@ -16,9 +18,13 @@ export default function App() {
   const [error, setError] = useState(false)
   const [tab, setTab] = useState<Tab>('home')
   const [player, setPlayer] = useState<string | null>(null)
+  const [leaguePlayer, setLeaguePlayer] = useState<number | null>(null)
+  const [league, setLeague] = useState<League | null>(null)
 
   useEffect(() => {
     loadData().then(setState).catch(() => setError(true))
+    // League-wide data is optional: the app works without it.
+    loadLeague().then(setLeague)
   }, [])
 
   const nav: Nav = useMemo(
@@ -29,6 +35,7 @@ export default function App() {
         window.scrollTo({ top: 0 })
       },
       openPlayer: setPlayer,
+      openLeague: setLeaguePlayer,
     }),
     [tab],
   )
@@ -50,6 +57,7 @@ export default function App() {
 
   return (
     <DataContext.Provider value={state}>
+      <LeagueContext.Provider value={league}>
       <NavContext.Provider value={nav}>
         <div className="bg-glow" />
         <main key={tab} className="view">
@@ -72,7 +80,9 @@ export default function App() {
         </nav>
 
         {player && <PlayerSheet key={player} id={player} onClose={() => setPlayer(null)} />}
+        {leaguePlayer !== null && <LeagueSheet key={leaguePlayer} id={leaguePlayer} onClose={() => setLeaguePlayer(null)} />}
       </NavContext.Provider>
+      </LeagueContext.Provider>
     </DataContext.Provider>
   )
 }

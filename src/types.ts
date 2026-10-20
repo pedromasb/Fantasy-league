@@ -40,6 +40,8 @@ export interface Player {
   news?: NewsItem[]
   sources?: Source[]
   statsUpdated?: string
+  /** futbolfantasy.com player id, links to league.json. */
+  ffId?: number
 }
 
 /** One player as listed in the market on a given day. */

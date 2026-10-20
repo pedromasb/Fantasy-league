@@ -6,6 +6,8 @@ export interface Nav {
   tab: Tab
   go: (t: Tab) => void
   openPlayer: (id: string) => void
+  /** Open a league-wide player that I do not track (league.json id). */
+  openLeague: (id: number) => void
 }
 
 export const NavContext = createContext<Nav | null>(null)

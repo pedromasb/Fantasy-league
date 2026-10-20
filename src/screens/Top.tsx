@@ -1,10 +1,11 @@
 import { useMemo, useState } from 'react'
 import { PlayerRow } from '../components/PlayerRow'
-import { Chips, Delta, Empty, Segmented } from '../components/ui'
+import { Avatar, Chips, Delta, Empty, Form, PosBadge, Segmented } from '../components/ui'
 import { allDates, knownPlayers, type PlayerSummary } from '../lib/analysis'
 import { initials, money, num, POS_LABEL, prettyDate } from '../lib/format'
 import { useNav } from '../lib/nav'
-import { useData } from '../lib/data'
+import { latestSquad, useData } from '../lib/data'
+import { formPoints, matchLeague, useLeague, type LeaguePlayer } from '../lib/league'
 import type { Pos } from '../types'
 
 type Board = 'points' | 'risers' | 'fallers' | 'ppm' | 'value'
@@ -16,7 +17,7 @@ const BOARDS: { value: Board; label: string; icon: string; sub: string }[] = [
   { value: 'value', label: 'Valiosos', icon: '💎', sub: 'Jugadores más caros' },
 ]
 
-export function Top() {
+function TopLocal() {
   const state = useData()
   const dates = allDates(state).reverse()
   const [date, setDate] = useState(dates[0] ?? '')
@@ -106,5 +107,102 @@ function PodiumCard({ p, place, metric }: { p: PlayerSummary; place: number; met
       {metric}
       <span className="podium-step">{place}</span>
     </button>
+  )
+}
+
+type LeagueBoard = 'form' | 'season' | 'average' | 'risers' | 'fallers' | 'value'
+const LEAGUE_BOARDS: { value: LeagueBoard; label: string; icon: string; sub: string }[] = [
+  { value: 'form', label: 'Forma', icon: '🔥', sub: 'Puntos sumados en las últimas 5 jornadas' },
+  { value: 'season', label: 'Temporada', icon: '🏆', sub: 'Puntos totales de la temporada' },
+  { value: 'average', label: 'Media', icon: '📊', sub: 'Media por partido (mínimo 3 jugados)' },
+  { value: 'risers', label: 'Suben', icon: '🚀', sub: 'Mayor subida de valor en el último día' },
+  { value: 'fallers', label: 'Bajan', icon: '🧊', sub: 'Mayor bajada de valor en el último día' },
+  { value: 'value', label: 'Valiosos', icon: '💎', sub: 'Jugadores más caros' },
+]
+
+/** Whole-league rankings from league.json (synced daily). */
+export function Top() {
+  const league = useLeague()
+  const state = useData()
+  const { openPlayer, openLeague } = useNav()
+  const [board, setBoard] = useState<LeagueBoard>('form')
+  const [pos, setPos] = useState<Pos | 'ALL'>('ALL')
+  if (!league) return <TopLocal />
+
+  const dayPct = (p: LeaguePlayer) => (p.value && p.valueAgo['1'] ? p.value / p.valueAgo['1'] - 1 : 0)
+  const pool = league.players.filter((p) => (pos === 'ALL' ? p.pos !== 'COA' : p.pos === pos))
+  const sorted = (() => {
+    switch (board) {
+      case 'form': return [...pool].sort((a, b) => formPoints(b) - formPoints(a) || (b.points ?? 0) - (a.points ?? 0))
+      case 'season': return [...pool].sort((a, b) => (b.points ?? 0) - (a.points ?? 0))
+      case 'average': return pool.filter((p) => (p.played ?? 0) >= 3).sort((a, b) => (b.average ?? 0) - (a.average ?? 0))
+      case 'risers': return [...pool].sort((a, b) => dayPct(b) - dayPct(a))
+      case 'fallers': return [...pool].sort((a, b) => dayPct(a) - dayPct(b))
+      case 'value': return [...pool].sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
+    }
+  })().slice(0, 25)
+  const info = LEAGUE_BOARDS.find((b) => b.value === board)!
+  // Players I track open their full sheet; the rest open the league sheet.
+  const mine = new Map(Object.values(state.players).map((pl) => [matchLeague(league, pl)?.id, pl.id]))
+  const open = (p: LeaguePlayer) => (mine.get(p.id) ? openPlayer(mine.get(p.id)!) : openLeague(p.id))
+  const owned = new Set(latestSquad(state)?.slots.map((x) => x.playerId))
+
+  const metric = (p: LeaguePlayer) => {
+    switch (board) {
+      case 'form': return <b className="metric">{formPoints(p)}<small> pts</small></b>
+      case 'season': return <b className="metric">{p.points ?? 0}<small> pts</small></b>
+      case 'average': return <b className="metric">{num(p.average, 2)}</b>
+      case 'risers':
+      case 'fallers': return <span className="metric-col"><Delta value={dayPct(p)} /><small className="muted">{money(p.valueAgo['1'] && p.value ? p.value - p.valueAgo['1'] : undefined)}</small></span>
+      case 'value': return <b className="metric">{money(p.value)}</b>
+    }
+  }
+
+  return (
+    <div className="screen">
+      <header className="top">
+        <div>
+          <p className="eyebrow">Toda la liga · tras la jornada {league.lastWeek}</p>
+          <h1>Top 25</h1>
+        </div>
+      </header>
+      <div className="boards six">
+        {LEAGUE_BOARDS.map((b) => (
+          <button key={b.value} className={`board ${b.value === board ? 'on' : ''}`} onClick={() => setBoard(b.value)}>
+            <span>{b.icon}</span>{b.label}
+          </button>
+        ))}
+      </div>
+      <Segmented
+        options={[{ value: 'ALL', label: 'Todos' }, ...(['GK', 'DEF', 'MID', 'STR', 'COA'] as Pos[]).map((p) => ({ value: p, label: POS_LABEL[p] }))]}
+        value={pos}
+        onChange={(v) => setPos(v as Pos | 'ALL')}
+      />
+      <p className="muted small board-sub">{info.icon} {info.sub}{board === 'form' ? ` (J${league.recentWeeks[0]}–J${league.lastWeek})` : ''}</p>
+      <div className="list card">
+        {sorted.map((p, i) => {
+          const mineId = mine.get(p.id)
+          return (
+            <button key={p.id} className="prow" onClick={() => open(p)}>
+              <span className={`rank r${i + 1}`}>{i + 1}</span>
+              <Avatar name={p.name} pos={p.pos} status={p.status} />
+              <div className="prow-main">
+                <div className="prow-name"><PosBadge pos={p.pos} /><span>{p.name}</span></div>
+                <div className="prow-sub">
+                  <span>{p.team}</span>
+                  <span className="muted">· {money(p.value)}</span>
+                </div>
+                <div className="tags">
+                  <Form recent={p.last5} small />
+                  {mineId && owned.has(mineId) && <span className="tag tone-info">Tuyo</span>}
+                </div>
+              </div>
+              <div className="prow-right">{metric(p)}</div>
+            </button>
+          )
+        })}
+      </div>
+      <p className="footnote">Datos de LaLiga Fantasy de todos los jugadores, actualizados cada mañana ({prettyDate(league.updated.slice(0, 10))}). Fuentes: FutbolFantasy y AnaliticaFantasy.</p>
+    </div>
   )
 }
