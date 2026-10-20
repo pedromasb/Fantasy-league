@@ -110,6 +110,15 @@ export function parseCalendar(html) {
   return matches
 }
 
+const MONTHS = { enero: 1, febrero: 2, marzo: 3, abril: 4, mayo: 5, junio: 6, julio: 7, agosto: 8, septiembre: 9, octubre: 10, noviembre: 11, diciembre: 12 }
+
+/** "Domingo, 18 de octubre del 2026 a las 14:00h" -> "2026-10-18". */
+export function parseMatchDate(html) {
+  const m = html.match(/(\d{1,2}) de ([a-záéíóú]+) del? (\d{4})/i)
+  const month = m && MONTHS[m[2].toLowerCase()]
+  return month ? `${m[3]}-${String(month).padStart(2, '0')}-${m[1].padStart(2, '0')}` : undefined
+}
+
 /** futbolfantasy.com/partidos/ID-slug: LaLiga Fantasy points of everyone in the squad lists. */
 export function parseMatch(html) {
   const blocks = html.split('class="juggador ')
@@ -147,6 +156,85 @@ export function parseAnalitica(html) {
   return []
 }
 
+/** Balanced-brace JSON object starting at `start` in `s`. */
+function readObject(s, start) {
+  let depth = 0
+  let inStr = false
+  for (let j = start; j < s.length; j++) {
+    const c = s[j]
+    if (inStr) {
+      if (c === '\\') j++
+      else if (c === '"') inStr = false
+    } else if (c === '"') inStr = true
+    else if (c === '{') depth++
+    else if (c === '}' && --depth === 0) return JSON.parse(s.slice(start, j + 1))
+  }
+  return null
+}
+
+const nextChunks = (html) =>
+  [...html.matchAll(/self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)/g)].map((m) => JSON.parse(`"${m[1]}"`)).join('')
+
+/** analiticafantasy.com/jugadores/SLUG/fantasy/la-liga-fantasy: daily values and per-matchday stats. */
+export function parseAnaliticaPlayer(html) {
+  const s = nextChunks(html)
+  const i = s.indexOf('"data":{"mode":"la-liga-fantasy"')
+  if (i < 0) return null
+  const data = readObject(s, s.indexOf('{', i + 6))
+  if (!data) return null
+  return {
+    values: (data.marketHistory ?? []).map((h) => [h.date, h.marketValue]),
+    weeks: (data.statsRows ?? []).map((r) => ({
+      week: r.week,
+      points: r.points,
+      minutes: r.minutes,
+      goals: r.goals,
+      assists: r.assists,
+      yellow: r.yellowCards,
+      red: r.redCards,
+      date: r.fixture?.date?.slice(0, 10),
+      // Official LaLiga Fantasy breakdown: stat -> [value, points], only non-zero entries.
+      breakdown: r.stats && Object.keys(r.stats).length
+        ? Object.fromEntries(
+            Object.entries(r.stats)
+              .filter(([k, v]) => !k.endsWith('_pts') && typeof v === 'number' && (v !== 0 || r.stats[`${k}_pts`]))
+              .map(([k, v]) => [k, [v, r.stats[`${k}_pts`] ?? 0]]),
+          )
+        : undefined,
+    })),
+  }
+}
+
+/** futbolfantasy.com/jugadores/SLUG: season stats block ("Pases completados / Pases: 246/281 (88%)"). */
+export function parseFutbolFantasyPlayer(html) {
+  const text = html
+    .replace(/<script[\s\S]*?<\/script>/g, '')
+    .replace(/<style[\s\S]*?<\/style>/g, '')
+    .replace(/<[^>]+>/g, '\n')
+    .replace(/&nbsp;/g, ' ')
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean)
+  const start = text.findIndex((l) => /^Estadísticas de .+ en LaLiga$/.test(l))
+  if (start < 0) return null
+  const end = text.findIndex((l, i) => i > start && l.startsWith('Selecciona modo'))
+  const lines = text.slice(start + 1, end > 0 ? end : start + 200)
+  const stats = {}
+  for (let i = 0; i < lines.length; i++) {
+    const label = lines[i].replace(/:$/, '')
+    if (/^\(?\d/.test(label) || /^\//.test(label)) continue
+    // Value lines follow the label: "246", "/281", "(88%)"; Titular/Suplente put the % first.
+    const vals = []
+    let j = i + 1
+    while (j < lines.length && /^[(/\d-]/.test(lines[j])) vals.push(lines[j++])
+    if (vals.length) {
+      stats[label] = vals.join(' ').replace(/\s+/g, ' ').replace(' /', '/')
+      i = j - 1
+    }
+  }
+  return stats
+}
+
 function teamTable(matches) {
   const t = {}
   const row = (id, name) => (t[id] ??= { id, name, played: 0, pts: 0, gf: 0, ga: 0, form: [] })
@@ -166,6 +254,91 @@ function teamTable(matches) {
   return Object.fromEntries(list.map((x) => [x.id, x]))
 }
 
+const PLAYERS_DIR = 'public/data/players'
+
+/** ffIds worth deep data: my squad, the latest market, pending bids, plus the top 25 by form. */
+async function trackedIds(out) {
+  const ids = new Set()
+  try {
+    const mine = JSON.parse(await readFile('public/data/fantasy.json', 'utf8'))
+    const last = (rec) => rec[Object.keys(rec).sort().pop()]
+    const wanted = new Set([
+      ...(last(mine.squads ?? {})?.slots ?? []).map((x) => x.playerId),
+      ...(last(mine.markets ?? {}) ?? []).map((x) => x.playerId),
+      ...(mine.bids ?? []).map((x) => x.playerId),
+    ])
+    for (const id of wanted) if (mine.players[id]?.ffId) ids.add(mine.players[id].ffId)
+  } catch (e) {
+    console.warn('fantasy.json unreadable:', e.message)
+  }
+  const form = (p) => p.last5.reduce((a, x) => a + (x ?? 0), 0)
+  for (const p of [...out].filter((p) => p.pos !== 'COA').sort((a, b) => form(b) - form(a)).slice(0, 25)) ids.add(p.id)
+  return ids
+}
+
+/** Per-player files with season-long value history, per-matchday stats and advanced season stats. */
+async function syncTracked(out, matches, weekDates) {
+  if (samplesDir) return
+  await mkdir(PLAYERS_DIR, { recursive: true })
+  const ids = await trackedIds(out)
+  const byId = new Map(out.map((p) => [p.id, p]))
+  const today = new Date().toISOString().slice(0, 10)
+  let ok = 0
+  for (const id of ids) {
+    const p = byId.get(id)
+    if (!p) continue
+    const file = `${PLAYERS_DIR}/${id}.json`
+    const prev = existsSync(file) ? JSON.parse(await readFile(file, 'utf8')) : { values: [], weeks: [] }
+    const af = p.afSlug ? await get(`https://www.analiticafantasy.com/jugadores/${p.afSlug}/fantasy/la-liga-fantasy`, '') : null
+    await sleep(300)
+    const ff = p.ffSlug ? await get(`${FF}/jugadores/${p.ffSlug}`, '') : null
+    await sleep(300)
+    const afData = af ? parseAnaliticaPlayer(af) : null
+    const season = ff ? parseFutbolFantasyPlayer(ff) : null
+
+    // Values: keep every day ever seen, newer sources win.
+    const values = new Map(prev.values)
+    for (const [d, v] of afData?.values ?? []) values.set(d, v)
+    for (const [ago, v] of Object.entries(p.valueAgo)) {
+      const d = new Date(Date.now() - Number(ago) * 864e5).toISOString().slice(0, 10)
+      if (!values.has(d)) values.set(d, v)
+    }
+    if (p.value) values.set(today, p.value)
+
+    // Matchdays: merge, keep an older breakdown when the new row lacks it; add date and rival.
+    const weeks = new Map(prev.weeks.map((w) => [w.week, w]))
+    for (const w of afData?.weeks ?? []) {
+      const old = weeks.get(w.week) ?? {}
+      weeks.set(w.week, { ...old, ...w, breakdown: w.breakdown ?? old.breakdown, date: w.date ?? old.date })
+    }
+    for (const [wk, pts] of Object.entries(p.weeks)) {
+      const w = Number(wk)
+      if (!weeks.has(w)) weeks.set(w, { week: w, points: pts })
+    }
+    for (const w of weeks.values()) {
+      const fx = matches.find((m) => m.week === w.week && (m.home === p.teamId || m.away === p.teamId))
+      if (fx) {
+        w.date = w.date ?? fx.date ?? weekDates[w.week]
+        w.rival = fx.home === p.teamId ? fx.awayName : fx.homeName
+        w.home = fx.home === p.teamId
+        if (fx.score) w.score = fx.home === p.teamId ? fx.score : [fx.score[1], fx.score[0]]
+      }
+    }
+
+    const data = {
+      id,
+      name: p.name,
+      updated: new Date().toISOString(),
+      values: [...values.entries()].sort((a, b) => a[0].localeCompare(b[0])),
+      weeks: [...weeks.values()].sort((a, b) => a.week - b.week),
+      season: season ?? prev.season,
+    }
+    await writeFile(file, JSON.stringify(data))
+    if (afData || season) ok++
+  }
+  console.log(`tracked players: ${ids.size}, with fresh detail: ${ok}`)
+}
+
 async function main() {
   const marketHtml = await get(`${FF}/analytics/laliga-fantasy/mercado`, 'ff-mercado.html')
   const calendarHtml = await get(`${FF}/laliga/calendario`, 'ff-calendario.html')
@@ -178,20 +351,26 @@ async function main() {
   await mkdir(CACHE, { recursive: true })
   const points = {} // ffId -> { week: pts }
   const minutes = {}
+  const slugs = {} // ffId -> futbolfantasy player slug
+  const weekDates = {} // week -> first match date
   let fetched = 0
   for (const m of matches.filter((x) => x.finished)) {
     const file = `${CACHE}/${m.id}.json`
-    let rows
-    if (existsSync(file)) rows = JSON.parse(await readFile(file, 'utf8'))
-    else {
+    let cached = existsSync(file) ? JSON.parse(await readFile(file, 'utf8')) : null
+    if (Array.isArray(cached)) cached = null // old cache format without the match date
+    if (!cached) {
       const html = await get(`${FF}/partidos/${m.slug}`, samplesDir ? 'ff-partido.html' : '')
       if (!html) continue
-      rows = parseMatch(html)
-      if (rows.length && !samplesDir) await writeFile(file, JSON.stringify(rows))
+      cached = { date: parseMatchDate(html), rows: parseMatch(html) }
+      if (cached.rows.length && !samplesDir) await writeFile(file, JSON.stringify(cached))
       fetched++
       await sleep(400)
     }
+    const rows = cached.rows
+    m.date = cached.date
+    if (cached.date && (!weekDates[m.week] || cached.date < weekDates[m.week])) weekDates[m.week] = cached.date
     for (const r of rows) {
+      if (r.slug) slugs[r.id] = r.slug
       ;(points[r.id] ??= {})[m.week] = r.pts
       if (r.pts !== null) (minutes[r.id] ??= {})[m.week] = r.out ?? (r.in ? 90 - r.in : 90)
     }
@@ -236,8 +415,12 @@ async function main() {
       weeks,
       minutes: minutes[p.id],
       last5: recentWeeks.map((w) => (weeks[w] === undefined ? null : weeks[w])),
+      ffSlug: slugs[p.id],
+      afSlug: a?.playerSlug,
     }
   })
+
+  await syncTracked(out, matches, weekDates)
 
   const data = {
     updated: new Date().toISOString(),
@@ -246,7 +429,8 @@ async function main() {
     recentWeeks,
     teams: teamTable(matches),
     teamNames: teams,
-    fixtures: matches.map(({ id, week, home, away, homeName, awayName, score, when, finished }) => ({ id, week, home, away, homeName, awayName, score, when, finished })),
+    weekDates,
+    fixtures: matches.map(({ id, week, home, away, homeName, awayName, score, when, finished, date }) => ({ id, week, home, away, homeName, awayName, score, when, finished, date })),
     players: out,
   }
   await mkdir('public/data', { recursive: true })
