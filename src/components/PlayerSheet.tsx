@@ -167,15 +167,17 @@ export function PlayerSheet({ id, onClose }: { id: string; onClose: () => void }
           </div>
         )}
 
-        <div className="card pad">
-          <div className="card-title">Evolución del valor</div>
-          <LineChart data={valueData} format={money} color={falling ? 'var(--neg)' : 'var(--pos)'} />
-          {gain !== undefined && (
-            <p className={`gain ${gain >= 0 ? 'up' : 'down'}`}>
-              Compra {money(purchase)} → {gain >= 0 ? 'ganancia' : 'pérdida'} <b>{signedMoney(gain)}</b>
-            </p>
-          )}
-        </div>
+        {(!lp || gain !== undefined) && (
+          <div className="card pad">
+            <div className="card-title">{lp ? 'Mi inversión' : 'Evolución del valor'}</div>
+            {!lp && <LineChart data={valueData} format={money} color={falling ? 'var(--neg)' : 'var(--pos)'} />}
+            {gain !== undefined && (
+              <p className={`gain ${gain >= 0 ? 'up' : 'down'}`}>
+                Compra {money(purchase)} → {gain >= 0 ? 'ganancia' : 'pérdida'} <b>{signedMoney(gain)}</b>
+              </p>
+            )}
+          </div>
+        )}
 
         {new Set(pointsData.map((p) => p.value)).size > 1 && (
           <div className="card pad">

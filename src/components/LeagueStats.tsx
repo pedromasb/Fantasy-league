@@ -1,5 +1,6 @@
 import { difficulty, nextFixtures, type League, type LeaguePlayer } from '../lib/league'
 import { money, num, pct } from '../lib/format'
+import { AdvancedStats, MatchdayTable, SeasonChart, usePlayerDeep } from './SeasonCharts'
 
 /** Points per matchday as small bars; empty slot = did not play. */
 function WeekBars({ p, lastWeek }: { p: LeaguePlayer; lastWeek: number }) {
@@ -25,6 +26,7 @@ function WeekBars({ p, lastWeek }: { p: LeaguePlayer; lastWeek: number }) {
 }
 
 export function LeagueStats({ league, p }: { league: League; p: LeaguePlayer }) {
+  const deep = usePlayerDeep(p.id)
   const fixtures = nextFixtures(league, p.teamId)
   const change = (d: number) => (p.value && p.valueAgo[d] ? p.value / p.valueAgo[d] - 1 : undefined)
   const team = league.teams[p.teamId]
@@ -47,10 +49,17 @@ export function LeagueStats({ league, p }: { league: League; p: LeaguePlayer }) 
         )}
       </div>
 
-      <div className="card pad">
-        <div className="card-title">Puntos por jornada</div>
-        <WeekBars p={p} lastWeek={league.lastWeek} />
-      </div>
+      {deep && deep.values.length > 1 ? (
+        <div className="card pad">
+          <div className="card-title">Valor y puntos · toda la temporada</div>
+          <SeasonChart deep={deep} />
+        </div>
+      ) : (
+        <div className="card pad">
+          <div className="card-title">Puntos por jornada</div>
+          <WeekBars p={p} lastWeek={league.lastWeek} />
+        </div>
+      )}
 
       <div className="card pad">
         <div className="card-title">Evolución del valor</div>
@@ -72,6 +81,20 @@ export function LeagueStats({ league, p }: { league: League; p: LeaguePlayer }) 
           </p>
         )}
       </div>
+
+      {deep && deep.weeks.length > 0 && (
+        <div className="card pad">
+          <div className="card-title">Jornada a jornada</div>
+          <MatchdayTable deep={deep} />
+        </div>
+      )}
+
+      {deep?.season && Object.keys(deep.season).length > 0 && (
+        <div className="card pad">
+          <div className="card-title">Estadísticas avanzadas · temporada</div>
+          <AdvancedStats season={deep.season} />
+        </div>
+      )}
 
       {fixtures.length > 0 && (
         <div className="card pad">

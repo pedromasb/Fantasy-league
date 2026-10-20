@@ -411,3 +411,27 @@ a { color: var(--accent-2); }
 .fixture b { font-size: 12px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .fixture small, .fx-week { font-size: 10.5px; color: var(--text-2); font-weight: 700; }
 .diff-1 { background: #d3eedd; } .diff-2 { background: #e5f2df; } .diff-3 { background: #f3efdc; } .diff-4 { background: #f8e3d3; } .diff-5 { background: #f5d3d6; }
+
+/* ---------- season charts ---------- */
+.season-chart .bar.f-top { fill: #9fd5b8; } .season-chart .bar.f-good { fill: #c3e6d2; } .season-chart .bar.f-mid { fill: #c9dcf1; }
+.season-chart .bar.f-low { fill: #e1dace; } .season-chart .bar.f-neg { fill: #f2c4c9; } .season-chart .bar.f-none { fill: transparent; }
+.chart-legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 4px; }
+.chart-legend i { display: inline-block; vertical-align: middle; margin-right: 4px; }
+.lg-line { width: 14px; height: 3px; border-radius: 2px; background: var(--accent-2); }
+.lg-bar { width: 8px; height: 10px; border-radius: 2px; background: #9fd5b8; }
+.mtable { display: flex; flex-direction: column; }
+.mrow { display: grid; grid-template-columns: 22px 1fr 34px 18px 18px 34px; gap: 6px; align-items: center; width: 100%; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; text-align: center; }
+.mrow > span:nth-child(2) { text-align: left; }
+.mhead { font-size: 11px; font-weight: 800; color: var(--muted); text-transform: uppercase; }
+.mrival { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mrow.has-detail .mrival::after { content: ' ▸'; color: var(--muted); }
+.mpts { border-radius: 6px; padding: 2px 0; }
+.mpts.f-top { background: #9fd5b8; } .mpts.f-good { background: var(--pos-soft); color: var(--pos); } .mpts.f-mid { background: var(--accent-2-soft); }
+.mpts.f-low { background: #f0ece5; } .mpts.f-neg { background: var(--neg-soft); color: var(--neg); }
+.breakdown { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 0 10px; border-bottom: 1px solid var(--line); }
+.breakdown span { font-size: 12px; background: var(--card-soft); border: 1px solid var(--line); border-radius: 8px; padding: 3px 7px; }
+.adv { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.adv-row { display: flex; flex-direction: column; background: var(--card-soft); border: 1px solid var(--line); border-radius: 11px; padding: 7px 10px; }
+.adv-row span { font-size: 11px; color: var(--muted); font-weight: 700; }
+.adv-row b { font-size: 15px; }
+.adv-row small { font-size: 11px; }
