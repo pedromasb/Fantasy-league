@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20T12:30:00+02:00",
+ "updated": "2026-10-20T13:15:00+02:00",
  "players": {
   "luis-castro": {
    "id": "luis-castro",
@@ -1914,8 +1914,8 @@
        "text": "4-4-2: Unai Simón; Koski, Mojica, Sergio Gómez y Bartra; Ibáñez, Unai López, Saliba y Bernardo; Jutglà y Cepeda."
       },
       {
-       "text": "Capitán: Koski, que juega en casa contra el colista Málaga.",
-       "playerId": "koski"
+       "text": "Capitán: Unai Simón. Tiene la media más alta (6,78), un 95% de probabilidad de jugar y recibe al Getafe, uno de los peores ataques (0,82 xG por partido). Si el jueves hay dudas con él, pon a Koski (el Alavés juega el viernes).",
+       "playerId": "unai-simon"
       },
       {
        "text": "Bartra tiene un 50% de probabilidad de jugar: confírmalo el viernes. No tienes recambio fiable en defensa, así que es lo primero que reforzar cuando haya saldo.",
@@ -2031,7 +2031,7 @@
     },
     "unai-simon": {
      "verdict": "alinear",
-     "text": "Tu jugador con mejor media (6,78) y 11 pts en la última jornada. Indiscutible. Su cláusula (49 M€) está un 30% por encima de su valor: bien protegido.",
+     "text": "Tu capitán para la jornada 10: media de 6,78 (la más alta de tu plantilla), 95% de probabilidad de jugar y en casa contra el Getafe (0,82 xG por partido). El Athletic solo ha encajado 6 goles en 8 partidos.",
      "confidence": "alta"
     },
     "mojica": {
@@ -2041,7 +2041,7 @@
     },
     "koski": {
      "verdict": "alinear",
-     "text": "Tu mejor defensa (6,22 de media) y capitán. Juega en casa contra el recién ascendido Málaga. Ojo: su cláusula (38,2 M€) es igual a su valor, así que cualquier rival puede llevárselo pagándola. Súbela en cuanto tengas saldo positivo.",
+     "text": "Tu mejor defensa (6,22 de media) en casa contra el colista Málaga, pero viene de 3 y 3 pts y jugó solo 19 minutos en la jornada 8. Capitán de reserva si Unai Simón no juega. Su cláusula es igual a su valor y sube cada día: súbela en cuanto tengas saldo.",
      "confidence": "alta"
     },
     "sergio-gomez": {
@@ -2151,7 +2151,7 @@
      "cepeda",
      "sanchez-flores"
     ],
-    "note": "Jornada 10 sin Larrubia. Capitán: Koski. Confirma a Bartra antes del viernes 21:00."
+    "note": "Jornada 10 sin Larrubia. Capitán: Unai Simón (Koski si hay dudas con él). Confirma a Bartra antes del viernes 21:00."
    }
   }
  },
