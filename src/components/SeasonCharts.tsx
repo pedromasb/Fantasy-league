@@ -20,6 +20,10 @@ export interface PlayerDeep {
     home?: boolean
     score?: [number, number]
     breakdown?: Record<string, [number, number]>
+    xG?: number
+    xA?: number
+    shots?: number
+    keyPasses?: number
   }[]
   season?: Record<string, string>
 }
@@ -131,7 +135,7 @@ export function MatchdayTable({ deep }: { deep: PlayerDeep }) {
   const rows = [...deep.weeks].reverse()
   return (
     <div className="mtable">
-      <div className="mrow mhead"><span>J</span><span>Rival</span><span>Min</span><span>G</span><span>A</span><span>Pts</span></div>
+      <div className="mrow mhead"><span>J</span><span>Rival</span><span>Min</span><span>G</span><span>A</span><span>xG+xA</span><span>Pts</span></div>
       {rows.map((w) => (
         <div key={w.week}>
           <button className={`mrow ${w.breakdown ? 'has-detail' : ''}`} onClick={() => w.breakdown && setOpen(open === w.week ? null : w.week)}>
@@ -143,6 +147,7 @@ export function MatchdayTable({ deep }: { deep: PlayerDeep }) {
             <span>{w.minutes ?? (w.points === null ? 0 : '—')}</span>
             <span>{w.goals || ''}</span>
             <span>{w.assists || ''}</span>
+            <span className="mxg">{w.xG !== undefined ? ((w.xG ?? 0) + (w.xA ?? 0)).toLocaleString('es-ES', { maximumFractionDigits: 2 }) : ''}</span>
             <b className={`mpts f-${w.points === null ? 'none' : w.points < 0 ? 'neg' : w.points >= 8 ? 'top' : w.points >= 5 ? 'good' : w.points >= 2 ? 'mid' : 'low'}`}>{w.points ?? '–'}</b>
           </button>
           {open === w.week && w.breakdown && (

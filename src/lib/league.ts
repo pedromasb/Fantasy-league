@@ -27,6 +27,22 @@ export interface LeaguePlayer {
   minutes?: Record<string, number>
   /** Points in the last five finished matchdays (null = did not play). */
   last5: (number | null)[]
+  /** understat.com season totals. */
+  xg?: {
+    id: number
+    games: number
+    minutes: number
+    goals: number
+    xG: number
+    npg: number
+    npxG: number
+    assists: number
+    xA: number
+    shots: number
+    keyPasses: number
+    xGChain: number
+    xGBuildup: number
+  }
 }
 
 export interface TeamRow {
@@ -38,6 +54,12 @@ export interface TeamRow {
   ga: number
   form: ('W' | 'D' | 'L')[]
   rank: number
+  /** understat.com expected goals for and against (season and last five matches). */
+  xG?: number
+  xGA?: number
+  games?: number
+  last5xG?: number
+  last5xGA?: number
 }
 
 export interface Fixture {
@@ -118,3 +140,7 @@ export function difficulty(league: League, rivalId: number, home: boolean): numb
   const base = 1 + (4 * (n - rank)) / (n - 1)
   return Math.max(1, Math.min(5, Math.round(base + (home ? -0.4 : 0.4))))
 }
+
+/** (xG + xA) per 90 minutes, for players with enough minutes. */
+export const threat = (p: LeaguePlayer, minMinutes = 270) =>
+  p.xg && p.xg.minutes >= minMinutes ? ((p.xg.xG + p.xg.xA) / p.xg.minutes) * 90 : undefined

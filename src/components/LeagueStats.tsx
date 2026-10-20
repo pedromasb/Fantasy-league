@@ -49,6 +49,8 @@ export function LeagueStats({ league, p }: { league: League; p: LeaguePlayer }) 
         )}
       </div>
 
+      {p.xg && p.xg.minutes > 0 && <ExpectedCard xg={p.xg} />}
+
       {deep && deep.values.length > 1 ? (
         <div className="card pad">
           <div className="card-title">Valor y puntos · toda la temporada</div>
@@ -116,5 +118,46 @@ export function LeagueStats({ league, p }: { league: League; p: LeaguePlayer }) 
         </div>
       )}
     </>
+  )
+}
+
+const per90 = (v: number, min: number) => (min > 0 ? (v / min) * 90 : 0)
+const n2 = (v: number) => v.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+
+/** understat expected goals/assists against what actually happened. */
+function ExpectedCard({ xg }: { xg: NonNullable<LeaguePlayer['xg']> }) {
+  const gDiff = xg.goals - xg.xG
+  const aDiff = xg.assists - xg.xA
+  const read =
+    gDiff + aDiff <= -1
+      ? 'Genera más de lo que ha convertido: lo normal es que los goles y asistencias lleguen. Buena señal para comprar o mantener.'
+      : gDiff + aDiff >= 1.5
+        ? 'Está rindiendo por encima de lo que genera: puede bajar su producción. Ojo si su precio ya lo refleja.'
+        : 'Su producción va acorde a las ocasiones que genera.'
+  return (
+    <div className="card pad">
+      <div className="card-title">Goles y asistencias esperados · Understat</div>
+      <div className="xg-compare">
+        <div>
+          <span>Goles</span>
+          <b>{xg.goals} <small className="muted">/ {n2(xg.xG)} xG</small></b>
+          <small className={gDiff >= 0 ? 'pos' : 'neg'}>{gDiff >= 0 ? '+' : ''}{n2(gDiff)}</small>
+        </div>
+        <div>
+          <span>Asistencias</span>
+          <b>{xg.assists} <small className="muted">/ {n2(xg.xA)} xA</small></b>
+          <small className={aDiff >= 0 ? 'pos' : 'neg'}>{aDiff >= 0 ? '+' : ''}{n2(aDiff)}</small>
+        </div>
+      </div>
+      <div className="league-kpis" style={{ marginTop: 8 }}>
+        <div><b>{n2(per90(xg.xG, xg.minutes))}</b><span>xG / 90'</span></div>
+        <div><b>{n2(per90(xg.xA, xg.minutes))}</b><span>xA / 90'</span></div>
+        <div><b>{n2(xg.npxG)}</b><span>xG sin penaltis</span></div>
+        <div><b>{n2(per90(xg.shots, xg.minutes))}</b><span>tiros / 90'</span></div>
+        <div><b>{n2(per90(xg.keyPasses, xg.minutes))}</b><span>pases clave / 90'</span></div>
+        <div><b>{n2(per90(xg.xGChain, xg.minutes))}</b><span>xGChain / 90'</span></div>
+      </div>
+      <p className="small muted" style={{ marginTop: 8 }}>{read} ({xg.minutes}' en {xg.games} partidos)</p>
+    </div>
   )
 }

@@ -5,7 +5,7 @@ import { allDates, knownPlayers, type PlayerSummary } from '../lib/analysis'
 import { initials, money, num, POS_LABEL, prettyDate } from '../lib/format'
 import { useNav } from '../lib/nav'
 import { latestSquad, useData } from '../lib/data'
-import { formPoints, matchLeague, useLeague, type LeaguePlayer } from '../lib/league'
+import { formPoints, matchLeague, threat, useLeague, type LeaguePlayer } from '../lib/league'
 import type { Pos } from '../types'
 
 type Board = 'points' | 'risers' | 'fallers' | 'ppm' | 'value'
@@ -110,11 +110,12 @@ function PodiumCard({ p, place, metric }: { p: PlayerSummary; place: number; met
   )
 }
 
-type LeagueBoard = 'form' | 'season' | 'average' | 'risers' | 'fallers' | 'value'
+type LeagueBoard = 'form' | 'season' | 'average' | 'threat' | 'risers' | 'fallers' | 'value'
 const LEAGUE_BOARDS: { value: LeagueBoard; label: string; icon: string; sub: string }[] = [
   { value: 'form', label: 'Forma', icon: '🔥', sub: 'Puntos sumados en las últimas 5 jornadas' },
   { value: 'season', label: 'Temporada', icon: '🏆', sub: 'Puntos totales de la temporada' },
   { value: 'average', label: 'Media', icon: '📊', sub: 'Media por partido (mínimo 3 jugados)' },
+  { value: 'threat', label: 'Peligro', icon: '🎯', sub: 'Goles + asistencias esperados (xG + xA) por 90 minutos, mínimo 270 minutos (Understat)' },
   { value: 'risers', label: 'Suben', icon: '🚀', sub: 'Mayor subida de valor en el último día' },
   { value: 'fallers', label: 'Bajan', icon: '🧊', sub: 'Mayor bajada de valor en el último día' },
   { value: 'value', label: 'Valiosos', icon: '💎', sub: 'Jugadores más caros' },
@@ -136,6 +137,7 @@ export function Top() {
       case 'form': return [...pool].sort((a, b) => formPoints(b) - formPoints(a) || (b.points ?? 0) - (a.points ?? 0))
       case 'season': return [...pool].sort((a, b) => (b.points ?? 0) - (a.points ?? 0))
       case 'average': return pool.filter((p) => (p.played ?? 0) >= 3).sort((a, b) => (b.average ?? 0) - (a.average ?? 0))
+      case 'threat': return pool.filter((p) => threat(p) !== undefined).sort((a, b) => threat(b)! - threat(a)!)
       case 'risers': return [...pool].sort((a, b) => dayPct(b) - dayPct(a))
       case 'fallers': return [...pool].sort((a, b) => dayPct(a) - dayPct(b))
       case 'value': return [...pool].sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
@@ -152,6 +154,7 @@ export function Top() {
       case 'form': return <b className="metric">{formPoints(p)}<small> pts</small></b>
       case 'season': return <b className="metric">{p.points ?? 0}<small> pts</small></b>
       case 'average': return <b className="metric">{num(p.average, 2)}</b>
+      case 'threat': return <span className="metric-col"><b className="metric">{num(threat(p), 2)}</b><small className="muted">{p.xg!.goals}G {p.xg!.assists}A · {num(p.xg!.xG, 1)} xG</small></span>
       case 'risers':
       case 'fallers': return <span className="metric-col"><Delta value={dayPct(p)} /><small className="muted">{money(p.valueAgo['1'] && p.value ? p.value - p.valueAgo['1'] : undefined)}</small></span>
       case 'value': return <b className="metric">{money(p.value)}</b>

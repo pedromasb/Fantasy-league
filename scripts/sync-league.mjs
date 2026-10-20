@@ -19,14 +19,14 @@ const args = process.argv.slice(2)
 const samplesDir = args.includes('--samples') ? args[args.indexOf('--samples') + 1] : null
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
-async function get(url, sample) {
+async function get(url, sample, extraHeaders = {}) {
   if (samplesDir) {
     const f = `${samplesDir}/${sample}`
     return existsSync(f) ? readFile(f, 'utf8') : null
   }
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Language': 'es-ES,es;q=0.9' } })
+      const res = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Language': 'es-ES,es;q=0.9', ...extraHeaders } })
       if (res.ok) return await res.text()
       console.warn(`HTTP ${res.status} ${url}`)
     } catch (e) {
@@ -254,7 +254,76 @@ function teamTable(matches) {
   return Object.fromEntries(list.map((x) => [x.id, x]))
 }
 
+const US = 'https://understat.com'
+const usHeaders = (referer) => ({ 'X-Requested-With': 'XMLHttpRequest', Referer: referer })
+const decode = (s) => s.replace(/&#0?39;/g, "'").replace(/&amp;/g, '&').replace(/&quot;/g, '"')
+const f2 = (x) => Math.round(Number(x) * 100) / 100
+
+/** understat.com league JSON: season xG/xA per player and xG per match per team. */
+async function loadUnderstat(season) {
+  const text = await get(`${US}/getLeagueData/La_liga/${season}`, 'us-league.json', usHeaders(`${US}/league/La_liga`))
+  if (!text) return null
+  try {
+    return JSON.parse(text)
+  } catch {
+    return null
+  }
+}
+
+/** Match an understat player to a futbolfantasy one: same team, then full name or all short-name words. */
+function understatIndex(us) {
+  const byTeam = new Map()
+  for (const p of us?.players ?? []) {
+    // Players who changed club mid-season list both teams ("Getafe,Valencia").
+    for (const t of String(p.team_title).split(',')) {
+      const k = teamKey(t)
+      if (!byTeam.has(k)) byTeam.set(k, [])
+      byTeam.get(k).push({ ...p, n: norm(decode(p.player_name)) })
+    }
+  }
+  return (ff, team) => {
+    const list = byTeam.get(teamKey(team)) ?? []
+    const full = norm(ff.fullName ?? ff.name)
+    const exact = list.filter((u) => u.n === full || u.n === norm(ff.name))
+    if (exact.length === 1) return exact[0]
+    const words = norm(ff.name).replace(/\b[a-z]\b/g, '').split(' ').filter(Boolean)
+    const loose = list.filter((u) => words.every((w) => u.n.split(' ').includes(w)))
+    if (loose.length === 1) return loose[0]
+    const fullWords = full.split(' ')
+    const last = list.filter((u) => fullWords.length > 1 && u.n.split(' ').slice(-1)[0] === fullWords[fullWords.length - 1] && u.n[0] === full[0])
+    return last.length === 1 ? last[0] : undefined
+  }
+}
+
+const usSummary = (u) => ({
+  id: Number(u.id),
+  games: Number(u.games),
+  minutes: Number(u.time),
+  goals: Number(u.goals),
+  xG: f2(u.xG),
+  npg: Number(u.npg),
+  npxG: f2(u.npxG),
+  assists: Number(u.assists),
+  xA: f2(u.xA),
+  shots: Number(u.shots),
+  keyPasses: Number(u.key_passes),
+  xGChain: f2(u.xGChain),
+  xGBuildup: f2(u.xGBuildup),
+})
+
+/** Season xG for and against per team, plus the last five matches. */
+function understatTeams(us) {
+  const out = {}
+  for (const t of Object.values(us?.teams ?? {})) {
+    const h = t.history ?? []
+    const sum = (arr, k) => f2(arr.reduce((a, m) => a + Number(m[k] ?? 0), 0))
+    out[teamKey(t.title)] = { xG: sum(h, 'xG'), xGA: sum(h, 'xGA'), games: h.length, last5xG: sum(h.slice(-5), 'xG'), last5xGA: sum(h.slice(-5), 'xGA') }
+  }
+  return out
+}
+
 const PLAYERS_DIR = 'public/data/players'
+const SEASON_YEAR = '2026'
 
 /** ffIds worth deep data: my squad, the latest market, pending bids, plus the top 25 by form. */
 async function trackedIds(out) {
@@ -295,6 +364,16 @@ async function syncTracked(out, matches, weekDates) {
     await sleep(300)
     const afData = af ? parseAnaliticaPlayer(af) : null
     const season = ff ? parseFutbolFantasyPlayer(ff) : null
+    let usMatches = []
+    if (p.xg?.id) {
+      const raw = await get(`${US}/getPlayerData/${p.xg.id}`, '', usHeaders(`${US}/player/${p.xg.id}`))
+      try {
+        usMatches = (JSON.parse(raw ?? '{}').matches ?? []).filter((m) => String(m.season) === SEASON_YEAR)
+      } catch {
+        usMatches = []
+      }
+      await sleep(300)
+    }
 
     // Values: keep every day ever seen, newer sources win.
     const values = new Map(prev.values)
@@ -323,6 +402,14 @@ async function syncTracked(out, matches, weekDates) {
         w.home = fx.home === p.teamId
         if (fx.score) w.score = fx.home === p.teamId ? fx.score : [fx.score[1], fx.score[0]]
       }
+    }
+
+    // understat per match: matched by date (±1 day for late kick-offs across midnight).
+    for (const w of weeks.values()) {
+      if (!w.date) continue
+      const t = Date.parse(w.date)
+      const m = usMatches.find((x) => Math.abs(Date.parse(x.date) - t) <= 864e5)
+      if (m) Object.assign(w, { xG: f2(m.xG), xA: f2(m.xA), shots: Number(m.shots), keyPasses: Number(m.key_passes) })
     }
 
     const data = {
@@ -395,6 +482,10 @@ async function main() {
   const lastWeek = finishedWeeks[finishedWeeks.length - 1] ?? 0
   const recentWeeks = finishedWeeks.slice(-5)
 
+  const us = await loadUnderstat(SEASON_YEAR)
+  const findUs = understatIndex(us)
+  console.log(`understat: ${us?.players?.length ?? 0} players`)
+
   const out = players.map((p) => {
     const teamName = teams[p.teamId] ?? ''
     const a = afIndex.get(`${norm(p.name)}|${teamKey(teamName)}`) ?? fuzzy(p, teamName)
@@ -417,6 +508,10 @@ async function main() {
       last5: recentWeeks.map((w) => (weeks[w] === undefined ? null : weeks[w])),
       ffSlug: slugs[p.id],
       afSlug: a?.playerSlug,
+      xg: (() => {
+        const u = findUs(p, teamName)
+        return u ? usSummary(u) : undefined
+      })(),
     }
   })
 
@@ -427,7 +522,12 @@ async function main() {
     season: '2026-27',
     lastWeek,
     recentWeeks,
-    teams: teamTable(matches),
+    teams: (() => {
+      const t = teamTable(matches)
+      const xg = understatTeams(us)
+      for (const row of Object.values(t)) Object.assign(row, xg[teamKey(row.name)] ?? {})
+      return t
+    })(),
     teamNames: teams,
     weekDates,
     fixtures: matches.map(({ id, week, home, away, homeName, awayName, score, when, finished, date }) => ({ id, week, home, away, homeName, awayName, score, when, finished, date })),
@@ -435,6 +535,7 @@ async function main() {
   }
   await mkdir('public/data', { recursive: true })
   await writeFile(samplesDir ? `${samplesDir}/league.test.json` : OUT, JSON.stringify(data))
+  console.log(`understat matched: ${out.filter((p) => p.xg).length}`)
   console.log(`wrote ${out.length} players, last finished week ${lastWeek}, matched with analitica: ${out.filter((p) => p.rank !== undefined).length}`)
 }
 
