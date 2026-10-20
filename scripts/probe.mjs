@@ -2,12 +2,10 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 const UA = 'Mozilla/5.0 (Linux; Android 14; Pixel 7a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Mobile Safari/537.36'
 const samples = {
-  'af-player.html': 'https://www.analiticafantasy.com/jugadores/v-koski-106759/fantasy/la-liga-fantasy',
-  'af-player-root.html': 'https://www.analiticafantasy.com/jugadores/v-koski-106759',
-  'ff-player.html': 'https://www.futbolfantasy.com/jugadores/ville-koski',
-  'ff-player-season.html': 'https://www.futbolfantasy.com/jugadores/ville-koski/laliga-26-27',
-  'ff-app.js': 'https://www.futbolfantasy.com/js/app.min.js',
-  'ff-app2.js': 'https://www.futbolfantasy.com/js/app-secondary.min.js',
+  'ff-partido.html': 'https://www.futbolfantasy.com/partidos/22508-osasuna-racing',
+  'ff-calendario.html': 'https://www.futbolfantasy.com/laliga/calendario',
+  'espn-day.json': 'https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261017',
+  'espn-range.json': 'https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260801-20261020&limit=400',
 }
 await mkdir('samples', { recursive: true })
 for (const [file, url] of Object.entries(samples)) {
