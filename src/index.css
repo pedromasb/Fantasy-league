@@ -473,3 +473,10 @@ a { color: var(--accent-2); }
 .valert-icon { font-size: 20px; }
 .valert-steps { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; font-weight: 700; }
 .fx-xg { font-size: 10px !important; opacity: 0.85; }
+.ev-mixed { fill: #b9a3dc; stroke: var(--card); stroke-width: 1.5; }
+.lg-dot.ev-mixed { background: #b9a3dc; }
+.ev-count { font-size: 8px; font-weight: 800; fill: #fff; pointer-events: none; }
+.sel-line { stroke: var(--accent-2); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.7; }
+.linechart .bar.bar-on { stroke: var(--accent-2); stroke-width: 1.5; }
+.team-detail { margin-top: 10px; padding: 10px 12px; border-radius: 14px; background: var(--card-soft); display: flex; flex-direction: column; gap: 4px; }
+.team-detail p { margin: 0; }
