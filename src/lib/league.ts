@@ -133,12 +133,35 @@ export function nextFixtures(league: League, teamId: number, n = 5): (Fixture & 
     .map((f) => ({ ...f, home_: f.home === teamId, rival: f.home === teamId ? f.awayName : f.homeName, rivalId: f.home === teamId ? f.away : f.home }))
 }
 
-/** 1 (easy) to 5 (hard) from the rival's table position; playing away adds difficulty. */
-export function difficulty(league: League, rivalId: number, home: boolean): number {
-  const rank = league.teams[rivalId]?.rank ?? 10
-  const n = Object.keys(league.teams).length || 20
-  const base = 1 + (4 * (n - rank)) / (n - 1)
-  return Math.max(1, Math.min(5, Math.round(base + (home ? -0.4 : 0.4))))
+/** Rival's expected goals for and against per match: 60% season, 40% last five matches. */
+export function teamRates(t?: TeamRow): { xg: number; xga: number } | undefined {
+  if (!t || t.xG === undefined || t.xGA === undefined || !t.games) return undefined
+  const blend = (season: number, last5?: number) =>
+    last5 === undefined ? season / t.games! : 0.6 * (season / t.games!) + 0.4 * (last5 / Math.min(5, t.games!))
+  return { xg: blend(t.xG, t.last5xG), xga: blend(t.xGA, t.last5xGA) }
+}
+
+/** Share of teams (0-1) with a lower value than v. */
+const percentile = (v: number, all: number[]) => all.filter((x) => x < v).length / Math.max(all.length - 1, 1)
+
+/**
+ * 1 (easy) to 5 (hard). Goalkeepers and defenders face the rival's attack (its xG),
+ * midfielders and forwards its defence (a low xGA is hard); without a position both count.
+ * Falls back to the table position when there is no understat data. Playing away adds difficulty.
+ */
+export function difficulty(league: League, rivalId: number, home: boolean, pos?: Pos): number {
+  const rates = Object.values(league.teams).map(teamRates).filter((r): r is { xg: number; xga: number } => !!r)
+  const r = teamRates(league.teams[rivalId])
+  let hard: number
+  if (r && rates.length > 2) {
+    const attack = percentile(r.xg, rates.map((x) => x.xg))
+    const defence = 1 - percentile(r.xga, rates.map((x) => x.xga))
+    hard = pos === 'GK' || pos === 'DEF' ? attack : pos === 'MID' || pos === 'STR' ? defence : (attack + defence) / 2
+  } else {
+    const n = Object.keys(league.teams).length || 20
+    hard = (n - (league.teams[rivalId]?.rank ?? 10)) / (n - 1)
+  }
+  return Math.max(1, Math.min(5, Math.round(1 + 4 * hard + (home ? -0.4 : 0.4))))
 }
 
 /** (xG + xA) per 90 minutes, for players with enough minutes. */

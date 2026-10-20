@@ -325,7 +325,7 @@ function understatTeams(us) {
 const PLAYERS_DIR = 'public/data/players'
 const SEASON_YEAR = '2026'
 
-/** ffIds worth deep data: my squad, the latest market, pending bids, plus the top 25 by form. */
+/** ffIds worth deep data: my squad, the latest market, pending bids, ledger players, plus the top 25 by form. */
 async function trackedIds(out) {
   const ids = new Set()
   try {
@@ -335,8 +335,11 @@ async function trackedIds(out) {
       ...(last(mine.squads ?? {})?.slots ?? []).map((x) => x.playerId),
       ...(last(mine.markets ?? {}) ?? []).map((x) => x.playerId),
       ...(mine.bids ?? []).map((x) => x.playerId),
+      ...(mine.ledger ?? []).map((x) => x.playerId),
     ])
     for (const id of wanted) if (mine.players[id]?.ffId) ids.add(mine.players[id].ffId)
+    // Players bought or sold, so the team value history can be rebuilt.
+    for (const x of mine.ledger ?? []) if (x.ffId && ['compra', 'venta'].includes(x.kind)) ids.add(x.ffId)
   } catch (e) {
     console.warn('fantasy.json unreadable:', e.message)
   }

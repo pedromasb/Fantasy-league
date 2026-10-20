@@ -1,2555 +1,2557 @@
 {
- "version": 1,
- "updated": "2026-10-20T13:45:00+02:00",
- "players": {
-  "luis-castro": {
-   "id": "luis-castro",
-   "name": "Luís Castro",
-   "pos": "COA",
-   "team": "Levante",
-   "fullName": "Luís Castro",
-   "nationality": "Portugal",
-   "news": [
-    {
-     "date": "2025-12-20",
-     "text": "Llegó al Levante en diciembre de 2025 con el equipo colista y contrato hasta 2027; debutó ganando 0-3 en Sevilla.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Soccerway",
-     "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-oficial-luis-castro-es-el-nuevo-entrenador-del-levante/zy62xKDc"
-    }
-   ],
-   "statsUpdated": "2026-10-19"
-  },
-  "cardoso": {
-   "id": "cardoso",
-   "name": "Cardoso",
-   "pos": "DEF",
-   "team": "Sevilla",
-   "fullName": "Fábio Cardoso",
-   "nationality": "Portugal",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 0,
-     "minutes": 0
-    },
-    {
-     "season": "2025-26",
-     "apps": 5,
-     "minutes": 338
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-05",
-     "text": "No entra en los planes de García Plaza: apartado desde pretemporada y el club busca su salida. Solo reapareció en un amistoso por falta de centrales.",
-     "tone": "bad"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/38230/fabio-cardoso-vuelve-a-escena-debido-a-las-necesidades-del-equipo"
-    },
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/jugador/fabio-cardoso"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 9500
-  },
-  "sadiq": {
-   "id": "sadiq",
-   "name": "Sadiq",
-   "pos": "STR",
-   "team": "Valencia",
-   "fullName": "Umar Sadiq",
-   "nationality": "Nigeria",
-   "news": [
-    {
-     "date": "2026-08-30",
-     "text": "Lesión en los isquiotibiales en Riazor (Deportivo-Valencia). Lesión seria pero sin cirugía.",
-     "tone": "bad"
-    },
-    {
-     "date": "2026-09-05",
-     "text": "Baja estimada de 8 a 10 semanas: volvería a finales de octubre o en noviembre. El Valencia sondeó a Martial como recambio.",
-     "tone": "warn"
-    }
-   ],
-   "sources": [
-    {
-     "title": "FutbolFantasy",
-     "url": "https://www.futbolfantasy.com/laliga/noticias/150170-sadiq-cayo-lesionado-en-riazor-y-sera-sometido-a-pruebas"
-    },
-    {
-     "title": "Fichajes.net",
-     "url": "https://www.fichajes.net/noticias/valencia-negocia-martial-20260905.html"
-    },
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/en/noticias/37611/very-bad-news-for-umar-sadiq"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 8294
-  },
-  "matteo-prati": {
-   "id": "matteo-prati",
-   "name": "Matteo Prati",
-   "pos": "MID",
-   "team": "Racing de Santander",
-   "fullName": "Matteo Prati",
-   "nationality": "Italia",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 4
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-08-20",
-     "text": "Cedido por el Cagliari hasta junio de 2027 con opción de compra. Llega para pelear minutos en el doble pivote del recién ascendido.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Flashscore",
-     "url": "https://www.flashscore.es/noticias/futbol-laliga-ea-sports-el-racing-hace-oficial-el-fichaje-de-matteo-prati/6708UREl/"
-    },
-    {
-     "title": "Comuniate",
-     "url": "https://webapp.comuniate.com/en/noticias/37484/matteo-prati-new-racing-de-santander-midfielder-gustavo-puertas-replacement"
-    },
-    {
-     "title": "Statsniper",
-     "url": "https://statsniper.com/ar/leagues/la-liga/player/matteo_prati_RAC/matteo-prati/"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 11857
-  },
-  "gorrotxa": {
-   "id": "gorrotxa",
-   "name": "Gorrotxa",
-   "pos": "MID",
-   "team": "Real Sociedad",
-   "fullName": "Jon Gorrotxategi",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 5,
-     "starts": 1,
-     "minutes": 131,
-     "goals": 0,
-     "assists": 0
-    },
-    {
-     "season": "2025-26",
-     "apps": 30,
-     "minutes": 2217
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-01",
-     "text": "Renovado hasta 2030, pero esta temporada es suplente: 1 titularidad en 5 partidos.",
-     "tone": "warn"
-    }
-   ],
-   "sources": [
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/jugador/jon-gorrotxategi"
-    },
-    {
-     "title": "Soccerway",
-     "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-jon-gorrotxategi-renueva-con-la-real-sociedad-hasta-2030/Q9K3WyO9"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 11683
-  },
-  "larrubia": {
-   "id": "larrubia",
-   "name": "Larrubia",
-   "pos": "MID",
-   "team": "Málaga",
-   "fullName": "David Larrubia",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 7,
-     "starts": 6,
-     "minutes": 574,
-     "goals": 0,
-     "assists": 0,
-     "shots": 12,
-     "extra": {
-      "Tiros a puerta": 2
-     }
-    },
-    {
-     "season": "2025-26 (Segunda)",
-     "apps": 45,
-     "goals": 12,
-     "assists": 4
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Titular en 6 de 7 partidos del recién ascendido Málaga. Aún sin goles en Primera pese a 12 tiros, tras marcar 12 en Segunda.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/es-IN/jugador/larrubia"
-    },
-    {
-     "title": "Statsniper",
-     "url": "https://statsniper.com/la-liga/player/david_larrubia_MCF/"
-    },
-    {
-     "title": "Rotowire",
-     "url": "https://www.rotowire.com/soccer/player/david-larrubia-48668"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 8780
-  },
-  "cheikh-thiam": {
-   "id": "cheikh-thiam",
-   "name": "Cheikh Thiam",
-   "pos": "MID",
-   "team": "Villarreal",
-   "fullName": "Cheikh Tidiane Thiam",
-   "born": "2005-11-07",
-   "nationality": "Senegal",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 0,
-     "minutes": 0
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-07-25",
-     "text": "Debutó con el primer equipo en pretemporada (gol y asistencia ante el PSV), pero no ha jugado en LaLiga.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Foot Africa",
-     "url": "https://foot-africa.com/en/news/spain-cheikh-tidiane-thiam-shines-on-his-villarreal-debut-1293652/"
-    },
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/en-ES/player/cheikh-thiam"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 18039
-  },
-  "beitia": {
-   "id": "beitia",
-   "name": "Beitia",
-   "pos": "DEF",
-   "team": "Real Sociedad",
-   "fullName": "Luken Beitia",
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Aparece lesionado en el mercado. Central joven, renovado hasta 2030, con poco protagonismo en el primer equipo.",
-     "tone": "bad"
-    }
-   ],
-   "sources": [
-    {
-     "title": "FotMob",
-     "url": "https://www.fotmob.com/players/1697334/luken-beitia"
-    },
-    {
-     "title": "Soccerway",
-     "url": "https://ve.soccerway.com/jugador/beitia-luken/nLldSDip"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 15273
-  },
-  "youssef": {
-   "id": "youssef",
-   "name": "Youssef",
-   "pos": "DEF",
-   "team": "Alavés",
-   "fullName": "Youssef Lekhedim",
-   "nationality": "Marruecos",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 6,
-     "minutes": 148
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Lateral de 2005 con el dorsal 3. Las fuentes no coinciden en sus minutos (de 0 a 6 partidos); suma 17 puntos Fantasy.",
-     "tone": "warn"
-    }
-   ],
-   "sources": [
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/jugador/youssef-lekhedim"
-    },
-    {
-     "title": "ESPN",
-     "url": "https://www.espn.com/soccer/player/_/id/149306"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 14935
-  },
-  "raba": {
-   "id": "raba",
-   "name": "Raba",
-   "pos": "STR",
-   "team": "Valencia",
-   "fullName": "Dani Raba",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 2,
-     "goals": 1,
-     "shots": 3,
-     "extra": {
-      "Tiros a puerta": 1
-     }
-    },
-    {
-     "season": "2025-26",
-     "goals": 0,
-     "assists": 1,
-     "minutes": 257
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Con Sadiq lesionado, tiene más opciones de minutos en la delantera del Valencia. Datos de 2026-27 contradictorios entre fuentes.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Statsniper",
-     "url": "https://statsniper.com/leagues/la-liga/player/dani_raba_VAL/"
-    },
-    {
-     "title": "FotMob",
-     "url": "https://www.fotmob.com/es/players/784246/dani-raba"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 3732
-  },
-  "el-hilali": {
-   "id": "el-hilali",
-   "name": "El Hilali",
-   "pos": "DEF",
-   "team": "Espanyol",
-   "fullName": "Omar El Hilali",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 7,
-     "starts": 7,
-     "minutes": 615,
-     "goals": 0,
-     "assists": 1,
-     "shots": 0,
-     "yellow": 2,
-     "red": 1,
-     "extra": {
-      "Faltas": 19
-     }
-    },
-    {
-     "season": "2025-26",
-     "apps": 36,
-     "starts": 32,
-     "minutes": 2828,
-     "assists": 2,
-     "yellow": 9
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Titular en los 7 partidos que ha jugado. Ojo: ya lleva una roja y 2 amarillas esta temporada.",
-     "tone": "warn"
-    }
-   ],
-   "sources": [
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/es-CO/jugador/omar-1"
-    },
-    {
-     "title": "The Analyst",
-     "url": "https://theanalyst.com/players/1739/omar-el-hilali"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 10220
-  },
-  "unai-simon": {
-   "id": "unai-simon",
-   "name": "Unai Simón",
-   "pos": "GK",
-   "team": "Athletic Club",
-   "fullName": "Unai Simón",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 3,
-     "goals": 0
-    },
-    {
-     "season": "2025-26",
-     "apps": 37,
-     "extra": {
-      "Porterías a cero": 6,
-      "Goles encajados": 54,
-      "Paradas": 100
-     }
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Portero titular del Athletic. Solo una fuente secundaria da sus partidos de 2026-27 (3), así que tómalo con cautela.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Rotowire",
-     "url": "https://www-sss-gov-phwww.rotowire.com/soccer/player/unai-simon-23362"
-    },
-    {
-     "title": "FootballDream",
-     "url": "https://www.footballdream.in/players/unai-simon-222375"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 3693
-  },
-  "mojica": {
-   "id": "mojica",
-   "name": "Mojica",
-   "pos": "DEF",
-   "team": "Getafe",
-   "fullName": "Johan Mojica",
-   "nationality": "Colombia",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 1,
-     "starts": 1,
-     "minutes": 90
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-09-07",
-     "text": "Titular y de lo mejor de la defensa del Getafe ante el Celta (jornada 4).",
-     "tone": "good"
-    },
-    {
-     "date": "2026-08-15",
-     "text": "Fichado del Mallorca tras el Mundial. Titular habitual en el lateral izquierdo de Bordalás.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "ClaroSports",
-     "url": "https://www.clarosports.com/futbol/laliga/johan-mojica-destacado-getafe/"
-    },
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/37240/johan-mojica-ficha-por-el-getafe-recomendable-en-comunio"
-    },
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/en-ID/player/j-mojica"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 899
-  },
-  "koski": {
-   "id": "koski",
-   "name": "Koski",
-   "pos": "DEF",
-   "team": "Alavés",
-   "fullName": "Ville Koski",
-   "born": "2002-01-27",
-   "nationality": "Finlandia",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 8,
-     "starts": 7,
-     "minutes": 639,
-     "goals": 1
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-07-15",
-     "text": "El Alavés lo compró en propiedad hasta 2031 tras su cesión. Central titular y ya ha marcado.",
-     "tone": "good"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Gasteiz Hoy",
-     "url": "https://www.gasteizhoy.com/alaves-ville-koski-fichaje-verano/"
-    },
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/es-BR/jugador/ville-koski"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 17284
-  },
-  "sergio-gomez": {
-   "id": "sergio-gomez",
-   "name": "Sergio Gómez",
-   "pos": "DEF",
-   "team": "Real Sociedad",
-   "fullName": "Sergio Gómez",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 6,
-     "starts": 6,
-     "minutes": 522,
-     "goals": 0,
-     "assists": 0,
-     "shots": 4
-    },
-    {
-     "season": "2025-26",
-     "goals": 0,
-     "assists": 2,
-     "minutes": 2065
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Titular en todos sus partidos, pero sin goles ni asistencias todavía.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/en-US/player/sergio-gomez"
-    },
-    {
-     "title": "FotMob",
-     "url": "https://www.fotmob.com/es/players/844477"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 6180
-  },
-  "bartra": {
-   "id": "bartra",
-   "name": "Bartra",
-   "pos": "DEF",
-   "team": "Betis",
-   "fullName": "Marc Bartra",
-   "news": [
-    {
-     "date": "2026-09-20",
-     "text": "Se retiró a los pocos minutos ante el Deportivo con molestias en el isquiotibial izquierdo.",
-     "tone": "warn"
-    },
-    {
-     "date": "2026-09-22",
-     "text": "Las pruebas descartaron lesión; siguió un plan específico antes de volver a la normalidad.",
-     "tone": "good"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/38087/marc-bartra-cae-lesionado-en-riazor"
-    },
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/38130/bartra-recibe-el-resultado-de-las-pruebas-tiempo-estimado-de-baja"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 322
-  },
-  "ibanez": {
-   "id": "ibanez",
-   "name": "Ibáñez",
-   "pos": "MID",
-   "team": "Alavés",
-   "fullName": "Pablo Ibáñez",
-   "born": "1998-09-20",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 7,
-     "starts": 7,
-     "minutes": 580,
-     "goals": 1,
-     "shots": 8,
-     "yellow": 1
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Mediocentro titular en todos sus partidos del Alavés; ya tiene un gol.",
-     "tone": "good"
-    }
-   ],
-   "sources": [
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/jugador/pablo-ibanez"
-    },
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/jugadores/3311/pablo-ibanez"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 10258
-  },
-  "unai-lopez": {
-   "id": "unai-lopez",
-   "name": "Unai López",
-   "pos": "MID",
-   "team": "Rayo Vallecano",
-   "fullName": "Unai López",
-   "born": "1995-10-30",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 8,
-     "minutes": 581,
-     "assists": 3,
-     "yellow": 2
-    },
-    {
-     "season": "2025-26",
-     "goals": 0,
-     "assists": 3,
-     "minutes": 1187
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Ya iguala con 3 asistencias las de toda la temporada pasada.",
-     "tone": "good"
-    }
-   ],
-   "sources": [
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/en-CO/player/unai-lopez"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 1881
-  },
-  "bernardo-silva": {
-   "id": "bernardo-silva",
-   "name": "Bernardo Silva",
-   "pos": "MID",
-   "team": "Real Madrid",
-   "fullName": "Bernardo Silva",
-   "nationality": "Portugal",
-   "news": [
-    {
-     "date": "2026-06-17",
-     "text": "Fichado libre del Manchester City hasta 2028. Mourinho es el entrenador del Real Madrid.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "El Debate",
-     "url": "https://www.eldebate.com/deportes/futbol/20260617/real-madrid-hace-oficial-fichaje-bernardo-silva-llega-libre-firma-dos-temporadas_429568.html"
-    },
-    {
-     "title": "Man City",
-     "url": "https://www.mancity.com/news/mens/bernardo-silva-joins-real-madrid-63917285"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 3431
-  },
-  "saliba": {
-   "id": "saliba",
-   "name": "Saliba",
-   "pos": "MID",
-   "team": "Villarreal",
-   "fullName": "Nathan Saliba",
-   "born": "2004-02-07",
-   "nationality": "Canadá",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 2,
-     "starts": 1,
-     "minutes": 126
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-08-25",
-     "text": "Fichado del Anderlecht por 15 M€. De momento con pocos minutos (1 titularidad).",
-     "tone": "warn"
-    },
-    {
-     "date": "2026-10-19",
-     "text": "En Fantasy promedia 3,17 pts por jornada (2, 3, 6, 1, 2): más regular de lo que sugieren sus minutos.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/37459/el-villarreal-cierra-el-fichaje-de-nathan-saliba-por-15-millones-asi-es-su-nueva-apuesta"
-    },
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/en-NL/player/nathan-saliba"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 17695
-  },
-  "ferran-jutgla": {
-   "id": "ferran-jutgla",
-   "name": "Ferran Jutglà",
-   "pos": "STR",
-   "team": "Celta",
-   "fullName": "Ferran Jutglà",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 7,
-     "starts": 5,
-     "minutes": 388,
-     "goals": 1,
-     "assists": 0,
-     "shots": 6
-    },
-    {
-     "season": "2025-26",
-     "goals": 7,
-     "assists": 2,
-     "minutes": 1184
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Titular en 5 de 7 partidos, 1 gol. La temporada pasada hizo 7 goles en solo 1.184 minutos.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/en-FR/player/ferran-1"
-    },
-    {
-     "title": "FotMob",
-     "url": "https://www.fotmob.com/es/players/1102732"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 7842
-  },
-  "cepeda": {
-   "id": "cepeda",
-   "name": "Cepeda",
-   "pos": "STR",
-   "team": "Elche",
-   "fullName": "Lucas Cepeda",
-   "nationality": "Chile",
-   "news": [
-    {
-     "date": "2026-04-11",
-     "text": "Marcó el 1-0 al Valencia la temporada pasada. Extremo que también juega de segundo punta.",
-     "tone": "info"
-    },
-    {
-     "date": "2026-10-19",
-     "text": "No encontré estadísticas fiables de esta temporada.",
-     "tone": "warn"
-    }
-   ],
-   "sources": [
-    {
-     "title": "24horas",
-     "url": "https://www.24horas.cl/deportes/futbol-internacional/tres-puntos-clave-elche-vencio-a-valencia-con-un-golazo-de-lucas-cepeda"
-    },
-    {
-     "title": "FotMob",
-     "url": "https://www.fotmob.com/es/players/1280756/lucas-cepeda"
-    }
-   ],
-   "statsUpdated": "2026-10-19",
-   "ffId": 17248
-  },
-  "militao": {
-   "name": "E. Militão",
-   "pos": "DEF",
-   "team": "Real Madrid",
-   "fullName": "Éder Militão",
-   "nationality": "Brasil",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 1
-    }
-   ],
-   "news": [
-    {
-     "date": "2025-12-08",
-     "text": "Rotura en el bíceps femoral izquierdo con afectación del tendón ante el Celta: unos 4 meses de baja. Es su tercera temporada seguida con una lesión grave.",
-     "tone": "bad"
-    },
-    {
-     "date": "2026-10-19",
-     "text": "Solo ha jugado 1 jornada (2 pts). Toca ver si recupera la titularidad con Mourinho. El Clásico es en la jornada 10.",
-     "tone": "warn"
-    }
-   ],
-   "sources": [
-    {
-     "title": "El Debate",
-     "url": "https://www.eldebate.com/deportes/futbol/la-liga/20251208/militao-cuatro-meses-baja-rotura-muscular-afectacion-tendon_363230.html"
-    },
-    {
-     "title": "Record",
-     "url": "https://www.record.com.mx/historia/hospital-merengue-real-madrid-confirma-grave-lesion-de-eder-militao-2026012003502835802"
-    }
-   ],
-   "id": "militao",
-   "statsUpdated": "2026-10-19",
-   "ffId": 6062
-  },
-  "sanchez-flores": {
-   "name": "Sánchez Flores",
-   "pos": "COA",
-   "team": "Alavés",
-   "fullName": "Quique Sánchez Flores",
-   "news": [
-    {
-     "date": "2026-03-01",
-     "text": "Sustituyó a Coudet en marzo con el Alavés en descenso y lo salvó (14º). Contrato hasta 2028.",
-     "tone": "good"
-    },
-    {
-     "date": "2026-10-19",
-     "text": "Jornada 10: Alavés-Málaga, viernes 23 a las 21:00, en Mendizorroza.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/35139/coudet-se-va-y-llega-quique-sanchez-como-entrenador-del-alaves"
-    },
-    {
-     "title": "Gasteiz Hoy",
-     "url": "https://www.gasteizhoy.com/oltra-alaves-asistente-quique-flores/"
-    }
-   ],
-   "id": "sanchez-flores",
-   "statsUpdated": "2026-10-19"
-  },
-  "nico-serrano": {
-   "name": "Nico Serrano",
-   "pos": "STR",
-   "team": "Athletic Club",
-   "fullName": "Nicolás Serrano",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 1,
-     "starts": 0,
-     "goals": 0,
-     "assists": 0
-    },
-    {
-     "season": "2025-26",
-     "apps": 13,
-     "goals": 1
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-10-19",
-     "text": "Apenas cuenta en el Athletic esta temporada: 1 aparición, ninguna titularidad.",
-     "tone": "bad"
-    }
-   ],
-   "sources": [
-    {
-     "title": "ESPN",
-     "url": "https://www.espn.com/soccer/player/_/id/323971"
-    },
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/jugadores/3168/nico-serrano"
-    }
-   ],
-   "id": "nico-serrano",
-   "statsUpdated": "2026-10-19",
-   "ffId": 7920
-  },
-  "luiz-felipe": {
-   "name": "Luiz Felipe",
-   "pos": "DEF",
-   "team": "Rayo Vallecano",
-   "fullName": "Luiz Felipe",
-   "nationality": "Brasil",
-   "news": [
-    {
-     "date": "2026-07-09",
-     "text": "Renovó un año con el Rayo, pero sigue recuperándose de una lesión grave operada (las fuentes no coinciden en si fue isquiotibial o cruzado).",
-     "tone": "bad"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Rotowire",
-     "url": "https://commish.rotowire.com/soccer/player/luiz-felipe-25016"
-    },
-    {
-     "title": "Flashscore",
-     "url": "https://www.flashscore.es/noticias/futbol-laliga-luiz-felipe-no-jugara-esta-temporada-rotura-cruzado/boulyra5/"
-    }
-   ],
-   "id": "luiz-felipe",
-   "statsUpdated": "2026-10-19",
-   "ffId": 5705
-  },
-  "galdin": {
-   "name": "Galdin",
-   "pos": "GK",
-   "team": "Levante",
-   "fullName": "Ihor Galdin",
-   "news": [
-    {
-     "date": "2026-08-24",
-     "text": "No aparece entre los porteros del Levante (Ryan titular; Cuñat y Dani Martín suplentes). Sin minutos.",
-     "tone": "warn"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Betbrothers",
-     "url": "https://betbrothers.es/noticias/porteros-titulares-laliga-2026-27/"
-    },
-    {
-     "title": "SportBusy",
-     "url": "https://www.sportbusy.com/players/soccer/3129044/"
-    }
-   ],
-   "id": "galdin",
-   "statsUpdated": "2026-10-19",
-   "ffId": 18027
-  },
-  "jose-alberto": {
-   "name": "José Alberto",
-   "pos": "COA",
-   "team": "Racing de Santander",
-   "fullName": "José Alberto López",
-   "news": [
-    {
-     "date": "2026-10-20",
-     "text": "Entrenador del recién ascendido Racing, con contrato hasta 2028. Las noticias de esta temporada son confusas: algunas lo sitúan líder tras la jornada 9 y otras hablan de malestar en El Sardinero.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "El Gol Digital",
-     "url": "https://www.elgoldigital.com/futbol/racing-de-santander/jose-alberto-asegura-que-liderar-la-jornada-nueve-no-garantiza-exito/"
-    },
-    {
-     "title": "El Gol Digital",
-     "url": "https://www.elgoldigital.com/futbol/racing-de-santander/jose-alberto-ignora-el-ascenso-y-el-sardinero-pide-su-despido/"
-    }
-   ],
-   "id": "jose-alberto",
-   "statsUpdated": "2026-10-20"
-  },
-  "mikel-rodriguez": {
-   "name": "Mikel Rodríguez",
-   "pos": "MID",
-   "team": "Alavés",
-   "fullName": "Mikel Rodríguez",
-   "news": [
-    {
-     "date": "2026-09-25",
-     "text": "Rotura del ligamento cruzado anterior de la rodilla derecha en un entrenamiento; operado. Baja para toda la temporada.",
-     "tone": "bad"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Jornada Perfecta",
-     "url": "https://www.jornadaperfecta.com/blog/mikel-rodriguez-lesion-rodilla-alaves/"
-    },
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/37744/el-alaves-encaja-un-golpe-inesperado-con-mikel-rodriguez"
-    }
-   ],
-   "id": "mikel-rodriguez",
-   "statsUpdated": "2026-10-20",
-   "ffId": 16186
-  },
-  "nunez": {
-   "name": "Nuñez",
-   "pos": "DEF",
-   "team": "Espanyol",
-   "fullName": "Unai Núñez",
-   "stats": [
-    {
-     "season": "2026-27",
-     "apps": 5,
-     "starts": 5,
-     "minutes": 423
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-08-07",
-     "text": "Cedido por el Celta al Espanyol con opción de compra de 3 M€. Central titular desde la jornada 1.",
-     "tone": "good"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/37103/unai-nunez-es-nuevo-jugador-del-rcd-espanyol-se-puede-considerar-una-oportunidad-fantasy"
-    },
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/es-GB/jugador/nunez-2"
-    },
-    {
-     "title": "FutbolFantasy",
-     "url": "https://www.futbolfantasy.com/jugadores/unai-nunez"
-    }
-   ],
-   "id": "nunez",
-   "statsUpdated": "2026-10-20",
-   "ffId": 3785
-  },
-  "pablo-garcia": {
-   "name": "Pablo García",
-   "pos": "STR",
-   "team": "Racing de Santander",
-   "fullName": "Pablo García",
-   "stats": [
-    {
-     "season": "2026-27",
-     "goals": 2
-    }
-   ],
-   "news": [
-    {
-     "date": "2026-09-01",
-     "text": "Fichado del Betis por unos 5,5 M€ (50% de sus derechos) hasta 2030. Extremo o punta con gol. El recuento de goles varía según la fuente.",
-     "tone": "info"
-    }
-   ],
-   "sources": [
-    {
-     "title": "FutbolFantasy",
-     "url": "https://www.futbolfantasy.com/laliga/noticias/150370-pablo-garcia-es-oficialmente-nuevo-jugador-del-racing"
-    },
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/noticias/37693/el-racing-convierte-una-cesion-frustrada-con-el-arsenal-en-el-fichaje-de-pablo-garcia"
-    }
-   ],
-   "id": "pablo-garcia",
-   "statsUpdated": "2026-10-20",
-   "ffId": 13822
-  },
-  "ugrinic": {
-   "name": "Ugrinic",
-   "pos": "MID",
-   "team": "Valencia",
-   "fullName": "Filip Ugrinic",
-   "news": [
-    {
-     "date": "2026-10-20",
-     "text": "Fuentes contradictorias sobre si es titular esta temporada: la ficha de LaLiga no muestra minutos y Comuniate lo da como titular en sus últimas 5 apariciones.",
-     "tone": "warn"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Comuniate",
-     "url": "https://www.comuniate.com/jugadores/3895/ugrinic"
-    },
-    {
-     "title": "LaLiga",
-     "url": "https://www.laliga.com/jugador/filip-ugrinic"
-    }
-   ],
-   "id": "ugrinic",
-   "statsUpdated": "2026-10-20",
-   "ffId": 12025
-  }
- },
- "markets": {
-  "2026-10-19": [
-   {
-    "playerId": "luis-castro",
-    "value": 610931,
-    "price": 610931,
-    "points": 13,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "cardoso",
-    "value": 581361,
-    "price": 581361,
-    "points": 0,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "sadiq",
-    "value": 1359974,
-    "price": 1359974,
-    "points": 12,
-    "status": "injured",
-    "bids": 0
-   },
-   {
-    "playerId": "matteo-prati",
-    "value": 1338261,
-    "price": 1338261,
-    "points": 13,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "gorrotxa",
-    "value": 1331678,
-    "price": 1331678,
-    "points": 12,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "larrubia",
-    "value": 14608414,
-    "price": 14608414,
-    "points": 29,
-    "status": "available",
-    "bids": 1
-   },
-   {
-    "playerId": "cheikh-thiam",
-    "value": 593912,
-    "price": 593912,
-    "points": 0,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "beitia",
-    "value": 557748,
-    "price": 557748,
-    "points": 2,
-    "status": "injured",
-    "bids": 0
-   },
-   {
-    "playerId": "youssef",
-    "value": 738622,
-    "price": 738622,
-    "points": 17,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "raba",
-    "value": 798889,
-    "price": 798889,
-    "points": 12,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "el-hilali",
-    "value": 17740475,
-    "price": 17740475,
-    "points": 34,
-    "status": "unknown",
-    "bids": 0
-   }
-  ],
-  "2026-10-20": [
-   {
-    "playerId": "jose-alberto",
-    "value": 589218,
-    "price": 588351,
-    "points": 14,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "luis-castro",
-    "value": 610894,
-    "price": 610931,
-    "points": 13,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "cardoso",
-    "value": 582507,
-    "price": 581361,
-    "points": 0,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "sadiq",
-    "value": 1329976,
-    "price": 1359974,
-    "points": 12,
-    "status": "injured",
-    "bids": 0
-   },
-   {
-    "playerId": "matteo-prati",
-    "value": 1314821,
-    "price": 1338261,
-    "points": 13,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "gorrotxa",
-    "value": 1312635,
-    "price": 1331678,
-    "points": 12,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "larrubia",
-    "value": 14414773,
-    "price": 14608414,
-    "points": 29,
-    "status": "available",
-    "bids": 1
-   },
-   {
-    "playerId": "cheikh-thiam",
-    "value": 594556,
-    "price": 593912,
-    "points": 0,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "beitia",
-    "value": 559839,
-    "price": 557748,
-    "points": 2,
-    "status": "injured",
-    "bids": 0
-   },
-   {
-    "playerId": "youssef",
-    "value": 733478,
-    "price": 738622,
-    "points": 17,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "raba",
-    "value": 797116,
-    "price": 798889,
-    "points": 12,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "el-hilali",
-    "value": 17453853,
-    "price": 17740475,
-    "points": 34,
-    "status": "available",
-    "bids": 0
-   },
-   {
-    "playerId": "mikel-rodriguez",
-    "value": 980890,
-    "price": 996343,
-    "points": 17,
-    "status": "injured",
-    "bids": 0
-   },
-   {
-    "playerId": "nunez",
-    "value": 5769696,
-    "price": 5916634,
-    "points": 23,
-    "status": "available",
-    "bids": 1
-   },
-   {
-    "playerId": "pablo-garcia",
-    "value": 6359978,
-    "price": 9999999,
-    "points": 26,
-    "status": "available",
-    "bids": 1
-   },
-   {
-    "playerId": "ugrinic",
-    "value": 2138969,
-    "price": 3333333,
-    "points": 24,
-    "status": "available",
-    "bids": 1
-   }
-  ]
- },
- "squads": {
-  "2026-10-19": {
-   "date": "2026-10-19",
-   "formation": "4-4-2",
-   "teamValue": 215612863,
-   "signings": "16/26",
-   "slots": [
-    {
-     "playerId": "unai-simon",
-     "starter": true,
-     "value": 37570642,
-     "points": 61,
-     "status": "available",
-     "average": 6.78,
-     "recent": [
-      4,
-      0,
-      8,
-      4,
-      11
-     ],
-     "clause": 49000001
-    },
-    {
-     "playerId": "koski",
-     "starter": true,
-     "value": 38232116,
-     "points": 56,
-     "status": "available",
-     "average": 6.22,
-     "recent": [
-      10,
-      6,
-      9,
-      3,
-      3
-     ],
-     "clause": 38232116,
-     "captain": true
-    },
-    {
-     "playerId": "mojica",
-     "starter": true,
-     "value": 13125809,
-     "points": 29,
-     "status": "available",
-     "average": 3.22,
-     "recent": [
-      3,
-      3,
-      9,
-      -2,
-      4
-     ],
-     "clause": 20000000
-    },
-    {
-     "playerId": "sergio-gomez",
-     "starter": true,
-     "value": 13374481,
-     "points": 26,
-     "status": "available",
-     "average": 2.89,
-     "recent": [
-      0,
-      9,
-      5,
-      1,
-      3
-     ],
-     "clause": 17500011
-    },
-    {
-     "playerId": "bartra",
-     "starter": true,
-     "value": 21382078,
-     "points": 32,
-     "status": "available",
-     "average": 3.56,
-     "recent": [
-      5,
-      0,
-      2,
-      0,
-      0
-     ],
-     "clause": 52000011
-    },
-    {
-     "playerId": "ibanez",
-     "starter": true,
-     "value": 18983804,
-     "points": 48,
-     "status": "available",
-     "average": 5.33,
-     "recent": [
-      -1,
-      4,
-      6,
-      4,
-      7
-     ],
-     "clause": 22592048
-    },
-    {
-     "playerId": "unai-lopez",
-     "starter": true,
-     "value": 21425892,
-     "points": 48,
-     "status": "available",
-     "average": 5.33,
-     "recent": [
-      1,
-      4,
-      4,
-      4,
-      5
-     ],
-     "clause": 28538664
-    },
-    {
-     "playerId": "bernardo-silva",
-     "starter": true,
-     "value": 23796094,
-     "points": 24,
-     "status": "available",
-     "average": 2.67,
-     "recent": [
-      4,
-      0,
-      8,
-      0,
-      1
-     ],
-     "clauseLockDays": 8
-    },
-    {
-     "playerId": "saliba",
-     "starter": true,
-     "value": 5613011,
-     "points": 19,
-     "status": "available",
-     "average": 3.17,
-     "recent": [
-      2,
-      3,
-      6,
-      1,
-      2
-     ],
-     "clauseLockDays": 8
-    },
-    {
-     "playerId": "ferran-jutgla",
-     "starter": true,
-     "value": 11408645,
-     "points": 43,
-     "status": "available",
-     "average": 4.78,
-     "recent": [
-      12,
-      3,
-      5,
-      3,
-      9
-     ],
-     "clauseLockDays": 2
-    },
-    {
-     "playerId": "cepeda",
-     "starter": true,
-     "value": 2553915,
-     "points": 36,
-     "status": "available",
-     "average": 4.0,
-     "recent": [
-      2,
-      6,
-      5,
-      3,
-      4
-     ],
-     "clauseLockDays": 14
-    },
-    {
-     "playerId": "sanchez-flores",
-     "starter": true,
-     "value": 580867,
-     "points": 19,
-     "status": "available",
-     "average": 2.11,
-     "recent": [
-      0,
-      0,
-      2,
-      0,
-      0
-     ],
-     "clause": 1000000
-    },
-    {
-     "playerId": "militao",
-     "starter": false,
-     "value": 5591252,
-     "points": 2,
-     "status": "available",
-     "average": 2.0,
-     "recent": [
-      null,
-      null,
-      null,
-      null,
-      2
-     ],
-     "clause": 15151133
-    },
-    {
-     "playerId": "nico-serrano",
-     "starter": false,
-     "value": 582837,
-     "points": 2,
-     "status": "available",
-     "average": 0.4,
-     "recent": [
-      0,
-      0,
-      2,
-      0,
-      0
-     ],
-     "clause": 1000000
-    },
-    {
-     "playerId": "luiz-felipe",
-     "starter": false,
-     "value": 821693,
-     "points": 0,
-     "status": "injured",
-     "average": 0.0,
-     "recent": [
-      null,
-      null,
-      null,
-      0,
-      null
-     ],
-     "clause": 1468871
-    },
-    {
-     "playerId": "galdin",
-     "starter": false,
-     "value": 569727,
-     "points": 0,
-     "status": "available",
-     "average": 0.0,
-     "recent": [
-      null,
-      0,
-      null,
-      0,
-      0
-     ],
-     "clause": 1000000
-    }
-   ]
-  }
- },
- "purchases": {
-  "ferran-jutgla": 15471646,
-  "bernardo-silva": 36000000,
-  "saliba": 12500000,
-  "cepeda": 2750001
- },
- "reports": {
-  "2026-10-19": {
-   "date": "2026-10-19",
-   "title": "Saldo en negativo: vende a Bartra antes del viernes",
-   "summary": "Tu puja por Larrubia te ha dejado el saldo en negativo. Si empiezas la jornada 10 así (arranca el viernes 23 a las 21:00 con Alavés-Málaga), no puntúas. La solución es vender a Bartra: vale 21,4 M€ y solo ha sumado 2 pts en sus últimas 4 jornadas. Eso cubre la puja y te deja margen para fichar a Youssef y a Raba, baratos. Si ganas a Larrubia, juega 3-5-2.",
-   "sections": [
-    {
-     "title": "Urgente antes del viernes",
-     "icon": "🚨",
-     "items": [
-      {
-       "text": "Vende a Bartra (21,4 M€). Con él vuelves a saldo positivo y cubres los 14,6 M€ de Larrubia.",
-       "playerId": "bartra"
-      },
-      {
-       "text": "Vende también a Luiz Felipe (lesionado de larga duración, 821 K€) y a Nico Serrano (sin minutos, 583 K€).",
-       "playerId": "luiz-felipe"
-      },
-      {
-       "text": "Comprueba que tu saldo esté en positivo antes del viernes 23 a las 21:00. Si no, véndele a Militão (5,6 M€).",
-       "playerId": "militao"
-      },
-      {
-       "text": "Cuando el saldo sea positivo, sube la cláusula de Koski: ahora mismo cualquiera puede llevárselo pagando su valor.",
-       "playerId": "koski"
-      }
-     ]
-    },
-    {
-     "title": "Once para la jornada 10",
-     "icon": "📋",
-     "items": [
-      {
-       "text": "Si ganas a Larrubia: 3-5-2 con Unai Simón; Koski, Mojica y Sergio Gómez; Ibáñez, Unai López, Larrubia, Saliba y Bernardo; Jutglà y Cepeda."
-      },
-      {
-       "text": "Si lo pierdes: 4-4-2 con Youssef (fíchalo) o Militão en el lugar de Bartra.",
-       "playerId": "youssef"
-      },
-      {
-       "text": "Capitán: Koski. Tiene 6,22 de media y juega en casa contra un recién ascendido. La alternativa es Unai Simón (6,78).",
-       "playerId": "koski"
-      },
-      {
-       "text": "Dato curioso: Larrubia juega precisamente contra tu Alavés (Koski, Ibáñez y Sánchez Flores). Un gol suyo resta a tu defensa."
-      }
-     ]
-    },
-    {
-     "title": "Especulación (ganar presupuesto)",
-     "icon": "💹",
-     "items": [
-      {
-       "text": "Cepeda (2,55 M€, 4,00 de media) es tu jugador con más recorrido de revalorización: mantenlo.",
-       "playerId": "cepeda"
-      },
-      {
-       "text": "Youssef (739 K€, 17 pts) y Raba (799 K€) son baratos y puntúan: es probable que suban.",
-       "playerId": "youssef"
-      },
-      {
-       "text": "Bernardo Silva (23,8 M€ y 2,67 de media) es tu jugador más sobrevalorado. Cuando acabe su blindaje y si su valor empieza a caer, véndelo.",
-       "playerId": "bernardo-silva"
-      },
-      {
-       "text": "A partir de ahora, con tus capturas diarias, seguiré cómo evoluciona el valor de cada jugador para detectar subidas y bajadas antes que tus rivales."
-      }
-     ]
-    },
-    {
-     "title": "Lo que necesito de ti",
-     "icon": "📸",
-     "items": [
-      {
-       "text": "El número exacto de tu saldo. No aparecía en las capturas: lo que me enviaste es la pestaña Squad."
-      },
-      {
-       "text": "El mercado de mañana, para seguir la evolución de los precios."
-      },
-      {
-       "text": "Si Larrubia llega a tu plantilla o la pierdes, dímelo y ajusto el once."
-      }
-     ]
-    }
-   ],
-   "players": {
-    "el-hilali": {
-     "verdict": "evitar",
-     "text": "Puntúa mucho (34 pts), pero con el saldo en negativo y Larrubia pendiente no te lo puedes permitir: cuesta 17,7 M€.",
-     "confidence": "alta"
-    },
-    "larrubia": {
-     "verdict": "pujar",
-     "text": "Ya tienes la puja: 14.609.000 €, apenas 586 € por encima de su valor. Si otro mánager la supera, la pierdes. 29 pts y titular en 6 de 7 partidos. Con él puedes jugar 3-5-2 y aprovechar tus mejores medios. No la subas hasta haber vendido a Bartra.",
-     "maxBid": 15800000,
-     "confidence": "media"
-    },
-    "youssef": {
-     "verdict": "fichar",
-     "text": "Si vendes a Bartra, es el recambio perfecto en defensa: 17 pts por 739 K€, la mejor rentabilidad del mercado. También sirve para especular: es barato y puntúa, así que es probable que su valor suba.",
-     "maxBid": 850000,
-     "confidence": "baja"
-    },
-    "raba": {
-     "verdict": "fichar",
-     "text": "Cambio directo por Nico Serrano: vendes a Serrano (583 K€, 0,4 de media) y fichas a Raba (799 K€). Te cuesta unos 216 K€ netos y ganas un delantero con minutos mientras Sadiq esté lesionado.",
-     "maxBid": 900000,
-     "confidence": "media"
-    },
+  "version": 1,
+  "updated": "2026-10-20T14:26:23.114Z",
+  "players": {
     "luis-castro": {
-     "verdict": "vigilar",
-     "text": "Sánchez Flores ya te da 19 pts. Luís Castro (13 pts, 611 K€) no mejora a tu entrenador. Solo como especulación barata si sobra saldo.",
-     "confidence": "media"
-    },
-    "matteo-prati": {
-     "verdict": "vigilar",
-     "text": "13 pts por 1,34 M€. Está cedido en el Racing y pelea por un sitio en el doble pivote. Esperaría a que se asiente como titular.",
-     "confidence": "baja"
-    },
-    "gorrotxa": {
-     "verdict": "evitar",
-     "text": "Es suplente en la Real Sociedad: 1 titularidad y 131 minutos en 5 partidos. Sus 12 pts no compensan el precio.",
-     "confidence": "media"
-    },
-    "sadiq": {
-     "verdict": "evitar",
-     "text": "Lesionado de los isquiotibiales desde finales de agosto, con una baja estimada de 8 a 10 semanas. No lo compraría antes de verlo entrenar con el grupo. Si su precio sigue cayendo, puede ser una apuesta para noviembre.",
-     "confidence": "media"
-    },
-    "cheikh-thiam": {
-     "verdict": "evitar",
-     "text": "Todavía no ha jugado en LaLiga: 0 minutos y 0 puntos.",
-     "confidence": "alta"
+      "id": "luis-castro",
+      "name": "Luís Castro",
+      "pos": "COA",
+      "team": "Levante",
+      "fullName": "Luís Castro",
+      "nationality": "Portugal",
+      "news": [
+        {
+          "date": "2025-12-20",
+          "text": "Llegó al Levante en diciembre de 2025 con el equipo colista y contrato hasta 2027; debutó ganando 0-3 en Sevilla.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Soccerway",
+          "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-oficial-luis-castro-es-el-nuevo-entrenador-del-levante/zy62xKDc"
+        }
+      ],
+      "statsUpdated": "2026-10-19"
     },
     "cardoso": {
-     "verdict": "evitar",
-     "text": "Fuera de los planes del Sevilla, que busca su salida. No va a puntuar.",
-     "confidence": "alta"
-    },
-    "beitia": {
-     "verdict": "evitar",
-     "text": "Lesionado y con solo 2 pts.",
-     "confidence": "alta"
-    },
-    "unai-simon": {
-     "verdict": "alinear",
-     "text": "Tu jugador con mejor media (6,78) y 11 pts en la última jornada. Indiscutible. Su cláusula (49 M€) está un 30% por encima de su valor: bien protegido.",
-     "confidence": "alta"
-    },
-    "mojica": {
-     "verdict": "alinear",
-     "text": "3,22 de media y fijo en el Getafe. Juega esta noche contra el Rayo (jornada 9). Titular en tu once.",
-     "confidence": "media"
-    },
-    "koski": {
-     "verdict": "alinear",
-     "text": "Tu mejor defensa (6,22 de media) y capitán. Juega en casa contra el recién ascendido Málaga. Ojo: su cláusula (38,2 M€) es igual a su valor, así que cualquier rival puede llevárselo pagándola. Súbela en cuanto tengas saldo positivo.",
-     "confidence": "alta"
-    },
-    "sergio-gomez": {
-     "verdict": "alinear",
-     "text": "Media modesta (2,89), pero juega siempre. Con Bartra vendido es tu tercer defensa. Es el siguiente a mejorar cuando haya dinero.",
-     "confidence": "media"
-    },
-    "bartra": {
-     "verdict": "vender",
-     "text": "Es la venta clave. Vale 21,4 M€ pero lleva 2 pts en sus últimas 4 jornadas (5, 0, 2, 0, 0), tras el susto en el isquiotibial. Venderlo devuelve tu saldo a positivo, paga la puja por Larrubia y saca dinero de un jugador caro que puntúa poco.",
-     "confidence": "alta"
-    },
-    "ibanez": {
-     "verdict": "alinear",
-     "text": "5,33 de media y forma al alza (4, 6, 4, 7). Juega en casa contra el Málaga. Su cláusula está solo un 19% por encima de su valor: súbela cuando puedas.",
-     "confidence": "alta"
-    },
-    "unai-lopez": {
-     "verdict": "alinear",
-     "text": "5,33 de media y muy regular (4, 4, 4, 5). Lleva 3 asistencias. Fijo.",
-     "confidence": "alta"
-    },
-    "bernardo-silva": {
-     "verdict": "mantener",
-     "text": "Rinde poco para lo que vale: 2,67 de media por 23,8 M€, con altibajos (4, 0, 8, 0, 1). Está blindado 8 días, lo que sugiere que lo fichaste hace poco, así que venderlo ya probablemente te haga perder dinero. En el 3-5-2 entra como quinto medio. Si su valor empieza a bajar, véndelo.",
-     "confidence": "media"
-    },
-    "saliba": {
-     "verdict": "mantener",
-     "text": "Corrijo lo de esta mañana: en Fantasy promedia 3,17 pts por jornada por solo 5,6 M€, más de lo que indicaban sus minutos. Para lo que cuesta, es una buena relación puntos/precio. Mantener.",
-     "confidence": "media"
-    },
-    "ferran-jutgla": {
-     "verdict": "alinear",
-     "text": "4,78 de media y 9 pts en la última jornada. Tu mejor delantero.",
-     "confidence": "alta"
-    },
-    "cepeda": {
-     "verdict": "alinear",
-     "text": "El chollo de tu plantilla: 4,00 de media por solo 2,55 M€, y muy regular (2, 6, 5, 3, 4). Titular y también buen activo para especular, porque es probable que su valor suba.",
-     "confidence": "alta"
-    },
-    "sanchez-flores": {
-     "verdict": "alinear",
-     "text": "Tu entrenador (19 pts). El Alavés recibe al Málaga el viernes, una buena jornada para sumar.",
-     "confidence": "media"
-    },
-    "militao": {
-     "verdict": "mantener",
-     "text": "Apuesta especulativa: vuelve de una lesión larga y solo ha jugado 1 jornada. Si recupera el puesto en el Real Madrid, su valor (5,6 M€) puede subir mucho. Véndelo solo si tras vender a Bartra sigues en negativo.",
-     "confidence": "baja"
-    },
-    "nico-serrano": {
-     "verdict": "vender",
-     "text": "0,4 de media y sin minutos en el Athletic. Véndelo y ficha a Raba con ese dinero.",
-     "confidence": "alta"
-    },
-    "luiz-felipe": {
-     "verdict": "vender",
-     "text": "Lesionado de larga duración. Solo ocupa plaza: vender (821 K€).",
-     "confidence": "alta"
-    },
-    "galdin": {
-     "verdict": "mantener",
-     "text": "No juega en el Levante, pero es un portero suplente barato por si Unai Simón falla. Mantener mientras no necesites la plaza.",
-     "confidence": "media"
-    }
-   },
-   "lineup": {
-    "formation": "3-5-2",
-    "ids": [
-     "unai-simon",
-     "koski",
-     "mojica",
-     "sergio-gomez",
-     "ibanez",
-     "unai-lopez",
-     "larrubia",
-     "saliba",
-     "bernardo-silva",
-     "ferran-jutgla",
-     "cepeda",
-     "sanchez-flores"
-    ],
-    "note": "Once para la jornada 10 si ganas a Larrubia. Si no, 4-4-2 con Youssef o Militão en lugar de Bartra."
-   }
-  },
-  "2026-10-20": {
-   "date": "2026-10-20",
-   "title": "Retira la puja por Larrubia y empieza la jornada en positivo",
-   "summary": "Mantienes a Bernardo y a Bartra. Para empezar la jornada 10 en positivo y, además, blindar a Koski e Ibáñez: retira la puja por Larrubia y vende a Militão, Luiz Felipe y Nico Serrano, que no juegan. Con esos ~9,4 M€ sube las cláusulas de Koski (~51,7 M€) e Ibáñez (~25,3 M€). Capitán: Unai Simón.",
-   "sections": [
-    {
-     "title": "Plan para hoy",
-     "icon": "🚨",
-     "items": [
-      {
-       "text": "1. Retira la puja por Larrubia antes del cierre del mercado (~21:35).",
-       "playerId": "larrubia"
-      },
-      {
-       "text": "2. Vende a Militão (5,75 M€), Luiz Felipe (0,81 M€) y Nico Serrano (0,58 M€). Caja: unos 9,4 M€.",
-       "playerId": "militao"
-      },
-      {
-       "text": "3. Sube la cláusula de Koski a ~51,7 M€ (te cuesta ~6 M€).",
-       "playerId": "koski"
-      },
-      {
-       "text": "4. Sube la cláusula de Ibáñez a ~25,3 M€ (te cuesta ~1,35 M€). Te quedan unos 2 M€ de colchón.",
-       "playerId": "ibanez"
-      },
-      {
-       "text": "5. Capitán: Unai Simón. Confirma a Bartra antes del viernes a las 21:00.",
-       "playerId": "unai-simon"
-      }
-     ]
-    },
-    {
-     "title": "Once para la jornada 10",
-     "icon": "📋",
-     "items": [
-      {
-       "text": "4-4-2: Unai Simón; Koski, Mojica, Sergio Gómez y Bartra; Ibáñez, Unai López, Saliba y Bernardo; Jutglà y Cepeda."
-      },
-      {
-       "text": "Capitán: Unai Simón. Tiene la media más alta (6,78), un 95% de probabilidad de jugar y recibe al Getafe, uno de los peores ataques (0,82 xG por partido). Si el jueves hay dudas con él, pon a Koski (el Alavés juega el viernes).",
-       "playerId": "unai-simon"
-      },
-      {
-       "text": "Bartra tiene un 50% de probabilidad de jugar: confírmalo el viernes. No tienes recambio fiable en defensa, así que es lo primero que reforzar cuando haya saldo.",
-       "playerId": "bartra"
-      }
-     ]
-    },
-    {
-     "title": "Lo que dicen los datos de la liga",
-     "icon": "📊",
-     "items": [
-      {
-       "text": "Casi todo el mercado de hoy baja entre un 7 y un 15% en 7 días. Es buen momento para vender caro lo que no rinde y esperar para comprar."
-      },
-      {
-       "text": "Youssef (40% de titularidad) y Núñez (40%, jugó 2 de 5) no son titulares: fuera de la lista.",
-       "playerId": "youssef"
-      },
-      {
-       "text": "Raba es la excepción del mercado: +20,5% en 7 días.",
-       "playerId": "raba"
-      },
-      {
-       "text": "Mira la pestaña Top: tienes el Top 25 de toda la liga por las últimas 5 jornadas para elegir el próximo fichaje."
-      }
-     ]
-    },
-    {
-     "title": "Mercado de hoy",
-     "icon": "📉",
-     "items": [
-      {
-       "text": "Esta noche casi todo el mercado ha perdido entre un 1 y un 2% de valor (Larrubia -1,3%, El Hilali -1,6%, Sadiq -2,2%). No es buen momento para pagar sobreprecios."
-      },
-      {
-       "text": "Evita: Mikel Rodríguez (cruzado roto), Sadiq (lesionado), Pablo García y Ugrinic (sobreprecio), y Cardoso, Cheikh Thiam y Beitia (no juegan)."
-      },
-      {
-       "text": "Los entrenadores José Alberto y Luís Castro no mejoran a Sánchez Flores (19 pts).",
-       "playerId": "jose-alberto"
-      }
-     ]
-    },
-    {
-     "title": "Para mañana",
-     "icon": "📸",
-     "items": [
-      {
-       "text": "La pestaña Squad: así veré cómo se mueve el valor de tus jugadores (sobre todo Bernardo) y decidiremos si venderlo."
-      },
-      {
-       "text": "Si ganas a Larrubia, el once será 3-5-2. Si no, 4-4-2 con Youssef."
-      }
-     ]
-    }
-   ],
-   "players": {
-    "el-hilali": {
-     "verdict": "evitar",
-     "text": "Va a menos: 14, -3, no jugó, 0 y 2 pts en sus últimas 5 jornadas. Su valor ha caído un 10% en 7 días. No pagues 17,7 M€.",
-     "confidence": "alta"
-    },
-    "larrubia": {
-     "verdict": "evitar",
-     "text": "Recomiendo retirar la puja: es la forma más limpia de volver a saldo positivo sin vender a Bernardo ni a Bartra. Larrubia (3,22 de media) apenas mejora a Saliba (3,17) y su valor cae un 7% en la semana. Su xG+xA (1,6 sin goles ni asistencias) indica que puede mejorar, pero no compensa quedarte sin margen.",
-     "confidence": "media"
-    },
-    "youssef": {
-     "verdict": "evitar",
-     "text": "Rectifico: los datos de la liga muestran que apenas juega (40% de titularidad, 2 de las últimas 5 jornadas, 1,89 de media). Sus 17 pts salieron de pocos partidos. No es recambio para Bartra.",
-     "confidence": "alta"
-    },
-    "raba": {
-     "verdict": "fichar",
-     "text": "Fichaje especulativo, no para puntuar: su valor ha subido un 20,5% en 7 días (799 K€) y tiene un 50% de probabilidad de jugar. Sirve también como tercer delantero en lugar de Nico Serrano.",
-     "maxBid": 850000,
-     "confidence": "media"
-    },
-    "luis-castro": {
-     "verdict": "vigilar",
-     "text": "Sánchez Flores ya te da 19 pts. Luís Castro (13 pts, 611 K€) no mejora a tu entrenador. Solo como especulación barata si sobra saldo.",
-     "confidence": "media"
-    },
-    "matteo-prati": {
-     "verdict": "vigilar",
-     "text": "13 pts por 1,34 M€. Está cedido en el Racing y pelea por un sitio en el doble pivote. Esperaría a que se asiente como titular.",
-     "confidence": "baja"
-    },
-    "gorrotxa": {
-     "verdict": "evitar",
-     "text": "Es suplente en la Real Sociedad: 1 titularidad y 131 minutos en 5 partidos. Sus 12 pts no compensan el precio.",
-     "confidence": "media"
+      "id": "cardoso",
+      "name": "Cardoso",
+      "pos": "DEF",
+      "team": "Sevilla",
+      "fullName": "Fábio Cardoso",
+      "nationality": "Portugal",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 0,
+          "minutes": 0
+        },
+        {
+          "season": "2025-26",
+          "apps": 5,
+          "minutes": 338
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-05",
+          "text": "No entra en los planes de García Plaza: apartado desde pretemporada y el club busca su salida. Solo reapareció en un amistoso por falta de centrales.",
+          "tone": "bad"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/38230/fabio-cardoso-vuelve-a-escena-debido-a-las-necesidades-del-equipo"
+        },
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/jugador/fabio-cardoso"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 9500
     },
     "sadiq": {
-     "verdict": "evitar",
-     "text": "Lesionado de los isquiotibiales desde finales de agosto, con una baja estimada de 8 a 10 semanas. No lo compraría antes de verlo entrenar con el grupo. Si su precio sigue cayendo, puede ser una apuesta para noviembre.",
-     "confidence": "media"
+      "id": "sadiq",
+      "name": "Sadiq",
+      "pos": "STR",
+      "team": "Valencia",
+      "fullName": "Umar Sadiq",
+      "nationality": "Nigeria",
+      "news": [
+        {
+          "date": "2026-08-30",
+          "text": "Lesión en los isquiotibiales en Riazor (Deportivo-Valencia). Lesión seria pero sin cirugía.",
+          "tone": "bad"
+        },
+        {
+          "date": "2026-09-05",
+          "text": "Baja estimada de 8 a 10 semanas: volvería a finales de octubre o en noviembre. El Valencia sondeó a Martial como recambio.",
+          "tone": "warn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FutbolFantasy",
+          "url": "https://www.futbolfantasy.com/laliga/noticias/150170-sadiq-cayo-lesionado-en-riazor-y-sera-sometido-a-pruebas"
+        },
+        {
+          "title": "Fichajes.net",
+          "url": "https://www.fichajes.net/noticias/valencia-negocia-martial-20260905.html"
+        },
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/en/noticias/37611/very-bad-news-for-umar-sadiq"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 8294
+    },
+    "matteo-prati": {
+      "id": "matteo-prati",
+      "name": "Matteo Prati",
+      "pos": "MID",
+      "team": "Racing de Santander",
+      "fullName": "Matteo Prati",
+      "nationality": "Italia",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 4
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-20",
+          "text": "Cedido por el Cagliari hasta junio de 2027 con opción de compra. Llega para pelear minutos en el doble pivote del recién ascendido.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Flashscore",
+          "url": "https://www.flashscore.es/noticias/futbol-laliga-ea-sports-el-racing-hace-oficial-el-fichaje-de-matteo-prati/6708UREl/"
+        },
+        {
+          "title": "Comuniate",
+          "url": "https://webapp.comuniate.com/en/noticias/37484/matteo-prati-new-racing-de-santander-midfielder-gustavo-puertas-replacement"
+        },
+        {
+          "title": "Statsniper",
+          "url": "https://statsniper.com/ar/leagues/la-liga/player/matteo_prati_RAC/matteo-prati/"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 11857
+    },
+    "gorrotxa": {
+      "id": "gorrotxa",
+      "name": "Gorrotxa",
+      "pos": "MID",
+      "team": "Real Sociedad",
+      "fullName": "Jon Gorrotxategi",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 5,
+          "starts": 1,
+          "minutes": 131,
+          "goals": 0,
+          "assists": 0
+        },
+        {
+          "season": "2025-26",
+          "apps": 30,
+          "minutes": 2217
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-01",
+          "text": "Renovado hasta 2030, pero esta temporada es suplente: 1 titularidad en 5 partidos.",
+          "tone": "warn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/jugador/jon-gorrotxategi"
+        },
+        {
+          "title": "Soccerway",
+          "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-jon-gorrotxategi-renueva-con-la-real-sociedad-hasta-2030/Q9K3WyO9"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 11683
+    },
+    "larrubia": {
+      "id": "larrubia",
+      "name": "Larrubia",
+      "pos": "MID",
+      "team": "Málaga",
+      "fullName": "David Larrubia",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 7,
+          "starts": 6,
+          "minutes": 574,
+          "goals": 0,
+          "assists": 0,
+          "shots": 12,
+          "extra": {
+            "Tiros a puerta": 2
+          }
+        },
+        {
+          "season": "2025-26 (Segunda)",
+          "apps": 45,
+          "goals": 12,
+          "assists": 4
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Titular en 6 de 7 partidos del recién ascendido Málaga. Aún sin goles en Primera pese a 12 tiros, tras marcar 12 en Segunda.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/es-IN/jugador/larrubia"
+        },
+        {
+          "title": "Statsniper",
+          "url": "https://statsniper.com/la-liga/player/david_larrubia_MCF/"
+        },
+        {
+          "title": "Rotowire",
+          "url": "https://www.rotowire.com/soccer/player/david-larrubia-48668"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 8780
     },
     "cheikh-thiam": {
-     "verdict": "evitar",
-     "text": "Todavía no ha jugado en LaLiga: 0 minutos y 0 puntos.",
-     "confidence": "alta"
-    },
-    "cardoso": {
-     "verdict": "evitar",
-     "text": "Fuera de los planes del Sevilla, que busca su salida. No va a puntuar.",
-     "confidence": "alta"
+      "id": "cheikh-thiam",
+      "name": "Cheikh Thiam",
+      "pos": "MID",
+      "team": "Villarreal",
+      "fullName": "Cheikh Tidiane Thiam",
+      "born": "2005-11-07",
+      "nationality": "Senegal",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 0,
+          "minutes": 0
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-25",
+          "text": "Debutó con el primer equipo en pretemporada (gol y asistencia ante el PSV), pero no ha jugado en LaLiga.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Foot Africa",
+          "url": "https://foot-africa.com/en/news/spain-cheikh-tidiane-thiam-shines-on-his-villarreal-debut-1293652/"
+        },
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/en-ES/player/cheikh-thiam"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 18039
     },
     "beitia": {
-     "verdict": "evitar",
-     "text": "Lesionado y con solo 2 pts.",
-     "confidence": "alta"
+      "id": "beitia",
+      "name": "Beitia",
+      "pos": "DEF",
+      "team": "Real Sociedad",
+      "fullName": "Luken Beitia",
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Aparece lesionado en el mercado. Central joven, renovado hasta 2030, con poco protagonismo en el primer equipo.",
+          "tone": "bad"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FotMob",
+          "url": "https://www.fotmob.com/players/1697334/luken-beitia"
+        },
+        {
+          "title": "Soccerway",
+          "url": "https://ve.soccerway.com/jugador/beitia-luken/nLldSDip"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 15273
+    },
+    "youssef": {
+      "id": "youssef",
+      "name": "Youssef",
+      "pos": "DEF",
+      "team": "Alavés",
+      "fullName": "Youssef Lekhedim",
+      "nationality": "Marruecos",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 6,
+          "minutes": 148
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Lateral de 2005 con el dorsal 3. Las fuentes no coinciden en sus minutos (de 0 a 6 partidos); suma 17 puntos Fantasy.",
+          "tone": "warn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/jugador/youssef-lekhedim"
+        },
+        {
+          "title": "ESPN",
+          "url": "https://www.espn.com/soccer/player/_/id/149306"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 14935
+    },
+    "raba": {
+      "id": "raba",
+      "name": "Raba",
+      "pos": "STR",
+      "team": "Valencia",
+      "fullName": "Dani Raba",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 2,
+          "goals": 1,
+          "shots": 3,
+          "extra": {
+            "Tiros a puerta": 1
+          }
+        },
+        {
+          "season": "2025-26",
+          "goals": 0,
+          "assists": 1,
+          "minutes": 257
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Con Sadiq lesionado, tiene más opciones de minutos en la delantera del Valencia. Datos de 2026-27 contradictorios entre fuentes.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Statsniper",
+          "url": "https://statsniper.com/leagues/la-liga/player/dani_raba_VAL/"
+        },
+        {
+          "title": "FotMob",
+          "url": "https://www.fotmob.com/es/players/784246/dani-raba"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 3732
+    },
+    "el-hilali": {
+      "id": "el-hilali",
+      "name": "El Hilali",
+      "pos": "DEF",
+      "team": "Espanyol",
+      "fullName": "Omar El Hilali",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 7,
+          "starts": 7,
+          "minutes": 615,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "yellow": 2,
+          "red": 1,
+          "extra": {
+            "Faltas": 19
+          }
+        },
+        {
+          "season": "2025-26",
+          "apps": 36,
+          "starts": 32,
+          "minutes": 2828,
+          "assists": 2,
+          "yellow": 9
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Titular en los 7 partidos que ha jugado. Ojo: ya lleva una roja y 2 amarillas esta temporada.",
+          "tone": "warn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/es-CO/jugador/omar-1"
+        },
+        {
+          "title": "The Analyst",
+          "url": "https://theanalyst.com/players/1739/omar-el-hilali"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 10220
     },
     "unai-simon": {
-     "verdict": "alinear",
-     "text": "Tu capitán para la jornada 10: media de 6,78 (la más alta de tu plantilla), 95% de probabilidad de jugar y en casa contra el Getafe (0,82 xG por partido). El Athletic solo ha encajado 6 goles en 8 partidos.",
-     "confidence": "alta"
+      "id": "unai-simon",
+      "name": "Unai Simón",
+      "pos": "GK",
+      "team": "Athletic Club",
+      "fullName": "Unai Simón",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 3,
+          "goals": 0
+        },
+        {
+          "season": "2025-26",
+          "apps": 37,
+          "extra": {
+            "Porterías a cero": 6,
+            "Goles encajados": 54,
+            "Paradas": 100
+          }
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Portero titular del Athletic. Solo una fuente secundaria da sus partidos de 2026-27 (3), así que tómalo con cautela.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rotowire",
+          "url": "https://www-sss-gov-phwww.rotowire.com/soccer/player/unai-simon-23362"
+        },
+        {
+          "title": "FootballDream",
+          "url": "https://www.footballdream.in/players/unai-simon-222375"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 3693
     },
     "mojica": {
-     "verdict": "alinear",
-     "text": "3,22 de media y fijo en el Getafe. Juega esta noche contra el Rayo (jornada 9). Titular en tu once.",
-     "confidence": "media"
+      "id": "mojica",
+      "name": "Mojica",
+      "pos": "DEF",
+      "team": "Getafe",
+      "fullName": "Johan Mojica",
+      "nationality": "Colombia",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 1,
+          "starts": 1,
+          "minutes": 90
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-09-07",
+          "text": "Titular y de lo mejor de la defensa del Getafe ante el Celta (jornada 4).",
+          "tone": "good"
+        },
+        {
+          "date": "2026-08-15",
+          "text": "Fichado del Mallorca tras el Mundial. Titular habitual en el lateral izquierdo de Bordalás.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ClaroSports",
+          "url": "https://www.clarosports.com/futbol/laliga/johan-mojica-destacado-getafe/"
+        },
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/37240/johan-mojica-ficha-por-el-getafe-recomendable-en-comunio"
+        },
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/en-ID/player/j-mojica"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 899
     },
     "koski": {
-     "verdict": "alinear",
-     "text": "Tu mejor defensa (6,22 de media) en casa contra el colista Málaga, pero viene de 3 y 3 pts y jugó solo 19 minutos en la jornada 8. Capitán de reserva si Unai Simón no juega. Su cláusula es igual a su valor y sube cada día: súbela en cuanto tengas saldo.",
-     "confidence": "alta"
+      "id": "koski",
+      "name": "Koski",
+      "pos": "DEF",
+      "team": "Alavés",
+      "fullName": "Ville Koski",
+      "born": "2002-01-27",
+      "nationality": "Finlandia",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 8,
+          "starts": 7,
+          "minutes": 639,
+          "goals": 1
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-15",
+          "text": "El Alavés lo compró en propiedad hasta 2031 tras su cesión. Central titular y ya ha marcado.",
+          "tone": "good"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gasteiz Hoy",
+          "url": "https://www.gasteizhoy.com/alaves-ville-koski-fichaje-verano/"
+        },
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/es-BR/jugador/ville-koski"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 17284
     },
     "sergio-gomez": {
-     "verdict": "alinear",
-     "text": "Media modesta (2,89), pero juega siempre. Con Bartra vendido es tu tercer defensa. Es el siguiente a mejorar cuando haya dinero.",
-     "confidence": "media"
+      "id": "sergio-gomez",
+      "name": "Sergio Gómez",
+      "pos": "DEF",
+      "team": "Real Sociedad",
+      "fullName": "Sergio Gómez",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 6,
+          "starts": 6,
+          "minutes": 522,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4
+        },
+        {
+          "season": "2025-26",
+          "goals": 0,
+          "assists": 2,
+          "minutes": 2065
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Titular en todos sus partidos, pero sin goles ni asistencias todavía.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/en-US/player/sergio-gomez"
+        },
+        {
+          "title": "FotMob",
+          "url": "https://www.fotmob.com/es/players/844477"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 6180
     },
     "bartra": {
-     "verdict": "mantener",
-     "text": "Lo mantienes. Su valor cae un 11,8% en la semana y tiene un 50% de probabilidad de jugar en la jornada 10 (en Vigo). Alinéalo solo si se confirma que es titular; si no, Militão no es alternativa (10%).",
-     "confidence": "media"
+      "id": "bartra",
+      "name": "Bartra",
+      "pos": "DEF",
+      "team": "Betis",
+      "fullName": "Marc Bartra",
+      "news": [
+        {
+          "date": "2026-09-20",
+          "text": "Se retiró a los pocos minutos ante el Deportivo con molestias en el isquiotibial izquierdo.",
+          "tone": "warn"
+        },
+        {
+          "date": "2026-09-22",
+          "text": "Las pruebas descartaron lesión; siguió un plan específico antes de volver a la normalidad.",
+          "tone": "good"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/38087/marc-bartra-cae-lesionado-en-riazor"
+        },
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/38130/bartra-recibe-el-resultado-de-las-pruebas-tiempo-estimado-de-baja"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 322
     },
     "ibanez": {
-     "verdict": "alinear",
-     "text": "5,33 de media y forma al alza (4, 6, 4, 7). Juega en casa contra el Málaga. Su cláusula está solo un 19% por encima de su valor: súbela cuando puedas.",
-     "confidence": "alta"
+      "id": "ibanez",
+      "name": "Ibáñez",
+      "pos": "MID",
+      "team": "Alavés",
+      "fullName": "Pablo Ibáñez",
+      "born": "1998-09-20",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 7,
+          "starts": 7,
+          "minutes": 580,
+          "goals": 1,
+          "shots": 8,
+          "yellow": 1
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Mediocentro titular en todos sus partidos del Alavés; ya tiene un gol.",
+          "tone": "good"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/jugador/pablo-ibanez"
+        },
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/jugadores/3311/pablo-ibanez"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 10258
     },
     "unai-lopez": {
-     "verdict": "alinear",
-     "text": "5,33 de media y muy regular (4, 4, 4, 5). Lleva 3 asistencias. Fijo.",
-     "confidence": "alta"
+      "id": "unai-lopez",
+      "name": "Unai López",
+      "pos": "MID",
+      "team": "Rayo Vallecano",
+      "fullName": "Unai López",
+      "born": "1995-10-30",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 8,
+          "minutes": 581,
+          "assists": 3,
+          "yellow": 2
+        },
+        {
+          "season": "2025-26",
+          "goals": 0,
+          "assists": 3,
+          "minutes": 1187
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Ya iguala con 3 asistencias las de toda la temporada pasada.",
+          "tone": "good"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/en-CO/player/unai-lopez"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 1881
     },
     "bernardo-silva": {
-     "verdict": "mantener",
-     "text": "Decides mantenerlo como apuesta de revalorización. Ojo: lleva 57 días bajando (-38% en 30 días), con 40% de titularidad y solo 0,14 xG + 0,23 xA en 296 minutos. Para que suba necesita minutos y puntos. Vigilaré su valor cada día y te avisaré si cambia la tendencia.",
-     "confidence": "media"
+      "id": "bernardo-silva",
+      "name": "Bernardo Silva",
+      "pos": "MID",
+      "team": "Real Madrid",
+      "fullName": "Bernardo Silva",
+      "nationality": "Portugal",
+      "news": [
+        {
+          "date": "2026-06-17",
+          "text": "Fichado libre del Manchester City hasta 2028. Mourinho es el entrenador del Real Madrid.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "El Debate",
+          "url": "https://www.eldebate.com/deportes/futbol/20260617/real-madrid-hace-oficial-fichaje-bernardo-silva-llega-libre-firma-dos-temporadas_429568.html"
+        },
+        {
+          "title": "Man City",
+          "url": "https://www.mancity.com/news/mens/bernardo-silva-joins-real-madrid-63917285"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 3431
     },
     "saliba": {
-     "verdict": "alinear",
-     "text": "Sin Larrubia es tu cuarto medio: 3,17 de media y muy regular (2, 3, 6, 1, 2). Titular.",
-     "confidence": "media"
+      "id": "saliba",
+      "name": "Saliba",
+      "pos": "MID",
+      "team": "Villarreal",
+      "fullName": "Nathan Saliba",
+      "born": "2004-02-07",
+      "nationality": "Canadá",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 2,
+          "starts": 1,
+          "minutes": 126
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-25",
+          "text": "Fichado del Anderlecht por 15 M€. De momento con pocos minutos (1 titularidad).",
+          "tone": "warn"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "En Fantasy promedia 3,17 pts por jornada (2, 3, 6, 1, 2): más regular de lo que sugieren sus minutos.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/37459/el-villarreal-cierra-el-fichaje-de-nathan-saliba-por-15-millones-asi-es-su-nueva-apuesta"
+        },
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/en-NL/player/nathan-saliba"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 17695
     },
     "ferran-jutgla": {
-     "verdict": "alinear",
-     "text": "Lo pagaste a 15,5 M€ y vale 11,4 M€, pero es tu mejor delantero (4,78 de media). Titular.",
-     "confidence": "alta"
+      "id": "ferran-jutgla",
+      "name": "Ferran Jutglà",
+      "pos": "STR",
+      "team": "Celta",
+      "fullName": "Ferran Jutglà",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 7,
+          "starts": 5,
+          "minutes": 388,
+          "goals": 1,
+          "assists": 0,
+          "shots": 6
+        },
+        {
+          "season": "2025-26",
+          "goals": 7,
+          "assists": 2,
+          "minutes": 1184
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Titular en 5 de 7 partidos, 1 gol. La temporada pasada hizo 7 goles en solo 1.184 minutos.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/en-FR/player/ferran-1"
+        },
+        {
+          "title": "FotMob",
+          "url": "https://www.fotmob.com/es/players/1102732"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 7842
     },
     "cepeda": {
-     "verdict": "alinear",
-     "text": "Lo compraste anoche a LALIGA por 2,75 M€ y vale 2,55 M€. Es la forma correcta de comprar, cerca de su valor. Media de 4,00: titular y buen activo para especular.",
-     "confidence": "alta"
-    },
-    "sanchez-flores": {
-     "verdict": "alinear",
-     "text": "Tu entrenador (19 pts). El Alavés recibe al Málaga el viernes, una buena jornada para sumar.",
-     "confidence": "media"
+      "id": "cepeda",
+      "name": "Cepeda",
+      "pos": "STR",
+      "team": "Elche",
+      "fullName": "Lucas Cepeda",
+      "nationality": "Chile",
+      "news": [
+        {
+          "date": "2026-04-11",
+          "text": "Marcó el 1-0 al Valencia la temporada pasada. Extremo que también juega de segundo punta.",
+          "tone": "info"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "No encontré estadísticas fiables de esta temporada.",
+          "tone": "warn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "24horas",
+          "url": "https://www.24horas.cl/deportes/futbol-internacional/tres-puntos-clave-elche-vencio-a-valencia-con-un-golazo-de-lucas-cepeda"
+        },
+        {
+          "title": "FotMob",
+          "url": "https://www.fotmob.com/es/players/1280756/lucas-cepeda"
+        }
+      ],
+      "statsUpdated": "2026-10-19",
+      "ffId": 17248
     },
     "militao": {
-     "verdict": "vender",
-     "text": "Solo un 10% de probabilidad de jugar la jornada 10. Si mantienes la puja por Larrubia, es el primero que hay que vender (5,75 M€).",
-     "confidence": "media"
+      "name": "E. Militão",
+      "pos": "DEF",
+      "team": "Real Madrid",
+      "fullName": "Éder Militão",
+      "nationality": "Brasil",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 1
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-12-08",
+          "text": "Rotura en el bíceps femoral izquierdo con afectación del tendón ante el Celta: unos 4 meses de baja. Es su tercera temporada seguida con una lesión grave.",
+          "tone": "bad"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Solo ha jugado 1 jornada (2 pts). Toca ver si recupera la titularidad con Mourinho. El Clásico es en la jornada 10.",
+          "tone": "warn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "El Debate",
+          "url": "https://www.eldebate.com/deportes/futbol/la-liga/20251208/militao-cuatro-meses-baja-rotura-muscular-afectacion-tendon_363230.html"
+        },
+        {
+          "title": "Record",
+          "url": "https://www.record.com.mx/historia/hospital-merengue-real-madrid-confirma-grave-lesion-de-eder-militao-2026012003502835802"
+        }
+      ],
+      "id": "militao",
+      "statsUpdated": "2026-10-19",
+      "ffId": 6062
+    },
+    "sanchez-flores": {
+      "name": "Sánchez Flores",
+      "pos": "COA",
+      "team": "Alavés",
+      "fullName": "Quique Sánchez Flores",
+      "news": [
+        {
+          "date": "2026-03-01",
+          "text": "Sustituyó a Coudet en marzo con el Alavés en descenso y lo salvó (14º). Contrato hasta 2028.",
+          "tone": "good"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Jornada 10: Alavés-Málaga, viernes 23 a las 21:00, en Mendizorroza.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/35139/coudet-se-va-y-llega-quique-sanchez-como-entrenador-del-alaves"
+        },
+        {
+          "title": "Gasteiz Hoy",
+          "url": "https://www.gasteizhoy.com/oltra-alaves-asistente-quique-flores/"
+        }
+      ],
+      "id": "sanchez-flores",
+      "statsUpdated": "2026-10-19"
     },
     "nico-serrano": {
-     "verdict": "vender",
-     "text": "0,4 de media y sin minutos en el Athletic. Véndelo y ficha a Raba con ese dinero.",
-     "confidence": "alta"
+      "name": "Nico Serrano",
+      "pos": "STR",
+      "team": "Athletic Club",
+      "fullName": "Nicolás Serrano",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 1,
+          "starts": 0,
+          "goals": 0,
+          "assists": 0
+        },
+        {
+          "season": "2025-26",
+          "apps": 13,
+          "goals": 1
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-10-19",
+          "text": "Apenas cuenta en el Athletic esta temporada: 1 aparición, ninguna titularidad.",
+          "tone": "bad"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ESPN",
+          "url": "https://www.espn.com/soccer/player/_/id/323971"
+        },
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/jugadores/3168/nico-serrano"
+        }
+      ],
+      "id": "nico-serrano",
+      "statsUpdated": "2026-10-19",
+      "ffId": 7920
     },
     "luiz-felipe": {
-     "verdict": "vender",
-     "text": "Lesionado de larga duración. Solo ocupa plaza: vender (821 K€).",
-     "confidence": "alta"
+      "name": "Luiz Felipe",
+      "pos": "DEF",
+      "team": "Rayo Vallecano",
+      "fullName": "Luiz Felipe",
+      "nationality": "Brasil",
+      "news": [
+        {
+          "date": "2026-07-09",
+          "text": "Renovó un año con el Rayo, pero sigue recuperándose de una lesión grave operada (las fuentes no coinciden en si fue isquiotibial o cruzado).",
+          "tone": "bad"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rotowire",
+          "url": "https://commish.rotowire.com/soccer/player/luiz-felipe-25016"
+        },
+        {
+          "title": "Flashscore",
+          "url": "https://www.flashscore.es/noticias/futbol-laliga-luiz-felipe-no-jugara-esta-temporada-rotura-cruzado/boulyra5/"
+        }
+      ],
+      "id": "luiz-felipe",
+      "statsUpdated": "2026-10-19",
+      "ffId": 5705
     },
     "galdin": {
-     "verdict": "mantener",
-     "text": "No juega en el Levante, pero es un portero suplente barato por si Unai Simón falla. Mantener mientras no necesites la plaza.",
-     "confidence": "media"
+      "name": "Galdin",
+      "pos": "GK",
+      "team": "Levante",
+      "fullName": "Ihor Galdin",
+      "news": [
+        {
+          "date": "2026-08-24",
+          "text": "No aparece entre los porteros del Levante (Ryan titular; Cuñat y Dani Martín suplentes). Sin minutos.",
+          "tone": "warn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Betbrothers",
+          "url": "https://betbrothers.es/noticias/porteros-titulares-laliga-2026-27/"
+        },
+        {
+          "title": "SportBusy",
+          "url": "https://www.sportbusy.com/players/soccer/3129044/"
+        }
+      ],
+      "id": "galdin",
+      "statsUpdated": "2026-10-19",
+      "ffId": 18027
     },
     "jose-alberto": {
-     "verdict": "evitar",
-     "text": "Entrenador barato (589 K€, 14 pts), pero Sánchez Flores ya te da 19 pts. No necesitas otro entrenador.",
-     "confidence": "media"
+      "name": "José Alberto",
+      "pos": "COA",
+      "team": "Racing de Santander",
+      "fullName": "José Alberto López",
+      "news": [
+        {
+          "date": "2026-10-20",
+          "text": "Entrenador del recién ascendido Racing, con contrato hasta 2028. Las noticias de esta temporada son confusas: algunas lo sitúan líder tras la jornada 9 y otras hablan de malestar en El Sardinero.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "El Gol Digital",
+          "url": "https://www.elgoldigital.com/futbol/racing-de-santander/jose-alberto-asegura-que-liderar-la-jornada-nueve-no-garantiza-exito/"
+        },
+        {
+          "title": "El Gol Digital",
+          "url": "https://www.elgoldigital.com/futbol/racing-de-santander/jose-alberto-ignora-el-ascenso-y-el-sardinero-pide-su-despido/"
+        }
+      ],
+      "id": "jose-alberto",
+      "statsUpdated": "2026-10-20"
     },
     "mikel-rodriguez": {
-     "verdict": "evitar",
-     "text": "Se rompió el cruzado y está fuera toda la temporada. No va a puntuar.",
-     "confidence": "alta"
+      "name": "Mikel Rodríguez",
+      "pos": "MID",
+      "team": "Alavés",
+      "fullName": "Mikel Rodríguez",
+      "news": [
+        {
+          "date": "2026-09-25",
+          "text": "Rotura del ligamento cruzado anterior de la rodilla derecha en un entrenamiento; operado. Baja para toda la temporada.",
+          "tone": "bad"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jornada Perfecta",
+          "url": "https://www.jornadaperfecta.com/blog/mikel-rodriguez-lesion-rodilla-alaves/"
+        },
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/37744/el-alaves-encaja-un-golpe-inesperado-con-mikel-rodriguez"
+        }
+      ],
+      "id": "mikel-rodriguez",
+      "statsUpdated": "2026-10-20",
+      "ffId": 16186
     },
     "nunez": {
-     "verdict": "evitar",
-     "text": "Rectifico: ha perdido la titularidad en el Espanyol (jugó 2 de las últimas 5 jornadas, 40% de titularidad) y su valor ha caído un 14% en una semana.",
-     "confidence": "alta"
+      "name": "Nuñez",
+      "pos": "DEF",
+      "team": "Espanyol",
+      "fullName": "Unai Núñez",
+      "stats": [
+        {
+          "season": "2026-27",
+          "apps": 5,
+          "starts": 5,
+          "minutes": 423
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-07",
+          "text": "Cedido por el Celta al Espanyol con opción de compra de 3 M€. Central titular desde la jornada 1.",
+          "tone": "good"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/37103/unai-nunez-es-nuevo-jugador-del-rcd-espanyol-se-puede-considerar-una-oportunidad-fantasy"
+        },
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/es-GB/jugador/nunez-2"
+        },
+        {
+          "title": "FutbolFantasy",
+          "url": "https://www.futbolfantasy.com/jugadores/unai-nunez"
+        }
+      ],
+      "id": "nunez",
+      "statsUpdated": "2026-10-20",
+      "ffId": 3785
     },
     "pablo-garcia": {
-     "verdict": "evitar",
-     "text": "Puntúa bien (26 pts), pero lo venden a 10 M€ cuando vale 6,36 M€: un 57% más caro. Lo perderías nada más ficharlo. Si vuelve al mercado de LALIGA a su valor, entonces sí.",
-     "confidence": "alta"
+      "name": "Pablo García",
+      "pos": "STR",
+      "team": "Racing de Santander",
+      "fullName": "Pablo García",
+      "stats": [
+        {
+          "season": "2026-27",
+          "goals": 2
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-09-01",
+          "text": "Fichado del Betis por unos 5,5 M€ (50% de sus derechos) hasta 2030. Extremo o punta con gol. El recuento de goles varía según la fuente.",
+          "tone": "info"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FutbolFantasy",
+          "url": "https://www.futbolfantasy.com/laliga/noticias/150370-pablo-garcia-es-oficialmente-nuevo-jugador-del-racing"
+        },
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/noticias/37693/el-racing-convierte-una-cesion-frustrada-con-el-arsenal-en-el-fichaje-de-pablo-garcia"
+        }
+      ],
+      "id": "pablo-garcia",
+      "statsUpdated": "2026-10-20",
+      "ffId": 13822
     },
     "ugrinic": {
-     "verdict": "evitar",
-     "text": "24 pts y vale 2,14 M€, pero lo venden a 3,33 M€ (+56%). Pagar ese sobreprecio es lo que te ha hecho perder dinero con Bernardo y Saliba. No hay que repetirlo.",
-     "confidence": "alta"
+      "name": "Ugrinic",
+      "pos": "MID",
+      "team": "Valencia",
+      "fullName": "Filip Ugrinic",
+      "news": [
+        {
+          "date": "2026-10-20",
+          "text": "Fuentes contradictorias sobre si es titular esta temporada: la ficha de LaLiga no muestra minutos y Comuniate lo da como titular en sus últimas 5 apariciones.",
+          "tone": "warn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comuniate",
+          "url": "https://www.comuniate.com/jugadores/3895/ugrinic"
+        },
+        {
+          "title": "LaLiga",
+          "url": "https://www.laliga.com/jugador/filip-ugrinic"
+        }
+      ],
+      "id": "ugrinic",
+      "statsUpdated": "2026-10-20",
+      "ffId": 12025
     }
-   },
-   "lineup": {
-    "formation": "4-4-2",
-    "ids": [
-     "unai-simon",
-     "koski",
-     "mojica",
-     "sergio-gomez",
-     "bartra",
-     "ibanez",
-     "unai-lopez",
-     "saliba",
-     "bernardo-silva",
-     "ferran-jutgla",
-     "cepeda",
-     "sanchez-flores"
+  },
+  "markets": {
+    "2026-10-19": [
+      {
+        "playerId": "luis-castro",
+        "value": 610931,
+        "price": 610931,
+        "points": 13,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "cardoso",
+        "value": 581361,
+        "price": 581361,
+        "points": 0,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "sadiq",
+        "value": 1359974,
+        "price": 1359974,
+        "points": 12,
+        "status": "injured",
+        "bids": 0
+      },
+      {
+        "playerId": "matteo-prati",
+        "value": 1338261,
+        "price": 1338261,
+        "points": 13,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "gorrotxa",
+        "value": 1331678,
+        "price": 1331678,
+        "points": 12,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "larrubia",
+        "value": 14608414,
+        "price": 14608414,
+        "points": 29,
+        "status": "available",
+        "bids": 1
+      },
+      {
+        "playerId": "cheikh-thiam",
+        "value": 593912,
+        "price": 593912,
+        "points": 0,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "beitia",
+        "value": 557748,
+        "price": 557748,
+        "points": 2,
+        "status": "injured",
+        "bids": 0
+      },
+      {
+        "playerId": "youssef",
+        "value": 738622,
+        "price": 738622,
+        "points": 17,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "raba",
+        "value": 798889,
+        "price": 798889,
+        "points": 12,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "el-hilali",
+        "value": 17740475,
+        "price": 17740475,
+        "points": 34,
+        "status": "unknown",
+        "bids": 0
+      }
     ],
-    "note": "Jornada 10 sin Larrubia. Capitán: Unai Simón (Koski si hay dudas con él). Confirma a Bartra antes del viernes 21:00."
-   },
-   "analyses": [
-    {
-     "icon": "©️",
-     "title": "Capitán de la jornada 10",
-     "question": "¿Koski, Ibáñez o Unai Simón?",
-     "table": {
-      "head": [
-       "Jugador",
-       "Media",
-       "Últimas 5",
-       "Prob. jugar",
-       "Rival J10"
-      ],
-      "rows": [
-       [
-        "Unai Simón",
-        "6,78",
-        "4, –, 8, 4, 11",
-        "95%",
-        "Getafe 🏠 (0,82 xG/p)"
-       ],
-       [
-        "Koski",
-        "6,22",
-        "10, 6, 9, 3, 3",
-        "80%",
-        "Málaga 🏠 (0,92 xG/p)"
-       ],
-       [
-        "Ibáñez",
-        "5,33",
-        "-1, 4, 6, 4, 7",
-        "80%",
-        "Málaga 🏠 (0,92 xG/p)"
-       ]
-      ],
-      "pick": 0
-     },
-     "points": [
-      "Unai Simón es el que más seguro tiene jugar (95%, 90% de titularidad): un capitán que no juega no da nada. Koski jugó solo 19 minutos en la jornada 8.",
-      "Tiene la media más alta (6,78) y techo alto: 10, 10, 13 y 11 puntos en varias jornadas.",
-      "El Getafe genera solo 0,82 xG por partido y el Athletic ha encajado 6 goles en 8 partidos: la portería a cero es bastante probable.",
-      "Koski viene de dos jornadas flojas (3 y 3). Ibáñez está en buena racha y el Málaga concede 1,99 xG por partido, pero su media es la más baja de los tres."
-     ],
-     "conclusion": "Capitán: Unai Simón. Si el jueves hay dudas con él (el Athletic juega el aplazado en Levante el miércoles 21), pon a Koski: el Alavés juega el viernes a las 21:00.",
-     "playerIds": [
-      "unai-simon",
-      "koski",
-      "ibanez"
-     ]
-    },
-    {
-     "icon": "💰",
-     "title": "Saldo negativo sin vender a Bernardo ni a Bartra",
-     "question": "¿Cómo empezar la jornada 10 con saldo positivo?",
-     "table": {
-      "head": [
-       "Opción",
-       "Qué haces",
-       "Saldo final"
-      ],
-      "rows": [
-       [
-        "A",
-        "Retirar la puja por Larrubia",
-        "+2,22 M€"
-       ],
-       [
-        "B",
-        "Mantener la puja y vender a Militão, Luiz Felipe, Nico Serrano y Saliba",
-        "≈ +0,3 M€"
-       ],
-       [
-        "A + cláusulas",
-        "Retirar la puja y vender a Militão, Luiz Felipe y Nico Serrano",
-        "≈ +9,4 M€ (para blindar)"
-       ]
-      ],
-      "pick": 2
-     },
-     "points": [
-      "Saldo actual: 2.223.784 € en caja menos 14.608.414 € de la puja = -12.384.630 €. Con saldo negativo al empezar la jornada no puntúas.",
-      "Militão solo tiene un 10% de probabilidad de jugar la jornada 10, Luiz Felipe está lesionado y Nico Serrano no juega: venderlos no te quita puntos.",
-      "Larrubia (3,22 de media) apenas mejora a Saliba (3,17) y su valor sigue bajando: no compensa quedarte sin margen."
-     ],
-     "conclusion": "Retira la puja por Larrubia y vende a Militão, Luiz Felipe y Nico Serrano: te quedan unos 9,4 M€ para blindar a Koski e Ibáñez sin tocar a Bernardo ni a Bartra.",
-     "playerIds": [
-      "larrubia",
-      "militao"
-     ]
-    },
-    {
-     "icon": "📉",
-     "title": "¿Larrubia como fichaje especulativo?",
-     "question": "¿Va a subir de valor?",
-     "table": {
-      "head": [
-       "Día",
-       "Valor",
-       "Cambio"
-      ],
-      "rows": [
-       [
-        "10/16",
-        "15,07 M€",
-        "-0,7%"
-       ],
-       [
-        "10/17",
-        "15,00 M€",
-        "-0,5%"
-       ],
-       [
-        "10/18",
-        "14,81 M€",
-        "-1,2%"
-       ],
-       [
-        "10/19",
-        "14,61 M€",
-        "-1,4%"
-       ],
-       [
-        "10/20",
-        "14,41 M€",
-        "-1,3%"
-       ]
+    "2026-10-20": [
+      {
+        "playerId": "jose-alberto",
+        "value": 589218,
+        "price": 588351,
+        "points": 14,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "luis-castro",
+        "value": 610894,
+        "price": 610931,
+        "points": 13,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "cardoso",
+        "value": 582507,
+        "price": 581361,
+        "points": 0,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "sadiq",
+        "value": 1329976,
+        "price": 1359974,
+        "points": 12,
+        "status": "injured",
+        "bids": 0
+      },
+      {
+        "playerId": "matteo-prati",
+        "value": 1314821,
+        "price": 1338261,
+        "points": 13,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "gorrotxa",
+        "value": 1312635,
+        "price": 1331678,
+        "points": 12,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "larrubia",
+        "value": 14414773,
+        "price": 14608414,
+        "points": 29,
+        "status": "available",
+        "bids": 1
+      },
+      {
+        "playerId": "cheikh-thiam",
+        "value": 594556,
+        "price": 593912,
+        "points": 0,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "beitia",
+        "value": 559839,
+        "price": 557748,
+        "points": 2,
+        "status": "injured",
+        "bids": 0
+      },
+      {
+        "playerId": "youssef",
+        "value": 733478,
+        "price": 738622,
+        "points": 17,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "raba",
+        "value": 797116,
+        "price": 798889,
+        "points": 12,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "el-hilali",
+        "value": 17453853,
+        "price": 17740475,
+        "points": 34,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "mikel-rodriguez",
+        "value": 980890,
+        "price": 996343,
+        "points": 17,
+        "status": "injured",
+        "bids": 0
+      },
+      {
+        "playerId": "nunez",
+        "value": 5769696,
+        "price": 5916634,
+        "points": 23,
+        "status": "available",
+        "bids": 1
+      },
+      {
+        "playerId": "pablo-garcia",
+        "value": 6359978,
+        "price": 9999999,
+        "points": 26,
+        "status": "available",
+        "bids": 1
+      },
+      {
+        "playerId": "ugrinic",
+        "value": 2138969,
+        "price": 3333333,
+        "points": 24,
+        "status": "available",
+        "bids": 1
+      }
+    ]
+  },
+  "squads": {
+    "2026-10-19": {
+      "date": "2026-10-19",
+      "formation": "4-4-2",
+      "teamValue": 215612863,
+      "signings": "16/26",
+      "slots": [
+        {
+          "playerId": "unai-simon",
+          "starter": true,
+          "value": 37570642,
+          "points": 61,
+          "status": "available",
+          "average": 6.78,
+          "recent": [
+            4,
+            0,
+            8,
+            4,
+            11
+          ],
+          "clause": 49000001
+        },
+        {
+          "playerId": "koski",
+          "starter": true,
+          "value": 38232116,
+          "points": 56,
+          "status": "available",
+          "average": 6.22,
+          "recent": [
+            10,
+            6,
+            9,
+            3,
+            3
+          ],
+          "clause": 38232116,
+          "captain": true
+        },
+        {
+          "playerId": "mojica",
+          "starter": true,
+          "value": 13125809,
+          "points": 29,
+          "status": "available",
+          "average": 3.22,
+          "recent": [
+            3,
+            3,
+            9,
+            -2,
+            4
+          ],
+          "clause": 20000000
+        },
+        {
+          "playerId": "sergio-gomez",
+          "starter": true,
+          "value": 13374481,
+          "points": 26,
+          "status": "available",
+          "average": 2.89,
+          "recent": [
+            0,
+            9,
+            5,
+            1,
+            3
+          ],
+          "clause": 17500011
+        },
+        {
+          "playerId": "bartra",
+          "starter": true,
+          "value": 21382078,
+          "points": 32,
+          "status": "available",
+          "average": 3.56,
+          "recent": [
+            5,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 52000011
+        },
+        {
+          "playerId": "ibanez",
+          "starter": true,
+          "value": 18983804,
+          "points": 48,
+          "status": "available",
+          "average": 5.33,
+          "recent": [
+            -1,
+            4,
+            6,
+            4,
+            7
+          ],
+          "clause": 22592048
+        },
+        {
+          "playerId": "unai-lopez",
+          "starter": true,
+          "value": 21425892,
+          "points": 48,
+          "status": "available",
+          "average": 5.33,
+          "recent": [
+            1,
+            4,
+            4,
+            4,
+            5
+          ],
+          "clause": 28538664
+        },
+        {
+          "playerId": "bernardo-silva",
+          "starter": true,
+          "value": 23796094,
+          "points": 24,
+          "status": "available",
+          "average": 2.67,
+          "recent": [
+            4,
+            0,
+            8,
+            0,
+            1
+          ],
+          "clauseLockDays": 8
+        },
+        {
+          "playerId": "saliba",
+          "starter": true,
+          "value": 5613011,
+          "points": 19,
+          "status": "available",
+          "average": 3.17,
+          "recent": [
+            2,
+            3,
+            6,
+            1,
+            2
+          ],
+          "clauseLockDays": 8
+        },
+        {
+          "playerId": "ferran-jutgla",
+          "starter": true,
+          "value": 11408645,
+          "points": 43,
+          "status": "available",
+          "average": 4.78,
+          "recent": [
+            12,
+            3,
+            5,
+            3,
+            9
+          ],
+          "clauseLockDays": 2
+        },
+        {
+          "playerId": "cepeda",
+          "starter": true,
+          "value": 2553915,
+          "points": 36,
+          "status": "available",
+          "average": 4,
+          "recent": [
+            2,
+            6,
+            5,
+            3,
+            4
+          ],
+          "clauseLockDays": 14
+        },
+        {
+          "playerId": "sanchez-flores",
+          "starter": true,
+          "value": 580867,
+          "points": 19,
+          "status": "available",
+          "average": 2.11,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "militao",
+          "starter": false,
+          "value": 5591252,
+          "points": 2,
+          "status": "available",
+          "average": 2,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            2
+          ],
+          "clause": 15151133
+        },
+        {
+          "playerId": "nico-serrano",
+          "starter": false,
+          "value": 582837,
+          "points": 2,
+          "status": "available",
+          "average": 0.4,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "luiz-felipe",
+          "starter": false,
+          "value": 821693,
+          "points": 0,
+          "status": "injured",
+          "average": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          "clause": 1468871
+        },
+        {
+          "playerId": "galdin",
+          "starter": false,
+          "value": 569727,
+          "points": 0,
+          "status": "available",
+          "average": 0,
+          "recent": [
+            null,
+            0,
+            null,
+            0,
+            0
+          ],
+          "clause": 1000000
+        }
       ]
-     },
-     "points": [
-      "Valía 56,3 M€ el 12 de agosto y hoy 14,4 M€ (-74%). Sigue cayendo entre un 1% y un 1,4% al día, sin frenar: pierde unos 170.000 € diarios.",
-      "Los centrocampistas con una media parecida a la suya (2,9 a 3,6) valen de mediana 4,8 M€, y él vale el triple: todavía tiene recorrido a la baja.",
-      "Los centrocampistas que suben más de un 5% en la semana tienen medias de 5,8 o más. Larrubia está en 3,22 (puesto 169).",
-      "Su xG (0,79) y su xA (0,83) sin goles ni asistencias indican que algo debería llegar, pero son 0,2 por 90 minutos: no le cambia el perfil.",
-      "Calendario regular: Alavés (fuera), Betis (fuera), Racing (en casa), Osasuna (fuera) y Athletic (en casa)."
-     ],
-     "conclusion": "No es buena especulación ahora. Lo reconsideraría si su valor deja de caer (cambios diarios cerca de 0) y encadena jornadas de 5 o más puntos.",
-     "playerIds": [
-      "larrubia"
-     ]
-    },
-    {
-     "icon": "🛡️",
-     "title": "Cláusulas de Koski e Ibáñez",
-     "question": "¿Cuánto subirlas? (pagas 1 € por cada 2 € de cláusula)",
-     "table": {
-      "head": [
-       "Jugador",
-       "Valor",
-       "Cláusula",
-       "Hoy / 7 d",
-       "Objetivo",
-       "Coste"
-      ],
-      "rows": [
-       [
-        "Koski",
-        "39,74 M€",
-        "= valor",
-        "+3,9% / +40,4%",
-        "~51,7 M€",
-        "~6 M€"
-       ],
-       [
-        "Ibáñez",
-        "19,45 M€",
-        "22,59 M€",
-        "+2,4% / +10,6%",
-        "~25,3 M€",
-        "~1,35 M€"
-       ]
-      ]
-     },
-     "points": [
-      "Koski es el más expuesto: su cláusula es igual a su valor y sube unos 1,5 M€ al día. Un rival que lo compre hoy gana dinero mañana.",
-      "Ibáñez tiene solo un 16% de margen y sube un 2,4% al día: su valor alcanza la cláusula en unos 6 días.",
-      "Una subida pequeña en Koski se la come en 2 o 3 días; por eso conviene dejarla un 30% por encima de su valor.",
-      "Si tu app tiene el \"doble blindaje\", que es gratis (24 o 48 horas), úsalo con los dos mientras tanto."
-     ],
-     "conclusion": "Con unos 9,4 M€ de caja (opción A + ventas), sube la cláusula de Koski a ~51,7 M€ (6 M€) y la de Ibáñez a ~25,3 M€ (1,35 M€). Te quedan ~2 M€ de colchón. Sin ventas, mete ~2 M€ solo en Koski.",
-     "playerIds": [
-      "koski",
-      "ibanez"
-     ]
-    },
-    {
-     "icon": "👀",
-     "title": "Bernardo y Bartra: los mantienes",
-     "question": "¿Qué tiene que pasar para que suban?",
-     "table": {
-      "head": [
-       "Jugador",
-       "Valor",
-       "7 días",
-       "30 días",
-       "Titularidad",
-       "xG+xA"
-      ],
-      "rows": [
-       [
-        "Bernardo",
-        "23,27 M€",
-        "-12,1%",
-        "-38,6%",
-        "40%",
-        "0,37 en 296'"
-       ],
-       [
-        "Bartra",
-        "20,96 M€",
-        "-11,8%",
-        "-46,4%",
-        "50%",
-        "0,23 en 333'"
-       ]
-      ]
-     },
-     "points": [
-      "En LaLiga Fantasy el valor sube cuando el jugador juega y puntúa: los dos necesitan minutos y jornadas de 5 o más puntos.",
-      "Bernardo lleva 57 días bajando. La señal de cambio sería que entre en el once del Real Madrid dos jornadas seguidas.",
-      "Bartra tiene un 50% de probabilidad de jugar en Vigo. Si vuelve a ser titular, su valor debería estabilizarse."
-     ],
-     "conclusion": "Decisión tuya: se quedan. Vigilo cada día su valor, sus minutos y sus puntos, y te aviso en cuanto la tendencia cambie.",
-     "playerIds": [
-      "bernardo-silva",
-      "bartra"
-     ]
     }
-   ]
-  }
- },
- "bids": [
-  {
-   "playerId": "larrubia",
-   "amount": 14608414,
-   "date": "2026-10-19",
-   "note": "se resuelve al cierre del mercado (hoy ~21:35)"
-  }
- ],
- "cash": 2223784,
- "budget": -12384630,
- "budgetDate": "2026-10-20",
- "ledger": [
-  {
-   "date": "2026-09-23",
-   "kind": "venta",
-   "playerName": "Peio Canales",
-   "amount": 6432711,
-   "counterpart": "LALIGA"
   },
-  {
-   "date": "2026-09-23",
-   "kind": "clausula",
-   "playerId": "koski",
-   "playerName": "Koski",
-   "from": 20758315,
-   "to": 28758315
+  "purchases": {
+    "ferran-jutgla": 15471646,
+    "bernardo-silva": 36000000,
+    "saliba": 12500000,
+    "cepeda": 2750001
   },
-  {
-   "date": "2026-09-25",
-   "kind": "expirado",
-   "playerId": "sanchez-flores",
-   "playerName": "Sánchez Flores"
+  "reports": {
+    "2026-10-19": {
+      "date": "2026-10-19",
+      "title": "Saldo en negativo: vende a Bartra antes del viernes",
+      "summary": "Tu puja por Larrubia te ha dejado el saldo en negativo. Si empiezas la jornada 10 así (arranca el viernes 23 a las 21:00 con Alavés-Málaga), no puntúas. La solución es vender a Bartra: vale 21,4 M€ y solo ha sumado 2 pts en sus últimas 4 jornadas. Eso cubre la puja y te deja margen para fichar a Youssef y a Raba, baratos. Si ganas a Larrubia, juega 3-5-2.",
+      "sections": [
+        {
+          "title": "Urgente antes del viernes",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "Vende a Bartra (21,4 M€). Con él vuelves a saldo positivo y cubres los 14,6 M€ de Larrubia.",
+              "playerId": "bartra"
+            },
+            {
+              "text": "Vende también a Luiz Felipe (lesionado de larga duración, 821 K€) y a Nico Serrano (sin minutos, 583 K€).",
+              "playerId": "luiz-felipe"
+            },
+            {
+              "text": "Comprueba que tu saldo esté en positivo antes del viernes 23 a las 21:00. Si no, véndele a Militão (5,6 M€).",
+              "playerId": "militao"
+            },
+            {
+              "text": "Cuando el saldo sea positivo, sube la cláusula de Koski: ahora mismo cualquiera puede llevárselo pagando su valor.",
+              "playerId": "koski"
+            }
+          ]
+        },
+        {
+          "title": "Once para la jornada 10",
+          "icon": "📋",
+          "items": [
+            {
+              "text": "Si ganas a Larrubia: 3-5-2 con Unai Simón; Koski, Mojica y Sergio Gómez; Ibáñez, Unai López, Larrubia, Saliba y Bernardo; Jutglà y Cepeda."
+            },
+            {
+              "text": "Si lo pierdes: 4-4-2 con Youssef (fíchalo) o Militão en el lugar de Bartra.",
+              "playerId": "youssef"
+            },
+            {
+              "text": "Capitán: Koski. Tiene 6,22 de media y juega en casa contra un recién ascendido. La alternativa es Unai Simón (6,78).",
+              "playerId": "koski"
+            },
+            {
+              "text": "Dato curioso: Larrubia juega precisamente contra tu Alavés (Koski, Ibáñez y Sánchez Flores). Un gol suyo resta a tu defensa."
+            }
+          ]
+        },
+        {
+          "title": "Especulación (ganar presupuesto)",
+          "icon": "💹",
+          "items": [
+            {
+              "text": "Cepeda (2,55 M€, 4,00 de media) es tu jugador con más recorrido de revalorización: mantenlo.",
+              "playerId": "cepeda"
+            },
+            {
+              "text": "Youssef (739 K€, 17 pts) y Raba (799 K€) son baratos y puntúan: es probable que suban.",
+              "playerId": "youssef"
+            },
+            {
+              "text": "Bernardo Silva (23,8 M€ y 2,67 de media) es tu jugador más sobrevalorado. Cuando acabe su blindaje y si su valor empieza a caer, véndelo.",
+              "playerId": "bernardo-silva"
+            },
+            {
+              "text": "A partir de ahora, con tus capturas diarias, seguiré cómo evoluciona el valor de cada jugador para detectar subidas y bajadas antes que tus rivales."
+            }
+          ]
+        },
+        {
+          "title": "Lo que necesito de ti",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "El número exacto de tu saldo. No aparecía en las capturas: lo que me enviaste es la pestaña Squad."
+            },
+            {
+              "text": "El mercado de mañana, para seguir la evolución de los precios."
+            },
+            {
+              "text": "Si Larrubia llega a tu plantilla o la pierdes, dímelo y ajusto el once."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "el-hilali": {
+          "verdict": "evitar",
+          "text": "Puntúa mucho (34 pts), pero con el saldo en negativo y Larrubia pendiente no te lo puedes permitir: cuesta 17,7 M€.",
+          "confidence": "alta"
+        },
+        "larrubia": {
+          "verdict": "pujar",
+          "text": "Ya tienes la puja: 14.609.000 €, apenas 586 € por encima de su valor. Si otro mánager la supera, la pierdes. 29 pts y titular en 6 de 7 partidos. Con él puedes jugar 3-5-2 y aprovechar tus mejores medios. No la subas hasta haber vendido a Bartra.",
+          "maxBid": 15800000,
+          "confidence": "media"
+        },
+        "youssef": {
+          "verdict": "fichar",
+          "text": "Si vendes a Bartra, es el recambio perfecto en defensa: 17 pts por 739 K€, la mejor rentabilidad del mercado. También sirve para especular: es barato y puntúa, así que es probable que su valor suba.",
+          "maxBid": 850000,
+          "confidence": "baja"
+        },
+        "raba": {
+          "verdict": "fichar",
+          "text": "Cambio directo por Nico Serrano: vendes a Serrano (583 K€, 0,4 de media) y fichas a Raba (799 K€). Te cuesta unos 216 K€ netos y ganas un delantero con minutos mientras Sadiq esté lesionado.",
+          "maxBid": 900000,
+          "confidence": "media"
+        },
+        "luis-castro": {
+          "verdict": "vigilar",
+          "text": "Sánchez Flores ya te da 19 pts. Luís Castro (13 pts, 611 K€) no mejora a tu entrenador. Solo como especulación barata si sobra saldo.",
+          "confidence": "media"
+        },
+        "matteo-prati": {
+          "verdict": "vigilar",
+          "text": "13 pts por 1,34 M€. Está cedido en el Racing y pelea por un sitio en el doble pivote. Esperaría a que se asiente como titular.",
+          "confidence": "baja"
+        },
+        "gorrotxa": {
+          "verdict": "evitar",
+          "text": "Es suplente en la Real Sociedad: 1 titularidad y 131 minutos en 5 partidos. Sus 12 pts no compensan el precio.",
+          "confidence": "media"
+        },
+        "sadiq": {
+          "verdict": "evitar",
+          "text": "Lesionado de los isquiotibiales desde finales de agosto, con una baja estimada de 8 a 10 semanas. No lo compraría antes de verlo entrenar con el grupo. Si su precio sigue cayendo, puede ser una apuesta para noviembre.",
+          "confidence": "media"
+        },
+        "cheikh-thiam": {
+          "verdict": "evitar",
+          "text": "Todavía no ha jugado en LaLiga: 0 minutos y 0 puntos.",
+          "confidence": "alta"
+        },
+        "cardoso": {
+          "verdict": "evitar",
+          "text": "Fuera de los planes del Sevilla, que busca su salida. No va a puntuar.",
+          "confidence": "alta"
+        },
+        "beitia": {
+          "verdict": "evitar",
+          "text": "Lesionado y con solo 2 pts.",
+          "confidence": "alta"
+        },
+        "unai-simon": {
+          "verdict": "alinear",
+          "text": "Tu jugador con mejor media (6,78) y 11 pts en la última jornada. Indiscutible. Su cláusula (49 M€) está un 30% por encima de su valor: bien protegido.",
+          "confidence": "alta"
+        },
+        "mojica": {
+          "verdict": "alinear",
+          "text": "3,22 de media y fijo en el Getafe. Juega esta noche contra el Rayo (jornada 9). Titular en tu once.",
+          "confidence": "media"
+        },
+        "koski": {
+          "verdict": "alinear",
+          "text": "Tu mejor defensa (6,22 de media) y capitán. Juega en casa contra el recién ascendido Málaga. Ojo: su cláusula (38,2 M€) es igual a su valor, así que cualquier rival puede llevárselo pagándola. Súbela en cuanto tengas saldo positivo.",
+          "confidence": "alta"
+        },
+        "sergio-gomez": {
+          "verdict": "alinear",
+          "text": "Media modesta (2,89), pero juega siempre. Con Bartra vendido es tu tercer defensa. Es el siguiente a mejorar cuando haya dinero.",
+          "confidence": "media"
+        },
+        "bartra": {
+          "verdict": "vender",
+          "text": "Es la venta clave. Vale 21,4 M€ pero lleva 2 pts en sus últimas 4 jornadas (5, 0, 2, 0, 0), tras el susto en el isquiotibial. Venderlo devuelve tu saldo a positivo, paga la puja por Larrubia y saca dinero de un jugador caro que puntúa poco.",
+          "confidence": "alta"
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "text": "5,33 de media y forma al alza (4, 6, 4, 7). Juega en casa contra el Málaga. Su cláusula está solo un 19% por encima de su valor: súbela cuando puedas.",
+          "confidence": "alta"
+        },
+        "unai-lopez": {
+          "verdict": "alinear",
+          "text": "5,33 de media y muy regular (4, 4, 4, 5). Lleva 3 asistencias. Fijo.",
+          "confidence": "alta"
+        },
+        "bernardo-silva": {
+          "verdict": "mantener",
+          "text": "Rinde poco para lo que vale: 2,67 de media por 23,8 M€, con altibajos (4, 0, 8, 0, 1). Está blindado 8 días, lo que sugiere que lo fichaste hace poco, así que venderlo ya probablemente te haga perder dinero. En el 3-5-2 entra como quinto medio. Si su valor empieza a bajar, véndelo.",
+          "confidence": "media"
+        },
+        "saliba": {
+          "verdict": "mantener",
+          "text": "Corrijo lo de esta mañana: en Fantasy promedia 3,17 pts por jornada por solo 5,6 M€, más de lo que indicaban sus minutos. Para lo que cuesta, es una buena relación puntos/precio. Mantener.",
+          "confidence": "media"
+        },
+        "ferran-jutgla": {
+          "verdict": "alinear",
+          "text": "4,78 de media y 9 pts en la última jornada. Tu mejor delantero.",
+          "confidence": "alta"
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "text": "El chollo de tu plantilla: 4,00 de media por solo 2,55 M€, y muy regular (2, 6, 5, 3, 4). Titular y también buen activo para especular, porque es probable que su valor suba.",
+          "confidence": "alta"
+        },
+        "sanchez-flores": {
+          "verdict": "alinear",
+          "text": "Tu entrenador (19 pts). El Alavés recibe al Málaga el viernes, una buena jornada para sumar.",
+          "confidence": "media"
+        },
+        "militao": {
+          "verdict": "mantener",
+          "text": "Apuesta especulativa: vuelve de una lesión larga y solo ha jugado 1 jornada. Si recupera el puesto en el Real Madrid, su valor (5,6 M€) puede subir mucho. Véndelo solo si tras vender a Bartra sigues en negativo.",
+          "confidence": "baja"
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "text": "0,4 de media y sin minutos en el Athletic. Véndelo y ficha a Raba con ese dinero.",
+          "confidence": "alta"
+        },
+        "luiz-felipe": {
+          "verdict": "vender",
+          "text": "Lesionado de larga duración. Solo ocupa plaza: vender (821 K€).",
+          "confidence": "alta"
+        },
+        "galdin": {
+          "verdict": "mantener",
+          "text": "No juega en el Levante, pero es un portero suplente barato por si Unai Simón falla. Mantener mientras no necesites la plaza.",
+          "confidence": "media"
+        }
+      },
+      "lineup": {
+        "formation": "3-5-2",
+        "ids": [
+          "unai-simon",
+          "koski",
+          "mojica",
+          "sergio-gomez",
+          "ibanez",
+          "unai-lopez",
+          "larrubia",
+          "saliba",
+          "bernardo-silva",
+          "ferran-jutgla",
+          "cepeda",
+          "sanchez-flores"
+        ],
+        "note": "Once para la jornada 10 si ganas a Larrubia. Si no, 4-4-2 con Youssef o Militão en lugar de Bartra."
+      }
+    },
+    "2026-10-20": {
+      "date": "2026-10-20",
+      "title": "Retira la puja por Larrubia y empieza la jornada en positivo",
+      "summary": "Mantienes a Bernardo y a Bartra. Para empezar la jornada 10 en positivo y, además, blindar a Koski e Ibáñez: ya has retirado la puja por Larrubia (saldo de nuevo en positivo: 2,22 M€); ahora vende a Militão, Luiz Felipe y Nico Serrano, que no juegan. Con esos ~9,4 M€ sube las cláusulas de Koski (~51,7 M€) e Ibáñez (~25,3 M€). Capitán: Unai Simón.",
+      "sections": [
+        {
+          "title": "Plan para hoy",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "1. ✅ Hecho: puja por Larrubia retirada. Tu saldo vuelve a ser positivo (2,22 M€), así que ya puntúas en la jornada 10 aunque no vendas a nadie.",
+              "playerId": "larrubia"
+            },
+            {
+              "text": "2. Vende a Militão (5,75 M€), Luiz Felipe (0,81 M€) y Nico Serrano (0,58 M€). Caja: unos 9,4 M€.",
+              "playerId": "militao"
+            },
+            {
+              "text": "3. Sube la cláusula de Koski a ~51,7 M€ (te cuesta ~6 M€).",
+              "playerId": "koski"
+            },
+            {
+              "text": "4. Sube la cláusula de Ibáñez a ~25,3 M€ (te cuesta ~1,35 M€). Te quedan unos 2 M€ de colchón.",
+              "playerId": "ibanez"
+            },
+            {
+              "text": "5. Capitán: Unai Simón. Confirma a Bartra antes del viernes a las 21:00.",
+              "playerId": "unai-simon"
+            }
+          ]
+        },
+        {
+          "title": "Once para la jornada 10",
+          "icon": "📋",
+          "items": [
+            {
+              "text": "4-4-2: Unai Simón; Koski, Mojica, Sergio Gómez y Bartra; Ibáñez, Unai López, Saliba y Bernardo; Jutglà y Cepeda."
+            },
+            {
+              "text": "Capitán: Unai Simón. Tiene la media más alta (6,78), un 95% de probabilidad de jugar y recibe al Getafe, uno de los peores ataques (0,82 xG por partido). Si el jueves hay dudas con él, pon a Koski (el Alavés juega el viernes).",
+              "playerId": "unai-simon"
+            },
+            {
+              "text": "Bartra tiene un 50% de probabilidad de jugar: confírmalo el viernes. No tienes recambio fiable en defensa, así que es lo primero que reforzar cuando haya saldo.",
+              "playerId": "bartra"
+            }
+          ]
+        },
+        {
+          "title": "Lo que dicen los datos de la liga",
+          "icon": "📊",
+          "items": [
+            {
+              "text": "Casi todo el mercado de hoy baja entre un 7 y un 15% en 7 días. Es buen momento para vender caro lo que no rinde y esperar para comprar."
+            },
+            {
+              "text": "Youssef (40% de titularidad) y Núñez (40%, jugó 2 de 5) no son titulares: fuera de la lista.",
+              "playerId": "youssef"
+            },
+            {
+              "text": "Raba es la excepción del mercado: +20,5% en 7 días.",
+              "playerId": "raba"
+            },
+            {
+              "text": "Mira la pestaña Top: tienes el Top 25 de toda la liga por las últimas 5 jornadas para elegir el próximo fichaje."
+            }
+          ]
+        },
+        {
+          "title": "Mercado de hoy",
+          "icon": "📉",
+          "items": [
+            {
+              "text": "Esta noche casi todo el mercado ha perdido entre un 1 y un 2% de valor (Larrubia -1,3%, El Hilali -1,6%, Sadiq -2,2%). No es buen momento para pagar sobreprecios."
+            },
+            {
+              "text": "Evita: Mikel Rodríguez (cruzado roto), Sadiq (lesionado), Pablo García y Ugrinic (sobreprecio), y Cardoso, Cheikh Thiam y Beitia (no juegan)."
+            },
+            {
+              "text": "Los entrenadores José Alberto y Luís Castro no mejoran a Sánchez Flores (19 pts).",
+              "playerId": "jose-alberto"
+            }
+          ]
+        },
+        {
+          "title": "Para mañana",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "La pestaña Squad: así veré cómo se mueve el valor de tus jugadores (sobre todo Bernardo) y decidiremos si venderlo."
+            },
+            {
+              "text": "Sin Larrubia, el once sigue en 4-4-2 con Youssef."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "el-hilali": {
+          "verdict": "evitar",
+          "text": "Va a menos: 14, -3, no jugó, 0 y 2 pts en sus últimas 5 jornadas. Su valor ha caído un 10% en 7 días. No pagues 17,7 M€.",
+          "confidence": "alta"
+        },
+        "larrubia": {
+          "verdict": "evitar",
+          "text": "✅ Puja retirada. Era la forma más limpia de volver a saldo positivo sin vender a Bernardo ni a Bartra. Larrubia (3,22 de media) apenas mejora a Saliba (3,17) y su valor cae un 7% en la semana. Su xG+xA (1,6 sin goles ni asistencias) indica que puede mejorar, pero no compensa quedarte sin margen.",
+          "confidence": "media"
+        },
+        "youssef": {
+          "verdict": "evitar",
+          "text": "Rectifico: los datos de la liga muestran que apenas juega (40% de titularidad, 2 de las últimas 5 jornadas, 1,89 de media). Sus 17 pts salieron de pocos partidos. No es recambio para Bartra.",
+          "confidence": "alta"
+        },
+        "raba": {
+          "verdict": "fichar",
+          "text": "Fichaje especulativo, no para puntuar: su valor ha subido un 20,5% en 7 días (799 K€) y tiene un 50% de probabilidad de jugar. Sirve también como tercer delantero en lugar de Nico Serrano.",
+          "maxBid": 850000,
+          "confidence": "media"
+        },
+        "luis-castro": {
+          "verdict": "vigilar",
+          "text": "Sánchez Flores ya te da 19 pts. Luís Castro (13 pts, 611 K€) no mejora a tu entrenador. Solo como especulación barata si sobra saldo.",
+          "confidence": "media"
+        },
+        "matteo-prati": {
+          "verdict": "vigilar",
+          "text": "13 pts por 1,34 M€. Está cedido en el Racing y pelea por un sitio en el doble pivote. Esperaría a que se asiente como titular.",
+          "confidence": "baja"
+        },
+        "gorrotxa": {
+          "verdict": "evitar",
+          "text": "Es suplente en la Real Sociedad: 1 titularidad y 131 minutos en 5 partidos. Sus 12 pts no compensan el precio.",
+          "confidence": "media"
+        },
+        "sadiq": {
+          "verdict": "evitar",
+          "text": "Lesionado de los isquiotibiales desde finales de agosto, con una baja estimada de 8 a 10 semanas. No lo compraría antes de verlo entrenar con el grupo. Si su precio sigue cayendo, puede ser una apuesta para noviembre.",
+          "confidence": "media"
+        },
+        "cheikh-thiam": {
+          "verdict": "evitar",
+          "text": "Todavía no ha jugado en LaLiga: 0 minutos y 0 puntos.",
+          "confidence": "alta"
+        },
+        "cardoso": {
+          "verdict": "evitar",
+          "text": "Fuera de los planes del Sevilla, que busca su salida. No va a puntuar.",
+          "confidence": "alta"
+        },
+        "beitia": {
+          "verdict": "evitar",
+          "text": "Lesionado y con solo 2 pts.",
+          "confidence": "alta"
+        },
+        "unai-simon": {
+          "verdict": "alinear",
+          "text": "Tu capitán para la jornada 10: media de 6,78 (la más alta de tu plantilla), 95% de probabilidad de jugar y en casa contra el Getafe (0,82 xG por partido). El Athletic solo ha encajado 6 goles en 8 partidos.",
+          "confidence": "alta"
+        },
+        "mojica": {
+          "verdict": "alinear",
+          "text": "3,22 de media y fijo en el Getafe. Juega esta noche contra el Rayo (jornada 9). Titular en tu once.",
+          "confidence": "media"
+        },
+        "koski": {
+          "verdict": "alinear",
+          "text": "Tu mejor defensa (6,22 de media) en casa contra el colista Málaga, pero viene de 3 y 3 pts y jugó solo 19 minutos en la jornada 8. Capitán de reserva si Unai Simón no juega. Su cláusula es igual a su valor y sube cada día: súbela en cuanto tengas saldo.",
+          "confidence": "alta"
+        },
+        "sergio-gomez": {
+          "verdict": "alinear",
+          "text": "Media modesta (2,89), pero juega siempre. Con Bartra vendido es tu tercer defensa. Es el siguiente a mejorar cuando haya dinero.",
+          "confidence": "media"
+        },
+        "bartra": {
+          "verdict": "mantener",
+          "text": "Lo mantienes. Su valor cae un 11,8% en la semana y tiene un 50% de probabilidad de jugar en la jornada 10 (en Vigo). Alinéalo solo si se confirma que es titular; si no, Militão no es alternativa (10%).",
+          "confidence": "media"
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "text": "5,33 de media y forma al alza (4, 6, 4, 7). Juega en casa contra el Málaga. Su cláusula está solo un 19% por encima de su valor: súbela cuando puedas.",
+          "confidence": "alta"
+        },
+        "unai-lopez": {
+          "verdict": "alinear",
+          "text": "5,33 de media y muy regular (4, 4, 4, 5). Lleva 3 asistencias. Fijo.",
+          "confidence": "alta"
+        },
+        "bernardo-silva": {
+          "verdict": "mantener",
+          "text": "Decides mantenerlo como apuesta de revalorización. Ojo: lleva 57 días bajando (-38% en 30 días), con 40% de titularidad y solo 0,14 xG + 0,23 xA en 296 minutos. Para que suba necesita minutos y puntos. Vigilaré su valor cada día y te avisaré si cambia la tendencia.",
+          "confidence": "media"
+        },
+        "saliba": {
+          "verdict": "alinear",
+          "text": "Sin Larrubia es tu cuarto medio: 3,17 de media y muy regular (2, 3, 6, 1, 2). Titular.",
+          "confidence": "media"
+        },
+        "ferran-jutgla": {
+          "verdict": "alinear",
+          "text": "Lo pagaste a 15,5 M€ y vale 11,4 M€, pero es tu mejor delantero (4,78 de media). Titular.",
+          "confidence": "alta"
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "text": "Lo compraste anoche a LALIGA por 2,75 M€ y vale 2,55 M€. Es la forma correcta de comprar, cerca de su valor. Media de 4,00: titular y buen activo para especular.",
+          "confidence": "alta"
+        },
+        "sanchez-flores": {
+          "verdict": "alinear",
+          "text": "Tu entrenador (19 pts). El Alavés recibe al Málaga el viernes, una buena jornada para sumar.",
+          "confidence": "media"
+        },
+        "militao": {
+          "verdict": "vender",
+          "text": "Solo un 10% de probabilidad de jugar la jornada 10. Si mantienes la puja por Larrubia, es el primero que hay que vender (5,75 M€).",
+          "confidence": "media"
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "text": "0,4 de media y sin minutos en el Athletic. Véndelo y ficha a Raba con ese dinero.",
+          "confidence": "alta"
+        },
+        "luiz-felipe": {
+          "verdict": "vender",
+          "text": "Lesionado de larga duración. Solo ocupa plaza: vender (821 K€).",
+          "confidence": "alta"
+        },
+        "galdin": {
+          "verdict": "mantener",
+          "text": "No juega en el Levante, pero es un portero suplente barato por si Unai Simón falla. Mantener mientras no necesites la plaza.",
+          "confidence": "media"
+        },
+        "jose-alberto": {
+          "verdict": "evitar",
+          "text": "Entrenador barato (589 K€, 14 pts), pero Sánchez Flores ya te da 19 pts. No necesitas otro entrenador.",
+          "confidence": "media"
+        },
+        "mikel-rodriguez": {
+          "verdict": "evitar",
+          "text": "Se rompió el cruzado y está fuera toda la temporada. No va a puntuar.",
+          "confidence": "alta"
+        },
+        "nunez": {
+          "verdict": "evitar",
+          "text": "Rectifico: ha perdido la titularidad en el Espanyol (jugó 2 de las últimas 5 jornadas, 40% de titularidad) y su valor ha caído un 14% en una semana.",
+          "confidence": "alta"
+        },
+        "pablo-garcia": {
+          "verdict": "evitar",
+          "text": "Puntúa bien (26 pts), pero lo venden a 10 M€ cuando vale 6,36 M€: un 57% más caro. Lo perderías nada más ficharlo. Si vuelve al mercado de LALIGA a su valor, entonces sí.",
+          "confidence": "alta"
+        },
+        "ugrinic": {
+          "verdict": "evitar",
+          "text": "24 pts y vale 2,14 M€, pero lo venden a 3,33 M€ (+56%). Pagar ese sobreprecio es lo que te ha hecho perder dinero con Bernardo y Saliba. No hay que repetirlo.",
+          "confidence": "alta"
+        }
+      },
+      "lineup": {
+        "formation": "4-4-2",
+        "ids": [
+          "unai-simon",
+          "koski",
+          "mojica",
+          "sergio-gomez",
+          "bartra",
+          "ibanez",
+          "unai-lopez",
+          "saliba",
+          "bernardo-silva",
+          "ferran-jutgla",
+          "cepeda",
+          "sanchez-flores"
+        ],
+        "note": "Jornada 10 sin Larrubia. Capitán: Unai Simón (Koski si hay dudas con él). Confirma a Bartra antes del viernes 21:00."
+      },
+      "analyses": [
+        {
+          "icon": "©️",
+          "title": "Capitán de la jornada 10",
+          "question": "¿Koski, Ibáñez o Unai Simón?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Media",
+              "Últimas 5",
+              "Prob. jugar",
+              "Rival J10"
+            ],
+            "rows": [
+              [
+                "Unai Simón",
+                "6,78",
+                "4, –, 8, 4, 11",
+                "95%",
+                "Getafe 🏠 (0,82 xG/p)"
+              ],
+              [
+                "Koski",
+                "6,22",
+                "10, 6, 9, 3, 3",
+                "80%",
+                "Málaga 🏠 (0,92 xG/p)"
+              ],
+              [
+                "Ibáñez",
+                "5,33",
+                "-1, 4, 6, 4, 7",
+                "80%",
+                "Málaga 🏠 (0,92 xG/p)"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Unai Simón es el que más seguro tiene jugar (95%, 90% de titularidad): un capitán que no juega no da nada. Koski jugó solo 19 minutos en la jornada 8.",
+            "Tiene la media más alta (6,78) y techo alto: 10, 10, 13 y 11 puntos en varias jornadas.",
+            "El Getafe genera solo 0,82 xG por partido y el Athletic ha encajado 6 goles en 8 partidos: la portería a cero es bastante probable.",
+            "Koski viene de dos jornadas flojas (3 y 3). Ibáñez está en buena racha y el Málaga concede 1,99 xG por partido, pero su media es la más baja de los tres."
+          ],
+          "conclusion": "Capitán: Unai Simón. Si el jueves hay dudas con él (el Athletic juega el aplazado en Levante el miércoles 21), pon a Koski: el Alavés juega el viernes a las 21:00.",
+          "playerIds": [
+            "unai-simon",
+            "koski",
+            "ibanez"
+          ]
+        },
+        {
+          "icon": "💰",
+          "title": "Saldo negativo sin vender a Bernardo ni a Bartra",
+          "question": "¿Cómo empezar la jornada 10 con saldo positivo?",
+          "table": {
+            "head": [
+              "Opción",
+              "Qué haces",
+              "Saldo final"
+            ],
+            "rows": [
+              [
+                "A",
+                "Retirar la puja por Larrubia",
+                "+2,22 M€"
+              ],
+              [
+                "B",
+                "Mantener la puja y vender a Militão, Luiz Felipe, Nico Serrano y Saliba",
+                "≈ +0,3 M€"
+              ],
+              [
+                "A + cláusulas",
+                "Retirar la puja y vender a Militão, Luiz Felipe y Nico Serrano",
+                "≈ +9,4 M€ (para blindar)"
+              ]
+            ],
+            "pick": 2
+          },
+          "points": [
+            "Saldo actual: 2.223.784 € en caja menos 14.608.414 € de la puja = -12.384.630 €. Con saldo negativo al empezar la jornada no puntúas.",
+            "Militão solo tiene un 10% de probabilidad de jugar la jornada 10, Luiz Felipe está lesionado y Nico Serrano no juega: venderlos no te quita puntos.",
+            "Larrubia (3,22 de media) apenas mejora a Saliba (3,17) y su valor sigue bajando: no compensa quedarte sin margen."
+          ],
+          "conclusion": "✅ Puja por Larrubia retirada: ya tienes 2,22 M€ y puntúas en la jornada 10. Vender a Militão, Luiz Felipe y Nico Serrano sigue siendo lo recomendable para reunir unos 9,4 M€ y blindar a Koski e Ibáñez sin tocar a Bernardo ni a Bartra.",
+          "playerIds": [
+            "larrubia",
+            "militao"
+          ]
+        },
+        {
+          "icon": "📉",
+          "title": "¿Larrubia como fichaje especulativo?",
+          "question": "¿Va a subir de valor?",
+          "table": {
+            "head": [
+              "Día",
+              "Valor",
+              "Cambio"
+            ],
+            "rows": [
+              [
+                "10/16",
+                "15,07 M€",
+                "-0,7%"
+              ],
+              [
+                "10/17",
+                "15,00 M€",
+                "-0,5%"
+              ],
+              [
+                "10/18",
+                "14,81 M€",
+                "-1,2%"
+              ],
+              [
+                "10/19",
+                "14,61 M€",
+                "-1,4%"
+              ],
+              [
+                "10/20",
+                "14,41 M€",
+                "-1,3%"
+              ]
+            ]
+          },
+          "points": [
+            "Valía 56,3 M€ el 12 de agosto y hoy 14,4 M€ (-74%). Sigue cayendo entre un 1% y un 1,4% al día, sin frenar: pierde unos 170.000 € diarios.",
+            "Los centrocampistas con una media parecida a la suya (2,9 a 3,6) valen de mediana 4,8 M€, y él vale el triple: todavía tiene recorrido a la baja.",
+            "Los centrocampistas que suben más de un 5% en la semana tienen medias de 5,8 o más. Larrubia está en 3,22 (puesto 169).",
+            "Su xG (0,79) y su xA (0,83) sin goles ni asistencias indican que algo debería llegar, pero son 0,2 por 90 minutos: no le cambia el perfil.",
+            "Calendario regular: Alavés (fuera), Betis (fuera), Racing (en casa), Osasuna (fuera) y Athletic (en casa)."
+          ],
+          "conclusion": "No es buena especulación ahora. Lo reconsideraría si su valor deja de caer (cambios diarios cerca de 0) y encadena jornadas de 5 o más puntos.",
+          "playerIds": [
+            "larrubia"
+          ]
+        },
+        {
+          "icon": "🛡️",
+          "title": "Cláusulas de Koski e Ibáñez",
+          "question": "¿Cuánto subirlas? (pagas 1 € por cada 2 € de cláusula)",
+          "table": {
+            "head": [
+              "Jugador",
+              "Valor",
+              "Cláusula",
+              "Hoy / 7 d",
+              "Objetivo",
+              "Coste"
+            ],
+            "rows": [
+              [
+                "Koski",
+                "39,74 M€",
+                "= valor",
+                "+3,9% / +40,4%",
+                "~51,7 M€",
+                "~6 M€"
+              ],
+              [
+                "Ibáñez",
+                "19,45 M€",
+                "22,59 M€",
+                "+2,4% / +10,6%",
+                "~25,3 M€",
+                "~1,35 M€"
+              ]
+            ]
+          },
+          "points": [
+            "Koski es el más expuesto: su cláusula es igual a su valor y sube unos 1,5 M€ al día. Un rival que lo compre hoy gana dinero mañana.",
+            "Ibáñez tiene solo un 16% de margen y sube un 2,4% al día: su valor alcanza la cláusula en unos 6 días.",
+            "Una subida pequeña en Koski se la come en 2 o 3 días; por eso conviene dejarla un 30% por encima de su valor.",
+            "Si tu app tiene el \"doble blindaje\", que es gratis (24 o 48 horas), úsalo con los dos mientras tanto."
+          ],
+          "conclusion": "Con unos 9,4 M€ de caja (opción A + ventas), sube la cláusula de Koski a ~51,7 M€ (6 M€) y la de Ibáñez a ~25,3 M€ (1,35 M€). Te quedan ~2 M€ de colchón. Sin ventas, mete ~2 M€ solo en Koski.",
+          "playerIds": [
+            "koski",
+            "ibanez"
+          ]
+        },
+        {
+          "icon": "👀",
+          "title": "Bernardo y Bartra: los mantienes",
+          "question": "¿Qué tiene que pasar para que suban?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Valor",
+              "7 días",
+              "30 días",
+              "Titularidad",
+              "xG+xA"
+            ],
+            "rows": [
+              [
+                "Bernardo",
+                "23,27 M€",
+                "-12,1%",
+                "-38,6%",
+                "40%",
+                "0,37 en 296'"
+              ],
+              [
+                "Bartra",
+                "20,96 M€",
+                "-11,8%",
+                "-46,4%",
+                "50%",
+                "0,23 en 333'"
+              ]
+            ]
+          },
+          "points": [
+            "En LaLiga Fantasy el valor sube cuando el jugador juega y puntúa: los dos necesitan minutos y jornadas de 5 o más puntos.",
+            "Bernardo lleva 57 días bajando. La señal de cambio sería que entre en el once del Real Madrid dos jornadas seguidas.",
+            "Bartra tiene un 50% de probabilidad de jugar en Vigo. Si vuelve a ser titular, su valor debería estabilizarse."
+          ],
+          "conclusion": "Decisión tuya: se quedan. Vigilo cada día su valor, sus minutos y sus puntos, y te aviso en cuanto la tendencia cambie.",
+          "playerIds": [
+            "bernardo-silva",
+            "bartra"
+          ]
+        }
+      ]
+    }
   },
-  {
-   "date": "2026-10-07",
-   "kind": "venta",
-   "playerName": "Agoumé",
-   "amount": 16711458,
-   "counterpart": "Yorch Fergusson"
-  },
-  {
-   "date": "2026-10-07",
-   "kind": "compra",
-   "playerId": "ferran-jutgla",
-   "playerName": "Ferran Jutglà",
-   "amount": 15471646,
-   "counterpart": "Arepas CF"
-  },
-  {
-   "date": "2026-10-07",
-   "kind": "clausula",
-   "playerName": "T. Morente",
-   "from": 3100001,
-   "to": 10660006
-  },
-  {
-   "date": "2026-10-10",
-   "kind": "expirado",
-   "playerName": "F. Bernal"
-  },
-  {
-   "date": "2026-10-10",
-   "kind": "expirado",
-   "playerId": "mojica",
-   "playerName": "Mojica"
-  },
-  {
-   "date": "2026-10-10",
-   "kind": "expirado",
-   "playerName": "Isaac"
-  },
-  {
-   "date": "2026-10-10",
-   "kind": "expirado",
-   "playerId": "ibanez",
-   "playerName": "Ibáñez"
-  },
-  {
-   "date": "2026-10-13",
-   "kind": "venta",
-   "playerName": "Ángel Pérez",
-   "amount": 36041882,
-   "counterpart": "LALIGA"
-  },
-  {
-   "date": "2026-10-13",
-   "kind": "compra",
-   "playerId": "bernardo-silva",
-   "playerName": "Bernardo Silva",
-   "amount": 36000000,
-   "counterpart": "Arepas CF"
-  },
-  {
-   "date": "2026-10-13",
-   "kind": "venta",
-   "playerName": "F. Bernal",
-   "amount": 9283429,
-   "counterpart": "LALIGA"
-  },
-  {
-   "date": "2026-10-13",
-   "kind": "venta",
-   "playerName": "Isaac",
-   "amount": 3120559,
-   "counterpart": "LALIGA"
-  },
-  {
-   "date": "2026-10-13",
-   "kind": "compra",
-   "playerId": "saliba",
-   "playerName": "Saliba",
-   "amount": 12500000,
-   "counterpart": "LuckyChorris13"
-  },
-  {
-   "date": "2026-10-13",
-   "kind": "clausula",
-   "playerId": "ibanez",
-   "playerName": "Ibáñez",
-   "from": 18592048,
-   "to": 22592048
-  },
-  {
-   "date": "2026-10-15",
-   "kind": "expirado",
-   "playerId": "unai-lopez",
-   "playerName": "Unai López"
-  },
-  {
-   "date": "2026-10-15",
-   "kind": "expirado",
-   "playerId": "sergio-gomez",
-   "playerName": "Sergio Gómez"
-  },
-  {
-   "date": "2026-10-15",
-   "kind": "expirado",
-   "playerId": "mojica",
-   "playerName": "Mojica"
-  },
-  {
-   "date": "2026-10-18",
-   "kind": "clausula",
-   "playerId": "militao",
-   "playerName": "E. Militão",
-   "from": 12951133,
-   "to": 15151133
-  },
-  {
-   "date": "2026-10-19",
-   "kind": "compra",
-   "playerId": "cepeda",
-   "playerName": "Cepeda",
-   "amount": 2750001,
-   "counterpart": "LALIGA"
-  },
-  {
-   "date": "2026-10-19",
-   "kind": "venta",
-   "playerName": "T. Morente",
-   "amount": 4607556,
-   "counterpart": "LALIGA"
-  }
- ]
+  "bids": [],
+  "cash": 2223784,
+  "budget": 2223784,
+  "budgetDate": "2026-10-20",
+  "ledger": [
+    {
+      "date": "2026-09-23",
+      "kind": "venta",
+      "playerName": "Peio Canales",
+      "amount": 6432711,
+      "counterpart": "LALIGA",
+      "ffId": 14017
+    },
+    {
+      "date": "2026-09-23",
+      "kind": "clausula",
+      "playerId": "koski",
+      "playerName": "Koski",
+      "from": 20758315,
+      "to": 28758315
+    },
+    {
+      "date": "2026-09-25",
+      "kind": "expirado",
+      "playerId": "sanchez-flores",
+      "playerName": "Sánchez Flores"
+    },
+    {
+      "date": "2026-10-07",
+      "kind": "venta",
+      "playerName": "Agoumé",
+      "amount": 16711458,
+      "counterpart": "Yorch Fergusson",
+      "ffId": 7249
+    },
+    {
+      "date": "2026-10-07",
+      "kind": "compra",
+      "playerId": "ferran-jutgla",
+      "playerName": "Ferran Jutglà",
+      "amount": 15471646,
+      "counterpart": "Arepas CF"
+    },
+    {
+      "date": "2026-10-07",
+      "kind": "clausula",
+      "playerName": "T. Morente",
+      "from": 3100001,
+      "to": 10660006,
+      "ffId": 6882
+    },
+    {
+      "date": "2026-10-10",
+      "kind": "expirado",
+      "playerName": "F. Bernal",
+      "ffId": 15736
+    },
+    {
+      "date": "2026-10-10",
+      "kind": "expirado",
+      "playerId": "mojica",
+      "playerName": "Mojica"
+    },
+    {
+      "date": "2026-10-10",
+      "kind": "expirado",
+      "playerName": "Isaac",
+      "ffId": 11680
+    },
+    {
+      "date": "2026-10-10",
+      "kind": "expirado",
+      "playerId": "ibanez",
+      "playerName": "Ibáñez"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "venta",
+      "playerName": "Ángel Pérez",
+      "amount": 36041882,
+      "counterpart": "LALIGA",
+      "ffId": 15127
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "compra",
+      "playerId": "bernardo-silva",
+      "playerName": "Bernardo Silva",
+      "amount": 36000000,
+      "counterpart": "Arepas CF"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "venta",
+      "playerName": "F. Bernal",
+      "amount": 9283429,
+      "counterpart": "LALIGA",
+      "ffId": 15736
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "venta",
+      "playerName": "Isaac",
+      "amount": 3120559,
+      "counterpart": "LALIGA",
+      "ffId": 11680
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "compra",
+      "playerId": "saliba",
+      "playerName": "Saliba",
+      "amount": 12500000,
+      "counterpart": "LuckyChorris13"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "clausula",
+      "playerId": "ibanez",
+      "playerName": "Ibáñez",
+      "from": 18592048,
+      "to": 22592048
+    },
+    {
+      "date": "2026-10-15",
+      "kind": "expirado",
+      "playerId": "unai-lopez",
+      "playerName": "Unai López"
+    },
+    {
+      "date": "2026-10-15",
+      "kind": "expirado",
+      "playerId": "sergio-gomez",
+      "playerName": "Sergio Gómez"
+    },
+    {
+      "date": "2026-10-15",
+      "kind": "expirado",
+      "playerId": "mojica",
+      "playerName": "Mojica"
+    },
+    {
+      "date": "2026-10-18",
+      "kind": "clausula",
+      "playerId": "militao",
+      "playerName": "E. Militão",
+      "from": 12951133,
+      "to": 15151133
+    },
+    {
+      "date": "2026-10-19",
+      "kind": "compra",
+      "playerId": "cepeda",
+      "playerName": "Cepeda",
+      "amount": 2750001,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-10-19",
+      "kind": "venta",
+      "playerName": "T. Morente",
+      "amount": 4607556,
+      "counterpart": "LALIGA",
+      "ffId": 6882
+    }
+  ]
 }

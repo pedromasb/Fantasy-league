@@ -1,4 +1,4 @@
-import { difficulty, nextFixtures, type League, type LeaguePlayer } from '../lib/league'
+import { difficulty, nextFixtures, teamRates, type League, type LeaguePlayer } from '../lib/league'
 import { money, num, pct } from '../lib/format'
 import { AdvancedStats, MatchdayTable, SeasonChart, usePlayerDeep } from './SeasonCharts'
 
@@ -103,17 +103,24 @@ export function LeagueStats({ league, p }: { league: League; p: LeaguePlayer }) 
           <div className="card-title">Próximos partidos · {p.team}{team ? ` (${team.rank}º)` : ''}</div>
           <div className="fixtures">
             {fixtures.map((f) => {
-              const d = difficulty(league, f.rivalId, f.home_)
+              const d = difficulty(league, f.rivalId, f.home_, p.pos)
+              const r = teamRates(league.teams[f.rivalId])
+              const defending = p.pos === 'GK' || p.pos === 'DEF'
               return (
                 <div key={f.id} className={`fixture diff-${d}`}>
                   <span className="fx-week">J{f.week}</span>
                   <b>{f.rival}</b>
                   <span className="fx-where">{f.home_ ? '🏠' : '✈️'}</span>
                   <small>{league.teams[f.rivalId]?.rank ?? '?'}º</small>
+                  {r && <small className="fx-xg">{n2(defending ? r.xg : r.xga)} {defending ? 'xG' : 'xGA'}</small>}
                 </div>
               )
             })}
           </div>
+          <p className="small muted" style={{ marginTop: 8 }}>
+            Color según {p.pos === 'GK' || p.pos === 'DEF' ? 'los goles esperados que genera el rival (xG)' : p.pos === 'COA' ? 'el ataque y la defensa del rival' : 'los goles esperados que concede el rival (xGA)'} por partido
+            (60% temporada, 40% últimos 5) y si juega en casa. Verde = fácil, rojo = difícil.
+          </p>
           {p.next?.prob !== undefined && <p className="small muted" style={{ marginTop: 8 }}>Probabilidad de jugar la jornada {p.next.week}: <b>{p.next.prob}%</b></p>}
         </div>
       )}

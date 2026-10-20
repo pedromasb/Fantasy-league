@@ -8,6 +8,8 @@ import { money, POS_LABEL, POS_ORDER, prettyDate, signedMoney } from '../lib/for
 import { useNav } from '../lib/nav'
 import { latestReport, latestRec, latestSquad, today, useData } from '../lib/data'
 import { VerdictBadge } from '../components/Verdict'
+import { TeamSeason } from '../components/TeamSeason'
+import { ValueAlerts } from '../components/ValueAlerts'
 
 const POS_COLOR = { GK: 'var(--gk)', DEF: 'var(--def)', MID: 'var(--mid)', STR: 'var(--str)', COA: 'var(--coa)' }
 
@@ -77,8 +79,10 @@ export function Home() {
               </div>
               {snap?.formation && <span className="formation-badge">{snap.formation}</span>}
             </div>
-            <LineChart data={teamSeries} format={money} height={120} />
+            {teamSeries.length > 1 && <LineChart data={teamSeries} format={money} height={120} />}
           </div>
+
+          <TeamSeason />
 
           {report && (
             <button className="report-teaser card" onClick={() => go('report')}>
@@ -145,6 +149,8 @@ export function Home() {
               </div>
             </button>
           )}
+
+          <ValueAlerts />
 
           <Section title="Alertas automáticas" sub="Calculadas a partir de los datos">
             <div className="advice-list">

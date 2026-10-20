@@ -87,6 +87,8 @@ export interface LedgerItem {
   /** Set when the player is tracked in `players`. */
   playerId?: string
   playerName: string
+  /** futbolfantasy.com id, also for players no longer tracked (sold ones). */
+  ffId?: number
   amount?: number
   /** Manager or LALIGA on the other side of the deal. */
   counterpart?: string
@@ -166,6 +168,8 @@ export interface AppState {
   ledger?: LedgerItem[]
   /** Bids placed in the market that have not resolved yet. */
   bids?: PendingBid[]
+  /** Matchday -> my real points that matchday, from the game's screenshots. */
+  matchdayPoints?: Record<string, number>
   /** date (YYYY-MM-DD) -> daily report */
   reports: Record<string, Report>
 }

@@ -457,3 +457,19 @@ a { color: var(--accent-2); }
 .atable tr.pick td:last-child { border-radius: 0 8px 8px 0; }
 .apoints { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; line-height: 1.5; color: var(--text-2); }
 .aconclusion { font-size: 14.5px; line-height: 1.5; font-weight: 700; background: var(--accent-2-soft); border-radius: 12px; padding: 10px 12px; color: var(--text); }
+
+/* Team season chart */
+.ev-buy { fill: var(--pos); stroke: var(--card); stroke-width: 1.5; }
+.ev-sell { fill: var(--neg); stroke: var(--card); stroke-width: 1.5; }
+.lg-dot { width: 9px; height: 9px; border-radius: 50%; }
+.lg-dot.ev-buy { background: var(--pos); } .lg-dot.ev-sell { background: var(--neg); }
+.linechart .bar.f-good { fill: #9fd5b8; } .linechart .bar.f-est { fill: #d7ece0; }
+.team-events { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 8px; font-size: 12.5px; font-weight: 700; }
+
+/* Value alerts */
+.valert { display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; padding: 10px; border-radius: 14px; background: var(--bg); border: 0; color: var(--text); font: inherit; }
+.valert.tone-up { background: #eef7f1; } .valert.tone-down { background: #fbf0f1; }
+.valert .grow { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.valert-icon { font-size: 20px; }
+.valert-steps { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; font-weight: 700; }
+.fx-xg { font-size: 10px !important; opacity: 0.85; }
