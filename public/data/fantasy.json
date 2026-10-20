@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-20T21:47:26.175Z",
+  "updated": "2026-10-20T21:50:13.052Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -2994,8 +2994,8 @@
     },
     "2026-10-21": {
       "date": "2026-10-21",
-      "title": "Koski e Ibáñez blindados; Hugo Álvarez se queda fuera de alcance",
-      "summary": "Hecho: Koski blindado a 47,74 M€ (20% por encima de su valor) e Ibáñez a 26,59 M€ (37% por encima). Te quedan 0,63 M€ en caja, así que no llega para pujar por Hugo Álvarez (4,98 M€) sin vender a un titular, y no lo recomiendo. Si aún tienes a Luiz Felipe y Nico Serrano, véndelos para tener colchón. Once 4-4-2 con capitán Unai Simón.",
+      "title": "Koski e Ibáñez blindados; vende a los que no juegan y puja por Hugo Álvarez",
+      "summary": "Hecho: Koski blindado a 47,74 M€ (20% por encima de su valor) e Ibáñez a 26,59 M€ (37%). Con el premio de la jornada te quedan 0,63 M€. Si vendes a Militão, Luiz Felipe y Nico Serrano (+7,15 M€, ninguno juega) llegas a 7,77 M€: puja 5,35 M€ por Hugo Álvarez y aún te quedan 2,4 M€ de colchón. Capitán: Unai Simón.",
       "analyses": [
         {
           "icon": "📈",
@@ -3080,7 +3080,7 @@
             "Ya tiene una puja de otro mánager: hay que pujar por encima del precio. Con 5,35 M€ (+7%) tienes opciones; 5,6 M€ (+12%) es lo máximo que pagaría.",
             "Recio es la alternativa barata en defensa (70%, 3,33 de media, +67% en 30 días), pero hoy ya no sube (-0,2%). Quagliata y Bellerín bajan de valor; Canales cae un 44% en el mes."
           ],
-          "conclusion": "Hugo Álvarez era el mejor fichaje del mercado, pero con 0,63 M€ de caja no llega sin vender a un titular. Lo dejo en vigilancia: si vuelve al mercado más adelante y tienes caja, puja.",
+          "conclusion": "Puja por Hugo Álvarez: 5,35 M€ (máximo 5,6 M€), pagándolo con la venta de Militão, Luiz Felipe y Nico Serrano. Es la mejor mezcla de revalorización y puntos del mercado.",
           "playerIds": [
             "hugo-alvarez",
             "recio",
@@ -3091,43 +3091,61 @@
         },
         {
           "icon": "🛡️",
-          "title": "Cláusulas de Koski e Ibáñez: hecho",
-          "question": "¿Cómo quedan las cláusulas y la caja?",
+          "title": "Cláusulas hechas: ¿llega para Hugo Álvarez?",
+          "question": "¿Cómo quedan las cláusulas y la caja, y cómo pagar a Hugo?",
           "table": {
             "head": [
-              "Jugador",
-              "Cláusula antes",
-              "Cláusula ahora",
-              "Valor hoy",
-              "Margen sobre su valor",
-              "Coste (1 € por cada 2 €)"
+              "Concepto",
+              "Importe",
+              "Caja después"
             ],
             "rows": [
               [
-                "Koski",
-                "38,23 M€",
-                "47,74 M€",
-                "39,74 M€",
-                "+20%",
-                "4,75 M€"
+                "Caja tras cláusulas y premio de la jornada",
+                "—",
+                "0,63 M€"
               ],
               [
-                "Ibáñez",
-                "22,59 M€",
-                "26,59 M€",
-                "19,45 M€",
-                "+37%",
-                "2,00 M€"
+                "Cláusula Koski 38,23 → 47,74 M€ (margen +20%)",
+                "-4,75 M€ (ya pagado)",
+                "—"
+              ],
+              [
+                "Cláusula Ibáñez 22,59 → 26,59 M€ (margen +37%)",
+                "-2,00 M€ (ya pagado)",
+                "—"
+              ],
+              [
+                "Vender a Militão (10% de jugar)",
+                "+5,75 M€",
+                "6,38 M€"
+              ],
+              [
+                "Vender a Luiz Felipe (lesionado)",
+                "+0,81 M€",
+                "7,19 M€"
+              ],
+              [
+                "Vender a Nico Serrano (20% de jugar)",
+                "+0,58 M€",
+                "7,77 M€"
+              ],
+              [
+                "Puja por Hugo Álvarez",
+                "-5,35 M€",
+                "2,42 M€"
               ]
-            ]
+            ],
+            "pick": 6
           },
           "points": [
-            "Koski ya no está expuesto: su cláusula (47,74 M€) queda un 20% por encima de su valor. Pero su valor sube un 4% al día (+40% en la semana): a este ritmo la alcanzaría en unos 5 días. Hay que revisarlo cada mañana.",
+            "Koski ya no está expuesto: su cláusula queda un 20% por encima de su valor. Pero su valor sube un 4% al día (+40% en la semana): a este ritmo la alcanzaría en unos 5 días. Hay que revisarlo cada mañana.",
             "Ibáñez tiene un margen del 37% y su valor sube más despacio (+10,6% en la semana): está tranquilo varias semanas.",
-            "Te quedan 626.666 € de caja. Hugo Álvarez cuesta 4,98 M€ y ya tiene una puja: no llega sin vender a un titular (Mojica, Sergio Gómez o Saliba), y eso te quitaría puntos en la jornada 10.",
-            "Las cuentas no me cuadran del todo: con 1,43 M€ de caja y 6,75 M€ en cláusulas, han entrado unos 5,95 M€ de ventas. ¿Qué vendiste exactamente? Así actualizo la plantilla."
+            "Militão, Luiz Felipe y Nico Serrano no te dan puntos: 10% de jugar, lesionado y 20%. Venderlos no cambia tu once y te da 7,15 M€.",
+            "Con esa caja la puja por Hugo Álvarez entra holgada, y te quedan unos 2,4 M€ para volver a subir la cláusula de Koski dentro de unos días.",
+            "Si pierdes la puja, esos 5,35 M€ vuelven y sirven para seguir blindando a Koski."
           ],
-          "conclusion": "Cláusulas bien puestas: Koski e Ibáñez están protegidos. Hugo Álvarez queda fuera. Si aún tienes a Luiz Felipe o a Nico Serrano, véndelos para tener colchón; no hace falta tocar a nadie más.",
+          "conclusion": "Vende a Militão, Luiz Felipe y Nico Serrano y puja 5,35 M€ por Hugo Álvarez (máximo 5,6 M€). Terminas con unos 2,4 M€, siempre en positivo.",
           "playerIds": [
             "koski",
             "militao",
@@ -3182,7 +3200,7 @@
         {
           "icon": "©️",
           "title": "Once y capitán de la jornada 10",
-          "question": "¿Cambia el once con Raba?",
+          "question": "¿Cambia el once con Raba y, si llega, con Hugo?",
           "table": {
             "head": [
               "Jugador",
@@ -3205,6 +3223,13 @@
                 "80%",
                 "Málaga 🏠 (genera 0,88 xG/p)",
                 "1"
+              ],
+              [
+                "Hugo Álvarez (MED)",
+                "4,33",
+                "50%",
+                "Betis 🏠 (concede 1,80 xGA/p)",
+                "2"
               ],
               [
                 "Saliba (MED)",
@@ -3233,10 +3258,11 @@
           "points": [
             "Capitán: Unai Simón. Es el que más seguro juega (95%) y el Getafe tiene el peor ataque de la liga (0,77 xG por partido).",
             "El Athletic juega el aplazado en Levante el miércoles 21: si el jueves hay dudas con Unai Simón, el capitán pasa a Koski (Málaga en casa, dificultad 1).",
-            "Bartra sigue con un 50%. Si el viernes no está confirmado, no tienes otro defensor que juegue (Militão 10%, Luiz Felipe lesionado): pasa a 3-4-3 con Raba arriba junto a Jutglà y Cepeda.",
+            "Si ganas a Hugo, entra en el once por Bernardo: más media (4,33 frente a 2,67) y un rival mucho más fácil (Betis en casa frente a Barcelona fuera).",
+            "Bartra sigue con un 50%. Si el viernes no está confirmado, no tienes otro defensor que juegue: pasa a 3-5-2 con Bernardo y Hugo en el medio (o 3-4-3 con Raba arriba si no llega Hugo).",
             "Raba, al banquillo de inicio: 50% de jugar y 1,33 de media, por debajo de Jutglà (4,78) y Cepeda (4,00)."
           ],
-          "conclusion": "Once 4-4-2 con capitán Unai Simón. Raba, al banquillo. Si Bartra no juega el viernes, 3-4-3 con Raba arriba.",
+          "conclusion": "Once 4-4-2 con capitán Unai Simón. Si ganas a Hugo, entra por Bernardo. Si Bartra no juega, 3-5-2.",
           "playerIds": [
             "unai-simon",
             "koski",
@@ -3258,15 +3284,15 @@
               "playerId": "koski"
             },
             {
-              "text": "1. Si aún tienes a Luiz Felipe (0,81 M€) y a Nico Serrano (0,58 M€), véndelos: no juegan y te dan colchón.",
-              "playerId": "luiz-felipe"
+              "text": "1. Vende a Militão (5,75 M€), Luiz Felipe (0,81 M€) y Nico Serrano (0,58 M€): ninguno juega y te dan 7,15 M€.",
+              "playerId": "militao"
             },
             {
-              "text": "2. Hugo Álvarez: con 0,63 M€ no llega. No vendas a un titular para ficharlo.",
+              "text": "2. Puja 5,35 M€ por Hugo Álvarez (máximo 5,6 M€). Te quedan unos 2,4 M€ de colchón.",
               "playerId": "hugo-alvarez"
             },
             {
-              "text": "3. Dime qué vendiste (las cuentas indican unos 5,95 M€ de ventas) para actualizar la plantilla."
+              "text": "3. Si pierdes la puja, ese dinero vuelve: úsalo para seguir subiendo la cláusula de Koski."
             }
           ]
         },
@@ -3282,7 +3308,11 @@
               "playerId": "unai-simon"
             },
             {
-              "text": "Bartra (50%): confírmalo el viernes. Si no juega, 3-4-3 con Raba arriba.",
+              "text": "Si ganas a Hugo Álvarez, entra por Bernardo.",
+              "playerId": "hugo-alvarez"
+            },
+            {
+              "text": "Bartra (50%): confírmalo el viernes. Si no juega, 3-5-2 con Bernardo y Hugo (o 3-4-3 con Raba si no llega Hugo).",
               "playerId": "bartra"
             }
           ]
@@ -3322,9 +3352,10 @@
       ],
       "players": {
         "hugo-alvarez": {
-          "verdict": "vigilar",
+          "verdict": "pujar",
+          "maxBid": 5600000,
           "confidence": "media",
-          "text": "El que más sube del mercado (+29% en 7 días) y 4,33 de media, pero con 0,63 M€ de caja no llega sin vender a un titular. Si vuelve a salir y tienes caja, puja."
+          "text": "El que más sube del mercado (+29% en 7 días, 30 días seguidos al alza) y 4,33 de media. Juega a ratos (50% para la J10), pero suma por asistencias (1,51 xA). Págalo vendiendo a Militão, Luiz Felipe y Nico Serrano: puja 5,35 M€, como mucho 5,6 M€."
         },
         "recio": {
           "verdict": "vigilar",
@@ -3434,7 +3465,7 @@
         "bernardo-silva": {
           "verdict": "mantener",
           "confidence": "media",
-          "text": "Lo mantienes por decisión tuya. Titular, aunque visita al Barcelona (dificultad 5) y su titularidad es del 40%. Valor -12% en 7 días."
+          "text": "Lo mantienes por decisión tuya. Titular si no llega Hugo, pero visita al Barcelona (dificultad 5) y su titularidad es del 40%. Valor -12% en 7 días."
         },
         "ferran-jutgla": {
           "verdict": "alinear",
@@ -3454,7 +3485,7 @@
         "militao": {
           "verdict": "vender",
           "confidence": "alta",
-          "text": "Recomendaba venderlo hoy (10% de jugar, valor al alza). Dime si ya lo has vendido."
+          "text": "Véndelo hoy: 10% de jugar y su valor sube (+5,5% en la semana), así que vendes al alza. Paga la puja por Hugo."
         },
         "luiz-felipe": {
           "verdict": "vender",
@@ -3488,7 +3519,7 @@
           "cepeda",
           "sanchez-flores"
         ],
-        "note": "Capitán: Unai Simón (Koski si hay dudas tras el miércoles). Si Bartra no juega, 3-4-3 con Raba arriba."
+        "note": "Capitán: Unai Simón (Koski si hay dudas tras el miércoles). Si ganas a Hugo Álvarez, entra por Bernardo. Si Bartra no juega, 3-5-2."
       }
     }
   },
