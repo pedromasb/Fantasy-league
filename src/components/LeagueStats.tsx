@@ -142,6 +142,7 @@ function ExpectedCard({ xg }: { xg: NonNullable<LeaguePlayer['xg']> }) {
           <span>Goles</span>
           <b>{xg.goals} <small className="muted">/ {n2(xg.xG)} xG</small></b>
           <small className={gDiff >= 0 ? 'pos' : 'neg'}>{gDiff >= 0 ? '+' : ''}{n2(gDiff)}</small>
+          {xg.npxG < xg.xG && <small className="muted">Sin penaltis: {xg.npg} / {n2(xg.npxG)} npxG</small>}
         </div>
         <div>
           <span>Asistencias</span>
@@ -152,7 +153,7 @@ function ExpectedCard({ xg }: { xg: NonNullable<LeaguePlayer['xg']> }) {
       <div className="league-kpis" style={{ marginTop: 8 }}>
         <div><b>{n2(per90(xg.xG, xg.minutes))}</b><span>xG / 90'</span></div>
         <div><b>{n2(per90(xg.xA, xg.minutes))}</b><span>xA / 90'</span></div>
-        <div><b>{n2(xg.npxG)}</b><span>xG sin penaltis</span></div>
+        <div><b>{n2(per90(xg.npxG, xg.minutes))}</b><span>npxG / 90'</span></div>
         <div><b>{n2(per90(xg.shots, xg.minutes))}</b><span>tiros / 90'</span></div>
         <div><b>{n2(per90(xg.keyPasses, xg.minutes))}</b><span>pases clave / 90'</span></div>
         <div><b>{n2(per90(xg.xGChain, xg.minutes))}</b><span>xGChain / 90'</span></div>
