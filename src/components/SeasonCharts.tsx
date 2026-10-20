@@ -184,7 +184,7 @@ export function AdvancedStats({ season }: { season: Record<string, string> }) {
       {keys.map((k) => (
         <div key={k} className="adv-row">
           <span>{k}</span>
-          <b>{season[k]}</b>
+          <b>{season[k].replace(/^\((\d+%)\) (\d+)$/, '$2 ($1)')}</b>
           {['Pases clave', 'Regates con éxito', 'Balones robados', 'Despejes efectivos', 'Posesiones perdidas', 'Duelos aéreos ganados', 'Pases interceptados'].includes(k) && per90(k) && (
             <small className="muted">{per90(k)}/90'</small>
           )}
