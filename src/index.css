@@ -441,3 +441,19 @@ a { color: var(--accent-2); }
 .xg-compare span { font-size: 11px; color: var(--muted); font-weight: 700; }
 .xg-compare b { font-size: 18px; }
 .xg-compare b small { font-size: 12px; font-weight: 600; }
+
+/* ---------- analyses ---------- */
+.analysis { padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+.analysis header { display: flex; gap: 10px; align-items: flex-start; }
+.analysis-icon { font-size: 24px; line-height: 1; }
+.analysis h3 { font-size: 17px; }
+.atable-wrap { overflow-x: auto; margin: 0 -4px; }
+.atable { width: 100%; border-collapse: collapse; font-size: 13px; }
+.atable th { text-align: left; font-size: 11px; font-weight: 800; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; padding: 6px 6px; border-bottom: 1px solid var(--line-2); white-space: nowrap; }
+.atable td { padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.atable tr:last-child td { border-bottom: 0; }
+.atable tr.pick td { background: var(--accent-soft); font-weight: 700; }
+.atable tr.pick td:first-child { border-radius: 8px 0 0 8px; }
+.atable tr.pick td:last-child { border-radius: 0 8px 8px 0; }
+.apoints { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; line-height: 1.5; color: var(--text-2); }
+.aconclusion { font-size: 14.5px; line-height: 1.5; font-weight: 700; background: var(--accent-2-soft); border-radius: 12px; padding: 10px 12px; color: var(--text); }

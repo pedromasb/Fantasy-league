@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20T13:15:00+02:00",
+ "updated": "2026-10-20T13:45:00+02:00",
  "players": {
   "luis-castro": {
    "id": "luis-castro",
@@ -1882,27 +1882,31 @@
   "2026-10-20": {
    "date": "2026-10-20",
    "title": "Retira la puja por Larrubia y empieza la jornada en positivo",
-   "summary": "Mantienes a Bernardo y a Bartra como apuesta de revalorización. Para no empezar la jornada 10 en negativo (-12,38 M€), lo más sencillo es retirar la puja por Larrubia: te quedas con +2,2 M€ sin vender a nadie. Si prefieres a Larrubia, habría que vender a Militão, Luiz Felipe, Nico Serrano y Saliba, y quedarías en unos +0,3 M€.",
+   "summary": "Mantienes a Bernardo y a Bartra. Para empezar la jornada 10 en positivo y, además, blindar a Koski e Ibáñez: retira la puja por Larrubia y vende a Militão, Luiz Felipe y Nico Serrano, que no juegan. Con esos ~9,4 M€ sube las cláusulas de Koski (~51,7 M€) e Ibáñez (~25,3 M€). Capitán: Unai Simón.",
    "sections": [
     {
      "title": "Plan para hoy",
      "icon": "🚨",
      "items": [
       {
-       "text": "Opción A (recomendada): retira la puja por Larrubia antes del cierre del mercado. Saldo: +2,2 M€.",
+       "text": "1. Retira la puja por Larrubia antes del cierre del mercado (~21:35).",
        "playerId": "larrubia"
       },
       {
-       "text": "Opción B: mantienes la puja y vendes a Militão (5,75 M€), Luiz Felipe (0,81 M€), Nico Serrano (0,58 M€) y Saliba (5,52 M€). Saldo: unos +0,3 M€.",
+       "text": "2. Vende a Militão (5,75 M€), Luiz Felipe (0,81 M€) y Nico Serrano (0,58 M€). Caja: unos 9,4 M€.",
        "playerId": "militao"
       },
       {
-       "text": "Con saldo positivo, sube la cláusula de Koski: su valor ha subido un 172% en 30 días y su cláusula es igual a su valor.",
+       "text": "3. Sube la cláusula de Koski a ~51,7 M€ (te cuesta ~6 M€).",
        "playerId": "koski"
       },
       {
-       "text": "Bernardo y Bartra se quedan: seguiré su valor a diario.",
-       "playerId": "bernardo-silva"
+       "text": "4. Sube la cláusula de Ibáñez a ~25,3 M€ (te cuesta ~1,35 M€). Te quedan unos 2 M€ de colchón.",
+       "playerId": "ibanez"
+      },
+      {
+       "text": "5. Capitán: Unai Simón. Confirma a Bartra antes del viernes a las 21:00.",
+       "playerId": "unai-simon"
       }
      ]
     },
@@ -2152,7 +2156,236 @@
      "sanchez-flores"
     ],
     "note": "Jornada 10 sin Larrubia. Capitán: Unai Simón (Koski si hay dudas con él). Confirma a Bartra antes del viernes 21:00."
-   }
+   },
+   "analyses": [
+    {
+     "icon": "©️",
+     "title": "Capitán de la jornada 10",
+     "question": "¿Koski, Ibáñez o Unai Simón?",
+     "table": {
+      "head": [
+       "Jugador",
+       "Media",
+       "Últimas 5",
+       "Prob. jugar",
+       "Rival J10"
+      ],
+      "rows": [
+       [
+        "Unai Simón",
+        "6,78",
+        "4, –, 8, 4, 11",
+        "95%",
+        "Getafe 🏠 (0,82 xG/p)"
+       ],
+       [
+        "Koski",
+        "6,22",
+        "10, 6, 9, 3, 3",
+        "80%",
+        "Málaga 🏠 (0,92 xG/p)"
+       ],
+       [
+        "Ibáñez",
+        "5,33",
+        "-1, 4, 6, 4, 7",
+        "80%",
+        "Málaga 🏠 (0,92 xG/p)"
+       ]
+      ],
+      "pick": 0
+     },
+     "points": [
+      "Unai Simón es el que más seguro tiene jugar (95%, 90% de titularidad): un capitán que no juega no da nada. Koski jugó solo 19 minutos en la jornada 8.",
+      "Tiene la media más alta (6,78) y techo alto: 10, 10, 13 y 11 puntos en varias jornadas.",
+      "El Getafe genera solo 0,82 xG por partido y el Athletic ha encajado 6 goles en 8 partidos: la portería a cero es bastante probable.",
+      "Koski viene de dos jornadas flojas (3 y 3). Ibáñez está en buena racha y el Málaga concede 1,99 xG por partido, pero su media es la más baja de los tres."
+     ],
+     "conclusion": "Capitán: Unai Simón. Si el jueves hay dudas con él (el Athletic juega el aplazado en Levante el miércoles 21), pon a Koski: el Alavés juega el viernes a las 21:00.",
+     "playerIds": [
+      "unai-simon",
+      "koski",
+      "ibanez"
+     ]
+    },
+    {
+     "icon": "💰",
+     "title": "Saldo negativo sin vender a Bernardo ni a Bartra",
+     "question": "¿Cómo empezar la jornada 10 con saldo positivo?",
+     "table": {
+      "head": [
+       "Opción",
+       "Qué haces",
+       "Saldo final"
+      ],
+      "rows": [
+       [
+        "A",
+        "Retirar la puja por Larrubia",
+        "+2,22 M€"
+       ],
+       [
+        "B",
+        "Mantener la puja y vender a Militão, Luiz Felipe, Nico Serrano y Saliba",
+        "≈ +0,3 M€"
+       ],
+       [
+        "A + cláusulas",
+        "Retirar la puja y vender a Militão, Luiz Felipe y Nico Serrano",
+        "≈ +9,4 M€ (para blindar)"
+       ]
+      ],
+      "pick": 2
+     },
+     "points": [
+      "Saldo actual: 2.223.784 € en caja menos 14.608.414 € de la puja = -12.384.630 €. Con saldo negativo al empezar la jornada no puntúas.",
+      "Militão solo tiene un 10% de probabilidad de jugar la jornada 10, Luiz Felipe está lesionado y Nico Serrano no juega: venderlos no te quita puntos.",
+      "Larrubia (3,22 de media) apenas mejora a Saliba (3,17) y su valor sigue bajando: no compensa quedarte sin margen."
+     ],
+     "conclusion": "Retira la puja por Larrubia y vende a Militão, Luiz Felipe y Nico Serrano: te quedan unos 9,4 M€ para blindar a Koski e Ibáñez sin tocar a Bernardo ni a Bartra.",
+     "playerIds": [
+      "larrubia",
+      "militao"
+     ]
+    },
+    {
+     "icon": "📉",
+     "title": "¿Larrubia como fichaje especulativo?",
+     "question": "¿Va a subir de valor?",
+     "table": {
+      "head": [
+       "Día",
+       "Valor",
+       "Cambio"
+      ],
+      "rows": [
+       [
+        "10/16",
+        "15,07 M€",
+        "-0,7%"
+       ],
+       [
+        "10/17",
+        "15,00 M€",
+        "-0,5%"
+       ],
+       [
+        "10/18",
+        "14,81 M€",
+        "-1,2%"
+       ],
+       [
+        "10/19",
+        "14,61 M€",
+        "-1,4%"
+       ],
+       [
+        "10/20",
+        "14,41 M€",
+        "-1,3%"
+       ]
+      ]
+     },
+     "points": [
+      "Valía 56,3 M€ el 12 de agosto y hoy 14,4 M€ (-74%). Sigue cayendo entre un 1% y un 1,4% al día, sin frenar: pierde unos 170.000 € diarios.",
+      "Los centrocampistas con una media parecida a la suya (2,9 a 3,6) valen de mediana 4,8 M€, y él vale el triple: todavía tiene recorrido a la baja.",
+      "Los centrocampistas que suben más de un 5% en la semana tienen medias de 5,8 o más. Larrubia está en 3,22 (puesto 169).",
+      "Su xG (0,79) y su xA (0,83) sin goles ni asistencias indican que algo debería llegar, pero son 0,2 por 90 minutos: no le cambia el perfil.",
+      "Calendario regular: Alavés (fuera), Betis (fuera), Racing (en casa), Osasuna (fuera) y Athletic (en casa)."
+     ],
+     "conclusion": "No es buena especulación ahora. Lo reconsideraría si su valor deja de caer (cambios diarios cerca de 0) y encadena jornadas de 5 o más puntos.",
+     "playerIds": [
+      "larrubia"
+     ]
+    },
+    {
+     "icon": "🛡️",
+     "title": "Cláusulas de Koski e Ibáñez",
+     "question": "¿Cuánto subirlas? (pagas 1 € por cada 2 € de cláusula)",
+     "table": {
+      "head": [
+       "Jugador",
+       "Valor",
+       "Cláusula",
+       "Hoy / 7 d",
+       "Objetivo",
+       "Coste"
+      ],
+      "rows": [
+       [
+        "Koski",
+        "39,74 M€",
+        "= valor",
+        "+3,9% / +40,4%",
+        "~51,7 M€",
+        "~6 M€"
+       ],
+       [
+        "Ibáñez",
+        "19,45 M€",
+        "22,59 M€",
+        "+2,4% / +10,6%",
+        "~25,3 M€",
+        "~1,35 M€"
+       ]
+      ]
+     },
+     "points": [
+      "Koski es el más expuesto: su cláusula es igual a su valor y sube unos 1,5 M€ al día. Un rival que lo compre hoy gana dinero mañana.",
+      "Ibáñez tiene solo un 16% de margen y sube un 2,4% al día: su valor alcanza la cláusula en unos 6 días.",
+      "Una subida pequeña en Koski se la come en 2 o 3 días; por eso conviene dejarla un 30% por encima de su valor.",
+      "Si tu app tiene el \"doble blindaje\", que es gratis (24 o 48 horas), úsalo con los dos mientras tanto."
+     ],
+     "conclusion": "Con unos 9,4 M€ de caja (opción A + ventas), sube la cláusula de Koski a ~51,7 M€ (6 M€) y la de Ibáñez a ~25,3 M€ (1,35 M€). Te quedan ~2 M€ de colchón. Sin ventas, mete ~2 M€ solo en Koski.",
+     "playerIds": [
+      "koski",
+      "ibanez"
+     ]
+    },
+    {
+     "icon": "👀",
+     "title": "Bernardo y Bartra: los mantienes",
+     "question": "¿Qué tiene que pasar para que suban?",
+     "table": {
+      "head": [
+       "Jugador",
+       "Valor",
+       "7 días",
+       "30 días",
+       "Titularidad",
+       "xG+xA"
+      ],
+      "rows": [
+       [
+        "Bernardo",
+        "23,27 M€",
+        "-12,1%",
+        "-38,6%",
+        "40%",
+        "0,37 en 296'"
+       ],
+       [
+        "Bartra",
+        "20,96 M€",
+        "-11,8%",
+        "-46,4%",
+        "50%",
+        "0,23 en 333'"
+       ]
+      ]
+     },
+     "points": [
+      "En LaLiga Fantasy el valor sube cuando el jugador juega y puntúa: los dos necesitan minutos y jornadas de 5 o más puntos.",
+      "Bernardo lleva 57 días bajando. La señal de cambio sería que entre en el once del Real Madrid dos jornadas seguidas.",
+      "Bartra tiene un 50% de probabilidad de jugar en Vigo. Si vuelve a ser titular, su valor debería estabilizarse."
+     ],
+     "conclusion": "Decisión tuya: se quedan. Vigilo cada día su valor, sus minutos y sus puntos, y te aviso en cuanto la tendencia cambie.",
+     "playerIds": [
+      "bernardo-silva",
+      "bartra"
+     ]
+    }
+   ]
   }
  },
  "bids": [

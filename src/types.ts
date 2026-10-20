@@ -118,11 +118,30 @@ export interface ReportItem {
   playerId?: string
 }
 
+/** A data-backed answer to one decision (captain, a signing, clauses...). */
+export interface Analysis {
+  icon: string
+  title: string
+  /** The decision being analysed, as a question. */
+  question?: string
+  table?: {
+    head: string[]
+    rows: (string | number)[][]
+    /** Row index to highlight as the recommended option. */
+    pick?: number
+  }
+  points: string[]
+  conclusion: string
+  playerIds?: string[]
+}
+
 export interface Report {
   date: string
   title: string
   summary: string
   sections: { title: string; icon: string; items: ReportItem[] }[]
+  /** Detailed reasoning with tables, shown before the action lists. */
+  analyses?: Analysis[]
   /** playerId -> recommendation for that day */
   players: Record<string, PlayerRec>
   lineup?: { formation: string; ids: string[]; note?: string }

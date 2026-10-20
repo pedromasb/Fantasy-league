@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { AnalysisCard } from '../components/AnalysisCard'
 import { IconChevron } from '../components/Icons'
 import { Avatar, Chips, Empty, PosBadge, Section } from '../components/ui'
 import { VerdictBadge } from '../components/Verdict'
@@ -68,6 +69,14 @@ export function Report() {
         <span className="eyebrow">Resumen</span>
         <p>{report.summary}</p>
       </div>
+
+      {report.analyses && report.analyses.length > 0 && (
+        <Section title="🔍 Análisis" sub="Cada decisión con sus datos">
+          <div className="stack gap">
+            {report.analyses.map((a) => <AnalysisCard key={a.title} a={a} />)}
+          </div>
+        </Section>
+      )}
 
       {report.sections.map((sec) => (
         <Section key={sec.title} title={`${sec.icon} ${sec.title}`}>
