@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-21T15:24:36.543Z",
+  "updated": "2026-10-21T15:26:20.094Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -2979,7 +2979,7 @@
     "2026-10-21": {
       "date": "2026-10-21",
       "title": "Vende a Militão, Serrano y Raba y puja por Hugo Álvarez",
-      "summary": "Luiz Felipe vendido (804.165 €): tienes 1,43 M€. Valores de hoy: Koski 41,33 M€ (+4%), Hugo Álvarez 5,11 M€ (+2,6%), Raba -0,1% (segundo día bajando). Plan: vende a Militão (5,93 M€), Nico Serrano (0,58 M€) y Raba (0,80 M€) y puja 5,45 M€ por Hugo Álvarez; te quedan ~3,3 M€ para la cláusula de Koski, que tiene un 15,5% de margen. Capitán: Unai Simón.",
+      "summary": "Luiz Felipe vendido por 760.000 €: tienes 1,39 M€. Valores de hoy: Koski 41,33 M€ (+4%), Hugo Álvarez 5,11 M€ (+2,6%), Raba -0,1% (segundo día bajando). Plan: vende a Militão (5,93 M€), Nico Serrano (0,58 M€) y Raba (0,80 M€) y puja 5,45 M€ por Hugo Álvarez; te quedan ~3,25 M€ para la cláusula de Koski, que tiene un 15,5% de margen. Capitán: Unai Simón.",
       "analyses": [
         {
           "icon": "📈",
@@ -3086,28 +3086,28 @@
             "rows": [
               [
                 "Caja tras vender a Luiz Felipe",
-                "+0,80 M€ (hecho)",
-                "1,43 M€"
+                "+0,76 M€ (hecho)",
+                "1,39 M€"
               ],
               [
                 "Vender a Militão (10% de jugar; +3,2% hoy)",
                 "+5,93 M€",
-                "7,37 M€"
+                "7,32 M€"
               ],
               [
                 "Vender a Nico Serrano (20% de jugar)",
                 "+0,58 M€",
-                "7,95 M€"
+                "7,91 M€"
               ],
               [
                 "Vender a Raba (2 días bajando)",
                 "+0,80 M€",
-                "8,75 M€"
+                "8,70 M€"
               ],
               [
                 "Puja por Hugo Álvarez",
                 "-5,45 M€",
-                "3,30 M€"
+                "3,25 M€"
               ]
             ],
             "pick": 4
@@ -3116,10 +3116,10 @@
             "Koski vale hoy 41,33 M€ (+4% en el día, +38% en la semana). Su cláusula (47,74 M€) tiene un 15,5% de margen: a este ritmo la alcanzaría en unos 4 días.",
             "Ibáñez vale 19,92 M€ (+2,4%) y su cláusula (26,59 M€) tiene un 33,5% de margen: tranquilo varias semanas.",
             "Militão sube (+3,2% hoy, +8,3% en la semana), pero Hugo sube más del triple de rápido (+27% en la semana) y además puntúa. Cambiar uno por otro mejora la especulación y el once.",
-            "Los ~3,3 M€ que sobran sirven para subir la cláusula de Koski en cuanto su margen baje del 10% (dentro de 2 o 3 días), sin tener que vender a nadie más.",
+            "Los ~3,25 M€ que sobran sirven para subir la cláusula de Koski en cuanto su margen baje del 10% (dentro de 2 o 3 días), sin tener que vender a nadie más.",
             "Si pierdes la puja, los 5,45 M€ vuelven: sube ya la cláusula de Koski a ~55 M€."
           ],
-          "conclusion": "Vende a Militão, Nico Serrano y Raba y puja 5,45 M€ por Hugo Álvarez (máximo 5,7 M€). Te quedan unos 3,3 M€ para la próxima subida de cláusula de Koski.",
+          "conclusion": "Vende a Militão, Nico Serrano y Raba y puja 5,45 M€ por Hugo Álvarez (máximo 5,7 M€). Te quedan unos 3,25 M€ para la próxima subida de cláusula de Koski.",
           "playerIds": [
             "koski",
             "militao",
@@ -3258,7 +3258,7 @@
           "icon": "🚨",
           "items": [
             {
-              "text": "✅ Hecho: cláusulas de Koski (47,74 M€) e Ibáñez (26,59 M€) y venta de Luiz Felipe (804.165 €).",
+              "text": "✅ Hecho: cláusulas de Koski (47,74 M€) e Ibáñez (26,59 M€) y venta de Luiz Felipe (760.000 €).",
               "playerId": "koski"
             },
             {
@@ -3266,7 +3266,7 @@
               "playerId": "militao"
             },
             {
-              "text": "2. Puja 5,45 M€ por Hugo Álvarez (máximo 5,7 M€). Te quedan ~3,3 M€.",
+              "text": "2. Puja 5,45 M€ por Hugo Álvarez (máximo 5,7 M€). Te quedan ~3,25 M€.",
               "playerId": "hugo-alvarez"
             },
             {
@@ -3498,8 +3498,8 @@
     }
   },
   "bids": [],
-  "cash": 1430831,
-  "budget": 1430831,
+  "cash": 1386666,
+  "budget": 1386666,
   "budgetDate": "2026-10-21",
   "ledger": [
     {
@@ -3695,7 +3695,7 @@
       "playerId": "luiz-felipe",
       "ffId": 5705,
       "playerName": "Luiz Felipe",
-      "amount": 804165,
+      "amount": 760000,
       "counterpart": "LALIGA"
     }
   ],
