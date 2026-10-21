@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-21T15:26:20.094Z",
+  "updated": "2026-10-21T15:33:06.699Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -2978,8 +2978,8 @@
     },
     "2026-10-21": {
       "date": "2026-10-21",
-      "title": "Vende a Militão, Serrano y Raba y puja por Hugo Álvarez",
-      "summary": "Luiz Felipe vendido por 760.000 €: tienes 1,39 M€. Valores de hoy: Koski 41,33 M€ (+4%), Hugo Álvarez 5,11 M€ (+2,6%), Raba -0,1% (segundo día bajando). Plan: vende a Militão (5,93 M€), Nico Serrano (0,58 M€) y Raba (0,80 M€) y puja 5,45 M€ por Hugo Álvarez; te quedan ~3,25 M€ para la cláusula de Koski, que tiene un 15,5% de margen. Capitán: Unai Simón.",
+      "title": "Recio por Sergio Gómez, y con lo que sobra, Hugo Álvarez",
+      "summary": "Decides quedarte a Raba y a Militão y fichar a Recio. Con 1,39 M€ no llega (Recio vale 3,78 M€) y tienes que empezar la jornada 10 en positivo (viernes 23, 21:00). La mejor forma de pagarlo es vender a Sergio Gómez (12,98 M€): Recio lo sustituye en defensa con más media (3,33 frente a 2,89) y la misma probabilidad de jugar, y su valor sube mientras el de Gómez cae. Así te sobra para pujar 5,45 M€ por Hugo Álvarez y aún te quedan ~5 M€ para la cláusula de Koski. Capitán: Unai Simón.",
       "analyses": [
         {
           "icon": "📈",
@@ -3062,9 +3062,9 @@
             "El riesgo: no es fijo. Juega unos 49 minutos por partido y tiene un 50% de probabilidad de jugar la jornada 10. Por eso lo veo más como inversión que como titular seguro.",
             "Rival J10 fácil: el Betis concede 1,80 xGA por partido, de los peores de la liga. Después viene Rayo (dif. 3) y Levante en casa (dif. 1).",
             "Ya tiene una puja de otro mánager y hoy vale 5,11 M€: puja 5,45 M€ (+7% sobre su valor). Como mucho, 5,7 M€ (+12%).",
-            "Recio es la alternativa barata en defensa (70%, 3,33 de media, +64% en 30 días), pero lleva dos días sin subir (-0,2%). Quagliata y Bellerín bajan de valor; Canales cae un 44% en el mes."
+            "Recio, el otro fichaje del día, es para la defensa: 70% de jugar, 3,33 de media y +64% en 30 días. Quagliata y Bellerín bajan de valor; Canales cae un 44% en el mes."
           ],
-          "conclusion": "Puja por Hugo Álvarez: 5,45 M€ (máximo 5,7 M€), pagándolo con la venta de Militão, Nico Serrano y Raba. Es la mejor mezcla de revalorización y puntos del mercado.",
+          "conclusion": "Puja por Hugo Álvarez: 5,45 M€ (máximo 5,7 M€), pagándolo con la venta de Sergio Gómez. Es la mejor mezcla de revalorización y puntos del mercado.",
           "playerIds": [
             "hugo-alvarez",
             "recio",
@@ -3074,65 +3074,108 @@
           ]
         },
         {
-          "icon": "🛡️",
-          "title": "Caja y cláusulas: cómo pagar a Hugo Álvarez",
-          "question": "¿De dónde sale la puja por Hugo y cómo quedan las cláusulas con los valores de hoy?",
+          "icon": "💶",
+          "title": "Fichar a Recio: cómo pagarlo",
+          "question": "Con 1,39 M€ de caja, sin vender a Raba ni a Militão, ¿cómo pago a Recio y empiezo la jornada en positivo?",
           "table": {
             "head": [
-              "Concepto",
-              "Importe",
-              "Caja después"
+              "Opción",
+              "Vendes",
+              "Caja tras fichar a Recio (3,85 M€)",
+              "Hugo Álvarez (5,45 M€)",
+              "Caja final",
+              "Efecto en el once"
             ],
             "rows": [
               [
-                "Caja tras vender a Luiz Felipe",
-                "+0,76 M€ (hecho)",
-                "1,39 M€"
+                "A. Sergio Gómez por Recio",
+                "Sergio Gómez (12,98 M€) + Nico Serrano (0,58 M€)",
+                "11,10 M€",
+                "Sí",
+                "5,65 M€",
+                "Mejora: Recio 3,33 de media frente a 2,89, ambos 70% de jugar"
               ],
               [
-                "Vender a Militão (10% de jugar; +3,2% hoy)",
-                "+5,93 M€",
-                "7,32 M€"
+                "B. Saliba",
+                "Saliba (5,43 M€) + Nico Serrano (0,58 M€)",
+                "3,55 M€",
+                "No",
+                "3,55 M€",
+                "Pierdes un medio: 5-3-2 con Recio y Bartra"
               ],
               [
-                "Vender a Nico Serrano (20% de jugar)",
-                "+0,58 M€",
-                "7,91 M€"
-              ],
-              [
-                "Vender a Raba (2 días bajando)",
-                "+0,80 M€",
-                "8,70 M€"
-              ],
-              [
-                "Puja por Hugo Álvarez",
-                "-5,45 M€",
-                "3,25 M€"
+                "C. Solo Nico Serrano",
+                "Nico Serrano (0,58 M€)",
+                "-1,88 M€",
+                "No",
+                "-1,88 M€",
+                "Sin puntos en la jornada 10 si no vendes a alguien más antes del viernes"
               ]
             ],
-            "pick": 4
+            "pick": 0
           },
           "points": [
-            "Koski vale hoy 41,33 M€ (+4% en el día, +38% en la semana). Su cláusula (47,74 M€) tiene un 15,5% de margen: a este ritmo la alcanzaría en unos 4 días.",
-            "Ibáñez vale 19,92 M€ (+2,4%) y su cláusula (26,59 M€) tiene un 33,5% de margen: tranquilo varias semanas.",
-            "Militão sube (+3,2% hoy, +8,3% en la semana), pero Hugo sube más del triple de rápido (+27% en la semana) y además puntúa. Cambiar uno por otro mejora la especulación y el once.",
-            "Los ~3,25 M€ que sobran sirven para subir la cláusula de Koski en cuanto su margen baje del 10% (dentro de 2 o 3 días), sin tener que vender a nadie más.",
-            "Si pierdes la puja, los 5,45 M€ vuelven: sube ya la cláusula de Koski a ~55 M€."
+            "Recio y Sergio Gómez son defensas de un perfil parecido, pero Recio sale mejor en todo: 3,33 de media frente a 2,89, mismo 70% de jugar y misma dificultad de rival en la J10 (3).",
+            "En valor no hay color: Recio +11,3% en la semana y +64% en el mes; Sergio Gómez -7,8% y -21,5%, con 11 días seguidos bajando.",
+            "Sergio Gómez da más asistencias esperadas (0,84 xA frente a 0,02), pero eso no se ha traducido en puntos.",
+            "Saliba es más barato de vender, pero te deja sin cuarto centrocampista y sin dinero para Hugo.",
+            "La opción C no vale: Raba (0,80 M€) y Galdin (0,57 M€) tampoco alcanzarían, y empezar la jornada en negativo te deja sin puntos.",
+            "Recio no tiene más pujas: con 3,85 M€ (+2% sobre su valor) debería bastar."
           ],
-          "conclusion": "Vende a Militão, Nico Serrano y Raba y puja 5,45 M€ por Hugo Álvarez (máximo 5,7 M€). Te quedan unos 3,25 M€ para la próxima subida de cláusula de Koski.",
+          "conclusion": "Opción A: vende a Sergio Gómez y a Nico Serrano, puja 3,85 M€ por Recio y 5,45 M€ por Hugo Álvarez. Terminas con ~5,6 M€ (o ~11 M€ si pierdes a Hugo), suficiente para subir la cláusula de Koski cuando haga falta.",
           "playerIds": [
-            "koski",
-            "militao",
-            "luiz-felipe",
+            "recio",
+            "sergio-gomez",
+            "saliba",
             "nico-serrano",
-            "hugo-alvarez",
-            "ibanez"
+            "hugo-alvarez"
+          ]
+        },
+        {
+          "icon": "🧤",
+          "title": "Militão: te lo quedas",
+          "question": "¿Qué riesgo tiene mantenerlo a la espera de minutos?",
+          "table": {
+            "head": [
+              "Dato",
+              "Militão"
+            ],
+            "rows": [
+              [
+                "Valor hoy",
+                "5,93 M€"
+              ],
+              [
+                "Valor 1d / 7d / 30d",
+                "+3,2% / +8,3% / +27,3%"
+              ],
+              [
+                "Días seguidos subiendo",
+                "4"
+              ],
+              [
+                "Prob. jugar J10",
+                "10% (Real Madrid en el Camp Nou)"
+              ],
+              [
+                "Minutos esta temporada",
+                "2"
+              ]
+            ]
+          },
+          "points": [
+            "Su valor ya sube sin jugar (+27% en el mes): el mercado cuenta con su vuelta. Si empieza a tener minutos, puede subir bastante más.",
+            "El riesgo: mientras no juegue no da puntos, y si su vuelta se retrasa el valor puede frenarse. Lo vigilo cada día."
+          ],
+          "conclusion": "Decisión tuya: se queda. Lo dejo en vigilancia de valor y minutos.",
+          "playerIds": [
+            "militao"
           ]
         },
         {
           "icon": "🎯",
           "title": "Raba: qué esperar",
-          "question": "Lleva dos días bajando: ¿lo vendo?",
+          "question": "Lleva dos días bajando: ¿vender o esperar?",
           "table": {
             "head": [
               "Dato",
@@ -3170,7 +3213,7 @@
             "Venderlo hoy te cuesta solo 1.073 € respecto a lo que pagaste, y te da 0,80 M€ más para la puja por Hugo.",
             "Para puntos no aporta: un 50% de jugar y 1,33 de media, sin hueco en el once por delante de Jutglà y Cepeda."
           ],
-          "conclusion": "Véndelo hoy: la especulación no ha salido y casi no pierdes dinero. Si prefieres esperar, el riesgo es pequeño, pero ese dinero rinde más en Hugo Álvarez.",
+          "conclusion": "Decides esperar: de acuerdo. El riesgo es pequeño (ha perdido 1.073 € desde que lo compraste). Lo vigilo cada día y te aviso si la caída se acelera.",
           "playerIds": [
             "raba"
           ]
@@ -3178,7 +3221,7 @@
         {
           "icon": "©️",
           "title": "Once y capitán de la jornada 10",
-          "question": "¿Cambia el once con Raba y, si llega, con Hugo?",
+          "question": "¿Cómo queda el once con Recio y, si llega, con Hugo?",
           "table": {
             "head": [
               "Jugador",
@@ -3203,6 +3246,20 @@
                 "1"
               ],
               [
+                "Recio (DEF)",
+                "3,33",
+                "70%",
+                "Alavés ✈️ (genera 1,32 xG/p)",
+                "3"
+              ],
+              [
+                "Bartra (DEF)",
+                "3,56",
+                "50%",
+                "Celta ✈️ (genera 1,09 xG/p)",
+                "2"
+              ],
+              [
                 "Hugo Álvarez (MED)",
                 "4,33",
                 "50%",
@@ -3210,25 +3267,11 @@
                 "2"
               ],
               [
-                "Saliba (MED)",
-                "3,17",
-                "50%",
-                "Valencia ✈️ (concede 1,53 xGA/p)",
-                "4"
-              ],
-              [
                 "Bernardo Silva (MED)",
                 "2,67",
                 "sin dato (40% titularidad)",
                 "Barcelona ✈️ (concede 1,12 xGA/p)",
                 "5"
-              ],
-              [
-                "Raba (DEL)",
-                "1,33",
-                "50%",
-                "Villarreal 🏠",
-                "3"
               ]
             ],
             "pick": 0
@@ -3236,11 +3279,11 @@
           "points": [
             "Capitán: Unai Simón. Es el que más seguro juega (95%) y el Getafe tiene el peor ataque de la liga (0,77 xG por partido).",
             "El Athletic juega el aplazado en Levante el miércoles 21: si el jueves hay dudas con Unai Simón, el capitán pasa a Koski (Málaga en casa, dificultad 1).",
-            "Si ganas a Hugo, entra en el once por Bernardo: más media (4,33 frente a 2,67) y un rival mucho más fácil (Betis en casa frente a Barcelona fuera).",
-            "Bartra sigue con un 50%. Si el viernes no está confirmado, no tienes otro defensor que juegue: pasa a 3-5-2 con Bernardo y Hugo en el medio (o 3-4-3 con Raba arriba si no llega Hugo).",
-            "Raba no entra en el once (50% de jugar y 1,33 de media): si lo vendes, no pierdes puntos."
+            "Recio entra en la defensa por Sergio Gómez: Koski, Mojica, Recio y Bartra.",
+            "Si ganas a Hugo, entra en el once por Bernardo: más media (4,33 frente a 2,67) y un rival mucho más fácil.",
+            "Bartra sigue con un 50%. Si el viernes no está confirmado, pasa a 3-5-2 con Hugo y Bernardo en el medio (o 3-4-3 con Raba arriba si no llega Hugo). Militão (10%) no es alternativa."
           ],
-          "conclusion": "Once 4-4-2 con capitán Unai Simón. Si ganas a Hugo, entra por Bernardo. Si Bartra no juega, 3-5-2.",
+          "conclusion": "Once 4-4-2: Unai Simón; Koski, Mojica, Recio, Bartra; Ibáñez, Unai López, Saliba, Bernardo (Hugo si llega); Jutglà, Cepeda. Capitán: Unai Simón.",
           "playerIds": [
             "unai-simon",
             "koski",
@@ -3262,16 +3305,20 @@
               "playerId": "koski"
             },
             {
-              "text": "1. Vende a Militão (5,93 M€), Nico Serrano (0,58 M€) y Raba (0,80 M€): ninguno juega de titular.",
-              "playerId": "militao"
+              "text": "1. Vende a Sergio Gómez (12,98 M€) y a Nico Serrano (0,58 M€).",
+              "playerId": "sergio-gomez"
             },
             {
-              "text": "2. Puja 5,45 M€ por Hugo Álvarez (máximo 5,7 M€). Te quedan ~3,25 M€.",
+              "text": "2. Puja 3,85 M€ por Recio (máximo 4 M€).",
+              "playerId": "recio"
+            },
+            {
+              "text": "3. Puja 5,45 M€ por Hugo Álvarez (máximo 5,7 M€).",
               "playerId": "hugo-alvarez"
             },
             {
-              "text": "3. Guarda ese colchón para la cláusula de Koski: su margen ya es del 15,5% y baja un 4% cada día.",
-              "playerId": "koski"
+              "text": "4. Raba y Militão se quedan, como decides. Te quedan ~5,6 M€ para la cláusula de Koski (margen del 15,5%).",
+              "playerId": "militao"
             }
           ]
         },
@@ -3280,10 +3327,10 @@
           "icon": "📋",
           "items": [
             {
-              "text": "4-4-2: Unai Simón; Koski, Mojica, Sergio Gómez, Bartra; Ibáñez, Unai López, Saliba, Bernardo; Jutglà, Cepeda. Entrenador: Sánchez Flores."
+              "text": "4-4-2: Unai Simón; Koski, Mojica, Recio, Bartra; Ibáñez, Unai López, Saliba, Bernardo; Jutglà, Cepeda. Entrenador: Sánchez Flores."
             },
             {
-              "text": "Capitán: Unai Simón (Koski si hay dudas tras el partido del miércoles en Levante).",
+              "text": "Capitán: Unai Simón (Koski si hay dudas tras el partido de hoy en Levante).",
               "playerId": "unai-simon"
             },
             {
@@ -3291,7 +3338,7 @@
               "playerId": "hugo-alvarez"
             },
             {
-              "text": "Bartra (50%): confírmalo el viernes. Si no juega, 3-5-2 con Bernardo y Hugo (o 3-4-3 con Raba si no llega Hugo).",
+              "text": "Bartra (50%): confírmalo el viernes. Si no juega, 3-5-2 con Hugo y Bernardo (o 3-4-3 con Raba).",
               "playerId": "bartra"
             }
           ]
@@ -3304,7 +3351,7 @@
               "text": "Casi todo el mercado baja: Canales -12% en la semana, Mario Martín -12%, Pablo Ramón -7%, Moncayola -5%. Si te interesa alguno, espera, que saldrá más barato."
             },
             {
-              "text": "Recio es la opción barata en defensa si Bartra se lesiona: 70% de jugar, 3,33 de media, +67% en 30 días.",
+              "text": "Recio es el fichaje para la defensa: 70% de jugar, 3,33 de media y +64% en 30 días. Sustituye a Sergio Gómez.",
               "playerId": "recio"
             },
             {
@@ -3334,12 +3381,13 @@
           "verdict": "pujar",
           "maxBid": 5700000,
           "confidence": "media",
-          "text": "El que más sube del mercado (+27% en 7 días, 31 días seguidos al alza) y 4,33 de media. Hoy vale 5,11 M€. Juega a ratos (50% para la J10), pero suma por asistencias (1,51 xA). Puja 5,45 M€, como mucho 5,7 M€."
+          "text": "El que más sube del mercado (+27% en 7 días, 31 días seguidos al alza) y 4,33 de media. Hoy vale 5,11 M€. Se paga con la venta de Sergio Gómez. Puja 5,45 M€, como mucho 5,7 M€."
         },
         "recio": {
-          "verdict": "vigilar",
+          "verdict": "fichar",
+          "maxBid": 4000000,
           "confidence": "media",
-          "text": "Buena opción barata en defensa (70% de jugar, 3,33 de media, +67% en 30 días), pero hoy deja de subir. Solo si Bartra se cae para varias semanas."
+          "text": "Sustituye a Sergio Gómez: más media (3,33 frente a 2,89), mismo 70% de jugar y su valor sube (+11% en la semana, +64% en el mes) mientras el de Gómez cae. Puja 3,85 M€, como mucho 4 M€."
         },
         "quagliata": {
           "verdict": "evitar",
@@ -3397,9 +3445,9 @@
           "text": "Entrenador con solo 4 puntos y más caro (1,19 M€)."
         },
         "raba": {
-          "verdict": "vender",
+          "verdict": "banquillo",
           "confidence": "media",
-          "text": "Dos días seguidos bajando (hoy 796.038 €, -0,1%). Venderlo te cuesta 1.073 € y no juega de titular: mejor ese dinero en Hugo Álvarez."
+          "text": "Decides esperar. Dos días bajando, pero poco (-0,1% hoy): ha perdido 1.073 € desde la compra. Banquillo en la J10; lo vigilo cada día."
         },
         "unai-simon": {
           "verdict": "alinear",
@@ -3417,9 +3465,9 @@
           "text": "Titular (80%), aunque visita al Athletic (dificultad 4) y su valor sigue bajando (-1,3% hoy, -8,4% en la semana)."
         },
         "sergio-gomez": {
-          "verdict": "alinear",
+          "verdict": "vender",
           "confidence": "media",
-          "text": "Titular (70%) ante el Levante (dificultad 3). Su valor baja (-1,4% hoy, -7,8% en la semana)."
+          "text": "Véndelo para pagar a Recio: 2,89 de media y valor en caída (11 días seguidos, -7,8% en la semana, -21,5% en el mes). Te da 12,98 M€."
         },
         "bartra": {
           "verdict": "mantener",
@@ -3439,7 +3487,7 @@
         "saliba": {
           "verdict": "alinear",
           "confidence": "media",
-          "text": "Titular por falta de alternativas: 50% de jugar y visita al Valencia (dificultad 4)."
+          "text": "Titular en el 4-4-2 por falta de alternativas: 50% de jugar y visita al Valencia (dificultad 4). Si ganas a Hugo, sigue en el once."
         },
         "bernardo-silva": {
           "verdict": "mantener",
@@ -3462,9 +3510,9 @@
           "text": "Entrenador. El Alavés recibe al Málaga: buen partido para sumar."
         },
         "militao": {
-          "verdict": "vender",
-          "confidence": "alta",
-          "text": "Véndelo hoy: 10% de jugar. Sube (+3,2% hoy), así que vendes al alza a 5,93 M€, pero Hugo Álvarez sube el triple y puntúa."
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Decisión tuya: se queda, esperando que coja minutos. Su valor ya sube sin jugar (+3,2% hoy, +27% en el mes). Riesgo: 10% de jugar la J10 y no puntúa mientras no juegue."
         },
         "nico-serrano": {
           "verdict": "vender",
@@ -3483,7 +3531,7 @@
           "unai-simon",
           "koski",
           "mojica",
-          "sergio-gomez",
+          "recio",
           "bartra",
           "ibanez",
           "unai-lopez",
@@ -3493,7 +3541,7 @@
           "cepeda",
           "sanchez-flores"
         ],
-        "note": "Capitán: Unai Simón (Koski si hay dudas tras el partido de hoy en Levante). Si ganas a Hugo Álvarez, entra por Bernardo. Si Bartra no juega, 3-5-2."
+        "note": "Capitán: Unai Simón (Koski si hay dudas tras el partido de hoy en Levante). Recio por Sergio Gómez. Si ganas a Hugo Álvarez, entra por Bernardo. Si Bartra no juega, 3-5-2."
       }
     }
   },
