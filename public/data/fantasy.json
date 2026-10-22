@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-21T15:33:06.699Z",
+  "updated": "2026-10-22T15:05:26.629Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -1266,6 +1266,134 @@
           "tone": "good"
         }
       ]
+    },
+    "manolo-gonzalez": {
+      "id": "manolo-gonzalez",
+      "name": "Manolo González",
+      "pos": "COA",
+      "team": "Espanyol",
+      "fullName": "Manolo González",
+      "statsUpdated": "2026-10-22"
+    },
+    "benat-entrenador": {
+      "id": "benat-entrenador",
+      "name": "Beñat",
+      "pos": "COA",
+      "fullName": "Beñat",
+      "statsUpdated": "2026-10-22"
+    },
+    "iker-munoz": {
+      "id": "iker-munoz",
+      "name": "Iker Muñoz",
+      "pos": "DEF",
+      "team": "Sevilla",
+      "fullName": "Iker Muñoz",
+      "ffId": 16975,
+      "statsUpdated": "2026-10-22"
+    },
+    "fran-gonzalez": {
+      "id": "fran-gonzalez",
+      "name": "Fran González",
+      "pos": "GK",
+      "team": "Sevilla",
+      "fullName": "Fran González",
+      "ffId": 11554,
+      "statsUpdated": "2026-10-22"
+    },
+    "cuti-romero": {
+      "id": "cuti-romero",
+      "name": "Cuti Romero",
+      "pos": "DEF",
+      "team": "Atlético de Madrid",
+      "fullName": "Cristian Romero",
+      "ffId": 6310,
+      "statsUpdated": "2026-10-22",
+      "news": [
+        {
+          "date": "2026-10-22",
+          "text": "Lesionado: 0% de jugar la jornada 10. Su media (8,17) es de las mejores de la liga, pero cuesta 66 M€.",
+          "tone": "bad"
+        }
+      ]
+    },
+    "iker-monreal": {
+      "id": "iker-monreal",
+      "name": "Monreal",
+      "pos": "DEF",
+      "team": "Athletic Club",
+      "fullName": "Iker Monreal",
+      "ffId": 16350,
+      "statsUpdated": "2026-10-22"
+    },
+    "manu-hernando": {
+      "id": "manu-hernando",
+      "name": "Manu Hernando",
+      "pos": "DEF",
+      "team": "Racing de Santander",
+      "fullName": "Manu Hernando",
+      "ffId": 3836,
+      "statsUpdated": "2026-10-22"
+    },
+    "marc-casado": {
+      "id": "marc-casado",
+      "name": "M. Casadó",
+      "pos": "MID",
+      "team": "Deportivo",
+      "fullName": "Marc Casadó",
+      "ffId": 10217,
+      "statsUpdated": "2026-10-22",
+      "news": [
+        {
+          "date": "2026-10-22",
+          "text": "Lesionado: 0% de jugar la jornada 10.",
+          "tone": "bad"
+        }
+      ]
+    },
+    "belocian": {
+      "id": "belocian",
+      "name": "Belocian",
+      "pos": "DEF",
+      "team": "Racing de Santander",
+      "fullName": "Jeanuël Belocian",
+      "ffId": 11286,
+      "statsUpdated": "2026-10-22"
+    },
+    "villalibre": {
+      "id": "villalibre",
+      "name": "Villalibre",
+      "pos": "STR",
+      "team": "Racing de Santander",
+      "fullName": "Asier Villalibre",
+      "ffId": 3671,
+      "statsUpdated": "2026-10-22"
+    },
+    "isi": {
+      "id": "isi",
+      "name": "Isi",
+      "pos": "MID",
+      "team": "Rayo Vallecano",
+      "fullName": "Isi Palazón",
+      "ffId": 6957,
+      "statsUpdated": "2026-10-22"
+    },
+    "johaneko": {
+      "id": "johaneko",
+      "name": "Johaneko",
+      "pos": "DEF",
+      "team": "Athletic Club",
+      "fullName": "Johaneko Louis-Jean",
+      "ffId": 16229,
+      "statsUpdated": "2026-10-22"
+    },
+    "panach": {
+      "id": "panach",
+      "name": "Panach",
+      "pos": "DEF",
+      "team": "Valencia",
+      "fullName": "Alejandro Panach",
+      "ffId": 16017,
+      "statsUpdated": "2026-10-22"
     }
   },
   "markets": {
@@ -1680,6 +1808,200 @@
           17,
           7,
           3
+        ]
+      }
+    ],
+    "2026-10-22": [
+      {
+        "playerId": "manolo-gonzalez",
+        "value": 599626,
+        "price": 600080,
+        "points": 14,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "benat-entrenador",
+        "value": 631522,
+        "price": 633305,
+        "points": 16,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "iker-munoz",
+        "value": 566103,
+        "price": 565160,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "fran-gonzalez",
+        "value": 572111,
+        "price": 571418,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "cuti-romero",
+        "value": 64463440,
+        "price": 66201352,
+        "points": 49,
+        "status": "injured",
+        "bids": 0,
+        "average": 8.17,
+        "recent": [
+          11,
+          10,
+          7,
+          12,
+          7
+        ]
+      },
+      {
+        "playerId": "iker-monreal",
+        "value": 591826,
+        "price": 591955,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "manu-hernando",
+        "value": 1056885,
+        "price": 1076391,
+        "points": 8,
+        "status": "available",
+        "bids": 0,
+        "average": 1,
+        "recent": [
+          null,
+          -2,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "marc-casado",
+        "value": 3053665,
+        "price": 3137179,
+        "points": 9,
+        "status": "injured",
+        "bids": 0,
+        "average": 3,
+        "recent": [
+          6,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "belocian",
+        "value": 1430596,
+        "price": 1459842,
+        "points": 10,
+        "status": "available",
+        "bids": 0,
+        "average": 1.67,
+        "recent": [
+          8,
+          null,
+          -4,
+          1,
+          1
+        ]
+      },
+      {
+        "playerId": "villalibre",
+        "value": 1542366,
+        "price": 1582101,
+        "points": 11,
+        "status": "available",
+        "bids": 0,
+        "average": 1.22,
+        "recent": [
+          1,
+          3,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "playerId": "isi",
+        "value": 6929040,
+        "price": 6919592,
+        "points": 7,
+        "status": "available",
+        "bids": 1,
+        "average": 1.75,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          2
+        ]
+      },
+      {
+        "playerId": "johaneko",
+        "value": 841058,
+        "price": 833330,
+        "points": 19,
+        "status": "available",
+        "bids": 2,
+        "average": 2.38,
+        "recent": [
+          2,
+          -2,
+          3,
+          null,
+          7
+        ]
+      },
+      {
+        "playerId": "panach",
+        "value": 571424,
+        "price": 570703,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       }
     ]
@@ -2213,6 +2535,272 @@
           "status": "available",
           "clause": 797111,
           "clauseLockDays": 14
+        }
+      ]
+    },
+    "2026-10-22": {
+      "date": "2026-10-22",
+      "formation": "4-4-2",
+      "teamValue": 219544666,
+      "signings": "16/26",
+      "slots": [
+        {
+          "playerId": "unai-simon",
+          "starter": true,
+          "value": 38074813,
+          "points": 65,
+          "status": "available",
+          "average": 7.22,
+          "recent": [
+            4,
+            4,
+            8,
+            4,
+            11
+          ],
+          "clause": 49000001
+        },
+        {
+          "playerId": "koski",
+          "starter": true,
+          "value": 42879547,
+          "points": 56,
+          "status": "available",
+          "average": 6.22,
+          "recent": [
+            10,
+            6,
+            9,
+            3,
+            3
+          ],
+          "clause": 47740170,
+          "captain": true
+        },
+        {
+          "playerId": "mojica",
+          "starter": true,
+          "value": 12625643,
+          "points": 29,
+          "status": "available",
+          "average": 3.22,
+          "recent": [
+            3,
+            3,
+            9,
+            -2,
+            4
+          ],
+          "clause": 20000000
+        },
+        {
+          "playerId": "sergio-gomez",
+          "starter": true,
+          "value": 12835953,
+          "points": 26,
+          "status": "available",
+          "average": 2.89,
+          "recent": [
+            0,
+            9,
+            5,
+            1,
+            3
+          ],
+          "clause": 17500011
+        },
+        {
+          "playerId": "bartra",
+          "starter": true,
+          "value": 20152653,
+          "points": 32,
+          "status": "available",
+          "average": 3.56,
+          "recent": [
+            5,
+            null,
+            2,
+            null,
+            null
+          ],
+          "clause": 52000011
+        },
+        {
+          "playerId": "ibanez",
+          "starter": true,
+          "value": 20393901,
+          "points": 48,
+          "status": "available",
+          "average": 5.33,
+          "recent": [
+            -1,
+            4,
+            6,
+            4,
+            7
+          ],
+          "clause": 26592052
+        },
+        {
+          "playerId": "unai-lopez",
+          "starter": true,
+          "value": 21358442,
+          "points": 48,
+          "status": "available",
+          "average": 5.33,
+          "recent": [
+            1,
+            4,
+            4,
+            4,
+            5
+          ],
+          "clause": 28538664
+        },
+        {
+          "playerId": "bernardo-silva",
+          "starter": true,
+          "value": 22201074,
+          "points": 24,
+          "status": "available",
+          "average": 2.67,
+          "recent": [
+            4,
+            null,
+            8,
+            null,
+            1
+          ],
+          "clauseLockDays": 5
+        },
+        {
+          "playerId": "saliba",
+          "starter": true,
+          "value": 5335514,
+          "points": 19,
+          "status": "doubtful",
+          "average": 3.17,
+          "recent": [
+            2,
+            3,
+            6,
+            1,
+            2
+          ],
+          "clauseLockDays": 5
+        },
+        {
+          "playerId": "ferran-jutgla",
+          "starter": true,
+          "value": 12444952,
+          "points": 43,
+          "status": "available",
+          "average": 4.78,
+          "recent": [
+            12,
+            3,
+            5,
+            3,
+            9
+          ],
+          "clauseLockDays": 0
+        },
+        {
+          "playerId": "cepeda",
+          "starter": true,
+          "value": 2609668,
+          "points": 36,
+          "status": "available",
+          "average": 4,
+          "recent": [
+            2,
+            6,
+            5,
+            3,
+            4
+          ],
+          "clauseLockDays": 11
+        },
+        {
+          "playerId": "sanchez-flores",
+          "starter": true,
+          "value": 580867,
+          "points": 19,
+          "status": "available",
+          "average": 2.11,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "militao",
+          "starter": false,
+          "value": 6099231,
+          "points": 2,
+          "status": "available",
+          "average": 2,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            2
+          ],
+          "clause": 15151133
+        },
+        {
+          "playerId": "nico-serrano",
+          "starter": false,
+          "value": 584223,
+          "points": 2,
+          "status": "available",
+          "average": 0.4,
+          "recent": [
+            null,
+            null,
+            2,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "galdin",
+          "starter": false,
+          "value": 572625,
+          "points": 0,
+          "status": "available",
+          "average": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "raba",
+          "starter": false,
+          "value": 795560,
+          "points": 12,
+          "average": 1.33,
+          "recent": [
+            null,
+            null,
+            null,
+            7,
+            2
+          ],
+          "status": "available",
+          "clause": 797111,
+          "clauseLockDays": 13
         }
       ]
     }
@@ -3543,12 +4131,479 @@
         ],
         "note": "Capitán: Unai Simón (Koski si hay dudas tras el partido de hoy en Levante). Recio por Sergio Gómez. Si ganas a Hugo Álvarez, entra por Bernardo. Si Bartra no juega, 3-5-2."
       }
+    },
+    "2026-10-22": {
+      "date": "2026-10-22",
+      "title": "Johaneko como seguro para la defensa y vigilar la cláusula de Koski",
+      "summary": "Mercado flojo: casi todo baja o no juega. Tu puja por Johaneko tiene sentido: defensa barato (0,83 M€) que te cubre si Bartra no juega, y el Athletic recibe al Getafe, el peor ataque de la liga. Ojo: Saliba aparece como duda y Koski ya vale 42,88 M€, a un 11% de su cláusula. Capitán: Unai Simón.",
+      "analyses": [
+        {
+          "icon": "🛡️",
+          "title": "¿Merece la pena la puja por Johaneko?",
+          "question": "¿Es Johaneko el mejor defensa barato del mercado para cubrir a Bartra?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio",
+              "Media",
+              "Últimas 5",
+              "Titularidad",
+              "Rival J10",
+              "Valor 1d / 7d / 30d",
+              "Minutos"
+            ],
+            "rows": [
+              [
+                "Johaneko (Athletic)",
+                "0,83 M€",
+                "2,38",
+                "-2, 3, –, 7 (y -2 ayer en Levante)",
+                "50%",
+                "Getafe 🏠 · dif. 1 (genera 0,77 xG/p)",
+                "+0,9% / -1,0% / -27,9%",
+                "277"
+              ],
+              [
+                "Belocian (Racing)",
+                "1,46 M€",
+                "1,67",
+                "8, –, -4, 1, 1",
+                "60%",
+                "Espanyol 🏠 · dif. 2",
+                "-2,0% / -13,9% / -51,1%",
+                "389"
+              ],
+              [
+                "Manu Hernando (Racing)",
+                "1,08 M€",
+                "1,00",
+                "–, -2, –, –, –",
+                "40%",
+                "Espanyol 🏠 · dif. 2",
+                "-1,8% / -12,2% / -50,1%",
+                "406"
+              ],
+              [
+                "Cuti Romero (Atlético)",
+                "66,2 M€",
+                "8,17",
+                "11, 10, 7, 12, 7",
+                "lesionado",
+                "Deportivo 🏠 · 0% de jugar",
+                "-2,6% / -2,3% / +71,5%",
+                "432"
+              ],
+              [
+                "Iker Muñoz, Monreal, Panach",
+                "~0,57 M€",
+                "0",
+                "sin jugar",
+                "0%",
+                "—",
+                "+1 a +3% / semana",
+                "0"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Tu defensa es corta: Koski, Mojica, Sergio Gómez y Bartra (50%). Militão tiene un 10%. Si Bartra no juega, hoy no tienes cuarto defensa.",
+            "Johaneko es el único defensa barato que juega: 50% de titularidad y 7 puntos hace dos jornadas. Ayer jugó 45 minutos en Levante (-2).",
+            "El calendario le ayuda: el Getafe genera solo 0,77 xG por partido (el peor ataque de la liga) y el Athletic juega en casa.",
+            "Su valor ha dejado de caer (+0,9% hoy) tras perder un 28% en el mes: comprarlo ahora es barato.",
+            "Los defensas del Racing bajan en picado (-50% en el mes) y Cuti Romero está lesionado y cuesta 66 M€.",
+            "Tiene otras 2 pujas: hasta 0,95 M€ sigue siendo una compra barata."
+          ],
+          "conclusion": "Buena puja: Johaneko te da un cuarto defensa por menos de 1 M€ y con un partido fácil en la J10. Si tu oferta está por debajo de 0,9 M€, súbela hasta unos 0,95 M€.",
+          "playerIds": [
+            "johaneko",
+            "belocian",
+            "manu-hernando",
+            "cuti-romero",
+            "bartra"
+          ]
+        },
+        {
+          "icon": "🔐",
+          "title": "Cláusula de Koski: margen del 11%",
+          "question": "¿Cuándo y cuánto volver a subirla con la poca caja que hay?",
+          "table": {
+            "head": [
+              "Concepto",
+              "Importe"
+            ],
+            "rows": [
+              [
+                "Valor de Koski hoy",
+                "42,88 M€ (+3,8% en el día, +36% en la semana)"
+              ],
+              [
+                "Cláusula actual",
+                "47,74 M€ (margen +11,3%)"
+              ],
+              [
+                "Días hasta que su valor la alcance (a +3,8% diario)",
+                "~3 (domingo)"
+              ],
+              [
+                "Caja hoy",
+                "1,39 M€"
+              ],
+              [
+                "Caja si ganas a Johaneko (~0,9 M€)",
+                "~0,49 M€"
+              ],
+              [
+                "+ Vender a Nico Serrano (20% de jugar)",
+                "~1,07 M€"
+              ],
+              [
+                "Subida posible de cláusula con 1,07 M€",
+                "+2,14 M€ → 49,9 M€ (margen +16%)"
+              ]
+            ]
+          },
+          "points": [
+            "Koski sigue subiendo casi un 4% al día. El margen de la cláusula se reduce cada mañana: hoy es del 11%.",
+            "Con la caja actual solo se puede subir un poco. Vender a Nico Serrano (no juega) da algo más de aire.",
+            "Una buena jornada ante el Málaga (dificultad 1) puede acelerar aún más su subida."
+          ],
+          "conclusion": "Vende a Nico Serrano y, cuando se resuelva la puja por Johaneko, mete lo que sobre en la cláusula de Koski, dejando la caja en positivo. Revisamos su margen cada mañana.",
+          "playerIds": [
+            "koski",
+            "nico-serrano"
+          ]
+        },
+        {
+          "icon": "©️",
+          "title": "Once y capitán de la jornada 10",
+          "question": "Saliba aparece como duda y Bartra sigue al 50%: ¿cómo queda el once?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Media",
+              "Prob. J10",
+              "Rival J10",
+              "Dificultad"
+            ],
+            "rows": [
+              [
+                "Unai Simón (POR)",
+                "6,78",
+                "95%",
+                "Getafe 🏠 (genera 0,77 xG/p)",
+                "1"
+              ],
+              [
+                "Koski (DEF)",
+                "6,22",
+                "80%",
+                "Málaga 🏠",
+                "1"
+              ],
+              [
+                "Bartra (DEF)",
+                "3,56",
+                "50%",
+                "Celta ✈️",
+                "2"
+              ],
+              [
+                "Johaneko (DEF)",
+                "2,38",
+                "sin dato (50% titularidad)",
+                "Getafe 🏠",
+                "1"
+              ],
+              [
+                "Saliba (MED)",
+                "3,17",
+                "50% · duda",
+                "Valencia ✈️",
+                "4"
+              ],
+              [
+                "Raba (DEL)",
+                "1,33",
+                "50%",
+                "Villarreal 🏠",
+                "3"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Capitán: Unai Simón. Ayer jugó en Levante (perdieron 3-1), pero sigue al 95% para el domingo y el Getafe es el peor ataque de la liga.",
+            "Saliba ahora aparece como duda. Si no está confirmado, pasa a 4-3-3 con Raba arriba (50%, Villarreal en casa).",
+            "Si Bartra no juega y ganas a Johaneko, entra Johaneko y mantienes los 4 defensas.",
+            "Si fallan los dos (Bartra y Saliba), 4-3-3 con Johaneko y Raba."
+          ],
+          "conclusion": "Once 4-4-2 con capitán Unai Simón. Revisa el viernes a Bartra y a Saliba: Johaneko entra por Bartra y Raba por Saliba.",
+          "playerIds": [
+            "unai-simon",
+            "koski",
+            "bartra",
+            "johaneko",
+            "saliba",
+            "raba"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Plan para hoy",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "1. Mantén la puja por Johaneko; si es menor de 0,9 M€, súbela hasta ~0,95 M€.",
+              "playerId": "johaneko"
+            },
+            {
+              "text": "2. Vende a Nico Serrano (0,58 M€): 20% de jugar.",
+              "playerId": "nico-serrano"
+            },
+            {
+              "text": "3. Con lo que sobre, sube la cláusula de Koski (margen del 11%), siempre dejando la caja en positivo.",
+              "playerId": "koski"
+            },
+            {
+              "text": "4. No compres nada más: el resto del mercado baja de valor o no juega."
+            }
+          ]
+        },
+        {
+          "title": "Once para la jornada 10",
+          "icon": "📋",
+          "items": [
+            {
+              "text": "4-4-2: Unai Simón; Koski, Mojica, Sergio Gómez, Bartra; Ibáñez, Unai López, Saliba, Bernardo; Jutglà, Cepeda. Entrenador: Sánchez Flores."
+            },
+            {
+              "text": "Capitán: Unai Simón.",
+              "playerId": "unai-simon"
+            },
+            {
+              "text": "Bartra (50%): si no está confirmado el viernes, entra Johaneko (si lo ganas).",
+              "playerId": "bartra"
+            },
+            {
+              "text": "Saliba (duda): si no está confirmado, 4-3-3 con Raba.",
+              "playerId": "saliba"
+            }
+          ]
+        },
+        {
+          "title": "Mercado de hoy",
+          "icon": "📉",
+          "items": [
+            {
+              "text": "Los jugadores del Racing caen en picado: Villalibre -16% en la semana, Belocian -14%, Manu Hernando -12%."
+            },
+            {
+              "text": "Isi (6,92 M€, 1,75 de media, -5% en la semana) no merece la pena, aunque tiene una puja.",
+              "playerId": "isi"
+            },
+            {
+              "text": "Cuti Romero (66,2 M€) y Casadó están lesionados.",
+              "playerId": "cuti-romero"
+            },
+            {
+              "text": "Iker Muñoz, Fran González, Monreal y Panach no juegan. Entrenadores (Manolo González y Beñat): no mejoran a Sánchez Flores."
+            }
+          ]
+        },
+        {
+          "title": "Para mañana",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "Dime cuánto pujaste por Johaneko y si al final pujaste por Hugo Álvarez."
+            },
+            {
+              "text": "Pásame el mercado nuevo y, si cambia, tu caja."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "johaneko": {
+          "verdict": "pujar",
+          "maxBid": 950000,
+          "confidence": "media",
+          "text": "Defensa barato que juega (50% de titularidad, 7 puntos hace dos jornadas) y cubre a Bartra. En la J10 recibe al Getafe, el peor ataque de la liga. Hay 2 pujas más: hasta 0,95 M€."
+        },
+        "cuti-romero": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Lesionado (0% para la J10) y cuesta 66,2 M€. Su media (8,17) es top, pero es imposible con tu caja."
+        },
+        "isi": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "6,92 M€ por 1,75 de media y su valor baja (-5% en la semana, -18% en el mes)."
+        },
+        "belocian": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Racing en caída libre: -14% en la semana, -51% en el mes. 1,67 de media."
+        },
+        "manu-hernando": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Juega poco (40%), 1,0 de media y -50% de valor en el mes."
+        },
+        "villalibre": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "10% de jugar la J10, 1,22 de media y -54% de valor en el mes."
+        },
+        "marc-casado": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Lesionado y su valor cae un 55% en el mes."
+        },
+        "iker-munoz": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "No ha jugado: 0 puntos. Sube un 3% a la semana, poco para ocupar un hueco."
+        },
+        "fran-gonzalez": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Portero suplente del Sevilla: 5% de jugar."
+        },
+        "iker-monreal": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Canterano del Athletic sin minutos: 0 puntos."
+        },
+        "panach": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "No ha jugado en la temporada: 0 puntos."
+        },
+        "manolo-gonzalez": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Entrenador con 14 puntos, menos que Sánchez Flores (19)."
+        },
+        "benat-entrenador": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Entrenador con 16 puntos, por debajo de Sánchez Flores (19)."
+        },
+        "unai-simon": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Capitán de la J10: 95% de jugar, 6,78 de media y el Getafe tiene el peor ataque de la liga."
+        },
+        "koski": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (80%) ante el Málaga (dificultad 1). Vale 42,88 M€ (+3,8% hoy): su cláusula (47,74 M€) tiene solo un 11% de margen. Súbela en cuanto haya caja."
+        },
+        "mojica": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (80%), aunque visita al Athletic (dificultad 4). Sigue bajando (-0,8% hoy)."
+        },
+        "sergio-gomez": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (70%) ante el Levante (dificultad 3). Sigue bajando (-1,1% hoy, 12 días seguidos)."
+        },
+        "bartra": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. 50% de jugar; si no está confirmado el viernes, entra Johaneko. Sigue cayendo (-1,8% hoy)."
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (80%) ante el Málaga (dificultad 1) y subiendo (+2,4% hoy, 70 días seguidos). Cláusula con margen del 30%."
+        },
+        "unai-lopez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (80%) ante el Elche en casa (dificultad 1), 5,33 de media."
+        },
+        "saliba": {
+          "verdict": "alinear",
+          "confidence": "baja",
+          "text": "Ahora aparece como duda (50%) y visita al Valencia (dificultad 4). Si no está confirmado, Raba entra en un 4-3-3."
+        },
+        "bernardo-silva": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. Titular, aunque visita al Barcelona (dificultad 5). Sigue cayendo (-2,3% hoy, 22,2 M€)."
+        },
+        "ferran-jutgla": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (70%) ante el Betis (dificultad 2) y subiendo (+3,1% hoy, +10% en la semana)."
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (70%) en Vallecas (dificultad 3). Sigue subiendo (+5% en la semana)."
+        },
+        "sanchez-flores": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Entrenador. El Alavés recibe al Málaga el viernes."
+        },
+        "militao": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Decisión tuya: se queda. Su valor sigue subiendo sin jugar (+2,8% hoy, +11% en la semana)."
+        },
+        "raba": {
+          "verdict": "banquillo",
+          "confidence": "media",
+          "text": "Decides esperar. Tercer día bajando, pero muy poco (-0,1% al día): ha perdido 1.551 € desde la compra. Entra en el once si Saliba no juega."
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "confidence": "alta",
+          "text": "20% de jugar y 0,4 de media. Véndelo y usa ese dinero en la cláusula de Koski."
+        },
+        "galdin": {
+          "verdict": "banquillo",
+          "confidence": "media",
+          "text": "Portero suplente; cuesta poco y no merece la pena venderlo."
+        }
+      },
+      "lineup": {
+        "formation": "4-4-2",
+        "ids": [
+          "unai-simon",
+          "koski",
+          "mojica",
+          "sergio-gomez",
+          "bartra",
+          "ibanez",
+          "unai-lopez",
+          "saliba",
+          "bernardo-silva",
+          "ferran-jutgla",
+          "cepeda",
+          "sanchez-flores"
+        ],
+        "note": "Capitán: Unai Simón. Si Bartra no juega, Johaneko (si lo ganas). Si Saliba no juega, 4-3-3 con Raba."
+      }
     }
   },
-  "bids": [],
+  "bids": [
+    {
+      "playerId": "johaneko",
+      "amount": 833330,
+      "date": "2026-10-22",
+      "note": "importe por confirmar (pongo su precio)"
+    }
+  ],
   "cash": 1386666,
   "budget": 1386666,
-  "budgetDate": "2026-10-21",
+  "budgetDate": "2026-10-22",
   "ledger": [
     {
       "date": "2026-09-23",
