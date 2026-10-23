@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-22T15:05:26.629Z",
+  "updated": "2026-10-23T08:34:53.711Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -1394,6 +1394,122 @@
       "fullName": "Alejandro Panach",
       "ffId": 16017,
       "statsUpdated": "2026-10-22"
+    },
+    "agoume": {
+      "id": "agoume",
+      "name": "Agoumé",
+      "pos": "MID",
+      "team": "Sevilla",
+      "fullName": "Lucien Agoumé",
+      "ffId": 7249,
+      "statsUpdated": "2026-10-23"
+    },
+    "edin-terzic": {
+      "id": "edin-terzic",
+      "name": "Edin Terzić",
+      "pos": "COA",
+      "team": "Athletic Club",
+      "fullName": "Edin Terzić",
+      "statsUpdated": "2026-10-23"
+    },
+    "fernando-calero": {
+      "id": "fernando-calero",
+      "name": "F. Calero",
+      "pos": "DEF",
+      "team": "Málaga",
+      "fullName": "Fernando Calero",
+      "ffId": 5553,
+      "statsUpdated": "2026-10-23"
+    },
+    "manel-usedo": {
+      "id": "manel-usedo",
+      "name": "Manel Usedo",
+      "pos": "MID",
+      "team": "Levante",
+      "fullName": "Manel Usedo",
+      "ffId": 18241,
+      "statsUpdated": "2026-10-23"
+    },
+    "ionut-radu": {
+      "id": "ionut-radu",
+      "name": "Ionut Radu",
+      "pos": "GK",
+      "team": "Celta",
+      "fullName": "Ionut Radu",
+      "ffId": 5978,
+      "statsUpdated": "2026-10-23"
+    },
+    "anthony-gordon": {
+      "id": "anthony-gordon",
+      "name": "Gordon",
+      "pos": "STR",
+      "team": "Barcelona",
+      "fullName": "Anthony Gordon",
+      "ffId": 7595,
+      "statsUpdated": "2026-10-23"
+    },
+    "sergio-martinez": {
+      "id": "sergio-martinez",
+      "name": "Sergio",
+      "pos": "MID",
+      "team": "Real Madrid",
+      "fullName": "Sergio Martínez",
+      "ffId": 16262,
+      "statsUpdated": "2026-10-23"
+    },
+    "jofre": {
+      "id": "jofre",
+      "name": "Jofre",
+      "pos": "STR",
+      "team": "Espanyol",
+      "fullName": "Jofre Carreras",
+      "ffId": 9850,
+      "statsUpdated": "2026-10-23"
+    },
+    "pepe": {
+      "id": "pepe",
+      "name": "Pépé",
+      "pos": "STR",
+      "team": "Villarreal",
+      "fullName": "Nicolas Pépé",
+      "ffId": 7209,
+      "statsUpdated": "2026-10-23"
+    },
+    "roberto-fernandez": {
+      "id": "roberto-fernandez",
+      "name": "Roberto",
+      "pos": "STR",
+      "team": "Espanyol",
+      "fullName": "Roberto Fernández",
+      "ffId": 9987,
+      "statsUpdated": "2026-10-23"
+    },
+    "isaac-romero": {
+      "id": "isaac-romero",
+      "name": "Isaac",
+      "pos": "STR",
+      "team": "Sevilla",
+      "fullName": "Isaac Romero",
+      "ffId": 11680,
+      "statsUpdated": "2026-10-23"
+    },
+    "marcos-fernandez": {
+      "id": "marcos-fernandez",
+      "name": "Marcos",
+      "pos": "STR",
+      "team": "Espanyol",
+      "fullName": "Marcos Fernández",
+      "ffId": 10893,
+      "statsUpdated": "2026-10-23"
+    },
+    "de-galarreta": {
+      "id": "de-galarreta",
+      "name": "De Galarreta",
+      "pos": "MID",
+      "team": "Athletic Club",
+      "fullName": "Íñigo Ruiz de Galarreta",
+      "ffId": 44,
+      "statsUpdated": "2026-10-23"
     }
   },
   "markets": {
@@ -2002,6 +2118,208 @@
           null,
           null,
           null
+        ]
+      }
+    ],
+    "2026-10-23": [
+      {
+        "playerId": "edin-terzic",
+        "value": 1012869,
+        "price": 1030476,
+        "points": 16,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "fernando-calero",
+        "value": 717702,
+        "price": 723010,
+        "points": 3,
+        "status": "available",
+        "bids": 0,
+        "average": 1.5,
+        "recent": [
+          null,
+          null,
+          null,
+          3,
+          0
+        ]
+      },
+      {
+        "playerId": "manel-usedo",
+        "value": 579131,
+        "price": 578666,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "ionut-radu",
+        "value": 44280527,
+        "price": 43987883,
+        "points": 78,
+        "status": "available",
+        "bids": 0,
+        "average": 8.67,
+        "recent": [
+          4,
+          13,
+          14,
+          11,
+          11
+        ]
+      },
+      {
+        "playerId": "mojica",
+        "value": 12564166,
+        "price": 12625643,
+        "points": 29,
+        "status": "available",
+        "bids": 0,
+        "average": 3.22,
+        "recent": [
+          3,
+          3,
+          9,
+          -2,
+          4
+        ]
+      },
+      {
+        "playerId": "anthony-gordon",
+        "value": 76956926,
+        "price": 77064318,
+        "points": 48,
+        "status": "available",
+        "bids": 0,
+        "average": 6,
+        "recent": [
+          4,
+          null,
+          5,
+          12,
+          4
+        ]
+      },
+      {
+        "playerId": "sergio-martinez",
+        "value": 788664,
+        "price": 796929,
+        "points": 12,
+        "status": "available",
+        "bids": 0,
+        "average": 3,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "jofre",
+        "value": 603104,
+        "price": 603637,
+        "points": 5,
+        "status": "injured",
+        "bids": 0,
+        "average": 1,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "pepe",
+        "value": 27657131,
+        "price": 28419539,
+        "points": 40,
+        "status": "injured",
+        "bids": 0,
+        "average": 5.71,
+        "recent": [
+          4,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "roberto-fernandez",
+        "value": 54093800,
+        "price": 54545910,
+        "points": 54,
+        "status": "available",
+        "bids": 0,
+        "average": 6.89,
+        "recent": [
+          16,
+          8,
+          1,
+          5,
+          2
+        ]
+      },
+      {
+        "playerId": "isaac-romero",
+        "value": 2654358,
+        "price": 2700033,
+        "points": 24,
+        "status": "available",
+        "bids": 0,
+        "average": 3,
+        "recent": [
+          5,
+          0,
+          2,
+          4,
+          null
+        ]
+      },
+      {
+        "playerId": "marcos-fernandez",
+        "value": 1405237,
+        "price": 1429011,
+        "points": 26,
+        "status": "available",
+        "bids": 0,
+        "average": 3.11,
+        "recent": [
+          10,
+          2,
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "playerId": "de-galarreta",
+        "value": 16529862,
+        "price": 16616253,
+        "points": 37,
+        "status": "available",
+        "bids": 0,
+        "average": 4.11,
+        "recent": [
+          4,
+          4,
+          7,
+          1,
+          4
         ]
       }
     ]
@@ -2800,6 +3118,256 @@
           ],
           "status": "available",
           "clause": 797111,
+          "clauseLockDays": 13
+        }
+      ]
+    },
+    "2026-10-23": {
+      "date": "2026-10-23",
+      "formation": "4-4-2",
+      "teamValue": 210004771,
+      "signings": "15/26",
+      "slots": [
+        {
+          "playerId": "unai-simon",
+          "starter": true,
+          "value": 38076673,
+          "points": 65,
+          "status": "available",
+          "average": 7.22,
+          "recent": [
+            4,
+            4,
+            8,
+            4,
+            11
+          ],
+          "clause": 49000001
+        },
+        {
+          "playerId": "koski",
+          "starter": true,
+          "value": 44016777,
+          "points": 56,
+          "status": "available",
+          "average": 6.22,
+          "recent": [
+            10,
+            6,
+            9,
+            3,
+            3
+          ],
+          "clause": 47740170
+        },
+        {
+          "playerId": "sergio-gomez",
+          "starter": true,
+          "value": 12748979,
+          "points": 26,
+          "status": "available",
+          "average": 2.89,
+          "recent": [
+            0,
+            9,
+            5,
+            1,
+            3
+          ],
+          "clause": 17500011
+        },
+        {
+          "playerId": "bartra",
+          "starter": true,
+          "value": 19820656,
+          "points": 32,
+          "status": "available",
+          "average": 3.56,
+          "recent": [
+            5,
+            null,
+            2,
+            null,
+            null
+          ],
+          "clause": 52000011
+        },
+        {
+          "playerId": "ibanez",
+          "starter": true,
+          "value": 20824828,
+          "points": 48,
+          "status": "available",
+          "average": 5.33,
+          "recent": [
+            -1,
+            4,
+            6,
+            4,
+            7
+          ],
+          "clause": 26592052,
+          "captain": true
+        },
+        {
+          "playerId": "unai-lopez",
+          "starter": true,
+          "value": 21583211,
+          "points": 48,
+          "status": "available",
+          "average": 5.33,
+          "recent": [
+            1,
+            4,
+            4,
+            4,
+            5
+          ],
+          "clause": 28538664
+        },
+        {
+          "playerId": "bernardo-silva",
+          "starter": true,
+          "value": 21815866,
+          "points": 24,
+          "status": "available",
+          "average": 2.67,
+          "recent": [
+            4,
+            null,
+            8,
+            null,
+            1
+          ],
+          "clauseLockDays": 4
+        },
+        {
+          "playerId": "cepeda",
+          "starter": true,
+          "value": 2634125,
+          "points": 36,
+          "status": "available",
+          "average": 4,
+          "recent": [
+            2,
+            6,
+            5,
+            3,
+            4
+          ],
+          "clauseLockDays": 10
+        },
+        {
+          "playerId": "sanchez-flores",
+          "starter": true,
+          "value": 580867,
+          "points": 19,
+          "status": "available",
+          "average": 2.11,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "militao",
+          "starter": false,
+          "value": 6248333,
+          "points": 2,
+          "status": "available",
+          "average": 2,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            2
+          ],
+          "clause": 15151133
+        },
+        {
+          "playerId": "nico-serrano",
+          "starter": false,
+          "value": 584466,
+          "points": 2,
+          "status": "available",
+          "average": 0.4,
+          "recent": [
+            null,
+            null,
+            2,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "galdin",
+          "starter": false,
+          "value": 573332,
+          "points": 0,
+          "status": "available",
+          "average": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "raba",
+          "starter": true,
+          "value": 795590,
+          "points": 12,
+          "average": 1.33,
+          "recent": [
+            null,
+            null,
+            null,
+            7,
+            2
+          ],
+          "status": "available",
+          "clause": 797111,
+          "clauseLockDays": 12
+        },
+        {
+          "playerId": "johaneko",
+          "starter": true,
+          "value": 848649,
+          "points": 19,
+          "average": 2.38,
+          "recent": [
+            2,
+            -2,
+            3,
+            null,
+            7
+          ],
+          "status": "available",
+          "clauseLockDays": 13
+        },
+        {
+          "playerId": "agoume",
+          "starter": true,
+          "value": 18850492,
+          "points": 39,
+          "average": 4.33,
+          "recent": [
+            7,
+            9,
+            1,
+            0,
+            2
+          ],
+          "status": "available",
           "clauseLockDays": 13
         }
       ]
@@ -4591,19 +5159,532 @@
         ],
         "note": "Capitán: Unai Simón. Si Bartra no juega, Johaneko (si lo ganas). Si Saliba no juega, 4-3-3 con Raba."
       }
+    },
+    "2026-10-23": {
+      "date": "2026-10-23",
+      "title": "Jornada 10: confirma el saldo y pon de capitán a Unai Simón",
+      "summary": "Te han robado a Jutglà por cláusula, has vendido a Mojica y Saliba y has fichado a Agoumé y Johaneko. Buen once. Dos cosas antes de las 21:00: confirma que tu saldo es positivo (si no, no puntúas) y cambia el capitán de Ibáñez a Unai Simón (7,22 de media frente a 5,33). Koski ya vale 44,02 M€, a solo un 8,5% de su cláusula: con lo que te sobre, súbela.",
+      "analyses": [
+        {
+          "icon": "©️",
+          "title": "Capitán: Ibáñez o Unai Simón",
+          "question": "Has puesto a Ibáñez de capitán. ¿Es la mejor opción?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Media",
+              "Últimas 5",
+              "Prob. J10",
+              "Rival J10",
+              "Cuándo juega"
+            ],
+            "rows": [
+              [
+                "Unai Simón",
+                "7,22",
+                "4, 8, 4, 11 y el aplazado del miércoles",
+                "95%",
+                "Getafe 🏠 · genera 0,77 xG/p (el peor ataque)",
+                "Domingo 14:00"
+              ],
+              [
+                "Koski",
+                "6,22",
+                "10, 6, 9, 3, 3",
+                "80%",
+                "Málaga 🏠 · genera 0,88 xG/p",
+                "Hoy 21:00"
+              ],
+              [
+                "Ibáñez",
+                "5,33",
+                "-1, 4, 6, 4, 7",
+                "80%",
+                "Málaga 🏠 · concede 2,07 xGA/p",
+                "Hoy 21:00"
+              ],
+              [
+                "Agoumé",
+                "4,33",
+                "7, 9, 1, 0, 2",
+                "90%",
+                "Osasuna 🏠 · concede 1,85 xGA/p",
+                "Lunes 21:00"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Unai Simón ha subido su media a 7,22 con el partido aplazado del miércoles: es la más alta de tu equipo.",
+            "Es también el que más seguro juega (95%) y el rival es el peor ataque de la liga.",
+            "Ibáñez tiene un rival muy fácil (el Málaga concede 2,07 xGA por partido), pero su media es casi 2 puntos menor y tiene un 80% de jugar."
+          ],
+          "conclusion": "Cambia el capitán a Unai Simón antes de las 21:00. Ibáñez es una buena segunda opción, no la mejor.",
+          "playerIds": [
+            "unai-simon",
+            "koski",
+            "ibanez",
+            "agoume"
+          ]
+        },
+        {
+          "icon": "💶",
+          "title": "Saldo antes de las 21:00 y cláusula de Koski",
+          "question": "¿Llegas en positivo al inicio de la jornada y cuánto puedes meter en la cláusula de Koski?",
+          "table": {
+            "head": [
+              "Movimiento",
+              "Importe estimado",
+              "Nota"
+            ],
+            "rows": [
+              [
+                "Caja anterior",
+                "+1,39 M€",
+                "conocida"
+              ],
+              [
+                "Cláusula de Jutglà (te la pagan)",
+                "+? (al menos su precio de compra, 15,47 M€, si no la cambiaste)",
+                "por confirmar"
+              ],
+              [
+                "Venta de Mojica",
+                "≈ +12,6 M€",
+                "su valor de ayer"
+              ],
+              [
+                "Venta de Saliba",
+                "≈ +5,3 M€",
+                "su valor de ayer"
+              ],
+              [
+                "Compra de Agoumé",
+                "≈ -18,5 M€ o más",
+                "según tu puja"
+              ],
+              [
+                "Compra de Johaneko",
+                "≈ -0,85 a -0,95 M€",
+                "según tu puja"
+              ],
+              [
+                "Koski: subir la cláusula de 47,74 a 55 M€",
+                "-3,63 M€",
+                "margen del 25%"
+              ]
+            ]
+          },
+          "points": [
+            "Si empiezas la jornada en negativo (hoy a las 21:00) no puntúas. Por mis cuentas deberías estar en positivo, pero no conozco el importe de la cláusula de Jutglà ni lo que pagaste por Agoumé y Johaneko.",
+            "Koski vale 44,02 M€ (+2,7% hoy, +33% en la semana) y su cláusula es de 47,74 M€: el margen ya es solo del 8,5%. Un buen partido hoy contra el Málaga lo acercará más.",
+            "Subirla a 55 M€ cuesta 3,63 M€ (1 € por cada 2 €) y deja un margen del 25%."
+          ],
+          "conclusion": "Mira tu saldo: si tienes más de 3,7 M€, sube la cláusula de Koski a 55 M€ antes de las 21:00, dejando la caja en positivo. Pásame el saldo y el histórico para cuadrar las cuentas.",
+          "playerIds": [
+            "koski",
+            "ferran-jutgla",
+            "agoume",
+            "johaneko"
+          ]
+        },
+        {
+          "icon": "📋",
+          "title": "Tu once de la jornada 10",
+          "question": "¿Está bien el 4-4-2 que has puesto sin Jutglà?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Media",
+              "Prob. J10",
+              "Rival J10",
+              "Dificultad",
+              "Cuándo"
+            ],
+            "rows": [
+              [
+                "Unai Simón",
+                "7,22",
+                "95%",
+                "Getafe 🏠",
+                "1",
+                "Dom 14:00"
+              ],
+              [
+                "Koski",
+                "6,22",
+                "80%",
+                "Málaga 🏠",
+                "1",
+                "Hoy 21:00"
+              ],
+              [
+                "Sergio Gómez",
+                "2,89",
+                "70%",
+                "Levante 🏠",
+                "3",
+                "Dom 18:30"
+              ],
+              [
+                "Bartra",
+                "3,56",
+                "50%",
+                "Celta ✈️",
+                "2",
+                "Dom 16:15"
+              ],
+              [
+                "Johaneko",
+                "2,38",
+                "sin dato (50% titularidad)",
+                "Getafe 🏠",
+                "1",
+                "Dom 14:00"
+              ],
+              [
+                "Ibáñez",
+                "5,33",
+                "80%",
+                "Málaga 🏠",
+                "1",
+                "Hoy 21:00"
+              ],
+              [
+                "Unai López",
+                "5,33",
+                "80%",
+                "Elche 🏠",
+                "1",
+                "Sáb 14:00"
+              ],
+              [
+                "Bernardo Silva",
+                "2,67",
+                "sin dato (40% titularidad)",
+                "Barcelona ✈️",
+                "5",
+                "Dom 21:00"
+              ],
+              [
+                "Agoumé",
+                "4,33",
+                "90%",
+                "Osasuna 🏠",
+                "2",
+                "Lun 21:00"
+              ],
+              [
+                "Cepeda",
+                "4,00",
+                "70%",
+                "Rayo ✈️",
+                "3",
+                "Sáb 14:00"
+              ],
+              [
+                "Raba",
+                "1,33",
+                "50%",
+                "Villarreal 🏠",
+                "3",
+                "Sáb 18:30"
+              ]
+            ]
+          },
+          "points": [
+            "Agoumé es un buen fichaje para puntos: 90% de jugar, 4,33 de media y el Osasuna concede 1,85 xGA por partido. Su valor sube (+5,8% en la semana).",
+            "Sin Jutglà, Raba tiene que jugar arriba: es tu único delantero con opciones junto a Cepeda (Nico Serrano tiene un 20%).",
+            "Las dudas son Bartra (50%) y Bernardo (40% de titularidad, en el Camp Nou). En el banquillo solo tienes a Militão (10%) y Nico Serrano: no hay recambio mejor.",
+            "Las alineaciones probables de la jornada aún no se pueden leer; revisa el domingo por la mañana a Bartra, Johaneko y Bernardo."
+          ],
+          "conclusion": "El once está bien. Solo cambiaría el capitán a Unai Simón. Si el domingo Bartra o Bernardo no aparecen en el once probable, no hay sustituto mejor en tu plantilla.",
+          "playerIds": [
+            "agoume",
+            "johaneko",
+            "raba",
+            "bartra",
+            "bernardo-silva"
+          ]
+        },
+        {
+          "icon": "🛒",
+          "title": "Mercado de hoy: ¿un delantero por Jutglà?",
+          "question": "¿Hay algún delantero que merezca la pena para sustituir a Jutglà?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio",
+              "Media",
+              "Prob. J10",
+              "Valor 7d / 30d"
+            ],
+            "rows": [
+              [
+                "Roberto (Espanyol)",
+                "54,55 M€",
+                "6,89",
+                "90%",
+                "-3,2% / +34,4%"
+              ],
+              [
+                "Gordon (Barcelona)",
+                "77,06 M€",
+                "6,00",
+                "70%",
+                "+11,4% / +0,2%"
+              ],
+              [
+                "Marcos (Espanyol)",
+                "1,43 M€",
+                "3,11",
+                "20%",
+                "-10,6% / +2,8%"
+              ],
+              [
+                "Isaac (Sevilla)",
+                "2,70 M€",
+                "3,00",
+                "0%",
+                "-14,8% / -47,2%"
+              ],
+              [
+                "Pépé (Villarreal)",
+                "28,42 M€",
+                "5,71",
+                "10% · lesionado",
+                "-17,2% / -48,9%"
+              ]
+            ]
+          },
+          "points": [
+            "Los únicos delanteros buenos (Roberto, Gordon) cuestan más de 50 M€.",
+            "Los baratos no juegan: Marcos tiene un 20% e Isaac un 0%. Pépé y Jofre están lesionados.",
+            "Lo que fiches hoy llega después del Alavés-Málaga, pero sí contaría para los partidos del sábado en adelante.",
+            "Ionut Radu (44 M€, 8,67 de media) es de los mejores porteros, pero ya tienes a Unai Simón."
+          ],
+          "conclusion": "No hay delantero que merezca la pena hoy. Mejor guardar la caja para la cláusula de Koski y buscar delantero cuando salga uno barato que juegue.",
+          "playerIds": [
+            "roberto-fernandez",
+            "anthony-gordon",
+            "marcos-fernandez",
+            "isaac-romero",
+            "ionut-radu"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Plan para hoy (antes de las 21:00)",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "1. Comprueba que tu saldo es positivo: si empiezas la jornada en negativo, no puntúas."
+            },
+            {
+              "text": "2. Cambia el capitán de Ibáñez a Unai Simón.",
+              "playerId": "unai-simon"
+            },
+            {
+              "text": "3. Si tienes más de 3,7 M€, sube la cláusula de Koski a 55 M€ (cuesta 3,63 M€). Su margen es solo del 8,5%.",
+              "playerId": "koski"
+            },
+            {
+              "text": "4. No fiches a nadie hoy: no hay delantero barato que juegue."
+            }
+          ]
+        },
+        {
+          "title": "Once para la jornada 10",
+          "icon": "📋",
+          "items": [
+            {
+              "text": "4-4-2: Unai Simón; Koski, Sergio Gómez, Bartra, Johaneko; Ibáñez, Unai López, Bernardo, Agoumé; Cepeda, Raba. Entrenador: Sánchez Flores."
+            },
+            {
+              "text": "Capitán: Unai Simón (no Ibáñez).",
+              "playerId": "unai-simon"
+            },
+            {
+              "text": "Revisa el domingo por la mañana a Bartra (50%), Johaneko y Bernardo.",
+              "playerId": "bartra"
+            }
+          ]
+        },
+        {
+          "title": "Para mañana",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "Pásame tu saldo y el histórico: necesito el importe de la cláusula de Jutglà y lo que pagaste por Agoumé y Johaneko."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "unai-simon": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Capitán: 7,22 de media (la mejor de tu equipo), 95% de jugar y el Getafe es el peor ataque de la liga."
+        },
+        "koski": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular hoy ante el Málaga (dificultad 1). Vale 44,02 M€ y su cláusula (47,74 M€) solo tiene un 8,5% de margen: súbela a 55 M€ si te llega."
+        },
+        "sergio-gomez": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (70%) ante el Levante. Su valor sigue cayendo (13 días seguidos, -8% en la semana)."
+        },
+        "bartra": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. 50% de jugar en Vigo; no tienes un recambio mejor en defensa. Valor -1,6% hoy."
+        },
+        "johaneko": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Fichaje hecho. Titular ante el Getafe en casa (dificultad 1). Su valor ha dejado de caer (+0,9% hoy)."
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular hoy ante el Málaga (dificultad 1). Buen jugador, pero no el mejor capitán: Unai Simón tiene casi 2 puntos más de media. Sigue subiendo (+2,1% hoy)."
+        },
+        "unai-lopez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (80%) ante el Elche en casa (dificultad 1), 5,33 de media."
+        },
+        "bernardo-silva": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. Titular por falta de alternativas, aunque visita al Barcelona (dificultad 5). Valor -1,7% hoy."
+        },
+        "agoume": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Buen fichaje: 90% de jugar, 4,33 de media y el Osasuna concede 1,85 xGA por partido. Su valor sube (+5,8% en la semana)."
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (70%) en Vallecas. Sigue subiendo (+5,4% en la semana)."
+        },
+        "raba": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Sin Jutglà, titular por necesidad (50% de jugar, Villarreal en casa). Su valor se ha estabilizado (0% hoy)."
+        },
+        "sanchez-flores": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Entrenador. El Alavés recibe hoy al Málaga."
+        },
+        "militao": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Decisión tuya: se queda. Sigue subiendo sin jugar (+2,4% hoy, +14% en la semana)."
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "20% de jugar y 0,4 de media. Véndelo si necesitas caja para la cláusula de Koski."
+        },
+        "galdin": {
+          "verdict": "banquillo",
+          "confidence": "media",
+          "text": "Portero suplente; cuesta poco y no merece la pena venderlo."
+        },
+        "roberto-fernandez": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Buen delantero (6,89 de media, 90% de jugar), pero cuesta 54,55 M€: fuera de tu alcance."
+        },
+        "anthony-gordon": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "77 M€: fuera de tu alcance."
+        },
+        "ionut-radu": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Gran portero (8,67 de media), pero cuesta 44 M€ y ya tienes a Unai Simón."
+        },
+        "de-galarreta": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "16,6 M€, 50% de jugar y su valor baja (-8% en la semana)."
+        },
+        "marcos-fernandez": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Barato (1,43 M€) pero solo un 20% de jugar y su valor baja (-10,6% en la semana)."
+        },
+        "isaac-romero": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "0% de jugar la J10 y -47% de valor en el mes."
+        },
+        "pepe": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Lesionado (10%) y su valor cae un 49% en el mes."
+        },
+        "jofre": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Lesionado y sin minutos."
+        },
+        "mojica": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Lo acabas de vender: 3,22 de media y su valor sigue bajando (-8% en la semana)."
+        },
+        "fernando-calero": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "1,5 de media y su valor cae (75 días seguidos). Su partido es hoy a las 21:00, antes de que se cierre el mercado."
+        },
+        "manel-usedo": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Sin minutos: 0 puntos."
+        },
+        "sergio-martinez": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "0% de titularidad y su valor cae un 36% en el mes."
+        },
+        "edin-terzic": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Entrenador con 16 puntos, por debajo de Sánchez Flores (19)."
+        }
+      },
+      "lineup": {
+        "formation": "4-4-2",
+        "ids": [
+          "unai-simon",
+          "koski",
+          "sergio-gomez",
+          "bartra",
+          "johaneko",
+          "ibanez",
+          "unai-lopez",
+          "bernardo-silva",
+          "agoume",
+          "cepeda",
+          "raba",
+          "sanchez-flores"
+        ],
+        "note": "Capitán: Unai Simón (ahora lo tienes en Ibáñez). Revisa el domingo a Bartra, Johaneko y Bernardo."
+      }
     }
   },
-  "bids": [
-    {
-      "playerId": "johaneko",
-      "amount": 833330,
-      "date": "2026-10-22",
-      "note": "importe por confirmar (pongo su precio)"
-    }
-  ],
-  "cash": 1386666,
-  "budget": 1386666,
-  "budgetDate": "2026-10-22",
+  "bids": [],
+  "budgetDate": "2026-10-23",
   "ledger": [
     {
       "date": "2026-09-23",
@@ -4800,6 +5881,42 @@
       "playerName": "Luiz Felipe",
       "amount": 760000,
       "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-10-22",
+      "kind": "venta",
+      "playerId": "mojica",
+      "ffId": 899,
+      "playerName": "Mojica"
+    },
+    {
+      "date": "2026-10-22",
+      "kind": "venta",
+      "playerId": "saliba",
+      "ffId": 17695,
+      "playerName": "Saliba"
+    },
+    {
+      "date": "2026-10-22",
+      "kind": "compra",
+      "playerId": "agoume",
+      "ffId": 7249,
+      "playerName": "Agoumé"
+    },
+    {
+      "date": "2026-10-22",
+      "kind": "compra",
+      "playerId": "johaneko",
+      "ffId": 16229,
+      "playerName": "Johaneko"
+    },
+    {
+      "date": "2026-10-22",
+      "kind": "venta",
+      "playerId": "ferran-jutgla",
+      "ffId": 7842,
+      "playerName": "Ferran Jutglà",
+      "counterpart": "cláusula de un rival"
     }
   ],
   "matchdayPoints": {
