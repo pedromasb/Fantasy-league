@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-24T08:56:47.323Z",
+  "updated": "2026-10-28T07:51:02.579Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -1617,6 +1617,104 @@
       "fullName": "Zabiri",
       "ffId": 18282,
       "statsUpdated": "2026-10-24"
+    },
+    "de-haas": {
+      "id": "de-haas",
+      "name": "De Haas",
+      "pos": "DEF",
+      "team": "Valencia",
+      "fullName": "De Haas",
+      "ffId": 18018,
+      "statsUpdated": "2026-10-28"
+    },
+    "matarazzo": {
+      "id": "matarazzo",
+      "name": "Matarazzo",
+      "pos": "COA",
+      "team": "Real Sociedad",
+      "fullName": "Pellegrino Matarazzo",
+      "statsUpdated": "2026-10-28"
+    },
+    "pacheco": {
+      "id": "pacheco",
+      "name": "Pacheco",
+      "pos": "DEF",
+      "team": "Real Sociedad",
+      "fullName": "Jon Pacheco",
+      "ffId": 7725,
+      "statsUpdated": "2026-10-28"
+    },
+    "aramburu": {
+      "id": "aramburu",
+      "name": "Aramburu",
+      "pos": "DEF",
+      "team": "Real Sociedad",
+      "fullName": "Jon Aramburu",
+      "ffId": 12538,
+      "statsUpdated": "2026-10-28"
+    },
+    "raul-moro": {
+      "id": "raul-moro",
+      "name": "Raúl Moro",
+      "pos": "STR",
+      "team": "Osasuna",
+      "fullName": "Raúl Moro",
+      "ffId": 7870,
+      "statsUpdated": "2026-10-28"
+    },
+    "oscar-lopez": {
+      "id": "oscar-lopez",
+      "name": "Óscar López",
+      "pos": "MID",
+      "team": "Getafe",
+      "fullName": "Óscar López",
+      "ffId": 18412,
+      "statsUpdated": "2026-10-28"
+    },
+    "grimaldo": {
+      "id": "grimaldo",
+      "name": "Grimaldo",
+      "pos": "DEF",
+      "team": "Atlético de Madrid",
+      "fullName": "Alejandro Grimaldo",
+      "ffId": 2771,
+      "statsUpdated": "2026-10-28"
+    },
+    "balliu": {
+      "id": "balliu",
+      "name": "Balliu",
+      "pos": "DEF",
+      "team": "Rayo Vallecano",
+      "fullName": "Iván Balliu",
+      "ffId": 7251,
+      "statsUpdated": "2026-10-28"
+    },
+    "gavi": {
+      "id": "gavi",
+      "name": "Gavi",
+      "pos": "MID",
+      "team": "Barcelona",
+      "fullName": "Gavi",
+      "ffId": 9273,
+      "statsUpdated": "2026-10-28"
+    },
+    "marcao": {
+      "id": "marcao",
+      "name": "Marcão",
+      "pos": "DEF",
+      "team": "Sevilla",
+      "fullName": "Marcão",
+      "ffId": 4208,
+      "statsUpdated": "2026-10-28"
+    },
+    "javi-rodriguez": {
+      "id": "javi-rodriguez",
+      "name": "Javi Rodríguez",
+      "pos": "DEF",
+      "team": "Celta",
+      "fullName": "Javi Rodríguez",
+      "ffId": 12534,
+      "statsUpdated": "2026-10-28"
     }
   },
   "markets": {
@@ -2628,6 +2726,159 @@
           8,
           1,
           null
+        ]
+      }
+    ],
+    "2026-10-28": [
+      {
+        "playerId": "arrasate",
+        "value": 1216950,
+        "price": 1241971,
+        "points": 5,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "pacheco",
+        "value": 821506,
+        "price": 830050,
+        "points": 3,
+        "status": "available",
+        "bids": 0,
+        "average": 0.38,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "aramburu",
+        "value": 8989188,
+        "price": 9167948,
+        "points": 23,
+        "status": "available",
+        "bids": 0,
+        "average": 2.88,
+        "recent": [
+          9,
+          2,
+          null,
+          null,
+          2
+        ]
+      },
+      {
+        "playerId": "raul-moro",
+        "value": 2760514,
+        "price": 2825602,
+        "points": 18,
+        "status": "available",
+        "bids": 0,
+        "average": 2,
+        "recent": [
+          3,
+          2,
+          null,
+          2,
+          null
+        ]
+      },
+      {
+        "playerId": "oscar-lopez",
+        "value": 636993,
+        "price": 637849,
+        "points": 4,
+        "status": "available",
+        "bids": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "grimaldo",
+        "value": 86466002,
+        "price": 85148662,
+        "points": 79,
+        "status": "available",
+        "bids": 0,
+        "average": 7.9,
+        "recent": [
+          11,
+          11,
+          12,
+          4,
+          13
+        ]
+      },
+      {
+        "playerId": "balliu",
+        "value": 609749,
+        "price": 609470,
+        "points": 7,
+        "status": "available",
+        "bids": 0,
+        "average": 0.9,
+        "recent": [
+          2,
+          1,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "playerId": "gavi",
+        "value": 6826764,
+        "price": 6986457,
+        "points": 12,
+        "status": "available",
+        "bids": 0,
+        "average": 1.5,
+        "recent": [
+          2,
+          null,
+          7,
+          2,
+          null
+        ]
+      },
+      {
+        "playerId": "marcao",
+        "value": 582984,
+        "price": 581590,
+        "points": 0,
+        "status": "injured",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "javi-rodriguez",
+        "value": 5074984,
+        "price": 4807103,
+        "points": 36,
+        "status": "available",
+        "bids": 1,
+        "average": 3.6,
+        "recent": [
+          2,
+          null,
+          null,
+          17,
+          8
         ]
       }
     ]
@@ -3929,6 +4180,290 @@
           "clauseLockDays": 12
         }
       ]
+    },
+    "2026-10-28": {
+      "date": "2026-10-28",
+      "formation": "4-4-2",
+      "teamValue": 221154895,
+      "signings": "18/26",
+      "slots": [
+        {
+          "playerId": "unai-simon",
+          "starter": true,
+          "value": 39369943,
+          "points": 75,
+          "status": "available",
+          "average": 7.5,
+          "recent": [
+            4,
+            8,
+            4,
+            11,
+            10
+          ],
+          "clause": 53000001
+        },
+        {
+          "playerId": "koski",
+          "starter": true,
+          "value": 48333050,
+          "points": 61,
+          "status": "available",
+          "average": 6.1,
+          "recent": [
+            6,
+            9,
+            3,
+            3,
+            5
+          ],
+          "clause": 55740170
+        },
+        {
+          "playerId": "sergio-gomez",
+          "starter": true,
+          "value": 11974907,
+          "points": 29,
+          "status": "available",
+          "average": 2.9,
+          "recent": [
+            9,
+            5,
+            1,
+            3,
+            3
+          ],
+          "clause": 17500011
+        },
+        {
+          "playerId": "bartra",
+          "starter": true,
+          "value": 18323132,
+          "points": 36,
+          "status": "available",
+          "average": 3.6,
+          "recent": [
+            null,
+            2,
+            null,
+            null,
+            4
+          ],
+          "clause": 52000011
+        },
+        {
+          "playerId": "ibanez",
+          "starter": true,
+          "value": 21796265,
+          "points": 52,
+          "status": "available",
+          "average": 5.2,
+          "recent": [
+            4,
+            6,
+            4,
+            7,
+            4
+          ],
+          "clause": 30592052
+        },
+        {
+          "playerId": "unai-lopez",
+          "starter": true,
+          "value": 22113321,
+          "points": 52,
+          "status": "available",
+          "average": 5.2,
+          "recent": [
+            4,
+            4,
+            4,
+            5,
+            4
+          ],
+          "clause": 28538664
+        },
+        {
+          "playerId": "bernardo-silva",
+          "starter": true,
+          "value": 20671395,
+          "points": 26,
+          "status": "available",
+          "average": 2.6,
+          "recent": [
+            null,
+            8,
+            null,
+            1,
+            2
+          ],
+          "clauseLockDays": 0
+        },
+        {
+          "playerId": "cepeda",
+          "starter": true,
+          "value": 2951156,
+          "points": 44,
+          "status": "available",
+          "average": 4.4,
+          "recent": [
+            6,
+            5,
+            3,
+            4,
+            8
+          ],
+          "clauseLockDays": 5
+        },
+        {
+          "playerId": "sanchez-flores",
+          "starter": true,
+          "value": 580867,
+          "points": 19,
+          "status": "available",
+          "average": 2.11,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "militao",
+          "starter": false,
+          "value": 6752344,
+          "points": 2,
+          "status": "available",
+          "average": 2,
+          "recent": [
+            null,
+            null,
+            null,
+            2,
+            null
+          ],
+          "clause": 15151133
+        },
+        {
+          "playerId": "nico-serrano",
+          "starter": false,
+          "value": 595774,
+          "points": 2,
+          "status": "available",
+          "average": 0.33,
+          "recent": [
+            null,
+            2,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "galdin",
+          "starter": false,
+          "value": 586695,
+          "points": 0,
+          "status": "available",
+          "average": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "raba",
+          "starter": true,
+          "value": 781729,
+          "points": 14,
+          "average": 1.4,
+          "recent": [
+            null,
+            null,
+            7,
+            2,
+            2
+          ],
+          "status": "available",
+          "clause": 797111,
+          "clauseLockDays": 7
+        },
+        {
+          "playerId": "johaneko",
+          "starter": true,
+          "value": 827164,
+          "points": 19,
+          "average": 2.11,
+          "recent": [
+            -2,
+            3,
+            null,
+            7,
+            null
+          ],
+          "status": "available",
+          "clauseLockDays": 8
+        },
+        {
+          "playerId": "agoume",
+          "starter": true,
+          "value": 19375979,
+          "points": 45,
+          "average": 4.5,
+          "recent": [
+            9,
+            1,
+            0,
+            2,
+            null
+          ],
+          "status": "available",
+          "clauseLockDays": 8
+        },
+        {
+          "playerId": "ferland-mendy",
+          "starter": false,
+          "clauseLockDays": 10,
+          "value": 588195,
+          "points": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "playerId": "de-haas",
+          "starter": false,
+          "clauseLockDays": 11,
+          "value": 4771834,
+          "points": 33,
+          "average": 4.71,
+          "recent": [
+            7,
+            4,
+            7,
+            9,
+            5
+          ]
+        },
+        {
+          "playerId": "matarazzo",
+          "starter": false,
+          "clauseLockDays": 11,
+          "value": 761145
+        }
+      ]
     }
   },
   "purchases": {
@@ -3936,7 +4471,10 @@
     "bernardo-silva": 36000000,
     "saliba": 12500000,
     "cepeda": 2750001,
-    "raba": 797111
+    "raba": 797111,
+    "ferland-mendy": 750001,
+    "de-haas": 4340288,
+    "matarazzo": 761145
   },
   "reports": {
     "2026-10-19": {
@@ -6702,17 +7240,538 @@
         ],
         "note": "Koski e Ibáñez ya jugaron (5 y 4). Revisa el domingo a Bartra, Johaneko y Bernardo."
       }
+    },
+    "2026-10-28": {
+      "date": "2026-10-28",
+      "title": "Javi Rodríguez por Sergio Gómez y once para la jornada 11",
+      "summary": "Buenos movimientos: De Haas (4,71 de media, +25% en la semana) y cláusulas de Koski, Ibáñez y Unai Simón bien cubiertas. Tienes 1,79 M€. Hoy el mercado tiene a Javi Rodríguez (Celta), un defensa que sube un 30% en la semana y se vende por debajo de su valor: puja ~5,3 M€ y, si lo ganas, vende mañana a Sergio Gómez para volver a positivo antes del viernes a las 21:00. Capitán J11: Unai Simón.",
+      "analyses": [
+        {
+          "icon": "🔄",
+          "title": "¿Javi Rodríguez por Sergio Gómez?",
+          "question": "¿Merece la pena cambiar a Sergio Gómez por Javi Rodríguez?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio / valor",
+              "Media",
+              "Últimas 5",
+              "Prob. J11",
+              "Rival J11",
+              "Valor 1d / 7d / 30d",
+              "xG / xA"
+            ],
+            "rows": [
+              [
+                "Javi Rodríguez (Celta)",
+                "4,81 M€ (vale 5,07)",
+                "3,60",
+                "2, –, –, 17, 8",
+                "80%",
+                "Rayo ✈️ · dif. 4",
+                "+5,6% / +29,5% / -17,1%",
+                "0,14 / 0,43"
+              ],
+              [
+                "Sergio Gómez (R. Sociedad)",
+                "vale 11,97 M€",
+                "2,90",
+                "9, 5, 1, 3, 3",
+                "90%",
+                "Athletic ✈️ · dif. 4",
+                "-1,4% / -7,7% / -22,5%",
+                "0,18 / 0,84"
+              ],
+              [
+                "De Haas (Valencia), ya tuyo",
+                "vale 4,77 M€",
+                "4,71",
+                "7, 4, 7, 9, 5",
+                "70%",
+                "Elche ✈️ · dif. 2",
+                "+3,1% / +24,9% / +30,2%",
+                "0,02 / 0,73"
+              ],
+              [
+                "Aramburu (R. Sociedad)",
+                "9,17 M€",
+                "2,88",
+                "9, 2, –, –, 2",
+                "50%",
+                "Athletic ✈️",
+                "-1,9% / -15,6% / -48,5%",
+                "0,15 / 0,10"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Javi Rodríguez está en racha: 17 y 8 puntos en las dos últimas jornadas, y su valor sube un 5,6% hoy y un 30% en la semana.",
+            "Se vende por debajo de su valor (4,81 M€ frente a 5,07 M€): solo con la subida de hoy ya ganarías dinero.",
+            "Sergio Gómez sigue cayendo (18 días seguidos, -22,5% en el mes) y su media (2,90) es la más baja de tus defensas titulares. Venderlo te da 11,97 M€.",
+            "En la J11 los dos tienen un rival difícil (dificultad 4); Sergio Gómez juega más seguro (90% frente a 80%).",
+            "Hay otra puja: ofrece ~5,3 M€ (+4% sobre su valor). Más de 5,6 M€ no compensa.",
+            "Orden: puja hoy y vende a Sergio Gómez mañana solo si ganas la puja. Si la pierdes, Sergio Gómez sigue siendo tu cuarto defensa. Ganarla te deja en -3,5 M€ hasta que vendas: hazlo antes del viernes a las 21:00."
+          ],
+          "conclusion": "Puja 5,3 M€ por Javi Rodríguez (máximo 5,6 M€). Si lo ganas, vende mañana a Sergio Gómez: quedas con ~8,5 M€ y un defensa mejor y al alza.",
+          "playerIds": [
+            "javi-rodriguez",
+            "sergio-gomez",
+            "de-haas",
+            "aramburu"
+          ]
+        },
+        {
+          "icon": "🔐",
+          "title": "Cláusulas: todo cubierto",
+          "question": "¿Cómo quedan las cláusulas con los valores de hoy?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Valor hoy",
+              "Cláusula",
+              "Margen",
+              "Tendencia del valor"
+            ],
+            "rows": [
+              [
+                "Koski",
+                "48,33 M€",
+                "55,74 M€",
+                "+15%",
+                "+1,0% hoy, +17% en la semana (se frena)"
+              ],
+              [
+                "Unai Simón",
+                "39,37 M€",
+                "53,00 M€",
+                "+35%",
+                "+1,5% hoy, +3,9% en la semana"
+              ],
+              [
+                "Ibáñez",
+                "21,80 M€",
+                "30,59 M€",
+                "+40%",
+                "+0,5% hoy, +9,4% en la semana"
+              ],
+              [
+                "De Haas",
+                "4,77 M€",
+                "bloqueada ~11 días",
+                "—",
+                "+3,1% hoy, +25% en la semana"
+              ]
+            ]
+          },
+          "points": [
+            "Koski ya no sube al 4% diario: hoy +1%. Con un 15% de margen está bien varios días.",
+            "Unai Simón e Ibáñez están muy protegidos.",
+            "De Haas no se puede robar mientras dure el bloqueo de 14 días tras la compra (hasta ~8 de noviembre). Antes de que acabe, sube su cláusula: su valor sube un 25% a la semana."
+          ],
+          "conclusion": "No hace falta subir ninguna cláusula hoy. Apunta la de De Haas para antes del 8 de noviembre.",
+          "playerIds": [
+            "koski",
+            "unai-simon",
+            "ibanez",
+            "de-haas"
+          ]
+        },
+        {
+          "icon": "©️",
+          "title": "Once y capitán de la jornada 11",
+          "question": "¿Qué once poner del viernes 30 al lunes 2?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Media",
+              "Prob. J11",
+              "Rival J11",
+              "Dificultad"
+            ],
+            "rows": [
+              [
+                "Unai Simón (POR)",
+                "7,50",
+                "95%",
+                "Real Sociedad 🏠 (genera 1,75 xG/p)",
+                "4"
+              ],
+              [
+                "Koski (DEF)",
+                "6,10",
+                "70%",
+                "Barcelona ✈️ (genera 3,73 xG/p)",
+                "5"
+              ],
+              [
+                "De Haas (DEF)",
+                "4,71",
+                "70%",
+                "Elche ✈️ (genera 1,24 xG/p)",
+                "2"
+              ],
+              [
+                "Bartra (DEF)",
+                "3,60",
+                "50%",
+                "Málaga 🏠 (genera 0,90 xG/p)",
+                "1"
+              ],
+              [
+                "Sergio Gómez o Javi Rodríguez (DEF)",
+                "2,90 / 3,60",
+                "90% / 80%",
+                "Athletic ✈️ / Rayo ✈️",
+                "4 / 4"
+              ],
+              [
+                "Agoumé (MED)",
+                "4,50",
+                "90%",
+                "Getafe ✈️ (concede 1,74 xGA/p)",
+                "3"
+              ],
+              [
+                "Ibáñez (MED)",
+                "5,20",
+                "80%",
+                "Barcelona ✈️",
+                "5"
+              ],
+              [
+                "Unai López (MED)",
+                "5,20",
+                "70%",
+                "Celta 🏠 (concede 1,07 xGA/p)",
+                "5"
+              ],
+              [
+                "Bernardo (MED)",
+                "2,60",
+                "60%",
+                "Racing ✈️ (concede 2,49 xGA/p)",
+                "1"
+              ],
+              [
+                "Cepeda (DEL)",
+                "4,40",
+                "70%",
+                "Valencia 🏠",
+                "3"
+              ],
+              [
+                "Raba (DEL)",
+                "1,40",
+                "70%",
+                "Elche ✈️ (concede 1,86 xGA/p)",
+                "2"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Capitán: Unai Simón. La mejor media del equipo (7,50, el 12.º de la liga) y un 95% de jugar. Hizo 10 puntos en la J10.",
+            "De Haas entra en defensa: 4,71 de media y visita al Elche, uno de los ataques más flojos.",
+            "Bartra tiene un partido muy fácil (Málaga en casa), pero sigue con un 50%: confírmalo el sábado. Si no juega, entra Sergio Gómez (o Johaneko, que solo tiene un 20%).",
+            "Bernardo sube al 60% y visita al Racing, la peor defensa de la liga (2,49 xGA por partido): buena jornada para él.",
+            "Raba sube al 70% de jugar con el Valencia: titular arriba con Cepeda.",
+            "Entrenador: entre Sánchez Flores (Alavés en el Camp Nou) y Matarazzo (Real Sociedad en San Mamés), Matarazzo tiene un rival algo más asequible."
+          ],
+          "conclusion": "4-4-2: Unai Simón (C); Koski, De Haas, Bartra, Sergio Gómez (o Javi Rodríguez); Ibáñez, Unai López, Agoumé, Bernardo; Cepeda, Raba. Entrenador: Matarazzo.",
+          "playerIds": [
+            "unai-simon",
+            "de-haas",
+            "bartra",
+            "bernardo-silva",
+            "raba",
+            "matarazzo"
+          ]
+        },
+        {
+          "icon": "🛒",
+          "title": "Resto del mercado",
+          "question": "¿Algo más que valga la pena?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio",
+              "Media",
+              "Prob. J11",
+              "Valor 7d / 30d"
+            ],
+            "rows": [
+              [
+                "Grimaldo (DEF, Atlético)",
+                "85,15 M€",
+                "7,90",
+                "80%",
+                "+1,0% / +57%"
+              ],
+              [
+                "Aramburu (DEF, R. Sociedad)",
+                "9,17 M€",
+                "2,88",
+                "50%",
+                "-15,6% / -48,5%"
+              ],
+              [
+                "Gavi (MED, Barcelona)",
+                "6,99 M€",
+                "1,50",
+                "sin dato",
+                "-11,7% / -41,8%"
+              ],
+              [
+                "Raúl Moro (DEL, Osasuna)",
+                "2,83 M€",
+                "2,00",
+                "sin dato",
+                "-14,8% / -53,6%"
+              ],
+              [
+                "Marcão (DEF, Sevilla)",
+                "0,58 M€",
+                "0",
+                "0% · lesionado",
+                "+2,8% / +22%"
+              ]
+            ]
+          },
+          "points": [
+            "Grimaldo es de los mejores de la liga (8.º), pero cuesta 85 M€.",
+            "Aramburu, Gavi y Raúl Moro caen en picado.",
+            "Marcão es una lotería como Mendy (sube sin jugar), pero ya tienes dos apuestas así (Mendy y Militão).",
+            "Pacheco, Balliu y Óscar López juegan poco o puntúan muy poco. Arrasate (entrenador, 5 puntos) no."
+          ],
+          "conclusion": "Solo Javi Rodríguez. El resto, no.",
+          "playerIds": [
+            "grimaldo",
+            "aramburu",
+            "gavi",
+            "raul-moro",
+            "marcao"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Plan para hoy",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "1. Puja 5,3 M€ por Javi Rodríguez (máximo 5,6 M€).",
+              "playerId": "javi-rodriguez"
+            },
+            {
+              "text": "2. Mañana, si lo has ganado, vende a Sergio Gómez (~11,97 M€) antes del viernes a las 21:00.",
+              "playerId": "sergio-gomez"
+            },
+            {
+              "text": "3. Si quieres más colchón, vende a Nico Serrano (0,60 M€, 10% de jugar).",
+              "playerId": "nico-serrano"
+            },
+            {
+              "text": "4. Antes del 8 de noviembre, sube la cláusula de De Haas.",
+              "playerId": "de-haas"
+            }
+          ]
+        },
+        {
+          "title": "Once para la jornada 11",
+          "icon": "📋",
+          "items": [
+            {
+              "text": "4-4-2: Unai Simón; Koski, De Haas, Bartra, Sergio Gómez (o Javi Rodríguez); Ibáñez, Unai López, Agoumé, Bernardo; Cepeda, Raba. Entrenador: Matarazzo."
+            },
+            {
+              "text": "Capitán: Unai Simón.",
+              "playerId": "unai-simon"
+            },
+            {
+              "text": "Bartra (50%): confírmalo el sábado; si no juega, entra Sergio Gómez.",
+              "playerId": "bartra"
+            }
+          ]
+        },
+        {
+          "title": "Para mañana",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "Pásame tu plantilla (¿sigues teniendo a Sánchez Flores?) y tus puntos de la jornada 10."
+            },
+            {
+              "text": "Tu caja cuadra si entraron unos 6,8 M€ desde el sábado (¿premio de la jornada 10 o alguna venta?)."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "javi-rodriguez": {
+          "verdict": "pujar",
+          "maxBid": 5600000,
+          "confidence": "media",
+          "text": "Defensa en racha (17 y 8 puntos en las dos últimas) y su valor sube un 30% en la semana. Se vende por debajo de su valor. Puja 5,3 M€; si lo ganas, vende a Sergio Gómez."
+        },
+        "grimaldo": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Top de la liga (7,90 de media), pero cuesta 85 M€."
+        },
+        "aramburu": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "9,17 M€ por 2,88 de media; su valor cae un 48% en el mes."
+        },
+        "gavi": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Juega poco (30% de titularidad) y su valor cae un 42% en el mes."
+        },
+        "raul-moro": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "2,0 de media y su valor cae un 54% en el mes."
+        },
+        "marcao": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Lesionado. Sube sin jugar, como Mendy, pero ya tienes dos apuestas así."
+        },
+        "pacheco": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "10% de jugar y 0,38 de media."
+        },
+        "balliu": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Juega (60%) pero puntúa muy poco: 0,9 de media."
+        },
+        "oscar-lopez": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Sin minutos."
+        },
+        "arrasate": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Entrenador con 5 puntos."
+        },
+        "unai-simon": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Capitán de la J11: 7,50 de media (10 puntos en la J10) y 95% de jugar. Cláusula a 53 M€: margen del 35%."
+        },
+        "koski": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (70%), aunque en el Camp Nou (dificultad 5). Su valor se frena (+1% hoy). Cláusula con un 15% de margen."
+        },
+        "de-haas": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Gran fichaje: 4,71 de media, en racha (7, 4, 7, 9, 5) y +25% de valor en la semana. Visita al Elche (dificultad 2). Sube su cláusula antes del 8 de noviembre."
+        },
+        "bartra": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. Partido muy fácil (Málaga en casa), pero sigue con un 50%. Si juega, titular."
+        },
+        "sergio-gomez": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "Véndelo si ganas a Javi Rodríguez: 2,90 de media y su valor cae (18 días seguidos, -22,5% en el mes). Si no lo ganas, sigue de titular (90% en la J11)."
+        },
+        "johaneko": {
+          "verdict": "banquillo",
+          "confidence": "media",
+          "text": "No jugó en la J10 y tiene un 20% para la J11. Banquillo."
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (80%) aunque en el Camp Nou. Sigue subiendo (76 días seguidos). Cláusula con un 40% de margen."
+        },
+        "unai-lopez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (70%) ante el Celta, 5,2 de media."
+        },
+        "agoume": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (90%) en Getafe, 4,5 de media. El Sevilla-Osasuna de la J10 aparece sin resultado en el calendario."
+        },
+        "bernardo-silva": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. Buena jornada para él: 60% de jugar y visita al Racing, la peor defensa de la liga."
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "8 puntos en la J10 y su valor sigue subiendo (+13,6% en la semana). Titular ante el Valencia."
+        },
+        "raba": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Sube al 70% de jugar y visita al Elche (dificultad 2). Lo pusiste a la venta y nadie lo compró: mejor así, ahora es titular."
+        },
+        "matarazzo": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Entrenador para la J11: la Real Sociedad visita San Mamés, rival algo más asequible que el Barcelona del Alavés."
+        },
+        "sanchez-flores": {
+          "verdict": "banquillo",
+          "confidence": "baja",
+          "text": "El Alavés visita al Barcelona en la J11: mejor Matarazzo. ¿Sigue en tu plantilla?"
+        },
+        "militao": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Decisión tuya: se queda. Sigue subiendo (+56% en el mes) y ya tiene un 20% de jugar."
+        },
+        "ferland-mendy": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Comprado por 750.001 €. Su valor sube poco a poco (588.195 €, +2,5% en la semana); aún sin minutos."
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "10% de jugar. Véndelo si necesitas caja."
+        },
+        "galdin": {
+          "verdict": "banquillo",
+          "confidence": "media",
+          "text": "Portero suplente."
+        }
+      },
+      "lineup": {
+        "formation": "4-4-2",
+        "ids": [
+          "unai-simon",
+          "koski",
+          "de-haas",
+          "bartra",
+          "sergio-gomez",
+          "ibanez",
+          "unai-lopez",
+          "agoume",
+          "bernardo-silva",
+          "cepeda",
+          "raba",
+          "matarazzo"
+        ],
+        "note": "Capitán: Unai Simón. Si ganas a Javi Rodríguez, entra por Sergio Gómez. Si Bartra no juega, Sergio Gómez o Johaneko."
+      }
     }
   },
-  "bids": [
-    {
-      "playerId": "ferland-mendy",
-      "amount": 575165,
-      "date": "2026-10-24",
-      "note": "importe por confirmar (pongo su precio)"
-    }
-  ],
-  "budgetDate": "2026-10-24",
+  "bids": [],
+  "budgetDate": "2026-10-28",
   "ledger": [
     {
       "date": "2026-09-23",
@@ -6945,6 +8004,66 @@
       "ffId": 7842,
       "playerName": "Ferran Jutglà",
       "counterpart": "cláusula de un rival"
+    },
+    {
+      "date": "2026-10-24",
+      "kind": "clausula",
+      "playerId": "koski",
+      "ffId": 17284,
+      "playerName": "Koski",
+      "from": 47740170,
+      "to": 55740170
+    },
+    {
+      "date": "2026-10-24",
+      "kind": "clausula",
+      "playerId": "ibanez",
+      "ffId": 10258,
+      "playerName": "Ibáñez",
+      "from": 26592052,
+      "to": 30592052
+    },
+    {
+      "date": "2026-10-24",
+      "kind": "compra",
+      "playerId": "ferland-mendy",
+      "ffId": 6158,
+      "playerName": "F. Mendy",
+      "amount": 750001,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-10-25",
+      "kind": "compra",
+      "playerId": "matarazzo",
+      "playerName": "Matarazzo",
+      "amount": 761145,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-10-25",
+      "kind": "compra",
+      "playerId": "de-haas",
+      "ffId": 18018,
+      "playerName": "De Haas",
+      "amount": 4340288,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-10-25",
+      "kind": "expirado",
+      "playerId": "raba",
+      "ffId": 3732,
+      "playerName": "Raba"
+    },
+    {
+      "date": "2026-10-28",
+      "kind": "clausula",
+      "playerId": "unai-simon",
+      "ffId": 3693,
+      "playerName": "Unai Simón",
+      "from": 49000001,
+      "to": 53000001
     }
   ],
   "matchdayPoints": {
@@ -6955,6 +8074,6 @@
     "8": 20,
     "9": 50
   },
-  "cash": 8863840,
-  "budget": 8863840
+  "cash": 1789000,
+  "budget": 1789000
 }
