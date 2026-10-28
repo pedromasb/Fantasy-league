@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T07:51:02.579Z",
+  "updated": "2026-10-28T22:03:44.071Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -1715,6 +1715,122 @@
       "fullName": "Javi Rodríguez",
       "ffId": 12534,
       "statsUpdated": "2026-10-28"
+    },
+    "revivo": {
+      "id": "revivo",
+      "name": "Revivo",
+      "pos": "DEF",
+      "team": "Elche",
+      "fullName": "Revivo",
+      "ffId": 14377,
+      "statsUpdated": "2026-10-29"
+    },
+    "bordalas": {
+      "id": "bordalas",
+      "name": "Bordalás",
+      "pos": "COA",
+      "team": "Getafe",
+      "fullName": "José Bordalás",
+      "statsUpdated": "2026-10-29"
+    },
+    "fermin": {
+      "id": "fermin",
+      "name": "Fermín",
+      "pos": "MID",
+      "team": "Barcelona",
+      "fullName": "Fermín López",
+      "ffId": 11709,
+      "statsUpdated": "2026-10-29"
+    },
+    "xavi-espart": {
+      "id": "xavi-espart",
+      "name": "Xavi Espart",
+      "pos": "DEF",
+      "team": "Barcelona",
+      "fullName": "Xavi Espart",
+      "ffId": 16765,
+      "statsUpdated": "2026-10-29"
+    },
+    "mbappe": {
+      "id": "mbappe",
+      "name": "Mbappé",
+      "pos": "STR",
+      "team": "Real Madrid",
+      "fullName": "Kylian Mbappé",
+      "ffId": 3429,
+      "statsUpdated": "2026-10-29"
+    },
+    "rockson": {
+      "id": "rockson",
+      "name": "Rockson",
+      "pos": "DEF",
+      "team": "Osasuna",
+      "fullName": "Rockson Yeboah",
+      "ffId": 18316,
+      "statsUpdated": "2026-10-29"
+    },
+    "brahim": {
+      "id": "brahim",
+      "name": "Brahim",
+      "pos": "MID",
+      "team": "Real Madrid",
+      "fullName": "Brahim Díaz",
+      "ffId": 5035,
+      "statsUpdated": "2026-10-29"
+    },
+    "rioja": {
+      "id": "rioja",
+      "name": "Rioja",
+      "pos": "MID",
+      "team": "Valencia",
+      "fullName": "Luis Rioja",
+      "ffId": 6665,
+      "statsUpdated": "2026-10-29"
+    },
+    "ruben-garcia": {
+      "id": "ruben-garcia",
+      "name": "Rubén García",
+      "pos": "MID",
+      "team": "Osasuna",
+      "fullName": "Rubén García",
+      "ffId": 660,
+      "statsUpdated": "2026-10-29"
+    },
+    "vivian": {
+      "id": "vivian",
+      "name": "Vivian",
+      "pos": "DEF",
+      "team": "Athletic Club",
+      "fullName": "Dani Vivian",
+      "ffId": 5245,
+      "statsUpdated": "2026-10-29"
+    },
+    "risco": {
+      "id": "risco",
+      "name": "Risco",
+      "pos": "MID",
+      "team": "Getafe",
+      "fullName": "Risco",
+      "ffId": 12917,
+      "statsUpdated": "2026-10-29"
+    },
+    "cancelo": {
+      "id": "cancelo",
+      "name": "Cancelo",
+      "pos": "DEF",
+      "team": "Barcelona",
+      "fullName": "João Cancelo",
+      "ffId": 1882,
+      "statsUpdated": "2026-10-29"
+    },
+    "comas": {
+      "id": "comas",
+      "name": "Comas",
+      "pos": "DEF",
+      "team": "Deportivo",
+      "fullName": "Comas",
+      "ffId": 9854,
+      "statsUpdated": "2026-10-29"
     }
   },
   "markets": {
@@ -2879,6 +2995,200 @@
           null,
           17,
           8
+        ]
+      }
+    ],
+    "2026-10-29": [
+      {
+        "playerId": "bordalas",
+        "value": 2705892,
+        "price": 2705892,
+        "points": 16,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "claudio-giraldez",
+        "value": 671091,
+        "price": 671091,
+        "points": 22,
+        "status": "available",
+        "bids": 0
+      },
+      {
+        "playerId": "fermin",
+        "value": 96467651,
+        "price": 96467651,
+        "points": 75,
+        "status": "available",
+        "bids": 0,
+        "average": 7.5,
+        "recent": [
+          null,
+          3,
+          3,
+          7,
+          4
+        ]
+      },
+      {
+        "playerId": "xavi-espart",
+        "value": 61007298,
+        "price": 61007298,
+        "points": 62,
+        "status": "injured",
+        "bids": 0,
+        "average": 6.2,
+        "recent": [
+          null,
+          null,
+          10,
+          1,
+          2
+        ]
+      },
+      {
+        "playerId": "mbappe",
+        "value": 174534633,
+        "price": 174534633,
+        "points": 120,
+        "status": "available",
+        "bids": 0,
+        "average": 12,
+        "recent": [
+          12,
+          3,
+          6,
+          18,
+          14
+        ]
+      },
+      {
+        "playerId": "rockson",
+        "value": 655353,
+        "price": 655353,
+        "points": 1,
+        "status": "available",
+        "bids": 1,
+        "average": 0.14,
+        "recent": [
+          -1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "brahim",
+        "value": 3194756,
+        "price": 3194756,
+        "points": 9,
+        "status": "available",
+        "bids": 0,
+        "average": 0.9,
+        "recent": [
+          1,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      {
+        "playerId": "rioja",
+        "value": 2911336,
+        "price": 2911336,
+        "points": 26,
+        "status": "available",
+        "bids": 1,
+        "average": 4.33,
+        "recent": [
+          10,
+          3,
+          null,
+          4,
+          4
+        ]
+      },
+      {
+        "playerId": "ruben-garcia",
+        "value": 13649283,
+        "price": 13649283,
+        "points": 46,
+        "status": "available",
+        "bids": 0,
+        "average": 4.6,
+        "recent": [
+          0,
+          5,
+          9,
+          9,
+          null
+        ]
+      },
+      {
+        "playerId": "vivian",
+        "value": 2866590,
+        "price": 2866590,
+        "points": 11,
+        "status": "available",
+        "bids": 1,
+        "average": 2.75,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          11
+        ]
+      },
+      {
+        "playerId": "risco",
+        "value": 586681,
+        "price": 586681,
+        "points": 4,
+        "status": "available",
+        "bids": 0,
+        "average": 0.5,
+        "recent": [
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "cancelo",
+        "value": 33845359,
+        "price": 33845359,
+        "points": 24,
+        "status": "available",
+        "bids": 0,
+        "average": 2.4,
+        "recent": [
+          7,
+          5,
+          null,
+          null,
+          5
+        ]
+      },
+      {
+        "playerId": "comas",
+        "value": 586981,
+        "price": 586981,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       }
     ]
@@ -4464,6 +4774,289 @@
           "value": 761145
         }
       ]
+    },
+    "2026-10-29": {
+      "date": "2026-10-29",
+      "formation": "4-4-2",
+      "teamValue": 214430193,
+      "signings": "18/26",
+      "slots": [
+        {
+          "playerId": "unai-simon",
+          "starter": true,
+          "value": 39369943,
+          "points": 75,
+          "status": "available",
+          "average": 7.5,
+          "recent": [
+            4,
+            8,
+            4,
+            11,
+            10
+          ],
+          "clause": 53000001
+        },
+        {
+          "playerId": "koski",
+          "starter": true,
+          "value": 48333050,
+          "points": 61,
+          "status": "available",
+          "average": 6.1,
+          "recent": [
+            6,
+            9,
+            3,
+            3,
+            5
+          ],
+          "clause": 55740170
+        },
+        {
+          "playerId": "bartra",
+          "starter": true,
+          "value": 18323132,
+          "points": 36,
+          "status": "available",
+          "average": 3.6,
+          "recent": [
+            null,
+            2,
+            null,
+            null,
+            4
+          ],
+          "clause": 52000011
+        },
+        {
+          "playerId": "ibanez",
+          "starter": true,
+          "value": 21796265,
+          "points": 52,
+          "status": "available",
+          "average": 5.2,
+          "recent": [
+            4,
+            6,
+            4,
+            7,
+            4
+          ],
+          "clause": 30592052
+        },
+        {
+          "playerId": "unai-lopez",
+          "starter": true,
+          "value": 22113321,
+          "points": 52,
+          "status": "available",
+          "average": 5.2,
+          "recent": [
+            4,
+            4,
+            4,
+            5,
+            4
+          ],
+          "clause": 28538664
+        },
+        {
+          "playerId": "bernardo-silva",
+          "starter": true,
+          "value": 20671395,
+          "points": 26,
+          "status": "available",
+          "average": 2.6,
+          "recent": [
+            null,
+            8,
+            null,
+            1,
+            2
+          ],
+          "clauseLockDays": 0
+        },
+        {
+          "playerId": "cepeda",
+          "starter": true,
+          "value": 2951156,
+          "points": 44,
+          "status": "available",
+          "average": 4.4,
+          "recent": [
+            6,
+            5,
+            3,
+            4,
+            8
+          ],
+          "clauseLockDays": 4
+        },
+        {
+          "playerId": "sanchez-flores",
+          "starter": true,
+          "value": 580867,
+          "points": 19,
+          "status": "available",
+          "average": 2.11,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "militao",
+          "starter": false,
+          "value": 6752344,
+          "points": 2,
+          "status": "available",
+          "average": 2,
+          "recent": [
+            null,
+            null,
+            null,
+            2,
+            null
+          ],
+          "clause": 15151133
+        },
+        {
+          "playerId": "nico-serrano",
+          "starter": false,
+          "value": 595774,
+          "points": 2,
+          "status": "available",
+          "average": 0.33,
+          "recent": [
+            null,
+            2,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "galdin",
+          "starter": false,
+          "value": 586695,
+          "points": 0,
+          "status": "available",
+          "average": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "raba",
+          "starter": true,
+          "value": 781729,
+          "points": 14,
+          "average": 1.4,
+          "recent": [
+            null,
+            null,
+            7,
+            2,
+            2
+          ],
+          "status": "available",
+          "clause": 797111,
+          "clauseLockDays": 6
+        },
+        {
+          "playerId": "johaneko",
+          "starter": true,
+          "value": 827164,
+          "points": 19,
+          "average": 2.11,
+          "recent": [
+            -2,
+            3,
+            null,
+            7,
+            null
+          ],
+          "status": "available",
+          "clauseLockDays": 7
+        },
+        {
+          "playerId": "agoume",
+          "starter": true,
+          "value": 19375979,
+          "points": 45,
+          "average": 4.5,
+          "recent": [
+            9,
+            1,
+            0,
+            2,
+            null
+          ],
+          "status": "available",
+          "clauseLockDays": 7
+        },
+        {
+          "playerId": "ferland-mendy",
+          "starter": false,
+          "clauseLockDays": 9,
+          "value": 588195,
+          "points": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "playerId": "de-haas",
+          "starter": false,
+          "clauseLockDays": 10,
+          "value": 4771834,
+          "points": 33,
+          "average": 4.71,
+          "recent": [
+            7,
+            4,
+            7,
+            9,
+            5
+          ]
+        },
+        {
+          "playerId": "matarazzo",
+          "starter": false,
+          "clauseLockDays": 10,
+          "value": 761145
+        },
+        {
+          "playerId": "revivo",
+          "starter": true,
+          "clauseLockDays": 13,
+          "value": 5250205,
+          "points": 42,
+          "average": 6,
+          "recent": [
+            -1,
+            15,
+            6,
+            6,
+            11
+          ]
+        }
+      ]
     }
   },
   "purchases": {
@@ -4474,7 +5067,8 @@
     "raba": 797111,
     "ferland-mendy": 750001,
     "de-haas": 4340288,
-    "matarazzo": 761145
+    "matarazzo": 761145,
+    "revivo": 5250205
   },
   "reports": {
     "2026-10-19": {
@@ -7768,10 +8362,523 @@
         ],
         "note": "Capitán: Unai Simón. Si ganas a Javi Rodríguez, entra por Sergio Gómez. Si Bartra no juega, Sergio Gómez o Johaneko."
       }
+    },
+    "2026-10-29": {
+      "date": "2026-10-29",
+      "title": "Revivo, gran fichaje; Rioja para el centro del campo",
+      "summary": "Vendiste a Sergio Gómez por 13,21 M€ (1,24 M€ por encima de su valor) y fichaste a Revivo (6,0 de media, +32% en la semana): mejor que Javi Rodríguez. Tienes 9,75 M€. Hoy recomiendo pujar ~3,1 M€ por Rioja (4,33 de media) para el hueco de Bernardo en el once, y guardar el resto para las cláusulas de De Haas y Revivo cuando se desbloqueen. Capitán J11: Unai Simón.",
+      "analyses": [
+        {
+          "icon": "✅",
+          "title": "Sergio Gómez por Revivo: balance",
+          "question": "¿Cómo ha salido el cambio?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Importe",
+              "Media",
+              "Últimas 5",
+              "Prob. J11",
+              "Rival J11",
+              "Valor 7d / 30d"
+            ],
+            "rows": [
+              [
+                "Revivo (Elche), fichado",
+                "-5,25 M€",
+                "6,00",
+                "-1, 15, 6, 6, 11",
+                "90%",
+                "Valencia 🏠 · dif. 2",
+                "+32,2% / +44,9%"
+              ],
+              [
+                "Sergio Gómez, vendido",
+                "+13,21 M€",
+                "2,90",
+                "9, 5, 1, 3, 3",
+                "—",
+                "—",
+                "-7,7% / -22,5%"
+              ],
+              [
+                "Javi Rodríguez (la alternativa)",
+                "—",
+                "3,60",
+                "2, –, –, 17, 8",
+                "80%",
+                "Rayo ✈️ · dif. 4",
+                "+29,5% / -17,1%"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Vendiste a Sergio Gómez 1,24 M€ por encima de su valor (11,97 M€): muy buena venta para un jugador que lleva 18 días cayendo.",
+            "Revivo es mejor opción que Javi Rodríguez: más media (6,0 frente a 3,6), más probabilidad de jugar (90% frente a 80%) y un rival más fácil en la J11.",
+            "Su valor sube un 5% al día. Ojo: tras la compra su cláusula está bloqueada ~14 días (hasta ~11 de noviembre). Súbela antes."
+          ],
+          "conclusion": "Cambio redondo: ganas 8 M€ de caja y mejoras la defensa.",
+          "playerIds": [
+            "revivo",
+            "sergio-gomez",
+            "javi-rodriguez"
+          ]
+        },
+        {
+          "icon": "🛒",
+          "title": "¿Un centrocampista por Bernardo?",
+          "question": "¿Hay en el mercado un medio que mejore a Bernardo en el once?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio",
+              "Media",
+              "Últimas 5",
+              "Prob. J11",
+              "Rival J11",
+              "Valor 1d / 7d / 30d",
+              "xA"
+            ],
+            "rows": [
+              [
+                "Rioja (Valencia)",
+                "2,91 M€",
+                "4,33",
+                "10, 3, –, 4, 4",
+                "70%",
+                "Elche ✈️ · dif. 2",
+                "+0,8% / -0,8% / -34,3%",
+                "1,05"
+              ],
+              [
+                "Rubén García (Osasuna)",
+                "13,65 M€",
+                "4,60",
+                "0, 5, 9, 9",
+                "80%",
+                "Deportivo ✈️ · dif. 4",
+                "+1,1% / +20,2% / +15,7%",
+                "2,16"
+              ],
+              [
+                "Bernardo Silva (tuyo)",
+                "vale 20,67 M€",
+                "2,60",
+                "–, 8, –, 1, 2",
+                "60%",
+                "Racing ✈️ · dif. 1",
+                "-0,4% / -9,0% / -36,9%",
+                "0,23"
+              ],
+              [
+                "Brahim (Real Madrid)",
+                "3,19 M€",
+                "0,90",
+                "1, –, –, 1, –",
+                "sin dato",
+                "Racing ✈️",
+                "-2,4% / -13,7% / -47,3%",
+                "0,20"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Rioja dobla casi la media de Bernardo (4,33 frente a 2,60) y juega más seguro (70% frente a 60%). Cuesta solo 2,91 M€.",
+            "Su valor ya ha tocado fondo: tras caer un 34% en el mes, lleva 2 días subiendo. Comprarlo ahora es barato.",
+            "Rubén García es mejor jugador y sube un 20% en la semana, pero cuesta 13,65 M€: no llega sin vender a alguien que has decidido mantener.",
+            "Bernardo tiene un rival muy fácil en la J11 (Racing), así que la diferencia esta jornada es menor; a partir de la J12 (Valencia y Celta) Rioja es claramente mejor.",
+            "Rioja tiene otra puja: ofrece ~3,1 M€ (+6%). Más de 3,3 M€ no compensa."
+          ],
+          "conclusion": "Puja 3,1 M€ por Rioja (máximo 3,3 M€). Te quedan ~6,6 M€ para las cláusulas de De Haas y Revivo.",
+          "playerIds": [
+            "rioja",
+            "ruben-garcia",
+            "bernardo-silva",
+            "brahim"
+          ]
+        },
+        {
+          "icon": "🔐",
+          "title": "Caja y cláusulas pendientes",
+          "question": "¿Para qué guardar el dinero?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Valor",
+              "Cláusula",
+              "Se desbloquea",
+              "Subida a ~1,3× su valor"
+            ],
+            "rows": [
+              [
+                "De Haas",
+                "4,77 M€ (+25% en la semana)",
+                "bloqueada",
+                "~8 nov",
+                "~6,5 M€ de cláusula: unos 1-1,5 M€"
+              ],
+              [
+                "Revivo",
+                "5,25 M€ (+32% en la semana)",
+                "bloqueada",
+                "~11 nov",
+                "~7-8 M€ de cláusula: unos 1-1,5 M€"
+              ],
+              [
+                "Koski",
+                "48,33 M€",
+                "55,74 M€ (+15%)",
+                "—",
+                "vigilar"
+              ]
+            ]
+          },
+          "points": [
+            "De Haas y Revivo son tus dos defensas que más suben: cuando se desbloqueen sus cláusulas, cualquiera podrá llevárselos si no las subes.",
+            "Con 9,75 M€ hay para Rioja y para esas dos subidas, con colchón."
+          ],
+          "conclusion": "Rioja hoy; guarda ~3 M€ para las cláusulas de De Haas y Revivo.",
+          "playerIds": [
+            "de-haas",
+            "revivo",
+            "koski"
+          ]
+        },
+        {
+          "icon": "©️",
+          "title": "Once y capitán de la jornada 11",
+          "question": "¿Cómo queda el once con Revivo (y Rioja si llega)?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Media",
+              "Prob. J11",
+              "Rival J11",
+              "Dificultad"
+            ],
+            "rows": [
+              [
+                "Unai Simón (POR) · C",
+                "7,50",
+                "95%",
+                "Real Sociedad 🏠",
+                "4"
+              ],
+              [
+                "Koski",
+                "6,10",
+                "70%",
+                "Barcelona ✈️",
+                "5"
+              ],
+              [
+                "Revivo",
+                "6,00",
+                "90%",
+                "Valencia 🏠",
+                "2"
+              ],
+              [
+                "De Haas",
+                "4,71",
+                "70%",
+                "Elche ✈️",
+                "2"
+              ],
+              [
+                "Bartra",
+                "3,60",
+                "50%",
+                "Málaga 🏠",
+                "1"
+              ],
+              [
+                "Ibáñez",
+                "5,20",
+                "80%",
+                "Barcelona ✈️",
+                "5"
+              ],
+              [
+                "Unai López",
+                "5,20",
+                "70%",
+                "Celta 🏠",
+                "5"
+              ],
+              [
+                "Agoumé",
+                "4,50",
+                "90%",
+                "Getafe ✈️",
+                "3"
+              ],
+              [
+                "Rioja (si llega) o Bernardo",
+                "4,33 / 2,60",
+                "70% / 60%",
+                "Elche ✈️ / Racing ✈️",
+                "2 / 1"
+              ],
+              [
+                "Cepeda",
+                "4,40",
+                "70%",
+                "Valencia 🏠",
+                "3"
+              ],
+              [
+                "Raba",
+                "1,40",
+                "70%",
+                "Elche ✈️",
+                "2"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Capitán: Unai Simón (7,50 de media, 95% de jugar).",
+            "Defensa: Koski, Revivo, De Haas y Bartra. Si Bartra no está confirmado el sábado, entra Johaneko (20%) o Militão (20%); los dos son dudosos.",
+            "Entrenador: Matarazzo."
+          ],
+          "conclusion": "4-4-2: Unai Simón (C); Koski, Revivo, De Haas, Bartra; Ibáñez, Unai López, Agoumé, Rioja (o Bernardo); Cepeda, Raba. Entrenador: Matarazzo.",
+          "playerIds": [
+            "unai-simon",
+            "revivo",
+            "de-haas",
+            "rioja",
+            "bartra"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Plan para hoy",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "✅ Hecho: Sergio Gómez vendido por 13,21 M€ y Revivo fichado por 5,25 M€.",
+              "playerId": "revivo"
+            },
+            {
+              "text": "1. Puja 3,1 M€ por Rioja (máximo 3,3 M€).",
+              "playerId": "rioja"
+            },
+            {
+              "text": "2. Guarda ~3 M€ para subir las cláusulas de De Haas (~8 nov) y Revivo (~11 nov).",
+              "playerId": "de-haas"
+            },
+            {
+              "text": "3. Nada más del mercado: Mbappé, Fermín, Cancelo y Espart están fuera de alcance; el resto no juega o baja."
+            }
+          ]
+        },
+        {
+          "title": "Once para la jornada 11",
+          "icon": "📋",
+          "items": [
+            {
+              "text": "4-4-2: Unai Simón (C); Koski, Revivo, De Haas, Bartra; Ibáñez, Unai López, Agoumé, Rioja (o Bernardo); Cepeda, Raba. Entrenador: Matarazzo."
+            },
+            {
+              "text": "Bartra (50%): confírmalo el sábado.",
+              "playerId": "bartra"
+            }
+          ]
+        },
+        {
+          "title": "Para mañana",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "Dime si ganas a Rioja, pásame el mercado nuevo y, si puedes, tus puntos de la jornada 10."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "rioja": {
+          "verdict": "pujar",
+          "maxBid": 3300000,
+          "confidence": "media",
+          "text": "4,33 de media (casi el doble que Bernardo), 70% de jugar y visita al Elche (dificultad 2). Barato tras caer un 34% en el mes y ya rebota. Hay otra puja: ofrece 3,1 M€, máximo 3,3 M€."
+        },
+        "ruben-garcia": {
+          "verdict": "vigilar",
+          "confidence": "media",
+          "text": "Muy buen medio (4,6 de media, 2,16 xA) y sube un 20% en la semana, pero cuesta 13,65 M€: no llega sin vender a alguien que quieres mantener."
+        },
+        "vivian": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "2,75 de media y 50% de jugar. Tus defensas son mejores."
+        },
+        "brahim": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "0,9 de media y su valor cae un 47% en el mes."
+        },
+        "cancelo": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "33,8 M€ por 2,4 de media."
+        },
+        "fermin": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Top de la liga (7,5 de media), pero cuesta 96,5 M€."
+        },
+        "mbappe": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "El mejor de la liga (12 de media), pero cuesta 174,5 M€."
+        },
+        "xavi-espart": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Lesionado y cuesta 61 M€."
+        },
+        "rockson": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "0,14 de media."
+        },
+        "risco": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Casi sin minutos: 0,5 de media."
+        },
+        "comas": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Sin minutos: 0 puntos."
+        },
+        "bordalas": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Entrenador con 16 puntos y caro (2,7 M€)."
+        },
+        "claudio-giraldez": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Entrenador con 22 puntos; ya tienes a Matarazzo y Sánchez Flores."
+        },
+        "revivo": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Gran fichaje: 6,0 de media, 90% de jugar y recibe al Valencia (dificultad 2). Su valor sube un 32% en la semana. Sube su cláusula antes del ~11 de noviembre."
+        },
+        "unai-simon": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Capitán de la J11: 7,50 de media y 95% de jugar."
+        },
+        "koski": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (70%) aunque en el Camp Nou. Cláusula con un 15% de margen."
+        },
+        "de-haas": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "4,71 de media y visita al Elche (dificultad 2). Sube su cláusula antes del 8 de noviembre."
+        },
+        "bartra": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. Titular si se confirma (50%): el Málaga en casa es el rival más fácil posible."
+        },
+        "johaneko": {
+          "verdict": "banquillo",
+          "confidence": "media",
+          "text": "20% de jugar la J11. Banquillo."
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (80%) aunque en el Camp Nou."
+        },
+        "unai-lopez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (70%) ante el Celta."
+        },
+        "agoume": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (90%) en Getafe."
+        },
+        "bernardo-silva": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. Titular si no llega Rioja; buen rival (Racing) pero 2,6 de media."
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular (70%) ante el Valencia; su valor sigue subiendo."
+        },
+        "raba": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (70%) en Elche."
+        },
+        "matarazzo": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Entrenador para la J11 (Real Sociedad en San Mamés)."
+        },
+        "sanchez-flores": {
+          "verdict": "banquillo",
+          "confidence": "baja",
+          "text": "El Alavés visita al Barcelona: mejor Matarazzo."
+        },
+        "militao": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Decisión tuya: se queda. Sigue subiendo (+56% en el mes)."
+        },
+        "ferland-mendy": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Apuesta especulativa: su valor sube poco a poco; aún sin minutos."
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "10% de jugar. Véndelo si necesitas caja."
+        },
+        "galdin": {
+          "verdict": "banquillo",
+          "confidence": "media",
+          "text": "Portero suplente."
+        }
+      },
+      "lineup": {
+        "formation": "4-4-2",
+        "ids": [
+          "unai-simon",
+          "koski",
+          "revivo",
+          "de-haas",
+          "bartra",
+          "ibanez",
+          "unai-lopez",
+          "agoume",
+          "rioja",
+          "cepeda",
+          "raba",
+          "matarazzo"
+        ],
+        "note": "Capitán: Unai Simón. Rioja si lo ganas; si no, Bernardo. Confirma a Bartra el sábado."
+      }
     }
   },
   "bids": [],
-  "budgetDate": "2026-10-28",
+  "budgetDate": "2026-10-29",
   "ledger": [
     {
       "date": "2026-09-23",
@@ -8064,6 +9171,24 @@
       "playerName": "Unai Simón",
       "from": 49000001,
       "to": 53000001
+    },
+    {
+      "date": "2026-10-28",
+      "kind": "venta",
+      "playerId": "sergio-gomez",
+      "ffId": 6180,
+      "playerName": "Sergio Gómez",
+      "amount": 13211180,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-10-28",
+      "kind": "compra",
+      "playerId": "revivo",
+      "ffId": 14377,
+      "playerName": "Revivo",
+      "amount": 5250205,
+      "counterpart": "Paibol Nedved"
     }
   ],
   "matchdayPoints": {
@@ -8074,6 +9199,6 @@
     "8": 20,
     "9": 50
   },
-  "cash": 1789000,
-  "budget": 1789000
+  "cash": 9750283,
+  "budget": 9750283
 }
