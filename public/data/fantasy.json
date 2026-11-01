@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T22:03:44.071Z",
+  "updated": "2026-11-01T09:47:46.786Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -1831,6 +1831,114 @@
       "fullName": "Comas",
       "ffId": 9854,
       "statsUpdated": "2026-10-29"
+    },
+    "guedes": {
+      "id": "guedes",
+      "name": "Guedes",
+      "pos": "STR",
+      "team": "Real Sociedad",
+      "fullName": "Gonçalo Guedes",
+      "ffId": 2242,
+      "statsUpdated": "2026-11-01"
+    },
+    "ivan-martin": {
+      "id": "ivan-martin",
+      "name": "Iván Martín",
+      "pos": "MID",
+      "team": "Racing de Santander",
+      "fullName": "Iván Martín",
+      "ffId": 6563,
+      "statsUpdated": "2026-11-01"
+    },
+    "francho": {
+      "id": "francho",
+      "name": "Francho",
+      "pos": "MID",
+      "team": "Getafe",
+      "fullName": "Francho Serrano",
+      "ffId": 7995,
+      "statsUpdated": "2026-11-01"
+    },
+    "kike-salas": {
+      "id": "kike-salas",
+      "name": "Kike Salas",
+      "pos": "DEF",
+      "team": "Sevilla",
+      "fullName": "Kike Salas",
+      "ffId": 9931,
+      "statsUpdated": "2026-11-01"
+    },
+    "sergio-herrera": {
+      "id": "sergio-herrera",
+      "name": "Sergio Herrera",
+      "pos": "GK",
+      "team": "Osasuna",
+      "fullName": "Sergio Herrera",
+      "ffId": 6611,
+      "statsUpdated": "2026-11-01"
+    },
+    "noe-carrillo": {
+      "id": "noe-carrillo",
+      "name": "Noé",
+      "pos": "MID",
+      "team": "Deportivo",
+      "fullName": "Noé Carrillo",
+      "ffId": 16976,
+      "statsUpdated": "2026-11-01"
+    },
+    "hugo-gonzalez": {
+      "id": "hugo-gonzalez",
+      "name": "H. González",
+      "pos": "MID",
+      "team": "Celta",
+      "fullName": "Hugo González",
+      "ffId": 9744,
+      "statsUpdated": "2026-11-01"
+    },
+    "kounde": {
+      "id": "kounde",
+      "name": "Koundé",
+      "pos": "DEF",
+      "team": "Barcelona",
+      "fullName": "Jules Koundé",
+      "ffId": 6674,
+      "statsUpdated": "2026-11-01"
+    },
+    "amatucci": {
+      "id": "amatucci",
+      "name": "Amatucci",
+      "pos": "MID",
+      "team": "Deportivo",
+      "fullName": "Amatucci",
+      "ffId": 11198,
+      "statsUpdated": "2026-11-01"
+    },
+    "felix-correia": {
+      "id": "felix-correia",
+      "name": "Félix Correia",
+      "pos": "STR",
+      "team": "Sevilla",
+      "fullName": "Félix Correia",
+      "ffId": 8091,
+      "statsUpdated": "2026-11-01"
+    },
+    "javi-hernandez": {
+      "id": "javi-hernandez",
+      "name": "Javi Hernández",
+      "pos": "MID",
+      "team": "Espanyol",
+      "fullName": "Javier Hernández",
+      "ffId": 14024,
+      "statsUpdated": "2026-11-01"
+    },
+    "luiz-junior": {
+      "id": "luiz-junior",
+      "name": "Júnior R.",
+      "pos": "GK",
+      "team": "Villarreal",
+      "fullName": "Luiz Júnior",
+      "ffId": 14125,
+      "statsUpdated": "2026-11-01"
     }
   },
   "markets": {
@@ -3183,6 +3291,200 @@
         "status": "available",
         "bids": 0,
         "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "2026-11-01": [
+      {
+        "playerId": "guedes",
+        "value": 27273785,
+        "price": 26432086,
+        "points": 47,
+        "status": "available",
+        "bids": 0,
+        "average": 5.22,
+        "recent": [
+          5,
+          8,
+          7,
+          10,
+          null
+        ]
+      },
+      {
+        "playerId": "ivan-martin",
+        "value": 5316263,
+        "price": 5318680,
+        "points": 32,
+        "status": "available",
+        "bids": 0,
+        "average": 3.56,
+        "recent": [
+          3,
+          8,
+          2,
+          6,
+          null
+        ]
+      },
+      {
+        "playerId": "francho",
+        "value": 1094714,
+        "price": 1111180,
+        "points": 24,
+        "status": "available",
+        "bids": 0,
+        "average": 3,
+        "recent": [
+          4,
+          1,
+          6,
+          1,
+          null
+        ]
+      },
+      {
+        "playerId": "kike-salas",
+        "value": 16888037,
+        "price": 16888037,
+        "points": 39,
+        "status": "available",
+        "bids": 0,
+        "average": 4.88,
+        "recent": [
+          null,
+          5,
+          0,
+          10,
+          null
+        ]
+      },
+      {
+        "playerId": "sergio-herrera",
+        "value": 12328301,
+        "price": 12620137,
+        "points": 22,
+        "status": "available",
+        "bids": 0,
+        "average": 2.2,
+        "recent": [
+          -1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "noe-carrillo",
+        "value": 665118,
+        "price": 663684,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "hugo-gonzalez",
+        "value": 4903386,
+        "price": 4987961,
+        "points": 39,
+        "status": "injured",
+        "bids": 0,
+        "average": 6.5,
+        "recent": [
+          11,
+          null,
+          null,
+          5,
+          2
+        ]
+      },
+      {
+        "playerId": "kounde",
+        "value": 18207061,
+        "price": 18581089,
+        "points": 38,
+        "status": "injured",
+        "bids": 0,
+        "average": 4.22,
+        "recent": [
+          null,
+          18,
+          5,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "amatucci",
+        "value": 7858246,
+        "price": 8008994,
+        "points": 26,
+        "status": "available",
+        "bids": 0,
+        "average": 3.25,
+        "recent": [
+          null,
+          -1,
+          null,
+          4,
+          null
+        ]
+      },
+      {
+        "playerId": "felix-correia",
+        "value": 6365214,
+        "price": 6199728,
+        "points": 37,
+        "status": "available",
+        "bids": 0,
+        "average": 5.29,
+        "recent": [
+          5,
+          8,
+          1,
+          13,
+          null
+        ]
+      },
+      {
+        "playerId": "javi-hernandez",
+        "value": 21447540,
+        "price": 20724157,
+        "points": 52,
+        "status": "available",
+        "bids": 0,
+        "average": 5.45,
+        "recent": [
+          0,
+          5,
+          6,
+          9,
+          8
+        ]
+      },
+      {
+        "playerId": "luiz-junior",
+        "value": 7854544,
+        "price": 8055503,
+        "points": 12,
+        "status": "available",
+        "bids": 0,
+        "average": 3,
         "recent": [
           null,
           null,
@@ -5054,6 +5356,290 @@
             6,
             6,
             11
+          ]
+        }
+      ]
+    },
+    "2026-11-01": {
+      "date": "2026-11-01",
+      "formation": "4-4-2",
+      "teamValue": 217891379,
+      "signings": "18/26",
+      "slots": [
+        {
+          "playerId": "unai-simon",
+          "starter": true,
+          "value": 40756250,
+          "points": 75,
+          "status": "available",
+          "average": 7.5,
+          "recent": [
+            8,
+            4,
+            11,
+            10,
+            null
+          ],
+          "clause": 53000001,
+          "captain": true
+        },
+        {
+          "playerId": "koski",
+          "starter": true,
+          "value": 47085092,
+          "points": 57,
+          "status": "available",
+          "average": 5.18,
+          "recent": [
+            9,
+            3,
+            3,
+            5,
+            -4
+          ],
+          "clause": 55740170
+        },
+        {
+          "playerId": "bartra",
+          "starter": true,
+          "value": 17509046,
+          "points": 50,
+          "status": "available",
+          "average": 4.55,
+          "recent": [
+            2,
+            null,
+            null,
+            4,
+            14
+          ],
+          "clause": 52000011
+        },
+        {
+          "playerId": "ibanez",
+          "starter": true,
+          "value": 22174088,
+          "points": 52,
+          "status": "available",
+          "average": 4.73,
+          "recent": [
+            6,
+            4,
+            7,
+            4,
+            0
+          ],
+          "clause": 30592052
+        },
+        {
+          "playerId": "unai-lopez",
+          "starter": true,
+          "value": 22701884,
+          "points": 65,
+          "status": "available",
+          "average": 5.91,
+          "recent": [
+            4,
+            4,
+            5,
+            4,
+            13
+          ],
+          "clause": 28538664
+        },
+        {
+          "playerId": "bernardo-silva",
+          "starter": true,
+          "value": 20820377,
+          "points": 26,
+          "status": "available",
+          "average": 2.6,
+          "recent": [
+            8,
+            null,
+            1,
+            2,
+            null
+          ],
+          "clauseLockDays": 0
+        },
+        {
+          "playerId": "cepeda",
+          "starter": true,
+          "value": 3296718,
+          "points": 44,
+          "status": "available",
+          "average": 4.4,
+          "recent": [
+            5,
+            3,
+            4,
+            8,
+            null
+          ],
+          "clauseLockDays": 1
+        },
+        {
+          "playerId": "sanchez-flores",
+          "starter": false,
+          "value": 580867,
+          "points": 19,
+          "status": "available",
+          "average": 2.11,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "militao",
+          "starter": false,
+          "value": 6726080,
+          "points": 2,
+          "status": "available",
+          "average": 2,
+          "recent": [
+            null,
+            null,
+            2,
+            null,
+            null
+          ],
+          "clause": 15151133
+        },
+        {
+          "playerId": "nico-serrano",
+          "starter": false,
+          "value": 601533,
+          "points": 2,
+          "status": "available",
+          "average": 0.33,
+          "recent": [
+            2,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "galdin",
+          "starter": false,
+          "value": 593822,
+          "points": 0,
+          "status": "available",
+          "average": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "raba",
+          "starter": true,
+          "value": 781385,
+          "points": 14,
+          "average": 1.4,
+          "recent": [
+            null,
+            7,
+            2,
+            2,
+            null
+          ],
+          "status": "available",
+          "clause": 797111,
+          "clauseLockDays": 3
+        },
+        {
+          "playerId": "johaneko",
+          "starter": false,
+          "value": 798063,
+          "points": 19,
+          "average": 2.11,
+          "recent": [
+            3,
+            null,
+            7,
+            null,
+            null
+          ],
+          "status": "available",
+          "clauseLockDays": 4
+        },
+        {
+          "playerId": "agoume",
+          "starter": true,
+          "value": 20604147,
+          "points": 45,
+          "average": 4.5,
+          "recent": [
+            1,
+            0,
+            2,
+            6,
+            null
+          ],
+          "status": "available",
+          "clauseLockDays": 4
+        },
+        {
+          "playerId": "ferland-mendy",
+          "starter": false,
+          "clauseLockDays": 6,
+          "value": 595096,
+          "points": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "playerId": "de-haas",
+          "starter": true,
+          "clauseLockDays": 7,
+          "value": 5247651,
+          "points": 33,
+          "average": 4.71,
+          "recent": [
+            4,
+            7,
+            9,
+            5,
+            null
+          ]
+        },
+        {
+          "playerId": "matarazzo",
+          "starter": true,
+          "clauseLockDays": 7,
+          "value": 761145
+        },
+        {
+          "playerId": "revivo",
+          "starter": true,
+          "clauseLockDays": 10,
+          "value": 6269762,
+          "points": 42,
+          "average": 6,
+          "recent": [
+            15,
+            6,
+            6,
+            11,
+            null
           ]
         }
       ]
@@ -8875,10 +9461,476 @@
         ],
         "note": "Capitán: Unai Simón. Rioja si lo ganas; si no, Bernardo. Confirma a Bartra el sábado."
       }
+    },
+    "2026-11-01": {
+      "date": "2026-11-01",
+      "title": "Félix Correia para sustituir a Raba",
+      "summary": "Jornada 11 a medias: Bartra 14 y Unai López 13, pero Koski -4 e Ibáñez 0 en el 6-1 del Barcelona. Hoy juegan Agoumé, Bernardo, Cepeda, Raba, De Haas, Revivo y Unai Simón (capitán). Tienes 1,95 M€ (¿hay alguna puja pendiente? antes tenías 9,75 M€). En el mercado, Félix Correia (Sevilla, 5,29 de media, +14% en la semana) se vende por debajo de su valor: es el delantero que te falta en lugar de Raba.",
+      "analyses": [
+        {
+          "icon": "⚽",
+          "title": "¿Félix Correia por Raba?",
+          "question": "¿Merece la pena un delantero de 6,2 M€ para sustituir a Raba?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio / valor",
+              "Media",
+              "Últimas 5",
+              "Titularidad",
+              "J12",
+              "Valor 1d / 7d / 30d",
+              "xG / xA"
+            ],
+            "rows": [
+              [
+                "Félix Correia (Sevilla)",
+                "6,20 M€ (vale 6,37)",
+                "5,29",
+                "5, 8, 1, 13",
+                "80%",
+                "Alavés 🏠 · dif. 3",
+                "+2,7% / +14,3% / +27,0%",
+                "1,41 / 0,92"
+              ],
+              [
+                "Raba (tuyo)",
+                "vale 0,78 M€",
+                "1,40",
+                "–, 7, 2, 2",
+                "50%",
+                "Real Madrid 🏠 · dif. 4",
+                "-0,4% / -1,6% / +19%",
+                "0,67 / 0,16"
+              ],
+              [
+                "Guedes (R. Sociedad)",
+                "26,43 M€ (vale 27,27)",
+                "5,22",
+                "5, 8, 7, 10",
+                "80%",
+                "Rayo",
+                "+3,2% / +22,0% / +76,5%",
+                "2,43 / 1,10"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Correia casi cuadruplica la media de Raba (5,29 frente a 1,40) y es titular en el Sevilla (80%).",
+            "Sale 165.000 € por debajo de su valor y sube un 14% a la semana: buena compra también para especular.",
+            "Guedes es aún mejor y sube más (+22%), pero cuesta 26,4 M€.",
+            "Con 1,95 M€ no llega: hay que vender a jugadores que no te dan puntos. Nico Serrano (0,60 M€, 10%), Galdin (0,59 M€, portero suplente sin minutos), Johaneko (0,80 M€, 20%), Raba (0,78 M€, sustituido) y Sánchez Flores (entrenador de sobra con Matarazzo) suman ~3,4 M€.",
+            "Ni así llegas del todo (~5,3 M€): quedarías en -1 M€ hasta que entre el premio de la jornada 11. Tienes hasta el viernes a las 21:00 (inicio de la J12) para volver a positivo."
+          ],
+          "conclusion": "Puja 6,4 M€ por Correia (máximo 6,6 M€) solo si confirmas que tu caja real es mayor (alguna puja pendiente) o que el premio de la J11 te deja en positivo antes del viernes. Si no, vende primero a Serrano, Galdin, Johaneko y Sánchez Flores.",
+          "playerIds": [
+            "felix-correia",
+            "raba",
+            "guedes",
+            "nico-serrano",
+            "galdin",
+            "johaneko"
+          ]
+        },
+        {
+          "icon": "📊",
+          "title": "Jornada 11 por ahora",
+          "question": "¿Cómo va la jornada?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Puntos J11",
+              "Partido"
+            ],
+            "rows": [
+              [
+                "Bartra",
+                "14",
+                "Betis 2-1 Málaga"
+              ],
+              [
+                "Unai López",
+                "13",
+                "Rayo 3-0 Celta"
+              ],
+              [
+                "Ibáñez",
+                "0",
+                "Barcelona 6-1 Alavés"
+              ],
+              [
+                "Koski",
+                "-4",
+                "Barcelona 6-1 Alavés"
+              ],
+              [
+                "Agoumé",
+                "hoy 14:00",
+                "Getafe - Sevilla"
+              ],
+              [
+                "Bernardo",
+                "hoy 16:15",
+                "Racing - Real Madrid"
+              ],
+              [
+                "Cepeda, Raba, De Haas, Revivo",
+                "hoy 18:30",
+                "Elche - Valencia"
+              ],
+              [
+                "Unai Simón (C), Matarazzo",
+                "hoy 21:00",
+                "Athletic - Real Sociedad"
+              ]
+            ]
+          },
+          "points": [
+            "Bartra respondió con 14 puntos: tu apuesta por mantenerlo está saliendo bien (su media sube a 4,55).",
+            "Koski e Ibáñez sufrieron el 6-1 del Camp Nou, el partido más difícil del calendario.",
+            "De Haas ha bajado al 50% de jugar hoy: revisa la alineación del Valencia antes de las 18:30."
+          ],
+          "conclusion": "Sin cambios en el once salvo que De Haas no aparezca en la alineación del Valencia (entraría Militão o Mendy, ambos dudosos).",
+          "playerIds": [
+            "bartra",
+            "unai-lopez",
+            "koski",
+            "ibanez",
+            "de-haas"
+          ]
+        },
+        {
+          "icon": "🔐",
+          "title": "Cláusulas y valores",
+          "question": "¿Hay algún jugador expuesto?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Valor",
+              "Cláusula",
+              "Margen / estado"
+            ],
+            "rows": [
+              [
+                "Koski",
+                "47,09 M€ (-1,2% hoy)",
+                "55,74 M€",
+                "+18%"
+              ],
+              [
+                "Unai Simón",
+                "40,76 M€",
+                "53,00 M€",
+                "+30%"
+              ],
+              [
+                "Ibáñez",
+                "22,17 M€",
+                "30,59 M€",
+                "+38%"
+              ],
+              [
+                "Revivo",
+                "6,27 M€ (+41% en la semana)",
+                "bloqueada",
+                "hasta ~11 nov"
+              ],
+              [
+                "De Haas",
+                "5,25 M€ (+21% en la semana)",
+                "bloqueada",
+                "hasta ~8 nov"
+              ]
+            ]
+          },
+          "points": [
+            "Koski ha dejado de subir tras el -4 en Barcelona: su cláusula tiene más margen que nunca.",
+            "Revivo y De Haas son los que más suben. Cuando se desbloqueen tendrás que subir sus cláusulas: guarda 2-3 M€ para eso."
+          ],
+          "conclusion": "Nada urgente. Reserva caja para Revivo y De Haas la semana que viene.",
+          "playerIds": [
+            "koski",
+            "revivo",
+            "de-haas"
+          ]
+        },
+        {
+          "icon": "🛒",
+          "title": "Resto del mercado",
+          "question": "¿Algo más interesante?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio",
+              "Media",
+              "Titularidad",
+              "Valor 7d / 30d"
+            ],
+            "rows": [
+              [
+                "Kike Salas (DEF, Sevilla)",
+                "16,89 M€",
+                "4,88",
+                "80%",
+                "+8,2% / +46,2%"
+              ],
+              [
+                "Javi Hernández (MED, Espanyol)",
+                "20,72 M€",
+                "5,45",
+                "—",
+                "—"
+              ],
+              [
+                "Iván Martín (MED, Racing)",
+                "5,32 M€",
+                "3,56",
+                "70%",
+                "+1,7% / -9,3%"
+              ],
+              [
+                "Amatucci (MED, Deportivo)",
+                "8,01 M€",
+                "3,25",
+                "70%",
+                "-8,6% / -43,1%"
+              ],
+              [
+                "Sergio Herrera (POR, Osasuna)",
+                "12,62 M€",
+                "2,20",
+                "50%",
+                "-15,6% / -47,9%"
+              ]
+            ]
+          },
+          "points": [
+            "Kike Salas y Javi Hernández son buenos, pero cuestan 17-21 M€: fuera de alcance sin vender a un titular.",
+            "Iván Martín no mejora a tus medios. Amatucci y Sergio Herrera caen en picado.",
+            "Hugo González y Koundé están lesionados; Noé y Júnior R. no juegan; Francho baja."
+          ],
+          "conclusion": "Solo Félix Correia.",
+          "playerIds": [
+            "kike-salas",
+            "javi-hernandez",
+            "ivan-martin",
+            "amatucci",
+            "sergio-herrera"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Plan para hoy",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "1. Antes de las 18:30, mira si De Haas está en el once del Valencia (50%).",
+              "playerId": "de-haas"
+            },
+            {
+              "text": "2. Puja 6,4 M€ por Félix Correia (máximo 6,6 M€) si tu caja real lo permite.",
+              "playerId": "felix-correia"
+            },
+            {
+              "text": "3. Para pagarlo, vende a Nico Serrano, Galdin, Johaneko y Sánchez Flores (y Raba si llega Correia).",
+              "playerId": "nico-serrano"
+            },
+            {
+              "text": "4. Guarda 2-3 M€ para las cláusulas de De Haas (~8 nov) y Revivo (~11 nov).",
+              "playerId": "revivo"
+            }
+          ]
+        },
+        {
+          "title": "Para mañana",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "Dime si tienes alguna puja pendiente (tu caja ha bajado de 9,75 a 1,95 M€) y si ganaste a Rioja."
+            },
+            {
+              "text": "Pásame tus puntos de las jornadas 10 y 11 cuando termine."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "felix-correia": {
+          "verdict": "pujar",
+          "maxBid": 6600000,
+          "confidence": "media",
+          "text": "El delantero que te falta: 5,29 de media, 80% de titularidad y sube un 14% en la semana. Se vende por debajo de su valor. Puja 6,4 M€ (máximo 6,6 M€) si tu caja lo permite."
+        },
+        "guedes": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Muy buen delantero (5,22 de media, +22% en la semana), pero cuesta 26,4 M€."
+        },
+        "kike-salas": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Buen defensa (4,88 de media, +46% en el mes), pero cuesta 16,9 M€ y tu defensa ya es buena."
+        },
+        "javi-hernandez": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "5,45 de media, pero cuesta 20,7 M€."
+        },
+        "ivan-martin": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "3,56 de media: no mejora a tus medios."
+        },
+        "amatucci": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Su valor cae un 43% en el mes."
+        },
+        "sergio-herrera": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Portero suplente (50%) y su valor cae un 48% en el mes."
+        },
+        "hugo-gonzalez": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Lesionado."
+        },
+        "kounde": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Lesionado y cuesta 18,6 M€."
+        },
+        "francho": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "3,0 de media y su valor cae un 35% en el mes."
+        },
+        "noe-carrillo": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Sin minutos."
+        },
+        "luiz-junior": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Portero suplente (10%) y su valor cae un 54% en el mes."
+        },
+        "unai-simon": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Capitán de la J11: hoy a las 21:00 ante la Real Sociedad. Cláusula con un 30% de margen."
+        },
+        "koski": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "-4 en el 6-1 del Barcelona. Su valor se frena (-1,2% hoy); cláusula con un 18% de margen."
+        },
+        "bartra": {
+          "verdict": "mantener",
+          "confidence": "alta",
+          "text": "¡14 puntos ante el Málaga! Tu decisión de mantenerlo está saliendo bien; media de 4,55."
+        },
+        "de-haas": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Hoy en Elche, pero baja al 50%: revisa la alineación. Su valor sube un 21% en la semana; sube su cláusula cuando se desbloquee (~8 nov)."
+        },
+        "revivo": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Hoy ante el Valencia (90%). Su valor se dispara (+41% en la semana, 6,27 M€). Sube su cláusula en cuanto se desbloquee (~11 nov)."
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "0 puntos en el Camp Nou. Sigue siendo titular fijo en el Alavés."
+        },
+        "unai-lopez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "13 puntos ante el Celta; su media sube a 5,91."
+        },
+        "agoume": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Hoy a las 14:00 en Getafe (90%)."
+        },
+        "bernardo-silva": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. Hoy en Santander (60%), rival fácil."
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Hoy ante el Valencia; su valor sigue subiendo (+23% en la semana)."
+        },
+        "raba": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "Hoy en Elche (50%). Si ganas a Félix Correia, véndelo: 1,4 de media."
+        },
+        "matarazzo": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Entrenador de la J11 (hoy en San Mamés)."
+        },
+        "sanchez-flores": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "Sobra con Matarazzo y el Alavés acaba de perder 6-1. Véndelo para hacer caja."
+        },
+        "militao": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Decisión tuya: se queda. Su valor se ha frenado (+2,8% en la semana)."
+        },
+        "ferland-mendy": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Apuesta especulativa: sube despacio (+2,3% en la semana), aún sin minutos."
+        },
+        "johaneko": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "20% de jugar y su valor baja (-6,3% en la semana). Véndelo si necesitas caja."
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "10% de jugar. Véndelo."
+        },
+        "galdin": {
+          "verdict": "vender",
+          "confidence": "baja",
+          "text": "Portero suplente sin minutos: si necesitas caja, se puede vender (te quedas sin suplente de Unai Simón)."
+        }
+      },
+      "lineup": {
+        "formation": "4-4-2",
+        "ids": [
+          "unai-simon",
+          "koski",
+          "bartra",
+          "de-haas",
+          "revivo",
+          "ibanez",
+          "unai-lopez",
+          "bernardo-silva",
+          "agoume",
+          "cepeda",
+          "raba",
+          "matarazzo"
+        ],
+        "note": "Capitán: Unai Simón. Revisa a De Haas (50%) antes de las 18:30."
+      }
     }
   },
   "bids": [],
-  "budgetDate": "2026-10-29",
+  "budgetDate": "2026-11-01",
   "ledger": [
     {
       "date": "2026-09-23",
@@ -9199,6 +10251,6 @@
     "8": 20,
     "9": 50
   },
-  "cash": 9750283,
-  "budget": 9750283
+  "cash": 1950000,
+  "budget": 1950000
 }
