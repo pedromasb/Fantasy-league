@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-02T08:49:56.514Z",
+  "updated": "2026-11-02T09:15:41.697Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -6203,7 +6203,8 @@
     "ferland-mendy": 750001,
     "de-haas": 4340288,
     "matarazzo": 761145,
-    "revivo": 5250205
+    "revivo": 5250205,
+    "felix-correia": 8000000
   },
   "reports": {
     "2026-10-19": {
@@ -10623,7 +10624,7 @@
             "De Haas no jugó en Elche y no tiene probabilidad publicada para la J12: hay que vigilarlo.",
             "Félix Correia hizo 11 puntos con el Sevilla en Getafe, pero llegó a tu equipo después."
           ],
-          "conclusion": "Unos 60 puntos estimados. Pásame tu total real para la gráfica.",
+          "conclusion": "53 puntos en la J11 (60 en la J10). Bartra y Unai López tiraron del equipo; el 6-1 del Barcelona penalizó a Koski e Ibáñez.",
           "playerIds": [
             "bartra",
             "unai-lopez",
@@ -10832,7 +10833,7 @@
           "icon": "📸",
           "items": [
             {
-              "text": "Pásame tu saldo después del premio y tus puntos de las jornadas 10 y 11. ¿Cuánto pagaste por Correia? Por las cuentas salen unos 7,8 M€."
+              "text": "Pásame tu saldo después del premio de la jornada 11."
             }
           ]
         }
@@ -10841,7 +10842,7 @@
         "felix-correia": {
           "verdict": "alinear",
           "confidence": "alta",
-          "text": "Ya es tuyo: 6,0 de media, 80% de jugar y recibe al Alavés el viernes. Su valor sube (+3,5% hoy, +19% en la semana)."
+          "text": "Pagaste 8 M€, 1,4 M€ por encima de su valor (6,59 M€), pero sube un 19% a la semana: a ese ritmo lo recupera en una semana. 6,0 de media, 80% de jugar y recibe al Alavés el viernes."
         },
         "h-rincon": {
           "verdict": "vigilar",
@@ -11322,7 +11323,8 @@
       "kind": "compra",
       "playerId": "felix-correia",
       "ffId": 8091,
-      "playerName": "Félix Correia"
+      "playerName": "Félix Correia",
+      "amount": 8000000
     }
   ],
   "matchdayPoints": {
@@ -11331,7 +11333,9 @@
     "6": 51,
     "7": 46,
     "8": 20,
-    "9": 50
+    "9": 50,
+    "10": 60,
+    "11": 53
   },
   "cash": -5849000,
   "budget": -5849000
