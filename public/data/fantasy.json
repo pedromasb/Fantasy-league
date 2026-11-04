@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-02T09:15:41.697Z",
+  "updated": "2026-11-04T08:02:16.556Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -2029,6 +2029,105 @@
       "fullName": "Lozano",
       "ffId": 13812,
       "statsUpdated": "2026-11-02"
+    },
+    "yanis-musuayi": {
+      "id": "yanis-musuayi",
+      "name": "Yanis Musuayi",
+      "pos": "STR",
+      "team": "Levante",
+      "fullName": "Yanis Musuayi",
+      "ffId": 18294,
+      "statsUpdated": "2026-11-04"
+    },
+    "m-loureiro": {
+      "id": "m-loureiro",
+      "name": "M. Loureiro",
+      "pos": "DEF",
+      "team": "Deportivo",
+      "fullName": "Loureiro",
+      "ffId": 10478,
+      "statsUpdated": "2026-11-04"
+    },
+    "lobete": {
+      "id": "lobete",
+      "name": "Lobete",
+      "pos": "STR",
+      "team": "Málaga",
+      "fullName": "Julen Lobete",
+      "ffId": 7686,
+      "statsUpdated": "2026-11-04"
+    },
+    "toni-martinez": {
+      "id": "toni-martinez",
+      "name": "T. Martínez",
+      "pos": "STR",
+      "team": "Alavés",
+      "fullName": "Toni Martínez",
+      "ffId": 5032,
+      "statsUpdated": "2026-11-04"
+    },
+    "novoa": {
+      "id": "novoa",
+      "name": "Novoa",
+      "pos": "DEF",
+      "team": "Alavés",
+      "fullName": "Hugo Novoa",
+      "ffId": 7902,
+      "statsUpdated": "2026-11-04"
+    },
+    "diakhaby": {
+      "id": "diakhaby",
+      "name": "Diakhaby",
+      "pos": "DEF",
+      "team": "Valencia",
+      "fullName": "Mouctar Diakhaby",
+      "ffId": 3607,
+      "statsUpdated": "2026-11-04"
+    },
+    "carreira": {
+      "id": "carreira",
+      "name": "Carreira",
+      "pos": "DEF",
+      "team": "Celta",
+      "fullName": "Carreira",
+      "ffId": 7199,
+      "statsUpdated": "2026-11-04"
+    },
+    "guevara": {
+      "id": "guevara",
+      "name": "Guevara",
+      "pos": "MID",
+      "team": "Alavés",
+      "fullName": "Antonio Guevara",
+      "ffId": 3802,
+      "statsUpdated": "2026-11-04"
+    },
+    "v-rosier": {
+      "id": "v-rosier",
+      "name": "V. Rosier",
+      "pos": "DEF",
+      "team": "Osasuna",
+      "fullName": "Valentin Rosier",
+      "ffId": 9531,
+      "statsUpdated": "2026-11-04"
+    },
+    "mauro-echegoyen": {
+      "id": "mauro-echegoyen",
+      "name": "Mauro",
+      "pos": "MID",
+      "team": "Osasuna",
+      "fullName": "Mauro Echegoyen",
+      "ffId": 16158,
+      "statsUpdated": "2026-11-04"
+    },
+    "robbie-ure": {
+      "id": "robbie-ure",
+      "name": "Robbie Ure",
+      "pos": "STR",
+      "team": "Sevilla",
+      "fullName": "Robbie Ure",
+      "ffId": 18314,
+      "statsUpdated": "2026-11-04"
     }
   },
   "markets": {
@@ -3742,6 +3841,184 @@
           null,
           null,
           null
+        ]
+      }
+    ],
+    "2026-11-04": [
+      {
+        "playerId": "yanis-musuayi",
+        "value": 693226,
+        "price": 695815,
+        "points": 4,
+        "status": "available",
+        "bids": 0,
+        "average": 0.44,
+        "recent": [
+          2,
+          0,
+          null,
+          0,
+          null
+        ]
+      },
+      {
+        "playerId": "m-loureiro",
+        "value": 997759,
+        "price": 984367,
+        "points": 30,
+        "status": "available",
+        "bids": 0,
+        "average": 4.29,
+        "recent": [
+          null,
+          null,
+          1,
+          4,
+          7
+        ]
+      },
+      {
+        "playerId": "lobete",
+        "value": 602890,
+        "price": 601715,
+        "points": 2,
+        "status": "injured",
+        "bids": 0,
+        "average": 0.67,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "toni-martinez",
+        "value": 7767980,
+        "price": 7932717,
+        "points": 30,
+        "status": "available",
+        "bids": 0,
+        "average": 3,
+        "recent": [
+          1,
+          5,
+          1,
+          3,
+          0
+        ]
+      },
+      {
+        "playerId": "novoa",
+        "value": 608506,
+        "price": 607565,
+        "points": 15,
+        "status": "available",
+        "bids": 0,
+        "average": 1.36,
+        "recent": [
+          null,
+          null,
+          10,
+          4,
+          1
+        ]
+      },
+      {
+        "playerId": "diakhaby",
+        "value": 1056069,
+        "price": 1073776,
+        "points": 12,
+        "status": "available",
+        "bids": 0,
+        "average": 1.5,
+        "recent": [
+          null,
+          3,
+          null,
+          null,
+          2
+        ]
+      },
+      {
+        "playerId": "carreira",
+        "value": 5258872,
+        "price": 5334254,
+        "points": 35,
+        "status": "available",
+        "bids": 0,
+        "average": 3.18,
+        "recent": [
+          3,
+          2,
+          5,
+          0,
+          4
+        ]
+      },
+      {
+        "playerId": "guevara",
+        "value": 616218,
+        "price": 615598,
+        "points": 14,
+        "status": "available",
+        "bids": 0,
+        "average": 1.4,
+        "recent": [
+          7,
+          2,
+          2,
+          null,
+          0
+        ]
+      },
+      {
+        "playerId": "v-rosier",
+        "value": 1070641,
+        "price": 1081723,
+        "points": 5,
+        "status": "available",
+        "bids": 0,
+        "average": 1.25,
+        "recent": [
+          null,
+          -2,
+          5,
+          1,
+          1
+        ]
+      },
+      {
+        "playerId": "mauro-echegoyen",
+        "value": 597282,
+        "price": 595873,
+        "points": 1,
+        "status": "available",
+        "bids": 0,
+        "average": 0.09,
+        "recent": [
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "robbie-ure",
+        "value": 6754395,
+        "price": 6897232,
+        "points": 32,
+        "status": "available",
+        "bids": 0,
+        "average": 2.91,
+        "recent": [
+          1,
+          15,
+          0,
+          1,
+          0
         ]
       }
     ]
@@ -6189,6 +6466,289 @@
             1,
             13,
             11
+          ]
+        }
+      ]
+    },
+    "2026-11-04": {
+      "date": "2026-11-04",
+      "formation": "4-4-2",
+      "teamValue": 202312306,
+      "signings": "18/26",
+      "slots": [
+        {
+          "playerId": "unai-simon",
+          "starter": true,
+          "value": 41233831,
+          "points": 82,
+          "status": "available",
+          "average": 7.45,
+          "recent": [
+            8,
+            4,
+            11,
+            10,
+            7
+          ],
+          "clause": 53000001,
+          "captain": true
+        },
+        {
+          "playerId": "bartra",
+          "starter": true,
+          "value": 19281365,
+          "points": 50,
+          "status": "available",
+          "average": 4.55,
+          "recent": [
+            2,
+            null,
+            null,
+            4,
+            14
+          ],
+          "clause": 52000011
+        },
+        {
+          "playerId": "ibanez",
+          "starter": true,
+          "value": 21655866,
+          "points": 52,
+          "status": "available",
+          "average": 4.73,
+          "recent": [
+            6,
+            4,
+            7,
+            4,
+            0
+          ],
+          "clause": 30592052
+        },
+        {
+          "playerId": "unai-lopez",
+          "starter": true,
+          "value": 25100502,
+          "points": 65,
+          "status": "available",
+          "average": 5.91,
+          "recent": [
+            4,
+            4,
+            5,
+            4,
+            13
+          ],
+          "clause": 28538664
+        },
+        {
+          "playerId": "bernardo-silva",
+          "starter": true,
+          "value": 21503071,
+          "points": 32,
+          "status": "available",
+          "average": 2.91,
+          "recent": [
+            8,
+            null,
+            1,
+            2,
+            6
+          ],
+          "clauseLockDays": 0
+        },
+        {
+          "playerId": "cepeda",
+          "starter": true,
+          "value": 3438380,
+          "points": 48,
+          "status": "available",
+          "average": 4.36,
+          "recent": [
+            5,
+            3,
+            4,
+            8,
+            4
+          ],
+          "clauseLockDays": 0,
+          "clause": 2750001
+        },
+        {
+          "playerId": "sanchez-flores",
+          "starter": false,
+          "value": 580867,
+          "points": 19,
+          "status": "available",
+          "average": 2.11,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "militao",
+          "starter": true,
+          "value": 6494190,
+          "points": 2,
+          "status": "available",
+          "average": 2,
+          "recent": [
+            null,
+            null,
+            2,
+            null,
+            null
+          ],
+          "clause": 15151133
+        },
+        {
+          "playerId": "nico-serrano",
+          "starter": false,
+          "value": 606948,
+          "points": 2,
+          "status": "available",
+          "average": 0.29,
+          "recent": [
+            2,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "galdin",
+          "starter": false,
+          "value": 600125,
+          "points": 0,
+          "status": "available",
+          "average": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "raba",
+          "starter": false,
+          "value": 766070,
+          "points": 15,
+          "average": 1.36,
+          "recent": [
+            null,
+            7,
+            2,
+            2,
+            1
+          ],
+          "status": "available",
+          "clause": 797111,
+          "clauseLockDays": 0
+        },
+        {
+          "playerId": "johaneko",
+          "starter": false,
+          "value": 780825,
+          "points": 20,
+          "average": 2,
+          "recent": [
+            3,
+            null,
+            7,
+            null,
+            1
+          ],
+          "status": "available",
+          "clauseLockDays": 1
+        },
+        {
+          "playerId": "ferland-mendy",
+          "starter": false,
+          "clauseLockDays": 3,
+          "value": 601253,
+          "points": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "playerId": "de-haas",
+          "starter": true,
+          "clauseLockDays": 4,
+          "value": 5207110,
+          "points": 33,
+          "average": 4.13,
+          "recent": [
+            4,
+            7,
+            9,
+            5,
+            null
+          ]
+        },
+        {
+          "playerId": "matarazzo",
+          "starter": true,
+          "clauseLockDays": 4,
+          "value": 761145
+        },
+        {
+          "playerId": "revivo",
+          "starter": true,
+          "clauseLockDays": 7,
+          "value": 6893406,
+          "points": 46,
+          "average": 5.75,
+          "recent": [
+            15,
+            6,
+            6,
+            11,
+            4
+          ]
+        },
+        {
+          "playerId": "felix-correia",
+          "clauseLockDays": 11,
+          "starter": true,
+          "value": 7280690,
+          "points": 48,
+          "average": 6,
+          "recent": [
+            5,
+            8,
+            1,
+            13,
+            11
+          ]
+        },
+        {
+          "playerId": "fofana",
+          "clauseLockDays": 13,
+          "starter": true,
+          "value": 39542134,
+          "points": 54,
+          "average": 6.75,
+          "recent": [
+            10,
+            10,
+            3,
+            13,
+            3
           ]
         }
       ]
@@ -11003,10 +11563,572 @@
         ],
         "note": "Provisional. Lo confirmo el jueves. Primero, vuelve a saldo positivo antes del viernes a las 21:00."
       }
+    },
+    "2026-11-04": {
+      "date": "2026-11-04",
+      "title": "Sin Koski: cláusulas de Unai López y Cepeda, y Loureiro para la defensa",
+      "summary": "Koski y Agoumé ya no están y ha llegado Fofana (6,75 de media, +15% en la semana). Tienes 18,22 M€ (+0,2 M€ de premio diario por reclamar). Tres cosas hoy: subir la cláusula de Unai López (solo un 14% de margen y su valor sube un 13,5% a la semana), proteger a Cepeda si su cláusula sigue en 2,75 M€ (vale 3,44 M€) y pujar ~1,05 M€ por Loureiro para no depender de Militão en defensa. Guarda ~3,5 M€ para las cláusulas de De Haas y Revivo.",
+      "analyses": [
+        {
+          "icon": "🔐",
+          "title": "Cláusulas: Unai López y Cepeda, expuestos",
+          "question": "¿Qué cláusulas hay que subir ya y cuáles la semana que viene?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Valor hoy",
+              "Cláusula",
+              "Margen",
+              "Tendencia",
+              "Acción"
+            ],
+            "rows": [
+              [
+                "Unai López",
+                "25,10 M€",
+                "28,54 M€",
+                "+14%",
+                "+3,6% hoy, +13,5% en la semana",
+                "Subir a 33 M€: 2,23 M€"
+              ],
+              [
+                "Cepeda",
+                "3,44 M€",
+                "2,75 M€ (si no la cambiaste)",
+                "-20%",
+                "+16,5% en la semana",
+                "Subir a 4,5 M€: 0,88 M€"
+              ],
+              [
+                "De Haas",
+                "5,21 M€",
+                "bloqueada",
+                "—",
+                "+9,1% en la semana",
+                "~8 nov: subir a ~7 M€ (~1,3 M€)"
+              ],
+              [
+                "Revivo",
+                "6,89 M€",
+                "bloqueada",
+                "—",
+                "+31% en la semana",
+                "~11 nov: subir a ~9,5 M€ (~1,9 M€)"
+              ],
+              [
+                "Unai Simón",
+                "41,23 M€",
+                "53,00 M€",
+                "+29%",
+                "+4,7% en la semana",
+                "Nada"
+              ],
+              [
+                "Ibáñez",
+                "21,66 M€",
+                "30,59 M€",
+                "+41%",
+                "-0,6% en la semana",
+                "Nada"
+              ],
+              [
+                "Bartra",
+                "19,28 M€",
+                "52,00 M€",
+                "+170%",
+                "+5,2% en la semana",
+                "Nada"
+              ]
+            ]
+          },
+          "points": [
+            "Unai López es tu segundo mejor jugador (5,91 de media, n.º 36 de la liga) y su valor sube rápido: en 7 días su cláusula se quedaría corta.",
+            "Cepeda se compró por 2,75 M€ y ya vale 3,44 M€. Si su cláusula sigue en el precio de compra, cualquiera puede llevárselo hoy por menos de lo que vale.",
+            "Subir una cláusula cuesta 1 € por cada 2 €: las dos subidas de hoy suman ~3,1 M€."
+          ],
+          "conclusion": "Hoy: Unai López a 33 M€ (2,23 M€) y Cepeda a 4,5 M€ (0,88 M€; comprueba antes su cláusula actual). Guarda ~3,5 M€ para De Haas y Revivo.",
+          "playerIds": [
+            "unai-lopez",
+            "cepeda",
+            "de-haas",
+            "revivo"
+          ]
+        },
+        {
+          "icon": "🛡️",
+          "title": "Defensa sin Koski: ¿Loureiro o Militão?",
+          "question": "¿Quién es tu cuarto defensa en la jornada 12?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio / valor",
+              "Media",
+              "Últimas 5",
+              "Prob. J12",
+              "Rival J12",
+              "Valor 7d / 30d"
+            ],
+            "rows": [
+              [
+                "M. Loureiro (Deportivo)",
+                "0,98 M€",
+                "4,29",
+                "1, 4, 7",
+                "70%",
+                "Espanyol ✈️ · dif. 2",
+                "-4,9% / -36,9%"
+              ],
+              [
+                "Militão (tuyo)",
+                "6,49 M€",
+                "2,00",
+                "casi sin minutos",
+                "sin dato",
+                "Valencia ✈️ · dif. 2",
+                "-3,8% / +36,4%"
+              ],
+              [
+                "Carreira (Celta)",
+                "5,33 M€",
+                "3,18",
+                "3, 2, 5, 0, 4",
+                "50%",
+                "Levante 🏠",
+                "-8,7% / -21,2%"
+              ],
+              [
+                "V. Rosier (Osasuna)",
+                "1,08 M€",
+                "1,25",
+                "–, -2, 5, 1, 1",
+                "70%",
+                "Athletic 🏠",
+                "-2,6% / -20,1%"
+              ],
+              [
+                "Diakhaby (Valencia)",
+                "1,07 M€",
+                "1,50",
+                "–, 3, –, –, 2",
+                "sin dato",
+                "Real Madrid 🏠",
+                "-11,5% / -44%"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Has puesto a Militão de titular, pero apenas ha jugado (2 minutos en toda la temporada) y no tiene probabilidad publicada para el sábado.",
+            "Loureiro cuesta menos de 1 M€, es titular en el Deportivo (70%), tiene 4,29 de media y viene de hacer 7 puntos. El Espanyol genera solo 1,00 xG por partido.",
+            "Su valor ha caído en el mes, pero eso lo hace barato; no es para especular sino para puntuar.",
+            "Carreira, Rosier y Diakhaby no mejoran a Loureiro y bajan de valor."
+          ],
+          "conclusion": "Puja 1,05 M€ por Loureiro (máximo 1,15 M€) y ponlo en el once en lugar de Militão. Militão, al banquillo.",
+          "playerIds": [
+            "m-loureiro",
+            "militao",
+            "carreira",
+            "v-rosier"
+          ]
+        },
+        {
+          "icon": "©️",
+          "title": "Once y capitán de la jornada 12",
+          "question": "¿Qué once poner del viernes 6 al domingo 8?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Media",
+              "Prob. J12",
+              "Rival J12",
+              "Dificultad",
+              "Cuándo"
+            ],
+            "rows": [
+              [
+                "Unai Simón (POR) · C",
+                "7,45",
+                "95%",
+                "Osasuna ✈️",
+                "3",
+                "Sáb 18:30"
+              ],
+              [
+                "Revivo",
+                "5,75",
+                "90%",
+                "Betis 🏠",
+                "4",
+                "Dom 14:00"
+              ],
+              [
+                "Bartra",
+                "4,55",
+                "70%",
+                "Elche ✈️",
+                "2",
+                "Dom 14:00"
+              ],
+              [
+                "De Haas",
+                "4,13",
+                "sin dato",
+                "Real Madrid 🏠",
+                "4",
+                "Sáb 21:00"
+              ],
+              [
+                "Loureiro (si llega) / Militão",
+                "4,29 / 2,00",
+                "70% / sin dato",
+                "Espanyol ✈️ / Valencia ✈️",
+                "2 / 2",
+                "Sáb"
+              ],
+              [
+                "Fofana",
+                "6,75",
+                "95%",
+                "Alavés 🏠",
+                "3",
+                "Vie 21:00"
+              ],
+              [
+                "Unai López",
+                "5,91",
+                "80%",
+                "Real Sociedad ✈️",
+                "—",
+                "Dom 16:15"
+              ],
+              [
+                "Ibáñez",
+                "4,73",
+                "60%",
+                "Sevilla ✈️",
+                "—",
+                "Vie 21:00"
+              ],
+              [
+                "Bernardo",
+                "2,91",
+                "70%",
+                "Valencia ✈️",
+                "—",
+                "Sáb 21:00"
+              ],
+              [
+                "Félix Correia",
+                "6,00",
+                "80%",
+                "Alavés 🏠",
+                "3",
+                "Vie 21:00"
+              ],
+              [
+                "Cepeda",
+                "4,36",
+                "70%",
+                "Betis 🏠",
+                "—",
+                "Dom 14:00"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Capitán: Unai Simón, la mejor media del equipo (7,45) y un 95% de jugar. Fofana (6,75, 95%) es la segunda opción.",
+            "Fofana entra en el medio: es el n.º 62 de la liga y su valor sube un 15% en la semana.",
+            "Ibáñez baja al 60%: el viernes por la tarde mira la alineación del Alavés. No tienes otro medio en el banquillo.",
+            "De Haas no tiene probabilidad publicada: si el sábado no aparece en el once probable del Valencia, entra Militão.",
+            "Entrenador: Matarazzo (la Real Sociedad recibe al Rayo)."
+          ],
+          "conclusion": "4-4-2: Unai Simón (C); Revivo, Bartra, De Haas, Loureiro (o Militão); Fofana, Unai López, Ibáñez, Bernardo; Correia, Cepeda. Entrenador: Matarazzo.",
+          "playerIds": [
+            "unai-simon",
+            "fofana",
+            "ibanez",
+            "de-haas",
+            "m-loureiro"
+          ]
+        },
+        {
+          "icon": "🛒",
+          "title": "Resto del mercado",
+          "question": "¿Algo más con 18 M€ en caja?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio",
+              "Media",
+              "Prob. J12",
+              "Valor 7d / 30d"
+            ],
+            "rows": [
+              [
+                "T. Martínez (DEL, Alavés)",
+                "7,93 M€",
+                "3,00",
+                "50%",
+                "-12,6% / -38,1%"
+              ],
+              [
+                "Robbie Ure (DEL, Sevilla)",
+                "6,90 M€",
+                "2,91",
+                "sin dato",
+                "-11,1% / -7,7%"
+              ],
+              [
+                "Novoa (DEF, Alavés)",
+                "0,61 M€",
+                "1,36",
+                "sin dato",
+                "+1,8% / +11,4%"
+              ],
+              [
+                "Guevara (MED, Alavés)",
+                "0,62 M€",
+                "1,40",
+                "sin dato",
+                "+1,3% / +7,7%"
+              ]
+            ]
+          },
+          "points": [
+            "Los delanteros del mercado (Toni Martínez, Robbie Ure) caen de valor y no mejoran a Correia ni a Cepeda.",
+            "Musuayi, Mauro y Lobete casi no juegan.",
+            "No hace falta gastar el resto de la caja hoy: tener ~10 M€ libres te permite reaccionar si mañana sale un buen defensa para sustituir a Koski."
+          ],
+          "conclusion": "Solo Loureiro. Guarda el resto.",
+          "playerIds": [
+            "toni-martinez",
+            "robbie-ure"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Plan para hoy",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "1. Reclama el premio diario (+200.000 €)."
+            },
+            {
+              "text": "2. Sube la cláusula de Unai López a 33 M€ (2,23 M€).",
+              "playerId": "unai-lopez"
+            },
+            {
+              "text": "3. Mira la cláusula de Cepeda: si sigue en 2,75 M€, súbela a 4,5 M€ (0,88 M€).",
+              "playerId": "cepeda"
+            },
+            {
+              "text": "4. Puja 1,05 M€ por Loureiro (máximo 1,15 M€) y ponlo por Militão.",
+              "playerId": "m-loureiro"
+            },
+            {
+              "text": "5. Guarda ~3,5 M€ para las cláusulas de De Haas (~8 nov) y Revivo (~11 nov).",
+              "playerId": "revivo"
+            }
+          ]
+        },
+        {
+          "title": "Once para la jornada 12",
+          "icon": "📋",
+          "items": [
+            {
+              "text": "4-4-2: Unai Simón (C); Revivo, Bartra, De Haas, Loureiro (o Militão); Fofana, Unai López, Ibáñez, Bernardo; Correia, Cepeda. Entrenador: Matarazzo."
+            },
+            {
+              "text": "Revisa el viernes a Ibáñez (60%) y el sábado a De Haas.",
+              "playerId": "ibanez"
+            }
+          ]
+        },
+        {
+          "title": "Para mañana",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "Pásame el histórico: ¿a Koski te lo robaron por cláusula o lo vendiste? ¿Cuánto por Agoumé y cuánto pagaste por Fofana?"
+            },
+            {
+              "text": "Aviso: Understat (la web de los xG) está en mantenimiento; mientras tanto la web usa los últimos xG del 1 de noviembre."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "m-loureiro": {
+          "verdict": "pujar",
+          "maxBid": 1150000,
+          "confidence": "media",
+          "text": "Defensa titular del Deportivo (70%), 4,29 de media y 7 puntos en la última. Cuesta menos de 1 M€ y sustituye a Militão en el once. Puja 1,05 M€."
+        },
+        "carreira": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "5,33 M€ por 3,18 de media y su valor baja."
+        },
+        "v-rosier": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "1,25 de media."
+        },
+        "diakhaby": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Juega poco y su valor cae un 44% en el mes."
+        },
+        "novoa": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "1,36 de media."
+        },
+        "toni-martinez": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "3,0 de media y su valor cae un 38% en el mes."
+        },
+        "robbie-ure": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "2,91 de media y su valor baja."
+        },
+        "guevara": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "1,4 de media."
+        },
+        "yanis-musuayi": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "20% de jugar."
+        },
+        "mauro-echegoyen": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Sin minutos."
+        },
+        "lobete": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Lesionado."
+        },
+        "fofana": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Gran fichaje: 6,75 de media, 95% de jugar y su valor sube un 15% en la semana. Recibe al Alavés el viernes."
+        },
+        "unai-simon": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Capitán de la J12 (7,45 de media, 95%). Cláusula con un 29% de margen."
+        },
+        "revivo": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "5,75 de media y su valor no para (+31% en la semana, 6,89 M€). Sube su cláusula en cuanto se desbloquee (~11 nov)."
+        },
+        "bartra": {
+          "verdict": "mantener",
+          "confidence": "alta",
+          "text": "70% de jugar en Elche (dificultad 2). Tu apuesta funciona: 4,55 de media y su valor rebota (+3,8% hoy)."
+        },
+        "de-haas": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Sin probabilidad publicada para la J12 (Real Madrid). Sube su cláusula el ~8 de noviembre."
+        },
+        "militao": {
+          "verdict": "banquillo",
+          "confidence": "media",
+          "text": "Decisión tuya: se queda. Pero no lo pondría de titular: casi no ha jugado. Mejor Loureiro."
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Baja al 60% para el viernes: revisa la alineación del Alavés."
+        },
+        "unai-lopez": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Tu segundo mejor jugador (5,91 de media). Sube su cláusula hoy a 33 M€: solo tiene un 14% de margen."
+        },
+        "bernardo-silva": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya. Titular (70%) en Mestalla; su valor rebota (+4% en la semana)."
+        },
+        "felix-correia": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "6,0 de media y su valor sube rápido (+30% en la semana, 7,28 M€): ya vale casi lo que pagaste."
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular ante el Betis. Ojo: si su cláusula sigue en 2,75 M€, ya está por debajo de su valor (3,44 M€). Súbela hoy."
+        },
+        "matarazzo": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Entrenador para la J12 (Real Sociedad - Rayo)."
+        },
+        "sanchez-flores": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "Sobra con Matarazzo."
+        },
+        "ferland-mendy": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Apuesta especulativa; aún sin minutos."
+        },
+        "raba": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "No juega de titular y su valor baja."
+        },
+        "johaneko": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "20% de jugar y su valor baja."
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "confidence": "baja",
+          "text": "10% de jugar; su valor sube muy poco a poco."
+        },
+        "galdin": {
+          "verdict": "banquillo",
+          "confidence": "baja",
+          "text": "Portero suplente sin minutos."
+        }
+      },
+      "lineup": {
+        "formation": "4-4-2",
+        "ids": [
+          "unai-simon",
+          "revivo",
+          "bartra",
+          "de-haas",
+          "m-loureiro",
+          "fofana",
+          "unai-lopez",
+          "ibanez",
+          "bernardo-silva",
+          "felix-correia",
+          "cepeda",
+          "matarazzo"
+        ],
+        "note": "Capitán: Unai Simón. Loureiro si lo ganas; si no, Militão. Revisa a Ibáñez (60%) y a De Haas."
+      }
     }
   },
   "bids": [],
-  "budgetDate": "2026-11-02",
+  "budgetDate": "2026-11-04",
   "ledger": [
     {
       "date": "2026-09-23",
@@ -11325,6 +12447,30 @@
       "ffId": 8091,
       "playerName": "Félix Correia",
       "amount": 8000000
+    },
+    {
+      "date": "2026-11-03",
+      "kind": "venta",
+      "playerId": "koski",
+      "ffId": 17284,
+      "playerName": "Koski",
+      "counterpart": "por confirmar (venta o cláusula)"
+    },
+    {
+      "date": "2026-11-03",
+      "kind": "venta",
+      "playerId": "agoume",
+      "ffId": 7249,
+      "playerName": "Agoumé",
+      "counterpart": "por confirmar"
+    },
+    {
+      "date": "2026-11-03",
+      "kind": "compra",
+      "playerId": "fofana",
+      "ffId": 9670,
+      "playerName": "Fofana",
+      "counterpart": "por confirmar"
     }
   ],
   "matchdayPoints": {
@@ -11337,6 +12483,6 @@
     "10": 60,
     "11": 53
   },
-  "cash": -5849000,
-  "budget": -5849000
+  "cash": 18215568,
+  "budget": 18215568
 }

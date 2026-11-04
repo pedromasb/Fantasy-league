@@ -488,6 +488,10 @@ async function main() {
   const us = await loadUnderstat(SEASON_YEAR)
   const findUs = understatIndex(us)
   console.log(`understat: ${us?.players?.length ?? 0} players`)
+  // understat goes down for maintenance now and then: keep the last good xG instead of dropping it.
+  const prev = us?.players?.length ? null : await readFile(OUT, 'utf8').then(JSON.parse).catch(() => null)
+  if (prev) console.log('understat unavailable: keeping the previous xG data')
+  const prevXg = new Map((prev?.players ?? []).filter((p) => p.xg).map((p) => [p.id, p.xg]))
 
   const out = players.map((p) => {
     const teamName = teams[p.teamId] ?? ''
@@ -513,7 +517,7 @@ async function main() {
       afSlug: a?.playerSlug,
       xg: (() => {
         const u = findUs(p, teamName)
-        return u ? usSummary(u) : undefined
+        return u ? usSummary(u) : prevXg.get(p.id)
       })(),
     }
   })
@@ -528,7 +532,11 @@ async function main() {
     teams: (() => {
       const t = teamTable(matches)
       const xg = understatTeams(us)
-      for (const row of Object.values(t)) Object.assign(row, xg[teamKey(row.name)] ?? {})
+      const keys = ['xG', 'xGA', 'games', 'last5xG', 'last5xGA']
+      for (const row of Object.values(t)) {
+        const old = prev?.teams?.[row.id]
+        Object.assign(row, xg[teamKey(row.name)] ?? (old ? Object.fromEntries(keys.filter((k) => old[k] !== undefined).map((k) => [k, old[k]])) : {}))
+      }
       return t
     })(),
     teamNames: teams,
