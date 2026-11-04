@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-04T08:02:16.556Z",
+  "updated": "2026-11-04T08:21:58.566Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -6490,7 +6490,7 @@
             10,
             7
           ],
-          "clause": 53000001,
+          "clause": 59000001,
           "captain": true
         },
         {
@@ -6539,7 +6539,7 @@
             4,
             13
           ],
-          "clause": 28538664
+          "clause": 34538664
         },
         {
           "playerId": "bernardo-silva",
@@ -6572,7 +6572,7 @@
             4
           ],
           "clauseLockDays": 0,
-          "clause": 2750001
+          "clause": 14951156
         },
         {
           "playerId": "sanchez-flores",
@@ -6764,7 +6764,8 @@
     "de-haas": 4340288,
     "matarazzo": 761145,
     "revivo": 5250205,
-    "felix-correia": 8000000
+    "felix-correia": 8000000,
+    "fofana": 40000011
   },
   "reports": {
     "2026-10-19": {
@@ -11566,13 +11567,13 @@
     },
     "2026-11-04": {
       "date": "2026-11-04",
-      "title": "Sin Koski: cláusulas de Unai López y Cepeda, y Loureiro para la defensa",
-      "summary": "Koski y Agoumé ya no están y ha llegado Fofana (6,75 de media, +15% en la semana). Tienes 18,22 M€ (+0,2 M€ de premio diario por reclamar). Tres cosas hoy: subir la cláusula de Unai López (solo un 14% de margen y su valor sube un 13,5% a la semana), proteger a Cepeda si su cláusula sigue en 2,75 M€ (vale 3,44 M€) y pujar ~1,05 M€ por Loureiro para no depender de Militão en defensa. Guarda ~3,5 M€ para las cláusulas de De Haas y Revivo.",
+      "title": "Cláusulas ya cubiertas: Loureiro para la defensa y caja para De Haas y Revivo",
+      "summary": "Cuentas cuadradas: vendiste a Koski por 45,20 M€ y a Agoumé por 21,57 M€, fichaste a Fofana por 40 M€ y ayer subiste las cláusulas de Unai López, Cepeda y Unai Simón; entraron ~5,3 M€ de premio de la J11. Tienes 18,22 M€ (+0,2 M€ de premio diario). Hoy solo falta pujar ~1,05 M€ por Loureiro para no depender de Militão, y guardar ~3,5 M€ para las cláusulas de De Haas y Revivo.",
       "analyses": [
         {
           "icon": "🔐",
-          "title": "Cláusulas: Unai López y Cepeda, expuestos",
-          "question": "¿Qué cláusulas hay que subir ya y cuáles la semana que viene?",
+          "title": "Cláusulas: ya están cubiertas",
+          "question": "¿Cómo quedan las cláusulas tras las subidas de ayer?",
           "table": {
             "head": [
               "Jugador",
@@ -11586,42 +11587,26 @@
               [
                 "Unai López",
                 "25,10 M€",
-                "28,54 M€",
-                "+14%",
-                "+3,6% hoy, +13,5% en la semana",
-                "Subir a 33 M€: 2,23 M€"
+                "34,54 M€",
+                "+38%",
+                "+13,5% en la semana",
+                "Hecho ayer"
               ],
               [
                 "Cepeda",
                 "3,44 M€",
-                "2,75 M€ (si no la cambiaste)",
-                "-20%",
+                "14,95 M€",
+                "+335%",
                 "+16,5% en la semana",
-                "Subir a 4,5 M€: 0,88 M€"
-              ],
-              [
-                "De Haas",
-                "5,21 M€",
-                "bloqueada",
-                "—",
-                "+9,1% en la semana",
-                "~8 nov: subir a ~7 M€ (~1,3 M€)"
-              ],
-              [
-                "Revivo",
-                "6,89 M€",
-                "bloqueada",
-                "—",
-                "+31% en la semana",
-                "~11 nov: subir a ~9,5 M€ (~2,1 M€)"
+                "Hecho ayer (de sobra)"
               ],
               [
                 "Unai Simón",
                 "41,23 M€",
-                "53,00 M€",
-                "+29%",
+                "59,00 M€",
+                "+43%",
                 "+4,7% en la semana",
-                "Nada"
+                "Hecho ayer"
               ],
               [
                 "Ibáñez",
@@ -11638,15 +11623,31 @@
                 "+170%",
                 "+5,2% en la semana",
                 "Nada"
+              ],
+              [
+                "De Haas",
+                "5,21 M€",
+                "bloqueada",
+                "—",
+                "+9,1% en la semana",
+                "~8 nov: subir a ~7 M€ (~1,3 M€)"
+              ],
+              [
+                "Revivo",
+                "6,89 M€",
+                "bloqueada",
+                "—",
+                "+31% en la semana",
+                "~11 nov: subir a ~9,5 M€ (~2,1 M€)"
               ]
             ]
           },
           "points": [
-            "Unai López es tu segundo mejor jugador (5,91 de media, n.º 36 de la liga) y su valor sube rápido: en 7 días su cláusula se quedaría corta.",
-            "Cepeda se compró por 2,75 M€ y ya vale 3,44 M€. Si su cláusula sigue en el precio de compra, cualquiera puede llevárselo hoy por menos de lo que vale.",
-            "Subir una cláusula cuesta 1 € por cada 2 €: las dos subidas de hoy suman ~3,1 M€."
+            "Unai López, Unai Simón y Cepeda ya están bien protegidos tras tus subidas de ayer (8 M€ en total).",
+            "La de Cepeda ya estaba en 10,95 M€ (no en 2,75 M€ como suponía): estaba protegido de sobra. Los 2 M€ de ayer no eran necesarios, pero no se pierden si alguien paga su cláusula.",
+            "Quedan De Haas y Revivo, que se desbloquean en unos días y son los que más suben."
           ],
-          "conclusion": "Hoy: Unai López a 33 M€ (2,23 M€) y Cepeda a 4,5 M€ (0,88 M€; comprueba antes su cláusula actual). Guarda ~3,5 M€ para De Haas y Revivo.",
+          "conclusion": "Nada que subir hoy. Guarda ~3,5 M€ para De Haas (~8 nov) y Revivo (~11 nov).",
           "playerIds": [
             "unai-lopez",
             "cepeda",
@@ -11898,7 +11899,7 @@
           "points": [
             "Los delanteros del mercado (Toni Martínez, Robbie Ure) caen de valor y no mejoran a Correia ni a Cepeda.",
             "Musuayi, Mauro y Lobete casi no juegan.",
-            "No hace falta gastar el resto de la caja hoy: tener ~10 M€ libres te permite reaccionar si mañana sale un buen defensa para sustituir a Koski."
+            "Tienes ~13 M€ libres después de Loureiro y las cláusulas pendientes: es el momento de buscar un defensa titular para sustituir a Koski cuando salga uno bueno."
           ],
           "conclusion": "Solo Loureiro. Guarda el resto.",
           "playerIds": [
@@ -11913,23 +11914,22 @@
           "icon": "🚨",
           "items": [
             {
-              "text": "1. Reclama el premio diario (+200.000 €)."
-            },
-            {
-              "text": "2. Sube la cláusula de Unai López a 33 M€ (2,23 M€).",
+              "text": "✅ Hecho: cláusulas de Unai López (34,54 M€), Cepeda (14,95 M€) y Unai Simón (59 M€).",
               "playerId": "unai-lopez"
             },
             {
-              "text": "3. Mira la cláusula de Cepeda: si sigue en 2,75 M€, súbela a 4,5 M€ (0,88 M€).",
-              "playerId": "cepeda"
+              "text": "1. Reclama el premio diario (+200.000 €)."
             },
             {
-              "text": "4. Puja 1,05 M€ por Loureiro (máximo 1,15 M€) y ponlo por Militão.",
+              "text": "2. Puja 1,05 M€ por Loureiro (máximo 1,15 M€) y ponlo por Militão.",
               "playerId": "m-loureiro"
             },
             {
-              "text": "5. Guarda ~3,5 M€ para las cláusulas de De Haas (~8 nov) y Revivo (~11 nov).",
+              "text": "3. Guarda ~3,5 M€ para las cláusulas de De Haas (~8 nov) y Revivo (~11 nov).",
               "playerId": "revivo"
+            },
+            {
+              "text": "4. Te quedan ~13 M€ libres: espera a que salga un buen defensa para sustituir a Koski."
             }
           ]
         },
@@ -11951,7 +11951,7 @@
           "icon": "📸",
           "items": [
             {
-              "text": "Pásame el histórico: ¿a Koski te lo robaron por cláusula o lo vendiste? ¿Cuánto por Agoumé y cuánto pagaste por Fofana?"
+              "text": "Pásame el mercado de mañana y dime si ganas a Loureiro."
             },
             {
               "text": "Aviso: Understat (la web de los xG) está en mantenimiento; mientras tanto la web usa los últimos xG del 1 de noviembre."
@@ -12019,12 +12019,12 @@
         "fofana": {
           "verdict": "alinear",
           "confidence": "alta",
-          "text": "Gran fichaje: 6,75 de media, 95% de jugar y su valor sube un 15% en la semana. Recibe al Alavés el viernes."
+          "text": "Gran fichaje (40 M€): 6,75 de media, 95% de jugar y su valor ya ronda lo que pagaste (39,54 M€, +15% en la semana). Recibe al Alavés el viernes."
         },
         "unai-simon": {
           "verdict": "alinear",
           "confidence": "alta",
-          "text": "Capitán de la J12 (7,45 de media, 95%). Cláusula con un 29% de margen."
+          "text": "Capitán de la J12 (7,45 de media, 95%). Cláusula a 59 M€: margen del 43%."
         },
         "revivo": {
           "verdict": "alinear",
@@ -12054,7 +12054,7 @@
         "unai-lopez": {
           "verdict": "alinear",
           "confidence": "alta",
-          "text": "Tu segundo mejor jugador (5,91 de media). Sube su cláusula hoy a 33 M€: solo tiene un 14% de margen."
+          "text": "Tu segundo mejor jugador (5,91 de media). Cláusula ya subida a 34,54 M€: margen del 38%."
         },
         "bernardo-silva": {
           "verdict": "mantener",
@@ -12069,7 +12069,7 @@
         "cepeda": {
           "verdict": "alinear",
           "confidence": "alta",
-          "text": "Titular ante el Betis. Ojo: si su cláusula sigue en 2,75 M€, ya está por debajo de su valor (3,44 M€). Súbela hoy."
+          "text": "Titular ante el Betis. Cláusula a 14,95 M€: protegido de sobra."
         },
         "matarazzo": {
           "verdict": "alinear",
@@ -12449,28 +12449,58 @@
       "amount": 8000000
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-02",
       "kind": "venta",
       "playerId": "koski",
       "ffId": 17284,
       "playerName": "Koski",
-      "counterpart": "por confirmar (venta o cláusula)"
+      "amount": 45199684,
+      "counterpart": "LALIGA"
     },
     {
-      "date": "2026-11-03",
-      "kind": "venta",
-      "playerId": "agoume",
-      "ffId": 7249,
-      "playerName": "Agoumé",
-      "counterpart": "por confirmar"
-    },
-    {
-      "date": "2026-11-03",
+      "date": "2026-11-02",
       "kind": "compra",
       "playerId": "fofana",
       "ffId": 9670,
       "playerName": "Fofana",
-      "counterpart": "por confirmar"
+      "amount": 40000011,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-11-02",
+      "kind": "venta",
+      "playerId": "agoume",
+      "ffId": 7249,
+      "playerName": "Agoumé",
+      "amount": 21565613,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-11-03",
+      "kind": "clausula",
+      "playerId": "unai-lopez",
+      "ffId": 1881,
+      "playerName": "Unai López",
+      "from": 28538664,
+      "to": 34538664
+    },
+    {
+      "date": "2026-11-03",
+      "kind": "clausula",
+      "playerId": "cepeda",
+      "ffId": 17248,
+      "playerName": "Cepeda",
+      "from": 10951156,
+      "to": 14951156
+    },
+    {
+      "date": "2026-11-03",
+      "kind": "clausula",
+      "playerId": "unai-simon",
+      "ffId": 3693,
+      "playerName": "Unai Simón",
+      "from": 53000001,
+      "to": 59000001
     }
   ],
   "matchdayPoints": {
