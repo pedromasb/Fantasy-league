@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-17T07:57:41.089Z",
+  "updated": "2026-11-17T08:13:08.315Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -7360,7 +7360,8 @@
     "felix-correia": 8000000,
     "fofana": 40000011,
     "bil-nsongo": 13074405,
-    "marc-roca": 37302121
+    "marc-roca": 37302121,
+    "m-loureiro": 1400000
   },
   "reports": {
     "2026-10-19": {
@@ -12749,9 +12750,9 @@
               [
                 "M. Loureiro",
                 "1,42 M€ (+21,5% en la semana)",
-                "~1 M€ (precio de compra)",
-                "negativo",
-                "Se desbloquea ~mañana: subir a ~2,2 M€ (~0,6 M€)"
+                "~1,40 M€ (precio de compra)",
+                "+1%",
+                "Se desbloquea ~mañana: subir a ~2,2 M€ (~0,4 M€)"
               ],
               [
                 "Bil Nsongo",
@@ -12808,7 +12809,7 @@
             "Si la cláusula de Fofana sigue en 40 M€, cualquier rival con esa caja se lo lleva hoy. Es tu tercer mejor jugador (6,56 de media).",
             "Con 3,19 M€ (caja + premio diario) puedes subirla a ~46,4 M€ (+21% de margen).",
             "Vendiendo a Raba, Johaneko, Nico Serrano, Galdin y Sánchez Flores (~3,3 M€, ninguno juega) podrías subirla hasta ~53 M€ (+39%).",
-            "Loureiro se desbloquea mañana y sube un 21% a la semana: su cláusula (~1 M€) ya está por debajo de su valor. Súbela en cuanto puedas.",
+            "Loureiro se desbloquea mañana y sube un 21% a la semana: su cláusula (~1,40 M€, lo que pagaste) ya está casi en su valor. Súbela a ~2,2 M€ (~0,4 M€).",
             "Antes del 25 de noviembre (Nsongo) y del 29 (Roca) habrá que volver a guardar caja: los dos suben con fuerza."
           ],
           "conclusion": "Hoy: reclama el premio diario, vende a los cinco que no juegan y sube la cláusula de Fofana a ~52 M€ (~6 M€). Mañana, Loureiro a ~2,2 M€.",
@@ -12878,7 +12879,8 @@
           "points": [
             "Pubill ha sido la mejor operación: 4,47 M€ en tres días, y ahora está lesionado y bajando.",
             "Mantener a Bartra fue una gran decisión tuya: 14 y 17 puntos en las dos últimas jornadas (5,58 de media) y su valor casi se ha duplicado.",
-            "Correia ya vale un 64% más de lo que pagaste."
+            "Correia ya vale un 64% más de lo que pagaste.",
+            "La jornada 12 fue la mejor de la temporada: 92 puntos."
           ],
           "conclusion": "Muy buen ciclo de especulación: todas las operaciones están en positivo.",
           "playerIds": [
@@ -13096,7 +13098,7 @@
               "playerId": "fofana"
             },
             {
-              "text": "4. Mañana, cuando se desbloquee, sube la de Loureiro a ~2,2 M€.",
+              "text": "4. Mañana, cuando se desbloquee, sube la de Loureiro de ~1,40 a ~2,2 M€ (~0,4 M€).",
               "playerId": "m-loureiro"
             }
           ]
@@ -13119,7 +13121,7 @@
           "icon": "📸",
           "items": [
             {
-              "text": "Pásame tus puntos de la jornada 12, la cláusula actual de Fofana y lo que pagaste por Loureiro."
+              "text": "Pásame la cláusula actual de Fofana y el mercado de mañana."
             }
           ]
         }
@@ -13133,7 +13135,7 @@
         "m-loureiro": {
           "verdict": "alinear",
           "confidence": "media",
-          "text": "Buen fichaje: 4,88 de media y +21,5% de valor en la semana (1,42 M€). Sube su cláusula en cuanto se desbloquee (~mañana)."
+          "text": "Fichado por 1,40 M€ y ya vale 1,42 M€ (+21,5% en la semana); 4,88 de media. Sube su cláusula a ~2,2 M€ en cuanto se desbloquee (~mañana)."
         },
         "bil-nsongo": {
           "verdict": "alinear",
@@ -13677,7 +13679,8 @@
       "playerId": "m-loureiro",
       "ffId": 10478,
       "playerName": "M. Loureiro",
-      "counterpart": "LALIGA (importe por confirmar)"
+      "counterpart": "LALIGA",
+      "amount": 1400000
     },
     {
       "date": "2026-11-09",
@@ -13774,7 +13777,8 @@
     "8": 20,
     "9": 50,
     "10": 60,
-    "11": 53
+    "11": 53,
+    "12": 92
   },
   "cash": 2988800,
   "budget": 2988800
