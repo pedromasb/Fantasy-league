@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-04T08:21:58.566Z",
+  "updated": "2026-11-17T07:57:41.089Z",
   "players": {
     "luis-castro": {
       "id": "luis-castro",
@@ -2128,6 +2128,132 @@
       "fullName": "Robbie Ure",
       "ffId": 18314,
       "statsUpdated": "2026-11-04"
+    },
+    "marc-pubill": {
+      "id": "marc-pubill",
+      "name": "Marc Pubill",
+      "pos": "DEF",
+      "team": "Atlético de Madrid",
+      "fullName": "Marc Pubill",
+      "ffId": 9823,
+      "statsUpdated": "2026-11-17"
+    },
+    "bil-nsongo": {
+      "id": "bil-nsongo",
+      "name": "Bil Nsongo",
+      "pos": "STR",
+      "team": "Deportivo",
+      "fullName": "Bil Nsongo",
+      "ffId": 16863,
+      "statsUpdated": "2026-11-17"
+    },
+    "marc-roca": {
+      "id": "marc-roca",
+      "name": "Marc Roca",
+      "pos": "MID",
+      "team": "Betis",
+      "fullName": "Marc Roca",
+      "ffId": 3215,
+      "statsUpdated": "2026-11-17"
+    },
+    "sucic": {
+      "id": "sucic",
+      "name": "Sucic",
+      "pos": "MID",
+      "team": "Real Sociedad",
+      "fullName": "Luka Sucic",
+      "ffId": 8392,
+      "statsUpdated": "2026-11-17"
+    },
+    "ibra-drj": {
+      "id": "ibra-drj",
+      "name": "Ibra Drj",
+      "pos": "STR",
+      "team": "Getafe",
+      "fullName": "Ibrahima Danfakha",
+      "ffId": 18250,
+      "statsUpdated": "2026-11-17"
+    },
+    "dumfries": {
+      "id": "dumfries",
+      "name": "Dumfries",
+      "pos": "DEF",
+      "team": "Real Madrid",
+      "fullName": "Denzel Dumfries",
+      "ffId": 6055,
+      "statsUpdated": "2026-11-17"
+    },
+    "pol-lozano": {
+      "id": "pol-lozano",
+      "name": "Pol Lozano",
+      "pos": "MID",
+      "team": "Espanyol",
+      "fullName": "Pol Lozano",
+      "ffId": 3879,
+      "statsUpdated": "2026-11-17"
+    },
+    "ruben-sanchez": {
+      "id": "ruben-sanchez",
+      "name": "Rubén S.",
+      "pos": "DEF",
+      "team": "Elche",
+      "fullName": "Rubén Sánchez",
+      "ffId": 9695,
+      "statsUpdated": "2026-11-17"
+    },
+    "asp-jensen": {
+      "id": "asp-jensen",
+      "name": "Asp Jensen",
+      "pos": "MID",
+      "team": "Deportivo",
+      "fullName": "Asp Jensen",
+      "ffId": 15351,
+      "statsUpdated": "2026-11-17"
+    },
+    "rafa-fdez": {
+      "id": "rafa-fdez",
+      "name": "Rafa Fdez.",
+      "pos": "GK",
+      "team": "Osasuna",
+      "fullName": "Rafa Fernández",
+      "ffId": 15424,
+      "statsUpdated": "2026-11-17"
+    },
+    "ceballos": {
+      "id": "ceballos",
+      "name": "Ceballos",
+      "pos": "MID",
+      "team": "Betis",
+      "fullName": "Dani Ceballos",
+      "ffId": 1062,
+      "statsUpdated": "2026-11-17"
+    },
+    "ilaix-moriba": {
+      "id": "ilaix-moriba",
+      "name": "Ilaix Moriba",
+      "pos": "MID",
+      "team": "Celta",
+      "fullName": "Ilaix Moriba",
+      "ffId": 8082,
+      "statsUpdated": "2026-11-17"
+    },
+    "mourino": {
+      "id": "mourino",
+      "name": "Mouriño",
+      "pos": "DEF",
+      "team": "Villarreal",
+      "fullName": "Santiago Mouriño",
+      "ffId": 11678,
+      "statsUpdated": "2026-11-17"
+    },
+    "gorosabel": {
+      "id": "gorosabel",
+      "name": "Gorosabel",
+      "pos": "DEF",
+      "team": "Espanyol",
+      "fullName": "Andoni Gorosabel",
+      "ffId": 3799,
+      "statsUpdated": "2026-11-17"
     }
   },
   "markets": {
@@ -4019,6 +4145,183 @@
           0,
           1,
           0
+        ]
+      }
+    ],
+    "2026-11-17": [
+      {
+        "playerId": "sucic",
+        "value": 44249667,
+        "price": 43385414,
+        "points": 66,
+        "status": "available",
+        "bids": 0,
+        "average": 5.5,
+        "recent": [
+          3,
+          null,
+          6,
+          8,
+          9
+        ]
+      },
+      {
+        "playerId": "ibra-drj",
+        "value": 645482,
+        "price": 639807,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "dumfries",
+        "value": 9503380,
+        "price": 9716109,
+        "points": 16,
+        "status": "available",
+        "bids": 0,
+        "average": 1.33,
+        "recent": [
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "pol-lozano",
+        "value": 692051,
+        "price": 688316,
+        "points": 19,
+        "status": "available",
+        "bids": 0,
+        "average": 1.75,
+        "recent": [
+          3,
+          5,
+          0,
+          3,
+          6
+        ]
+      },
+      {
+        "playerId": "ruben-sanchez",
+        "value": 644538,
+        "price": 638823,
+        "points": 22,
+        "status": "available",
+        "bids": 0,
+        "average": 3.14,
+        "recent": [
+          10,
+          2,
+          null,
+          2,
+          2
+        ]
+      },
+      {
+        "playerId": "asp-jensen",
+        "value": 1176229,
+        "price": 1192668,
+        "points": 21,
+        "status": "available",
+        "bids": 0,
+        "average": 1.75,
+        "recent": [
+          2,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "rafa-fdez",
+        "value": 784216,
+        "price": 784321,
+        "points": 0,
+        "status": "available",
+        "bids": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "playerId": "ceballos",
+        "value": 8631311,
+        "price": 8574047,
+        "points": 32,
+        "status": "available",
+        "bids": 2,
+        "average": 4,
+        "recent": [
+          2,
+          2,
+          7,
+          3,
+          11
+        ]
+      },
+      {
+        "playerId": "ilaix-moriba",
+        "value": 27325193,
+        "price": 27729555,
+        "points": 55,
+        "status": "available",
+        "bids": 0,
+        "average": 4.58,
+        "recent": [
+          6,
+          1,
+          5,
+          2,
+          6
+        ]
+      },
+      {
+        "playerId": "mourino",
+        "value": 5438901,
+        "price": 5483325,
+        "points": 28,
+        "status": "available",
+        "bids": 2,
+        "average": 2.33,
+        "recent": [
+          null,
+          null,
+          6,
+          3,
+          8
+        ]
+      },
+      {
+        "playerId": "gorosabel",
+        "value": 693913,
+        "price": 690256,
+        "points": 0,
+        "status": "available",
+        "bids": 1,
+        "average": 0,
+        "recent": [
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       }
     ]
@@ -6752,6 +7055,296 @@
           ]
         }
       ]
+    },
+    "2026-11-17": {
+      "date": "2026-11-17",
+      "formation": "3-4-3",
+      "teamValue": 250977652,
+      "signings": "19/26",
+      "slots": [
+        {
+          "playerId": "unai-simon",
+          "starter": true,
+          "value": 39234451,
+          "points": 90,
+          "status": "available",
+          "average": 7.5,
+          "recent": [
+            4,
+            11,
+            10,
+            7,
+            8
+          ],
+          "clause": 59000001,
+          "captain": true
+        },
+        {
+          "playerId": "bartra",
+          "starter": true,
+          "value": 32719011,
+          "points": 67,
+          "status": "available",
+          "average": 5.58,
+          "recent": [
+            null,
+            null,
+            4,
+            14,
+            17
+          ],
+          "clause": 52000011
+        },
+        {
+          "playerId": "ibanez",
+          "starter": true,
+          "value": 19137446,
+          "points": 57,
+          "status": "available",
+          "average": 4.75,
+          "recent": [
+            4,
+            7,
+            4,
+            0,
+            5
+          ],
+          "clause": 30592052
+        },
+        {
+          "playerId": "bernardo-silva",
+          "starter": true,
+          "value": 29040206,
+          "points": 39,
+          "status": "available",
+          "average": 3.25,
+          "recent": [
+            null,
+            1,
+            2,
+            6,
+            7
+          ]
+        },
+        {
+          "playerId": "cepeda",
+          "starter": true,
+          "value": 3772406,
+          "points": 52,
+          "status": "available",
+          "average": 4.33,
+          "recent": [
+            3,
+            4,
+            8,
+            4,
+            4
+          ],
+          "clause": 14951156
+        },
+        {
+          "playerId": "sanchez-flores",
+          "starter": false,
+          "value": 580867,
+          "points": 19,
+          "status": "available",
+          "average": 2.11,
+          "recent": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "militao",
+          "starter": false,
+          "value": 5775805,
+          "points": 2,
+          "status": "available",
+          "average": 2,
+          "recent": [
+            null,
+            2,
+            null,
+            null,
+            null
+          ],
+          "clause": 15151133
+        },
+        {
+          "playerId": "nico-serrano",
+          "starter": false,
+          "value": 650006,
+          "points": 2,
+          "status": "available",
+          "average": 0.29,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "galdin",
+          "starter": false,
+          "value": 645993,
+          "points": 0,
+          "status": "available",
+          "average": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "clause": 1000000
+        },
+        {
+          "playerId": "raba",
+          "starter": false,
+          "value": 743603,
+          "points": 15,
+          "average": 1.25,
+          "recent": [
+            7,
+            2,
+            2,
+            1,
+            null
+          ],
+          "status": "available",
+          "clause": 797111
+        },
+        {
+          "playerId": "johaneko",
+          "starter": false,
+          "value": 752279,
+          "points": 21,
+          "average": 1.91,
+          "recent": [
+            null,
+            7,
+            null,
+            1,
+            1
+          ],
+          "status": "available"
+        },
+        {
+          "playerId": "ferland-mendy",
+          "starter": false,
+          "value": 646657,
+          "points": 0,
+          "recent": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "playerId": "matarazzo",
+          "starter": true,
+          "value": 761145
+        },
+        {
+          "playerId": "revivo",
+          "starter": true,
+          "value": 10160293,
+          "points": 56,
+          "average": 6.22,
+          "recent": [
+            6,
+            6,
+            11,
+            4,
+            10
+          ],
+          "clause": 23841947
+        },
+        {
+          "playerId": "felix-correia",
+          "starter": true,
+          "value": 13152931,
+          "points": 58,
+          "average": 6.44,
+          "recent": [
+            8,
+            1,
+            13,
+            11,
+            10
+          ],
+          "clause": 30282804
+        },
+        {
+          "playerId": "fofana",
+          "starter": true,
+          "value": 38220032,
+          "points": 59,
+          "average": 6.56,
+          "recent": [
+            10,
+            3,
+            13,
+            3,
+            5
+          ]
+        },
+        {
+          "playerId": "m-loureiro",
+          "starter": true,
+          "value": 1421961,
+          "points": 39,
+          "average": 4.88,
+          "recent": [
+            null,
+            1,
+            4,
+            7,
+            9
+          ],
+          "clauseLockDays": 1
+        },
+        {
+          "playerId": "bil-nsongo",
+          "clauseLockDays": 8,
+          "starter": true,
+          "value": 14527944,
+          "points": 59,
+          "average": 4.92,
+          "recent": [
+            4,
+            8,
+            6,
+            10,
+            5
+          ]
+        },
+        {
+          "playerId": "marc-roca",
+          "clauseLockDays": 12,
+          "starter": true,
+          "value": 39010361,
+          "points": 59,
+          "average": 4.92,
+          "recent": [
+            0,
+            null,
+            8,
+            7,
+            7
+          ]
+        }
+      ]
     }
   },
   "purchases": {
@@ -6765,7 +7358,9 @@
     "matarazzo": 761145,
     "revivo": 5250205,
     "felix-correia": 8000000,
-    "fofana": 40000011
+    "fofana": 40000011,
+    "bil-nsongo": 13074405,
+    "marc-roca": 37302121
   },
   "reports": {
     "2026-10-19": {
@@ -12125,10 +12720,584 @@
         ],
         "note": "Capitán: Unai Simón. Loureiro si lo ganas; si no, Militão. Revisa a Ibáñez (60%) y a De Haas."
       }
+    },
+    "2026-11-17": {
+      "date": "2026-11-17",
+      "title": "Proteger a Fofana y vaciar el banquillo",
+      "summary": "Dos semanas muy activas: vendiste a Pubill con 4,47 M€ de beneficio en 3 días, fichaste a Bil Nsongo y Marc Roca (los dos al alza) y te robaron a Unai López por 34,54 M€ (más de lo que vale hoy). Bartra está on fire (17 y 14 puntos, +38% de valor en la semana). Tienes 2,99 M€ (+0,2 M€ de premio diario). Lo urgente: la cláusula de Fofana probablemente sigue en los 40 M€ que pagaste y ya está desbloqueada; vale 38,2 M€. Súbela con lo que tengas y vende a los cinco que no juegan para tener más margen.",
+      "analyses": [
+        {
+          "icon": "🔐",
+          "title": "Fofana, expuesto: su cláusula está casi en su valor",
+          "question": "¿Qué cláusulas están en riesgo hoy?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Valor hoy",
+              "Cláusula",
+              "Margen",
+              "Estado"
+            ],
+            "rows": [
+              [
+                "Fofana",
+                "38,22 M€",
+                "~40,00 M€ (precio de compra, si no la cambiaste)",
+                "+5%",
+                "Desbloqueada desde el ~16 nov: SUBIR"
+              ],
+              [
+                "M. Loureiro",
+                "1,42 M€ (+21,5% en la semana)",
+                "~1 M€ (precio de compra)",
+                "negativo",
+                "Se desbloquea ~mañana: subir a ~2,2 M€ (~0,6 M€)"
+              ],
+              [
+                "Bil Nsongo",
+                "14,53 M€ (+14% en la semana)",
+                "13,07 M€",
+                "—",
+                "Bloqueada hasta ~25 nov"
+              ],
+              [
+                "Marc Roca",
+                "39,01 M€ (+22% en la semana)",
+                "37,30 M€",
+                "—",
+                "Bloqueada hasta ~29 nov"
+              ],
+              [
+                "Bartra",
+                "32,72 M€ (+38% en la semana)",
+                "52,00 M€",
+                "+59%",
+                "Bien"
+              ],
+              [
+                "Unai Simón",
+                "39,23 M€",
+                "59,00 M€",
+                "+50%",
+                "Bien"
+              ],
+              [
+                "Félix Correia",
+                "13,15 M€",
+                "30,28 M€",
+                "+130%",
+                "Bien"
+              ],
+              [
+                "Revivo",
+                "10,16 M€",
+                "23,84 M€",
+                "+135%",
+                "Bien"
+              ],
+              [
+                "Ibáñez",
+                "19,14 M€",
+                "30,59 M€",
+                "+60%",
+                "Bien"
+              ]
+            ]
+          },
+          "points": [
+            "Si la cláusula de Fofana sigue en 40 M€, cualquier rival con esa caja se lo lleva hoy. Es tu tercer mejor jugador (6,56 de media).",
+            "Con 3,19 M€ (caja + premio diario) puedes subirla a ~46,4 M€ (+21% de margen).",
+            "Vendiendo a Raba, Johaneko, Nico Serrano, Galdin y Sánchez Flores (~3,3 M€, ninguno juega) podrías subirla hasta ~53 M€ (+39%).",
+            "Loureiro se desbloquea mañana y sube un 21% a la semana: su cláusula (~1 M€) ya está por debajo de su valor. Súbela en cuanto puedas.",
+            "Antes del 25 de noviembre (Nsongo) y del 29 (Roca) habrá que volver a guardar caja: los dos suben con fuerza."
+          ],
+          "conclusion": "Hoy: reclama el premio diario, vende a los cinco que no juegan y sube la cláusula de Fofana a ~52 M€ (~6 M€). Mañana, Loureiro a ~2,2 M€.",
+          "playerIds": [
+            "fofana",
+            "m-loureiro",
+            "bil-nsongo",
+            "marc-roca"
+          ]
+        },
+        {
+          "icon": "📈",
+          "title": "Balance de las últimas dos semanas",
+          "question": "¿Cómo han salido las operaciones?",
+          "table": {
+            "head": [
+              "Operación",
+              "Importe",
+              "Valor hoy",
+              "Resultado"
+            ],
+            "rows": [
+              [
+                "Marc Pubill: compra (9 nov) y venta (12 nov)",
+                "-51,62 / +56,08 M€",
+                "49,61 M€ (lesionado)",
+                "+4,47 M€ en 3 días. Vendido justo antes de caer."
+              ],
+              [
+                "Unai López: robado por cláusula (13 nov)",
+                "+34,54 M€",
+                "32,57 M€",
+                "+1,97 M€ sobre su valor"
+              ],
+              [
+                "De Haas: venta (12 nov)",
+                "+4,75 M€",
+                "4,16 M€",
+                "Bien vendido: cae un 13% en la semana"
+              ],
+              [
+                "Bil Nsongo: compra (11 nov)",
+                "-13,07 M€",
+                "14,53 M€",
+                "+1,45 M€ (+11%)"
+              ],
+              [
+                "Marc Roca: compra (15 nov)",
+                "-37,30 M€",
+                "39,01 M€",
+                "+1,71 M€ (+5%)"
+              ],
+              [
+                "Félix Correia (1 nov)",
+                "-8,00 M€",
+                "13,15 M€",
+                "+5,15 M€ (+64%)"
+              ],
+              [
+                "Bartra (lo mantuviste)",
+                "—",
+                "32,72 M€",
+                "De 17,5 a 32,7 M€ en tres semanas"
+              ]
+            ]
+          },
+          "points": [
+            "Pubill ha sido la mejor operación: 4,47 M€ en tres días, y ahora está lesionado y bajando.",
+            "Mantener a Bartra fue una gran decisión tuya: 14 y 17 puntos en las dos últimas jornadas (5,58 de media) y su valor casi se ha duplicado.",
+            "Correia ya vale un 64% más de lo que pagaste."
+          ],
+          "conclusion": "Muy buen ciclo de especulación: todas las operaciones están en positivo.",
+          "playerIds": [
+            "marc-pubill",
+            "bartra",
+            "felix-correia",
+            "bil-nsongo",
+            "marc-roca"
+          ]
+        },
+        {
+          "icon": "©️",
+          "title": "Once y capitán de la jornada 13",
+          "question": "¿Está bien tu 3-4-3?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Media",
+              "Prob. J13",
+              "Rival J13",
+              "Dificultad",
+              "Cuándo"
+            ],
+            "rows": [
+              [
+                "Unai Simón (POR) · C",
+                "7,50",
+                "95%",
+                "Espanyol 🏠 (genera 1,00 xG/p)",
+                "1",
+                "Vie 21:00"
+              ],
+              [
+                "Bartra",
+                "5,58",
+                "80%",
+                "Sevilla ✈️",
+                "3",
+                "Sáb 18:30"
+              ],
+              [
+                "Revivo",
+                "6,22",
+                "90%",
+                "Levante ✈️",
+                "4",
+                "Lun 21:00"
+              ],
+              [
+                "M. Loureiro",
+                "4,88",
+                "60%",
+                "Alavés ✈️",
+                "3",
+                "Sáb 14:00"
+              ],
+              [
+                "Fofana",
+                "6,56",
+                "95%",
+                "Betis 🏠",
+                "2",
+                "Sáb 18:30"
+              ],
+              [
+                "Marc Roca",
+                "4,92",
+                "80%",
+                "Sevilla ✈️",
+                "3",
+                "Sáb 18:30"
+              ],
+              [
+                "Ibáñez",
+                "4,75",
+                "70%",
+                "Deportivo 🏠",
+                "3",
+                "Sáb 14:00"
+              ],
+              [
+                "Bernardo",
+                "3,25",
+                "70%",
+                "Celta 🏠",
+                "4",
+                "Sáb 21:00"
+              ],
+              [
+                "Félix Correia",
+                "6,44",
+                "80%",
+                "Betis 🏠 (concede 1,70 xGA/p)",
+                "2",
+                "Sáb 18:30"
+              ],
+              [
+                "Bil Nsongo",
+                "4,92",
+                "80%",
+                "Alavés ✈️",
+                "4",
+                "Sáb 14:00"
+              ],
+              [
+                "Cepeda",
+                "4,33",
+                "50%",
+                "Levante ✈️ (concede 2,11 xGA/p)",
+                "2",
+                "Lun 21:00"
+              ]
+            ],
+            "pick": 0
+          },
+          "points": [
+            "Capitán: Unai Simón (7,50 de media, 95%) contra uno de los ataques más flojos (Espanyol, 1,00 xG por partido).",
+            "Correia (6,44, +33,6% de valor en la semana) es la segunda opción.",
+            "Cepeda baja al 50%: si el lunes no aparece en el once probable del Elche, cambia a Raba (50%) o pasa a 4-4-2 con un defensa, aunque tus defensas de recambio (Militão 20%, Johaneko 20%, Mendy 0%) tampoco juegan.",
+            "Entrenador: Matarazzo (Real Sociedad en Santander, el rival más fácil de la jornada)."
+          ],
+          "conclusion": "Tu 3-4-3 está bien. Capitán Unai Simón. Revisa a Cepeda el lunes.",
+          "playerIds": [
+            "unai-simon",
+            "felix-correia",
+            "cepeda",
+            "matarazzo"
+          ]
+        },
+        {
+          "icon": "🛒",
+          "title": "Mercado de hoy",
+          "question": "¿Algo que merezca la pena?",
+          "table": {
+            "head": [
+              "Jugador",
+              "Precio",
+              "Media",
+              "Prob. J13",
+              "Valor 7d / 30d"
+            ],
+            "rows": [
+              [
+                "Sucic (MED, R. Sociedad)",
+                "43,39 M€",
+                "5,50",
+                "70%",
+                "+19,5% / +56%"
+              ],
+              [
+                "Ilaix Moriba (MED, Celta)",
+                "27,73 M€",
+                "4,58",
+                "70%",
+                "-10,2% / -0,3%"
+              ],
+              [
+                "Ceballos (MED, Betis)",
+                "8,57 M€",
+                "4,00",
+                "sin dato (40% titularidad)",
+                "+7,1% / -17,4%"
+              ],
+              [
+                "Mouriño (DEF, Villarreal)",
+                "5,48 M€",
+                "2,33",
+                "50%",
+                "-4,0% / -33,6%"
+              ],
+              [
+                "Rubén S. (DEF, Elche)",
+                "0,64 M€",
+                "3,14",
+                "50%",
+                "+4,7% / +14,8%"
+              ],
+              [
+                "Dumfries (DEF, Real Madrid)",
+                "9,72 M€",
+                "1,33",
+                "sin dato",
+                "-15,1% / -48,7%"
+              ]
+            ]
+          },
+          "points": [
+            "Sucic sería un gran fichaje, pero cuesta 43 M€: imposible sin vender a un titular.",
+            "Con la caja que tienes, lo prioritario es la cláusula de Fofana.",
+            "Rubén Sánchez (0,64 M€) es un defensa barato que juega a ratos y sube 59 días seguidos; podría sustituir a Johaneko como recambio, pero no es urgente."
+          ],
+          "conclusion": "No fiches hoy: toda la caja a la cláusula de Fofana.",
+          "playerIds": [
+            "sucic",
+            "ilaix-moriba",
+            "ceballos",
+            "ruben-sanchez"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Plan para hoy",
+          "icon": "🚨",
+          "items": [
+            {
+              "text": "1. Reclama el premio diario (+200.000 €)."
+            },
+            {
+              "text": "2. Vende a Raba, Johaneko, Nico Serrano, Galdin y Sánchez Flores (~3,3 M€): ninguno juega.",
+              "playerId": "raba"
+            },
+            {
+              "text": "3. Mira la cláusula de Fofana: si sigue en ~40 M€, súbela a ~52 M€ (~6 M€) o hasta donde llegue tu caja, dejándola en positivo.",
+              "playerId": "fofana"
+            },
+            {
+              "text": "4. Mañana, cuando se desbloquee, sube la de Loureiro a ~2,2 M€.",
+              "playerId": "m-loureiro"
+            }
+          ]
+        },
+        {
+          "title": "Once para la jornada 13",
+          "icon": "📋",
+          "items": [
+            {
+              "text": "3-4-3: Unai Simón (C); Bartra, Revivo, Loureiro; Ibáñez, Bernardo, Fofana, Marc Roca; Cepeda, Correia, Nsongo. Entrenador: Matarazzo."
+            },
+            {
+              "text": "Revisa a Cepeda (50%) el lunes antes del Levante-Elche.",
+              "playerId": "cepeda"
+            }
+          ]
+        },
+        {
+          "title": "Para mañana",
+          "icon": "📸",
+          "items": [
+            {
+              "text": "Pásame tus puntos de la jornada 12, la cláusula actual de Fofana y lo que pagaste por Loureiro."
+            }
+          ]
+        }
+      ],
+      "players": {
+        "fofana": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "6,56 de media y 95% de jugar ante el Betis. URGENTE: su cláusula probablemente sigue en los 40 M€ que pagaste y vale 38,2 M€. Súbela hoy."
+        },
+        "m-loureiro": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Buen fichaje: 4,88 de media y +21,5% de valor en la semana (1,42 M€). Sube su cláusula en cuanto se desbloquee (~mañana)."
+        },
+        "bil-nsongo": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "4,92 de media, 80% de jugar y +14% de valor en la semana. Cláusula bloqueada hasta ~25 nov."
+        },
+        "marc-roca": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Titular fijo en el Betis (90%), 4,92 de media y +22% de valor en la semana. Cláusula bloqueada hasta ~29 nov."
+        },
+        "bartra": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Tu decisión de mantenerlo ha sido un acierto: 14 y 17 puntos, 5,58 de media y su valor casi se duplica (32,72 M€)."
+        },
+        "unai-simon": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "Capitán de la J13 ante el Espanyol en casa (7,50 de media)."
+        },
+        "revivo": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "6,22 de media y su valor sigue subiendo (10,16 M€, +180% en el mes). Cláusula a 23,84 M€."
+        },
+        "ibanez": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Titular (70%) ante el Deportivo. Su valor baja (-7,5% en la semana)."
+        },
+        "bernardo-silva": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Lo mantienes por decisión tuya y ahora sube (+19% en la semana, 29 M€). 70% para la J13."
+        },
+        "felix-correia": {
+          "verdict": "alinear",
+          "confidence": "alta",
+          "text": "6,44 de media y su valor no para (+33,6% en la semana). Segunda opción de capitán."
+        },
+        "cepeda": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Baja al 50% para el lunes en Levante: revisa la alineación."
+        },
+        "matarazzo": {
+          "verdict": "alinear",
+          "confidence": "media",
+          "text": "Entrenador. La Real Sociedad visita al Racing, la peor defensa de la liga."
+        },
+        "militao": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Decisión tuya: se queda. Ojo: su valor ya baja (-8,8% en la semana) y sigue sin jugar."
+        },
+        "ferland-mendy": {
+          "verdict": "mantener",
+          "confidence": "media",
+          "text": "Apuesta especulativa: sube despacio (+4,6% en la semana), aún sin minutos."
+        },
+        "raba": {
+          "verdict": "vender",
+          "confidence": "alta",
+          "text": "No juega de titular. Véndelo para la cláusula de Fofana."
+        },
+        "johaneko": {
+          "verdict": "vender",
+          "confidence": "alta",
+          "text": "Lo pusiste a la venta y no salió: véndelo a LALIGA directamente."
+        },
+        "nico-serrano": {
+          "verdict": "vender",
+          "confidence": "alta",
+          "text": "0% de jugar. Véndelo."
+        },
+        "galdin": {
+          "verdict": "vender",
+          "confidence": "media",
+          "text": "Portero suplente sin minutos. Véndelo para hacer caja."
+        },
+        "sanchez-flores": {
+          "verdict": "vender",
+          "confidence": "alta",
+          "text": "Sobra con Matarazzo. Véndelo."
+        },
+        "sucic": {
+          "verdict": "vigilar",
+          "confidence": "media",
+          "text": "Gran medio (5,5 de media, +19,5% en la semana), pero cuesta 43 M€."
+        },
+        "ilaix-moriba": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "27,7 M€ por 4,58 de media y su valor baja."
+        },
+        "ceballos": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "Juega poco (40% de titularidad)."
+        },
+        "mourino": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "2,33 de media y su valor cae un 34% en el mes."
+        },
+        "ruben-sanchez": {
+          "verdict": "vigilar",
+          "confidence": "baja",
+          "text": "Defensa barato que juega a ratos (3,14 de media). Recambio posible, no urgente."
+        },
+        "dumfries": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "1,33 de media y su valor cae un 49% en el mes."
+        },
+        "pol-lozano": {
+          "verdict": "evitar",
+          "confidence": "media",
+          "text": "1,75 de media."
+        },
+        "asp-jensen": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "10% de jugar."
+        },
+        "rafa-fdez": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Portero suplente."
+        },
+        "gorosabel": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Sin minutos."
+        },
+        "ibra-drj": {
+          "verdict": "evitar",
+          "confidence": "alta",
+          "text": "Sin minutos."
+        }
+      },
+      "lineup": {
+        "formation": "3-4-3",
+        "ids": [
+          "unai-simon",
+          "bartra",
+          "revivo",
+          "m-loureiro",
+          "ibanez",
+          "bernardo-silva",
+          "fofana",
+          "marc-roca",
+          "cepeda",
+          "felix-correia",
+          "bil-nsongo",
+          "matarazzo"
+        ],
+        "note": "Capitán: Unai Simón. Revisa a Cepeda el lunes."
+      }
     }
   },
   "bids": [],
-  "budgetDate": "2026-11-04",
+  "budgetDate": "2026-11-17",
   "ledger": [
     {
       "date": "2026-09-23",
@@ -12501,6 +13670,100 @@
       "playerName": "Unai Simón",
       "from": 53000001,
       "to": 59000001
+    },
+    {
+      "date": "2026-11-05",
+      "kind": "compra",
+      "playerId": "m-loureiro",
+      "ffId": 10478,
+      "playerName": "M. Loureiro",
+      "counterpart": "LALIGA (importe por confirmar)"
+    },
+    {
+      "date": "2026-11-09",
+      "kind": "compra",
+      "playerId": "marc-pubill",
+      "ffId": 9823,
+      "playerName": "Marc Pubill",
+      "amount": 51617323,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-11-10",
+      "kind": "expirado",
+      "playerId": "de-haas",
+      "ffId": 18018,
+      "playerName": "De Haas"
+    },
+    {
+      "date": "2026-11-11",
+      "kind": "compra",
+      "playerId": "bil-nsongo",
+      "ffId": 16863,
+      "playerName": "Bil Nsongo",
+      "amount": 13074405,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "venta",
+      "playerId": "marc-pubill",
+      "ffId": 9823,
+      "playerName": "Marc Pubill",
+      "amount": 56082505,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "venta",
+      "playerId": "de-haas",
+      "ffId": 18018,
+      "playerName": "De Haas",
+      "amount": 4745913,
+      "counterpart": "LALIGA"
+    },
+    {
+      "date": "2026-11-13",
+      "kind": "clausula",
+      "playerId": "revivo",
+      "ffId": 14377,
+      "playerName": "Revivo",
+      "from": 17841947,
+      "to": 23841947
+    },
+    {
+      "date": "2026-11-13",
+      "kind": "venta",
+      "playerId": "unai-lopez",
+      "ffId": 1881,
+      "playerName": "Unai López",
+      "amount": 34538664,
+      "counterpart": "El Panadero (cláusula)"
+    },
+    {
+      "date": "2026-11-13",
+      "kind": "expirado",
+      "playerId": "johaneko",
+      "ffId": 16229,
+      "playerName": "Johaneko"
+    },
+    {
+      "date": "2026-11-15",
+      "kind": "compra",
+      "playerId": "marc-roca",
+      "ffId": 3215,
+      "playerName": "Marc Roca",
+      "amount": 37302121,
+      "counterpart": "LuckyChorris13"
+    },
+    {
+      "date": "2026-11-15",
+      "kind": "clausula",
+      "playerId": "felix-correia",
+      "ffId": 8091,
+      "playerName": "Félix Correia",
+      "from": 8000001,
+      "to": 30282804
     }
   ],
   "matchdayPoints": {
@@ -12513,6 +13776,6 @@
     "10": 60,
     "11": 53
   },
-  "cash": 18215568,
-  "budget": 18215568
+  "cash": 2988800,
+  "budget": 2988800
 }
